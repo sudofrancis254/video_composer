@@ -1,0 +1,1581 @@
+{"ts": 1787079118443, "action": "app_init"}
+{"ts": 1787079134142, "action": "open_projects"}
+{"ts": 1787079138119, "action": "load_project", "pid": "d0e217336789"}
+{"ts": 1787079138678, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787079150513, "action": "app_init"}
+{"ts": 1787079161389, "action": "open_projects"}
+{"ts": 1787079163270, "action": "load_project", "pid": "d0e217336789"}
+{"ts": 1787079163335, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787079166358, "action": "select_element", "eid": "el_60375f854a59"}
+{"ts": 1787079167861, "action": "add_text_element"}
+{"ts": 1787079167861, "action": "add_element", "type": "text"}
+{"ts": 1787079168016, "action": "select_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787079176853, "action": "set_tool", "tool": "select"}
+{"ts": 1787079196045, "action": "audio_play", "time": "0.00"}
+{"ts": 1787079207653, "action": "audio_pause", "time": "11.32"}
+{"ts": 1787122497535, "action": "app_init"}
+{"ts": 1787122497517, "action": "app_init"}
+{"ts": 1787122523209, "action": "open_import_modal"}
+{"ts": 1787122591448, "action": "open_projects"}
+{"ts": 1787122601089, "action": "load_project", "pid": "d0e217336789"}
+{"ts": 1787122604064, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787122608384, "action": "audio_play", "time": "0.00"}
+{"ts": 1787122616664, "action": "audio_pause", "time": "7.05"}
+{"ts": 1787122629320, "action": "select_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787122629711, "action": "select_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787122629911, "action": "select_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787122630335, "action": "select_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787122699807, "action": "add_text_element"}
+{"ts": 1787122699807, "action": "add_element", "type": "text"}
+{"ts": 1787122699896, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787122702279, "action": "select_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787122702719, "action": "select_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787122702903, "action": "select_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787122703327, "action": "select_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787122714999, "action": "set_tool", "tool": "text"}
+{"ts": 1787124199780, "action": "app_init"}
+{"ts": 1787124232402, "action": "open_projects"}
+{"ts": 1787124235035, "action": "load_project", "pid": "d0e217336789"}
+{"ts": 1787124236203, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787124245218, "action": "set_tool", "tool": "text"}
+{"ts": 1787124375761, "action": "audio_play", "time": "0.00"}
+{"ts": 1787124377480, "action": "audio_pause", "time": "1.42"}
+{"ts": 1787124573447, "action": "audio_play", "time": "1.57"}
+{"ts": 1787124574503, "action": "audio_pause", "time": "2.36"}
+{"ts": 1787124578127, "action": "set_tool", "tool": "text"}
+{"ts": 1787124585687, "action": "set_tool", "tool": "select"}
+{"ts": 1787124590103, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787124591198, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787124591510, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787124591982, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787124592199, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787124592646, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787124596575, "action": "add_shape_element"}
+{"ts": 1787124596575, "action": "add_element", "type": "shape"}
+{"ts": 1787124596759, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787125939250, "action": "app_init"}
+{"ts": 1787125958228, "action": "canvas_pointerdown", "target": "empty-state"}
+{"ts": 1787125959283, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787125966763, "action": "open_projects"}
+{"ts": 1787125969860, "action": "load_project", "pid": "d0e217336789"}
+{"ts": 1787125970511, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787125972509, "action": "select_element", "eid": "el_a132b7602265"}
+{"ts": 1787125972754, "action": "drag_start", "eid": "el_a132b7602265"}
+{"ts": 1787125975002, "action": "drag_end", "eid": "el_a132b7602265"}
+{"ts": 1787125975875, "action": "select_element", "eid": "el_a132b7602265"}
+{"ts": 1787125975881, "action": "drag_start", "eid": "el_a132b7602265"}
+{"ts": 1787125978690, "action": "drag_end", "eid": "el_a132b7602265"}
+{"ts": 1787125979500, "action": "select_element", "eid": "el_dffa3544064f"}
+{"ts": 1787125979507, "action": "drag_start", "eid": "el_dffa3544064f"}
+{"ts": 1787125982170, "action": "drag_end", "eid": "el_dffa3544064f"}
+{"ts": 1787125983244, "action": "select_element", "eid": "el_d236ec48a73a"}
+{"ts": 1787125983250, "action": "drag_start", "eid": "el_d236ec48a73a"}
+{"ts": 1787125985802, "action": "drag_end", "eid": "el_d236ec48a73a"}
+{"ts": 1787125986451, "action": "select_element", "eid": "el_d236ec48a73a"}
+{"ts": 1787125986459, "action": "drag_start", "eid": "el_d236ec48a73a"}
+{"ts": 1787125992610, "action": "drag_end", "eid": "el_d236ec48a73a"}
+{"ts": 1787125994051, "action": "select_element", "eid": "el_a2f998e056ff"}
+{"ts": 1787125994058, "action": "drag_start", "eid": "el_a2f998e056ff"}
+{"ts": 1787125996906, "action": "drag_end", "eid": "el_a2f998e056ff"}
+{"ts": 1787125998059, "action": "select_element", "eid": "el_ae3e9d51780f"}
+{"ts": 1787125998066, "action": "drag_start", "eid": "el_ae3e9d51780f"}
+{"ts": 1787125999442, "action": "drag_end", "eid": "el_ae3e9d51780f"}
+{"ts": 1787126000035, "action": "select_element", "eid": "el_dffa3544064f"}
+{"ts": 1787126000042, "action": "drag_start", "eid": "el_dffa3544064f"}
+{"ts": 1787126000794, "action": "drag_end", "eid": "el_dffa3544064f"}
+{"ts": 1787126001195, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126001202, "action": "drag_start", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126005986, "action": "drag_end", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126008403, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126008409, "action": "drag_start", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126014458, "action": "drag_end", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126015547, "action": "select_element", "eid": "el_49c077056551"}
+{"ts": 1787126015554, "action": "drag_start", "eid": "el_49c077056551"}
+{"ts": 1787126016690, "action": "drag_end", "eid": "el_49c077056551"}
+{"ts": 1787126017388, "action": "select_element", "eid": "el_69e4df2eb70a"}
+{"ts": 1787126017396, "action": "drag_start", "eid": "el_69e4df2eb70a"}
+{"ts": 1787126018450, "action": "drag_end", "eid": "el_69e4df2eb70a"}
+{"ts": 1787126019211, "action": "select_element", "eid": "el_dffa3544064f"}
+{"ts": 1787126019218, "action": "drag_start", "eid": "el_dffa3544064f"}
+{"ts": 1787126020106, "action": "drag_end", "eid": "el_dffa3544064f"}
+{"ts": 1787126020683, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787126020691, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787126023362, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787126025850, "action": "toggle_snap", "enabled": false}
+{"ts": 1787126027634, "action": "toggle_snap", "enabled": true}
+{"ts": 1787126053595, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126053602, "action": "drag_start", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126053714, "action": "drag_end", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126055675, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126055680, "action": "drag_start", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126059067, "action": "drag_end", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126060099, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787126060107, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787126060258, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787126069611, "action": "bring_to_front", "eid": "el_2e86727976d4"}
+{"ts": 1787126071523, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787126071531, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787126073010, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787126074571, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787126074579, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787126076737, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787126094603, "action": "select_element", "eid": "el_a132b7602265"}
+{"ts": 1787126094610, "action": "drag_start", "eid": "el_a132b7602265"}
+{"ts": 1787126094745, "action": "drag_end", "eid": "el_a132b7602265"}
+{"ts": 1787126102059, "action": "select_element", "eid": "el_a132b7602265"}
+{"ts": 1787126102065, "action": "drag_start", "eid": "el_a132b7602265"}
+{"ts": 1787126105049, "action": "drag_end", "eid": "el_a132b7602265"}
+{"ts": 1787126105050, "action": "delete_element", "eid": "el_a132b7602265"}
+{"ts": 1787126107122, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787126110458, "action": "undo"}
+{"ts": 1787126114466, "action": "audio_play", "time": "0.00"}
+{"ts": 1787126117425, "action": "audio_pause", "time": "2.75"}
+{"ts": 1787126120747, "action": "select_element", "eid": "el_d236ec48a73a"}
+{"ts": 1787126120756, "action": "drag_start", "eid": "el_d236ec48a73a"}
+{"ts": 1787126120865, "action": "drag_end", "eid": "el_d236ec48a73a"}
+{"ts": 1787126121410, "action": "select_element", "eid": "el_a132b7602265"}
+{"ts": 1787126121417, "action": "drag_start", "eid": "el_a132b7602265"}
+{"ts": 1787126121505, "action": "drag_end", "eid": "el_a132b7602265"}
+{"ts": 1787126122098, "action": "select_element", "eid": "el_a2f998e056ff"}
+{"ts": 1787126122105, "action": "drag_start", "eid": "el_a2f998e056ff"}
+{"ts": 1787126122185, "action": "drag_end", "eid": "el_a2f998e056ff"}
+{"ts": 1787126129651, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787126136667, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126136673, "action": "drag_start", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126142409, "action": "drag_end", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126143547, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787126145146, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126145154, "action": "drag_start", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126146177, "action": "drag_end", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126158689, "action": "set_tool", "tool": "image"}
+{"ts": 1787126163691, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787126163692, "action": "set_tool", "tool": "select"}
+{"ts": 1787126205437, "action": "image_upload", "filename": "ChatGPT Image Aug 15, 2026, 04_26_20 PM.png"}
+{"ts": 1787126205474, "action": "add_element", "type": "image"}
+{"ts": 1787126205674, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787126208418, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787126208422, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787126212048, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787126213081, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787126213084, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787126224984, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787126226258, "action": "select_element", "eid": "el_a2f998e056ff"}
+{"ts": 1787126226266, "action": "drag_start", "eid": "el_a2f998e056ff"}
+{"ts": 1787126228616, "action": "drag_end", "eid": "el_a2f998e056ff"}
+{"ts": 1787126229754, "action": "select_element", "eid": "el_a132b7602265"}
+{"ts": 1787126229761, "action": "drag_start", "eid": "el_a132b7602265"}
+{"ts": 1787126231000, "action": "drag_end", "eid": "el_a132b7602265"}
+{"ts": 1787126232033, "action": "select_element", "eid": "el_d236ec48a73a"}
+{"ts": 1787126232040, "action": "drag_start", "eid": "el_d236ec48a73a"}
+{"ts": 1787126235376, "action": "drag_end", "eid": "el_d236ec48a73a"}
+{"ts": 1787126236065, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787126236070, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787126237968, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787126239625, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787126239630, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787126239936, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787126244129, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787126244133, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787126245016, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787126364440, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787126371503, "action": "audio_play", "time": "2.79"}
+{"ts": 1787126384247, "action": "audio_pause", "time": "15.35"}
+{"ts": 1787126390216, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787126390222, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787126390335, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787126392032, "action": "select_element", "eid": "el_a2f998e056ff"}
+{"ts": 1787126392039, "action": "drag_start", "eid": "el_a2f998e056ff"}
+{"ts": 1787126392159, "action": "drag_end", "eid": "el_a2f998e056ff"}
+{"ts": 1787126393720, "action": "select_element", "eid": "el_a132b7602265"}
+{"ts": 1787126393727, "action": "drag_start", "eid": "el_a132b7602265"}
+{"ts": 1787126393847, "action": "drag_end", "eid": "el_a132b7602265"}
+{"ts": 1787126394568, "action": "select_element", "eid": "el_d236ec48a73a"}
+{"ts": 1787126394576, "action": "drag_start", "eid": "el_d236ec48a73a"}
+{"ts": 1787126394663, "action": "drag_end", "eid": "el_d236ec48a73a"}
+{"ts": 1787126395872, "action": "select_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787126395879, "action": "drag_start", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787126395999, "action": "drag_end", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787126396672, "action": "select_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787126396679, "action": "drag_start", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787126400821, "action": "drag_end", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787126401472, "action": "select_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787126401481, "action": "drag_start", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787126403519, "action": "drag_end", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787126404584, "action": "select_element", "eid": "el_60375f854a59"}
+{"ts": 1787126404591, "action": "drag_start", "eid": "el_60375f854a59"}
+{"ts": 1787126407297, "action": "drag_end", "eid": "el_60375f854a59"}
+{"ts": 1787126410808, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787126433264, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787126433272, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787126433974, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787126434727, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126434734, "action": "drag_start", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126434918, "action": "drag_end", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126435407, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126435413, "action": "drag_start", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126436958, "action": "drag_end", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787126437896, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787126437903, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787126440918, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787126442527, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787126442530, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787126443358, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787126444408, "action": "select_element", "eid": "el_d236ec48a73a"}
+{"ts": 1787126444415, "action": "drag_start", "eid": "el_d236ec48a73a"}
+{"ts": 1787126444518, "action": "drag_end", "eid": "el_d236ec48a73a"}
+{"ts": 1787126446503, "action": "select_element", "eid": "el_49c077056551"}
+{"ts": 1787126446510, "action": "drag_start", "eid": "el_49c077056551"}
+{"ts": 1787126446590, "action": "drag_end", "eid": "el_49c077056551"}
+{"ts": 1787126448144, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787128155748, "action": "app_init"}
+{"ts": 1787128162656, "action": "open_projects"}
+{"ts": 1787128164353, "action": "load_project", "pid": "d0e217336789"}
+{"ts": 1787128164948, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787128166913, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787128167079, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787128169471, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787128170560, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787128170566, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787128170680, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787128171648, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787128171658, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787128171783, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787128172768, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787128172776, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787128173607, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787128177113, "action": "resize_start", "eid": "el_2e86727976d4", "corner": "b"}
+{"ts": 1787128179759, "action": "resize_end", "eid": "el_2e86727976d4"}
+{"ts": 1787128182001, "action": "resize_start", "eid": "el_2e86727976d4", "corner": "r"}
+{"ts": 1787128182929, "action": "resize_end", "eid": "el_2e86727976d4"}
+{"ts": 1787128185696, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787128185702, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787128185855, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787128187489, "action": "resize_start", "eid": "el_661a8f0cda85", "corner": "r"}
+{"ts": 1787128188431, "action": "resize_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787128190296, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787128190302, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787128191095, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787128193697, "action": "resize_start", "eid": "el_661a8f0cda85", "corner": "b"}
+{"ts": 1787128195327, "action": "resize_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787128197641, "action": "resize_start", "eid": "el_661a8f0cda85", "corner": "t"}
+{"ts": 1787128198863, "action": "resize_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787128199248, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787128199250, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787128199879, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787128200585, "action": "select_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787128200595, "action": "drag_start", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787128201839, "action": "drag_end", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787128202512, "action": "select_element", "eid": "el_60375f854a59"}
+{"ts": 1787128202520, "action": "drag_start", "eid": "el_60375f854a59"}
+{"ts": 1787128204215, "action": "drag_end", "eid": "el_60375f854a59"}
+{"ts": 1787128204848, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787128204856, "action": "drag_start", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787128205623, "action": "drag_end", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787128206384, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787128206389, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787128206895, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787128217648, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787128217654, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787128217775, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787128226096, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787128226101, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787128226215, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787128231177, "action": "resize_start", "eid": "el_661a8f0cda85", "corner": "br"}
+{"ts": 1787128232247, "action": "resize_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787128238440, "action": "resize_start", "eid": "el_661a8f0cda85", "corner": "tl"}
+{"ts": 1787128242327, "action": "resize_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787128250304, "action": "resize_start", "eid": "el_661a8f0cda85", "corner": "r"}
+{"ts": 1787128257838, "action": "resize_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787128258343, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787128259864, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787128259870, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787128261230, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787128262112, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787128263431, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787128263864, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787128263871, "action": "drag_start", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787128263982, "action": "drag_end", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787128268679, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787128268685, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787128268806, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787128272888, "action": "resize_start", "eid": "el_661a8f0cda85", "corner": "r"}
+{"ts": 1787128280520, "action": "resize_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787128281431, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787128286720, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787128286728, "action": "drag_start", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787128287334, "action": "drag_end", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787128289455, "action": "audio_play", "time": "0.00"}
+{"ts": 1787128293896, "action": "select_element", "eid": "el_072edbed2e5a"}
+{"ts": 1787128293905, "action": "drag_start", "eid": "el_072edbed2e5a"}
+{"ts": 1787128295550, "action": "drag_end", "eid": "el_072edbed2e5a"}
+{"ts": 1787128299839, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787128299843, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787128301230, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787128303279, "action": "select_element", "eid": "el_60375f854a59"}
+{"ts": 1787128303287, "action": "drag_start", "eid": "el_60375f854a59"}
+{"ts": 1787128304902, "action": "drag_end", "eid": "el_60375f854a59"}
+{"ts": 1787128315543, "action": "audio_pause", "time": "25.78"}
+{"ts": 1787130592877, "action": "app_init"}
+{"ts": 1787130630811, "action": "open_projects"}
+{"ts": 1787130632499, "action": "load_project", "pid": "d0e217336789"}
+{"ts": 1787130632733, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787130649404, "action": "app_init"}
+{"ts": 1787130652634, "action": "open_projects"}
+{"ts": 1787130653691, "action": "load_project", "pid": "d0e217336789"}
+{"ts": 1787130653770, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787130657604, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787130657627, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787130658898, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787130660380, "action": "resize_start", "eid": "el_661a8f0cda85", "corner": "b"}
+{"ts": 1787130661474, "action": "resize_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787130663499, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787130663505, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787130663618, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787130665819, "action": "select_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787130665829, "action": "drag_start", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787130666802, "action": "drag_end", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787130667659, "action": "select_element", "eid": "el_60375f854a59"}
+{"ts": 1787130667667, "action": "drag_start", "eid": "el_60375f854a59"}
+{"ts": 1787130670090, "action": "drag_end", "eid": "el_60375f854a59"}
+{"ts": 1787130671379, "action": "select_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787130671387, "action": "drag_start", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787130672338, "action": "drag_end", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787130673043, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787130674203, "action": "select_element", "eid": "el_60375f854a59"}
+{"ts": 1787130674211, "action": "drag_start", "eid": "el_60375f854a59"}
+{"ts": 1787130674722, "action": "drag_end", "eid": "el_60375f854a59"}
+{"ts": 1787130679307, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787130679491, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787130684637, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787130686723, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787130688362, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787130688366, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787130688498, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787130720053, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787130720570, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787130722522, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787130724948, "action": "timeline_seek", "pct": "0.182", "time": "16.97"}
+{"ts": 1787130734314, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787130734320, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787130734473, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787130734874, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787130734879, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787130736265, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787130737483, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787130737490, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787130740081, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787130740578, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787130740584, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787130740691, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787130915345, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787130915351, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787130916496, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787130917832, "action": "audio_play", "time": "0.00"}
+{"ts": 1787130920322, "action": "select_element", "eid": "el_d0db48e636c4"}
+{"ts": 1787130920330, "action": "drag_start", "eid": "el_d0db48e636c4"}
+{"ts": 1787130921720, "action": "drag_end", "eid": "el_d0db48e636c4"}
+{"ts": 1787130922434, "action": "select_element", "eid": "el_072edbed2e5a"}
+{"ts": 1787130922443, "action": "drag_start", "eid": "el_072edbed2e5a"}
+{"ts": 1787130922840, "action": "drag_end", "eid": "el_072edbed2e5a"}
+{"ts": 1787130926496, "action": "audio_pause", "time": "8.44"}
+{"ts": 1787130928217, "action": "select_element", "eid": "el_f35f32d6e9d1"}
+{"ts": 1787130928226, "action": "drag_start", "eid": "el_f35f32d6e9d1"}
+{"ts": 1787130931031, "action": "drag_end", "eid": "el_f35f32d6e9d1"}
+{"ts": 1787130931673, "action": "select_element", "eid": "el_60375f854a59"}
+{"ts": 1787130931681, "action": "drag_start", "eid": "el_60375f854a59"}
+{"ts": 1787130936399, "action": "drag_end", "eid": "el_60375f854a59"}
+{"ts": 1787130937169, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787130939465, "action": "select_element", "eid": "el_f35f32d6e9d1"}
+{"ts": 1787130939472, "action": "drag_start", "eid": "el_f35f32d6e9d1"}
+{"ts": 1787130940442, "action": "drag_end", "eid": "el_f35f32d6e9d1"}
+{"ts": 1787130942944, "action": "audio_play", "time": "8.61"}
+{"ts": 1787130978055, "action": "audio_pause", "time": "43.48"}
+{"ts": 1787131204311, "action": "select_element", "eid": "el_e4ea0cec1e25"}
+{"ts": 1787131204319, "action": "drag_start", "eid": "el_e4ea0cec1e25"}
+{"ts": 1787131204453, "action": "drag_end", "eid": "el_e4ea0cec1e25"}
+{"ts": 1787131236127, "action": "prop_change", "id": "prop-type", "value": "elastic"}
+{"ts": 1787131262750, "action": "select_element", "eid": "el_e4ea0cec1e25"}
+{"ts": 1787131262758, "action": "drag_start", "eid": "el_e4ea0cec1e25"}
+{"ts": 1787131262837, "action": "drag_end", "eid": "el_e4ea0cec1e25"}
+{"ts": 1787131272919, "action": "prop_change", "id": "prop-color", "value": "#ed0707"}
+{"ts": 1787131278557, "action": "audio_play", "time": "43.73"}
+{"ts": 1787131286535, "action": "timeline_seek", "pct": "0.999", "time": "92.93"}
+{"ts": 1787131289366, "action": "select_element", "eid": "el_7a1fcd9654d5"}
+{"ts": 1787131289504, "action": "select_element", "eid": "el_7a1fcd9654d5"}
+{"ts": 1787131290638, "action": "timeline_seek", "pct": "0.012", "time": "1.14"}
+{"ts": 1787131316070, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787131319172, "action": "audio_pause", "time": "28.47"}
+{"ts": 1787131331796, "action": "audio_play", "time": "28.48"}
+{"ts": 1787131333420, "action": "audio_pause", "time": "30.11"}
+{"ts": 1787140041986, "action": "app_init"}
+{"ts": 1787140440030, "action": "open_projects"}
+{"ts": 1787140441951, "action": "load_project", "pid": "d0e217336789"}
+{"ts": 1787140442411, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787140448246, "action": "timeline_resize_start", "startH": 180}
+{"ts": 1787140463717, "action": "timeline_resize_end"}
+{"ts": 1787140464542, "action": "timeline_resize_start", "startH": 228}
+{"ts": 1787140472589, "action": "timeline_resize_end"}
+{"ts": 1787140479374, "action": "timeline_resize_start", "startH": 241}
+{"ts": 1787140482477, "action": "timeline_resize_end"}
+{"ts": 1787140495070, "action": "timeline_resize_start", "startH": 212}
+{"ts": 1787140497405, "action": "timeline_resize_end"}
+{"ts": 1787140498310, "action": "timeline_resize_start", "startH": 183}
+{"ts": 1787140500509, "action": "timeline_resize_end"}
+{"ts": 1787140503382, "action": "timeline_resize_start", "startH": 207}
+{"ts": 1787140506165, "action": "timeline_resize_end"}
+{"ts": 1787140506519, "action": "select_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787140506607, "action": "drag_start", "eid": "el_661a8f0cda85"}
+{"ts": 1787140506685, "action": "drag_end", "eid": "el_661a8f0cda85"}
+{"ts": 1787140522484, "action": "delete_element", "eid": "el_661a8f0cda85"}
+{"ts": 1787140526133, "action": "set_tool", "tool": "image"}
+{"ts": 1787140528678, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787140528678, "action": "set_tool", "tool": "select"}
+{"ts": 1787140549522, "action": "image_upload", "filename": "ChatGPT Image Aug 15, 2026, 04_26_20 PM.png"}
+{"ts": 1787140551032, "action": "add_element", "type": "image"}
+{"ts": 1787140551416, "action": "select_element", "eid": "el_12fd5ecd478d"}
+{"ts": 1787140554677, "action": "resize_start", "eid": "el_12fd5ecd478d", "corner": "b"}
+{"ts": 1787140559636, "action": "resize_end", "eid": "el_12fd5ecd478d"}
+{"ts": 1787140565599, "action": "resize_start", "eid": "el_12fd5ecd478d", "corner": "tl"}
+{"ts": 1787140566869, "action": "resize_end", "eid": "el_12fd5ecd478d"}
+{"ts": 1787140568502, "action": "resize_start", "eid": "el_12fd5ecd478d", "corner": "r"}
+{"ts": 1787140570244, "action": "resize_end", "eid": "el_12fd5ecd478d"}
+{"ts": 1787140573574, "action": "resize_start", "eid": "el_12fd5ecd478d", "corner": "b"}
+{"ts": 1787140575564, "action": "resize_end", "eid": "el_12fd5ecd478d"}
+{"ts": 1787140576742, "action": "select_element", "eid": "el_12fd5ecd478d"}
+{"ts": 1787140576747, "action": "drag_start", "eid": "el_12fd5ecd478d"}
+{"ts": 1787140578404, "action": "drag_end", "eid": "el_12fd5ecd478d"}
+{"ts": 1787140579173, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787140589046, "action": "select_element", "eid": "el_60375f854a59"}
+{"ts": 1787140589056, "action": "drag_start", "eid": "el_60375f854a59"}
+{"ts": 1787140590636, "action": "drag_end", "eid": "el_60375f854a59"}
+{"ts": 1787140591693, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787140591701, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787140593124, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787140593598, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787140599772, "action": "open_projects"}
+{"ts": 1787140605357, "action": "load_project", "pid": "777a2f3a6ca5"}
+{"ts": 1787140610284, "action": "open_projects"}
+{"ts": 1787140611573, "action": "load_project", "pid": "50aa6128633a"}
+{"ts": 1787140619836, "action": "open_projects"}
+{"ts": 1787140637644, "action": "open_projects"}
+{"ts": 1787140645844, "action": "load_project", "pid": "d0e217336789"}
+{"ts": 1787140656516, "action": "app_init"}
+{"ts": 1787140659476, "action": "open_projects"}
+{"ts": 1787140660733, "action": "load_project", "pid": "d0e217336789"}
+{"ts": 1787140660786, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787140668661, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787140669189, "action": "select_element", "eid": "el_12fd5ecd478d"}
+{"ts": 1787140669204, "action": "drag_start", "eid": "el_12fd5ecd478d"}
+{"ts": 1787140669372, "action": "drag_end", "eid": "el_12fd5ecd478d"}
+{"ts": 1787140678430, "action": "resize_start", "eid": "el_12fd5ecd478d", "corner": "b"}
+{"ts": 1787140679899, "action": "resize_end", "eid": "el_12fd5ecd478d"}
+{"ts": 1787140681204, "action": "resize_start", "eid": "el_12fd5ecd478d", "corner": "t"}
+{"ts": 1787140682219, "action": "resize_end", "eid": "el_12fd5ecd478d"}
+{"ts": 1787140683381, "action": "resize_start", "eid": "el_12fd5ecd478d", "corner": "l"}
+{"ts": 1787140685107, "action": "resize_end", "eid": "el_12fd5ecd478d"}
+{"ts": 1787143460379, "action": "app_init"}
+{"ts": 1787143570034, "action": "open_projects"}
+{"ts": 1787143571410, "action": "load_project", "pid": "d0e217336789"}
+{"ts": 1787143571644, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787143578513, "action": "add_shape_element", "shape": "rect"}
+{"ts": 1787143578513, "action": "add_element", "type": "shape"}
+{"ts": 1787143578545, "action": "select_element", "eid": "el_e86799f9738f"}
+{"ts": 1787143579145, "action": "add_shape_element", "shape": "rect"}
+{"ts": 1787143579145, "action": "add_element", "type": "shape"}
+{"ts": 1787143579173, "action": "select_element", "eid": "el_e7f81ee3d186"}
+{"ts": 1787143579393, "action": "add_shape_element", "shape": "rect"}
+{"ts": 1787143579393, "action": "add_element", "type": "shape"}
+{"ts": 1787143579421, "action": "select_element", "eid": "el_5e60c5adfe7d"}
+{"ts": 1787143579873, "action": "add_shape_element", "shape": "rect"}
+{"ts": 1787143579873, "action": "add_element", "type": "shape"}
+{"ts": 1787143579900, "action": "select_element", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143580065, "action": "add_shape_element", "shape": "rect"}
+{"ts": 1787143580065, "action": "add_element", "type": "shape"}
+{"ts": 1787143580118, "action": "select_element", "eid": "el_a69e08421bff"}
+{"ts": 1787143580433, "action": "add_shape_element", "shape": "rect"}
+{"ts": 1787143580433, "action": "add_element", "type": "shape"}
+{"ts": 1787143580462, "action": "select_element", "eid": "el_5d608f88db10"}
+{"ts": 1787143580681, "action": "add_shape_element", "shape": "rect"}
+{"ts": 1787143580681, "action": "add_element", "type": "shape"}
+{"ts": 1787143580710, "action": "select_element", "eid": "el_c708774c3cea"}
+{"ts": 1787143581826, "action": "select_element", "eid": "el_c708774c3cea"}
+{"ts": 1787143581833, "action": "drag_start", "eid": "el_c708774c3cea"}
+{"ts": 1787143582241, "action": "drag_end", "eid": "el_c708774c3cea"}
+{"ts": 1787143582674, "action": "select_element", "eid": "el_5d608f88db10"}
+{"ts": 1787143582681, "action": "drag_start", "eid": "el_5d608f88db10"}
+{"ts": 1787143582993, "action": "drag_end", "eid": "el_5d608f88db10"}
+{"ts": 1787143583283, "action": "select_element", "eid": "el_a69e08421bff"}
+{"ts": 1787143583290, "action": "drag_start", "eid": "el_a69e08421bff"}
+{"ts": 1787143583521, "action": "drag_end", "eid": "el_a69e08421bff"}
+{"ts": 1787143583882, "action": "select_element", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143583889, "action": "drag_start", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143584153, "action": "drag_end", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143584626, "action": "select_element", "eid": "el_5e60c5adfe7d"}
+{"ts": 1787143584633, "action": "drag_start", "eid": "el_5e60c5adfe7d"}
+{"ts": 1787143584977, "action": "drag_end", "eid": "el_5e60c5adfe7d"}
+{"ts": 1787143585394, "action": "select_element", "eid": "el_e7f81ee3d186"}
+{"ts": 1787143585402, "action": "drag_start", "eid": "el_e7f81ee3d186"}
+{"ts": 1787143585993, "action": "drag_end", "eid": "el_e7f81ee3d186"}
+{"ts": 1787143586346, "action": "select_element", "eid": "el_e86799f9738f"}
+{"ts": 1787143586353, "action": "drag_start", "eid": "el_e86799f9738f"}
+{"ts": 1787143588145, "action": "drag_end", "eid": "el_e86799f9738f"}
+{"ts": 1787143591314, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787143592042, "action": "select_element", "eid": "el_e86799f9738f"}
+{"ts": 1787143592049, "action": "drag_start", "eid": "el_e86799f9738f"}
+{"ts": 1787143592193, "action": "drag_end", "eid": "el_e86799f9738f"}
+{"ts": 1787143593243, "action": "select_element", "eid": "el_c708774c3cea"}
+{"ts": 1787143593250, "action": "drag_start", "eid": "el_c708774c3cea"}
+{"ts": 1787143593369, "action": "drag_end", "eid": "el_c708774c3cea"}
+{"ts": 1787143595018, "action": "select_element", "eid": "el_5d608f88db10"}
+{"ts": 1787143595025, "action": "drag_start", "eid": "el_5d608f88db10"}
+{"ts": 1787143595137, "action": "drag_end", "eid": "el_5d608f88db10"}
+{"ts": 1787143595594, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787143595602, "action": "drag_start", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787143595721, "action": "drag_end", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787143596554, "action": "select_element", "eid": "el_e86799f9738f"}
+{"ts": 1787143596561, "action": "drag_start", "eid": "el_e86799f9738f"}
+{"ts": 1787143596681, "action": "drag_end", "eid": "el_e86799f9738f"}
+{"ts": 1787143601918, "action": "delete_element", "eid": "el_e86799f9738f"}
+{"ts": 1787143602482, "action": "select_element", "eid": "el_c708774c3cea"}
+{"ts": 1787143602490, "action": "drag_start", "eid": "el_c708774c3cea"}
+{"ts": 1787143602633, "action": "drag_end", "eid": "el_c708774c3cea"}
+{"ts": 1787143602797, "action": "delete_element", "eid": "el_c708774c3cea"}
+{"ts": 1787143604250, "action": "select_element", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143604257, "action": "drag_start", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143604905, "action": "drag_end", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143605306, "action": "select_element", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143605312, "action": "drag_start", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143606377, "action": "drag_end", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143608610, "action": "select_element", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143608616, "action": "drag_start", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143609216, "action": "drag_end", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143609986, "action": "select_element", "eid": "el_5d608f88db10"}
+{"ts": 1787143609993, "action": "drag_start", "eid": "el_5d608f88db10"}
+{"ts": 1787143610953, "action": "drag_end", "eid": "el_5d608f88db10"}
+{"ts": 1787143611802, "action": "select_element", "eid": "el_5e60c5adfe7d"}
+{"ts": 1787143611809, "action": "drag_start", "eid": "el_5e60c5adfe7d"}
+{"ts": 1787143616417, "action": "drag_end", "eid": "el_5e60c5adfe7d"}
+{"ts": 1787143617518, "action": "delete_element", "eid": "el_5e60c5adfe7d"}
+{"ts": 1787143618274, "action": "select_element", "eid": "el_a69e08421bff"}
+{"ts": 1787143618281, "action": "drag_start", "eid": "el_a69e08421bff"}
+{"ts": 1787143623208, "action": "drag_end", "eid": "el_a69e08421bff"}
+{"ts": 1787143623778, "action": "select_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787143623787, "action": "drag_start", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787143624897, "action": "drag_end", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787143625314, "action": "select_element", "eid": "el_a69e08421bff"}
+{"ts": 1787143625322, "action": "drag_start", "eid": "el_a69e08421bff"}
+{"ts": 1787143626576, "action": "drag_end", "eid": "el_a69e08421bff"}
+{"ts": 1787143627273, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787143627938, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787143628538, "action": "select_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787143628546, "action": "drag_start", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787143628656, "action": "drag_end", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787143629481, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787143636753, "action": "select_element", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143636760, "action": "drag_start", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143636897, "action": "drag_end", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143637738, "action": "select_element", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143637745, "action": "drag_start", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143637881, "action": "drag_end", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143647321, "action": "set_tool", "tool": "shape"}
+{"ts": 1787143653182, "action": "set_tool", "tool": "shape"}
+{"ts": 1787143655694, "action": "set_tool", "tool": "shape"}
+{"ts": 1787143656656, "action": "set_tool", "tool": "shape"}
+{"ts": 1787143657681, "action": "set_tool", "tool": "shape"}
+{"ts": 1787143658176, "action": "set_tool", "tool": "shape"}
+{"ts": 1787143658664, "action": "set_tool", "tool": "shape"}
+{"ts": 1787143659242, "action": "set_tool", "tool": "shape"}
+{"ts": 1787143660360, "action": "set_tool", "tool": "shape"}
+{"ts": 1787143664937, "action": "select_element", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143667777, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787143668986, "action": "set_tool", "tool": "select"}
+{"ts": 1787143668986, "action": "add_element", "type": "shape"}
+{"ts": 1787143669018, "action": "select_element", "eid": "el_c125be02d8c0"}
+{"ts": 1787143670345, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787143670969, "action": "select_element", "eid": "el_c125be02d8c0"}
+{"ts": 1787143670977, "action": "drag_start", "eid": "el_c125be02d8c0"}
+{"ts": 1787143671112, "action": "drag_end", "eid": "el_c125be02d8c0"}
+{"ts": 1787143671938, "action": "resize_start", "eid": "el_c125be02d8c0", "corner": "b"}
+{"ts": 1787143672456, "action": "resize_end", "eid": "el_c125be02d8c0"}
+{"ts": 1787143674514, "action": "resize_start", "eid": "el_c125be02d8c0", "corner": "l"}
+{"ts": 1787143675208, "action": "resize_end", "eid": "el_c125be02d8c0"}
+{"ts": 1787143676277, "action": "delete_element", "eid": "el_c125be02d8c0"}
+{"ts": 1787143677912, "action": "set_tool", "tool": "shape"}
+{"ts": 1787143680369, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787143682656, "action": "set_tool", "tool": "select"}
+{"ts": 1787143682656, "action": "add_element", "type": "shape"}
+{"ts": 1787143682696, "action": "select_element", "eid": "el_6f7180eab464"}
+{"ts": 1787143683853, "action": "delete_element", "eid": "el_6f7180eab464"}
+{"ts": 1787143685512, "action": "set_tool", "tool": "shape"}
+{"ts": 1787143686072, "action": "set_tool", "tool": "shape"}
+{"ts": 1787143691729, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787143693504, "action": "set_tool", "tool": "select"}
+{"ts": 1787143693504, "action": "add_element", "type": "shape"}
+{"ts": 1787143693553, "action": "select_element", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143694297, "action": "select_element", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143694301, "action": "drag_start", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143697912, "action": "drag_end", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143699705, "action": "select_element", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143699711, "action": "drag_start", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143701990, "action": "drag_end", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143702906, "action": "resize_start", "eid": "el_af6ae5eafd52", "corner": "tr"}
+{"ts": 1787143704320, "action": "resize_end", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143704769, "action": "select_element", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143704775, "action": "drag_start", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143707664, "action": "drag_end", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143708073, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787143711033, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787143711042, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787143714472, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787143715001, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787143742761, "action": "select_element", "eid": "el_12fd5ecd478d"}
+{"ts": 1787143742768, "action": "drag_start", "eid": "el_12fd5ecd478d"}
+{"ts": 1787143744384, "action": "drag_end", "eid": "el_12fd5ecd478d"}
+{"ts": 1787143745241, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787143747729, "action": "select_element", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143747736, "action": "drag_start", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143748718, "action": "drag_end", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143751729, "action": "select_element", "eid": "el_5d608f88db10"}
+{"ts": 1787143751736, "action": "drag_start", "eid": "el_5d608f88db10"}
+{"ts": 1787143752951, "action": "drag_end", "eid": "el_5d608f88db10"}
+{"ts": 1787143756041, "action": "select_element", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143756049, "action": "drag_start", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143756967, "action": "drag_end", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143763881, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787143764785, "action": "select_element", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143764792, "action": "drag_start", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143767504, "action": "drag_end", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143768217, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787143770424, "action": "select_element", "eid": "el_a69e08421bff"}
+{"ts": 1787143770432, "action": "drag_start", "eid": "el_a69e08421bff"}
+{"ts": 1787143771447, "action": "drag_end", "eid": "el_a69e08421bff"}
+{"ts": 1787143771913, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787143771921, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787143775584, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787143776657, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787143776664, "action": "drag_start", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787143776808, "action": "drag_end", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787143782729, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787143788616, "action": "select_element", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143788624, "action": "drag_start", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143788759, "action": "drag_end", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143789328, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787143795216, "action": "app_init"}
+{"ts": 1787143798007, "action": "open_projects"}
+{"ts": 1787143800056, "action": "load_project", "pid": "d0e217336789"}
+{"ts": 1787143800130, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787143802737, "action": "select_element", "eid": "el_5d608f88db10"}
+{"ts": 1787143802750, "action": "drag_start", "eid": "el_5d608f88db10"}
+{"ts": 1787143803599, "action": "drag_end", "eid": "el_5d608f88db10"}
+{"ts": 1787143803937, "action": "select_element", "eid": "el_a69e08421bff"}
+{"ts": 1787143803944, "action": "drag_start", "eid": "el_a69e08421bff"}
+{"ts": 1787143806695, "action": "drag_end", "eid": "el_a69e08421bff"}
+{"ts": 1787143807273, "action": "select_element", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143807280, "action": "drag_start", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143808240, "action": "drag_end", "eid": "el_f182fdec1ef1"}
+{"ts": 1787143808712, "action": "select_element", "eid": "el_5d608f88db10"}
+{"ts": 1787143808720, "action": "drag_start", "eid": "el_5d608f88db10"}
+{"ts": 1787143809151, "action": "drag_end", "eid": "el_5d608f88db10"}
+{"ts": 1787143809385, "action": "select_element", "eid": "el_e7f81ee3d186"}
+{"ts": 1787143809392, "action": "drag_start", "eid": "el_e7f81ee3d186"}
+{"ts": 1787143811255, "action": "drag_end", "eid": "el_e7f81ee3d186"}
+{"ts": 1787143812024, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787143817008, "action": "select_element", "eid": "el_e7f81ee3d186"}
+{"ts": 1787143817016, "action": "drag_start", "eid": "el_e7f81ee3d186"}
+{"ts": 1787143818167, "action": "drag_end", "eid": "el_e7f81ee3d186"}
+{"ts": 1787143819280, "action": "select_element", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143819288, "action": "drag_start", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143820711, "action": "drag_end", "eid": "el_af6ae5eafd52"}
+{"ts": 1787143824217, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787143824224, "action": "drag_start", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787143825527, "action": "drag_end", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787143826616, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787143826625, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787143831287, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787143831992, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787144666442, "action": "select_element", "eid": "el_af6ae5eafd52"}
+{"ts": 1787144666523, "action": "drag_start", "eid": "el_af6ae5eafd52"}
+{"ts": 1787144668185, "action": "drag_end", "eid": "el_af6ae5eafd52"}
+{"ts": 1787144668866, "action": "select_element", "eid": "el_e7f81ee3d186"}
+{"ts": 1787144668874, "action": "drag_start", "eid": "el_e7f81ee3d186"}
+{"ts": 1787144674441, "action": "drag_end", "eid": "el_e7f81ee3d186"}
+{"ts": 1787146620959, "action": "select_element", "eid": "el_f182fdec1ef1"}
+{"ts": 1787146624457, "action": "drag_start", "eid": "el_f182fdec1ef1"}
+{"ts": 1787146624564, "action": "drag_end", "eid": "el_f182fdec1ef1"}
+{"ts": 1787146624566, "action": "select_element", "eid": "el_f182fdec1ef1"}
+{"ts": 1787146624686, "action": "drag_start", "eid": "el_f182fdec1ef1"}
+{"ts": 1787146624697, "action": "drag_end", "eid": "el_f182fdec1ef1"}
+{"ts": 1787146628683, "action": "select_element", "eid": "el_f182fdec1ef1"}
+{"ts": 1787146628690, "action": "drag_start", "eid": "el_f182fdec1ef1"}
+{"ts": 1787146630347, "action": "drag_end", "eid": "el_f182fdec1ef1"}
+{"ts": 1787146630997, "action": "select_element", "eid": "el_5d608f88db10"}
+{"ts": 1787146631003, "action": "drag_start", "eid": "el_5d608f88db10"}
+{"ts": 1787146631959, "action": "drag_end", "eid": "el_5d608f88db10"}
+{"ts": 1787146632451, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787146632458, "action": "drag_start", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787146633817, "action": "drag_end", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787146644961, "action": "app_init"}
+{"ts": 1787146651133, "action": "open_projects"}
+{"ts": 1787146653707, "action": "load_project", "pid": "3c4a6c6d5ee1"}
+{"ts": 1787146653916, "action": "audio_error", "src": "/audio/3c4a6c6d5ee1/audio.mp3", "error": "[object Event]"}
+{"ts": 1787146663090, "action": "audio_play", "time": "0.00"}
+{"ts": 1787146684753, "action": "audio_pause", "time": "0.00"}
+{"ts": 1787146695257, "action": "audio_play", "time": "0.00"}
+{"ts": 1787146699349, "action": "timeline_seek", "pct": "0.011", "time": "0.25"}
+{"ts": 1787146701261, "action": "timeline_seek", "pct": "0.015", "time": "0.33"}
+{"ts": 1787146701876, "action": "timeline_seek", "pct": "0.010", "time": "0.23"}
+{"ts": 1787146703569, "action": "audio_pause", "time": "0.23"}
+{"ts": 1787146703961, "action": "audio_play", "time": "0.23"}
+{"ts": 1787146713121, "action": "open_projects"}
+{"ts": 1787146717306, "action": "load_project", "pid": "3c4a6c6d5ee1"}
+{"ts": 1787146717359, "action": "audio_error", "src": "/audio/3c4a6c6d5ee1/audio.mp3", "error": "[object Event]"}
+{"ts": 1787146735537, "action": "audio_play", "time": "0.00"}
+{"ts": 1787146739201, "action": "audio_pause", "time": "0.00"}
+{"ts": 1787146743105, "action": "open_projects"}
+{"ts": 1787146751017, "action": "load_project", "pid": "b2340309553c"}
+{"ts": 1787146751317, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787146760305, "action": "audio_play", "time": "0.00"}
+{"ts": 1787146780922, "action": "timeline_resize_start", "startH": 180}
+{"ts": 1787146782960, "action": "timeline_resize_end"}
+{"ts": 1787146795942, "action": "select_element", "eid": "el_fd67b0afc2e3"}
+{"ts": 1787146802073, "action": "timeline_resize_start", "startH": 331}
+{"ts": 1787146803656, "action": "timeline_resize_end"}
+{"ts": 1787146805530, "action": "select_element", "eid": "el_fd67b0afc2e3"}
+{"ts": 1787146805540, "action": "drag_start", "eid": "el_fd67b0afc2e3"}
+{"ts": 1787146805680, "action": "drag_end", "eid": "el_fd67b0afc2e3"}
+{"ts": 1787146806314, "action": "select_element", "eid": "el_fd67b0afc2e3"}
+{"ts": 1787146806321, "action": "drag_start", "eid": "el_fd67b0afc2e3"}
+{"ts": 1787146806448, "action": "drag_end", "eid": "el_fd67b0afc2e3"}
+{"ts": 1787146810368, "action": "audio_pause", "time": "49.91"}
+{"ts": 1787146811306, "action": "select_element", "eid": "el_7884590985ab"}
+{"ts": 1787146811320, "action": "drag_start", "eid": "el_7884590985ab"}
+{"ts": 1787146811448, "action": "drag_end", "eid": "el_7884590985ab"}
+{"ts": 1787146813386, "action": "select_element", "eid": "el_fd67b0afc2e3"}
+{"ts": 1787146813393, "action": "drag_start", "eid": "el_fd67b0afc2e3"}
+{"ts": 1787146813496, "action": "drag_end", "eid": "el_fd67b0afc2e3"}
+{"ts": 1787146814737, "action": "select_element", "eid": "el_7884590985ab"}
+{"ts": 1787146814745, "action": "drag_start", "eid": "el_7884590985ab"}
+{"ts": 1787146814864, "action": "drag_end", "eid": "el_7884590985ab"}
+{"ts": 1787146815601, "action": "select_element", "eid": "el_60375f854a59"}
+{"ts": 1787146815605, "action": "drag_start", "eid": "el_60375f854a59"}
+{"ts": 1787146815696, "action": "drag_end", "eid": "el_60375f854a59"}
+{"ts": 1787146816761, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787146816768, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787146816872, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787146819208, "action": "open_projects"}
+{"ts": 1787146820825, "action": "load_project", "pid": "d0e217336789"}
+{"ts": 1787146820981, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787146822041, "action": "select_element", "eid": "el_12fd5ecd478d"}
+{"ts": 1787146822048, "action": "drag_start", "eid": "el_12fd5ecd478d"}
+{"ts": 1787146823016, "action": "drag_end", "eid": "el_12fd5ecd478d"}
+{"ts": 1787146824025, "action": "delete_element", "eid": "el_12fd5ecd478d"}
+{"ts": 1787146825689, "action": "set_tool", "tool": "image"}
+{"ts": 1787146826674, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787146826675, "action": "set_tool", "tool": "select"}
+{"ts": 1787146845078, "action": "image_upload", "filename": "ChatGPT Image Aug 15, 2026, 04_26_20 PM.png"}
+{"ts": 1787146845982, "action": "add_element", "type": "image"}
+{"ts": 1787146846029, "action": "select_element", "eid": "el_8d6012117a98"}
+{"ts": 1787146849314, "action": "resize_start", "eid": "el_8d6012117a98", "corner": "b"}
+{"ts": 1787146850136, "action": "resize_end", "eid": "el_8d6012117a98"}
+{"ts": 1787146851098, "action": "resize_start", "eid": "el_8d6012117a98", "corner": "t"}
+{"ts": 1787146853912, "action": "resize_end", "eid": "el_8d6012117a98"}
+{"ts": 1787146854417, "action": "select_element", "eid": "el_af6ae5eafd52"}
+{"ts": 1787146854426, "action": "drag_start", "eid": "el_af6ae5eafd52"}
+{"ts": 1787146855384, "action": "drag_end", "eid": "el_af6ae5eafd52"}
+{"ts": 1787146856345, "action": "select_element", "eid": "el_5d608f88db10"}
+{"ts": 1787146856353, "action": "drag_start", "eid": "el_5d608f88db10"}
+{"ts": 1787146857867, "action": "drag_end", "eid": "el_5d608f88db10"}
+{"ts": 1787146858329, "action": "select_element", "eid": "el_8d6012117a98"}
+{"ts": 1787146858335, "action": "drag_start", "eid": "el_8d6012117a98"}
+{"ts": 1787146859227, "action": "drag_end", "eid": "el_8d6012117a98"}
+{"ts": 1787146859889, "action": "select_element", "eid": "el_a69e08421bff"}
+{"ts": 1787146859899, "action": "drag_start", "eid": "el_a69e08421bff"}
+{"ts": 1787146864728, "action": "drag_end", "eid": "el_a69e08421bff"}
+{"ts": 1787146865376, "action": "select_element", "eid": "el_f182fdec1ef1"}
+{"ts": 1787146865382, "action": "drag_start", "eid": "el_f182fdec1ef1"}
+{"ts": 1787146868913, "action": "drag_end", "eid": "el_f182fdec1ef1"}
+{"ts": 1787146869817, "action": "select_element", "eid": "el_e7f81ee3d186"}
+{"ts": 1787146869824, "action": "drag_start", "eid": "el_e7f81ee3d186"}
+{"ts": 1787146871120, "action": "drag_end", "eid": "el_e7f81ee3d186"}
+{"ts": 1787146872409, "action": "select_element", "eid": "el_8d6012117a98"}
+{"ts": 1787146872415, "action": "drag_start", "eid": "el_8d6012117a98"}
+{"ts": 1787146873048, "action": "drag_end", "eid": "el_8d6012117a98"}
+{"ts": 1787146875273, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787146876265, "action": "select_element", "eid": "el_8d6012117a98"}
+{"ts": 1787146876271, "action": "drag_start", "eid": "el_8d6012117a98"}
+{"ts": 1787146876408, "action": "drag_end", "eid": "el_8d6012117a98"}
+{"ts": 1787146880073, "action": "resize_start", "eid": "el_8d6012117a98", "corner": "l"}
+{"ts": 1787146880840, "action": "resize_end", "eid": "el_8d6012117a98"}
+{"ts": 1787146882849, "action": "select_element", "eid": "el_8d6012117a98"}
+{"ts": 1787146882854, "action": "drag_start", "eid": "el_8d6012117a98"}
+{"ts": 1787146883864, "action": "drag_end", "eid": "el_8d6012117a98"}
+{"ts": 1787146884553, "action": "resize_start", "eid": "el_8d6012117a98", "corner": "t"}
+{"ts": 1787146886168, "action": "resize_end", "eid": "el_8d6012117a98"}
+{"ts": 1787146886601, "action": "select_element", "eid": "el_8d6012117a98"}
+{"ts": 1787146886606, "action": "drag_start", "eid": "el_8d6012117a98"}
+{"ts": 1787146888107, "action": "drag_end", "eid": "el_8d6012117a98"}
+{"ts": 1787146890153, "action": "select_element", "eid": "el_5d608f88db10"}
+{"ts": 1787146890160, "action": "drag_start", "eid": "el_5d608f88db10"}
+{"ts": 1787146891039, "action": "drag_end", "eid": "el_5d608f88db10"}
+{"ts": 1787146891658, "action": "select_element", "eid": "el_e7f81ee3d186"}
+{"ts": 1787146891665, "action": "drag_start", "eid": "el_e7f81ee3d186"}
+{"ts": 1787146894567, "action": "drag_end", "eid": "el_e7f81ee3d186"}
+{"ts": 1787146895680, "action": "select_element", "eid": "el_af6ae5eafd52"}
+{"ts": 1787146895684, "action": "drag_start", "eid": "el_af6ae5eafd52"}
+{"ts": 1787146896946, "action": "drag_end", "eid": "el_af6ae5eafd52"}
+{"ts": 1787146897577, "action": "select_element", "eid": "el_a69e08421bff"}
+{"ts": 1787146897584, "action": "drag_start", "eid": "el_a69e08421bff"}
+{"ts": 1787146899311, "action": "drag_end", "eid": "el_a69e08421bff"}
+{"ts": 1787146899849, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787146900753, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787146900762, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787146903599, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787146904153, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787146904160, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787146904247, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787146904328, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787146904336, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787146904448, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787146905353, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787146905359, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787146905447, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787146905520, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787146905526, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787146905607, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787146905688, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787146905692, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787146905775, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787146905864, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787146905872, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787146905959, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787146927601, "action": "prop_change", "id": "prop-content", "value": "hey what is happening here"}
+{"ts": 1787146929377, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787146929385, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787146930943, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787146931937, "action": "select_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787146931949, "action": "drag_start", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787146933594, "action": "drag_end", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787146934608, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787146934612, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787146935471, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787146936681, "action": "resize_start", "eid": "el_2e86727976d4", "corner": "l"}
+{"ts": 1787146938207, "action": "resize_end", "eid": "el_2e86727976d4"}
+{"ts": 1787146938680, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787146938688, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787146939639, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787146944568, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787146944576, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787146946119, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787146948032, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787146966214, "action": "app_init"}
+{"ts": 1787146972815, "action": "open_projects"}
+{"ts": 1787146975496, "action": "load_project", "pid": "d0e217336789"}
+{"ts": 1787146975599, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787146977233, "action": "select_element", "eid": "el_8d6012117a98"}
+{"ts": 1787146977246, "action": "drag_start", "eid": "el_8d6012117a98"}
+{"ts": 1787146977743, "action": "drag_end", "eid": "el_8d6012117a98"}
+{"ts": 1787146978728, "action": "select_element", "eid": "el_a69e08421bff"}
+{"ts": 1787146978736, "action": "drag_start", "eid": "el_a69e08421bff"}
+{"ts": 1787146979703, "action": "drag_end", "eid": "el_a69e08421bff"}
+{"ts": 1787146980608, "action": "select_element", "eid": "el_af6ae5eafd52"}
+{"ts": 1787146980620, "action": "drag_start", "eid": "el_af6ae5eafd52"}
+{"ts": 1787146981535, "action": "drag_end", "eid": "el_af6ae5eafd52"}
+{"ts": 1787146982208, "action": "select_element", "eid": "el_e7f81ee3d186"}
+{"ts": 1787146982217, "action": "drag_start", "eid": "el_e7f81ee3d186"}
+{"ts": 1787146983271, "action": "drag_end", "eid": "el_e7f81ee3d186"}
+{"ts": 1787146984351, "action": "select_element", "eid": "el_8d6012117a98"}
+{"ts": 1787146984355, "action": "drag_start", "eid": "el_8d6012117a98"}
+{"ts": 1787146993639, "action": "drag_end", "eid": "el_8d6012117a98"}
+{"ts": 1787146994209, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787146999608, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787146999618, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787147003454, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787147004416, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787147018311, "action": "audio_play", "time": "0.00"}
+{"ts": 1787147024319, "action": "audio_pause", "time": "5.74"}
+{"ts": 1787147026264, "action": "select_element", "eid": "el_072edbed2e5a"}
+{"ts": 1787147026273, "action": "drag_start", "eid": "el_072edbed2e5a"}
+{"ts": 1787147028983, "action": "drag_end", "eid": "el_072edbed2e5a"}
+{"ts": 1787147032431, "action": "audio_play", "time": "5.93"}
+{"ts": 1787147035240, "action": "select_element", "eid": "el_f35f32d6e9d1"}
+{"ts": 1787147035247, "action": "drag_start", "eid": "el_f35f32d6e9d1"}
+{"ts": 1787147036486, "action": "drag_end", "eid": "el_f35f32d6e9d1"}
+{"ts": 1787147037160, "action": "select_element", "eid": "el_2bb8dc15ae53"}
+{"ts": 1787147037167, "action": "drag_start", "eid": "el_2bb8dc15ae53"}
+{"ts": 1787147037807, "action": "drag_end", "eid": "el_2bb8dc15ae53"}
+{"ts": 1787147040360, "action": "select_element", "eid": "el_6db23b34eec7"}
+{"ts": 1787147040367, "action": "drag_start", "eid": "el_6db23b34eec7"}
+{"ts": 1787147040934, "action": "drag_end", "eid": "el_6db23b34eec7"}
+{"ts": 1787147042200, "action": "select_element", "eid": "el_6e2a284999c3"}
+{"ts": 1787147042207, "action": "drag_start", "eid": "el_6e2a284999c3"}
+{"ts": 1787147042902, "action": "drag_end", "eid": "el_6e2a284999c3"}
+{"ts": 1787147044394, "action": "select_element", "eid": "el_2fa357298ab6"}
+{"ts": 1787147044403, "action": "drag_start", "eid": "el_2fa357298ab6"}
+{"ts": 1787147045574, "action": "drag_end", "eid": "el_2fa357298ab6"}
+{"ts": 1787147046256, "action": "select_element", "eid": "el_ff063f72f924"}
+{"ts": 1787147046263, "action": "drag_start", "eid": "el_ff063f72f924"}
+{"ts": 1787147046991, "action": "drag_end", "eid": "el_ff063f72f924"}
+{"ts": 1787147047696, "action": "select_element", "eid": "el_6ac14f9604b0"}
+{"ts": 1787147047703, "action": "drag_start", "eid": "el_6ac14f9604b0"}
+{"ts": 1787147051004, "action": "drag_end", "eid": "el_6ac14f9604b0"}
+{"ts": 1787147051624, "action": "select_element", "eid": "el_a74230111d5e"}
+{"ts": 1787147051632, "action": "drag_start", "eid": "el_a74230111d5e"}
+{"ts": 1787147052575, "action": "drag_end", "eid": "el_a74230111d5e"}
+{"ts": 1787147056394, "action": "timeline_seek", "pct": "0.013", "time": "1.21"}
+{"ts": 1787147058304, "action": "select_element", "eid": "el_d0db48e636c4"}
+{"ts": 1787147058312, "action": "drag_start", "eid": "el_d0db48e636c4"}
+{"ts": 1787147059897, "action": "drag_end", "eid": "el_d0db48e636c4"}
+{"ts": 1787147080193, "action": "select_element", "eid": "el_5d608f88db10"}
+{"ts": 1787147080202, "action": "drag_start", "eid": "el_5d608f88db10"}
+{"ts": 1787147080478, "action": "drag_end", "eid": "el_5d608f88db10"}
+{"ts": 1787147083878, "action": "audio_pause", "time": "27.39"}
+{"ts": 1787147085584, "action": "select_element", "eid": "el_60375f854a59"}
+{"ts": 1787147085591, "action": "drag_start", "eid": "el_60375f854a59"}
+{"ts": 1787147087032, "action": "drag_end", "eid": "el_60375f854a59"}
+{"ts": 1787147087415, "action": "select_element", "eid": "el_8d6012117a98"}
+{"ts": 1787147087419, "action": "drag_start", "eid": "el_8d6012117a98"}
+{"ts": 1787147088294, "action": "drag_end", "eid": "el_8d6012117a98"}
+{"ts": 1787147089280, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787147089288, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787147092558, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787147093823, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787147098063, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787147098071, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787147098206, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787147100447, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787148900034, "action": "app_init"}
+{"ts": 1787148916897, "action": "open_projects"}
+{"ts": 1787148920898, "action": "load_project", "pid": "5e5fe5498027"}
+{"ts": 1787148921192, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787148927337, "action": "audio_play", "time": "0.00"}
+{"ts": 1787148964508, "action": "timeline_seek", "pct": "0.014", "time": "1.28"}
+{"ts": 1787148972392, "action": "audio_pause", "time": "7.66"}
+{"ts": 1787148979400, "action": "select_scene", "sid": "scene_5705bb732caf"}
+{"ts": 1787148985279, "action": "select_scene", "sid": "scene_5e8ad8be231f"}
+{"ts": 1787148987903, "action": "select_scene", "sid": "scene_952ec65311a9"}
+{"ts": 1787149142338, "action": "select_element", "eid": "el_7f34afa96f2d"}
+{"ts": 1787149142380, "action": "drag_start", "eid": "el_7f34afa96f2d"}
+{"ts": 1787149142510, "action": "drag_end", "eid": "el_7f34afa96f2d"}
+{"ts": 1787149143168, "action": "select_element", "eid": "el_8d6012117a98"}
+{"ts": 1787149143176, "action": "drag_start", "eid": "el_8d6012117a98"}
+{"ts": 1787149143295, "action": "drag_end", "eid": "el_8d6012117a98"}
+{"ts": 1787149144822, "action": "open_projects"}
+{"ts": 1787149147023, "action": "load_project", "pid": "d0e217336789"}
+{"ts": 1787149147274, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787149149368, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787149149377, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787149151598, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787149152400, "action": "select_element", "eid": "el_7a1fcd9654d5"}
+{"ts": 1787149152408, "action": "drag_start", "eid": "el_7a1fcd9654d5"}
+{"ts": 1787149157113, "action": "drag_end", "eid": "el_7a1fcd9654d5"}
+{"ts": 1787149170280, "action": "select_element", "eid": "el_8d6012117a98"}
+{"ts": 1787149170286, "action": "drag_start", "eid": "el_8d6012117a98"}
+{"ts": 1787149172590, "action": "drag_end", "eid": "el_8d6012117a98"}
+{"ts": 1787149807921, "action": "open_projects"}
+{"ts": 1787149811762, "action": "load_project", "pid": "5e5fe5498027"}
+{"ts": 1787149812533, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787149818944, "action": "timeline_resize_start", "startH": 180}
+{"ts": 1787149820369, "action": "timeline_resize_end"}
+{"ts": 1787149836180, "action": "select_element", "eid": "el_ecab1c2d153b"}
+{"ts": 1787149837689, "action": "select_element", "eid": "el_ecab1c2d153b"}
+{"ts": 1787149844553, "action": "select_scene", "sid": "scene_5705bb732caf"}
+{"ts": 1787149848553, "action": "select_element", "eid": "el_13f94229656d"}
+{"ts": 1787149848730, "action": "select_element", "eid": "el_13f94229656d"}
+{"ts": 1787149850488, "action": "select_element", "eid": "el_9670f4db3678"}
+{"ts": 1787149852140, "action": "select_element", "eid": "el_9670f4db3678"}
+{"ts": 1787149852151, "action": "select_element", "eid": "el_9670f4db3678"}
+{"ts": 1787149852257, "action": "select_element", "eid": "el_9670f4db3678"}
+{"ts": 1787149852440, "action": "timeline_seek", "pct": "0.721", "time": "30.27"}
+{"ts": 1787149853465, "action": "select_scene", "sid": "scene_5e8ad8be231f"}
+{"ts": 1787149856977, "action": "select_scene", "sid": "scene_5705bb732caf"}
+{"ts": 1787149857929, "action": "select_scene", "sid": "scene_952ec65311a9"}
+{"ts": 1787149860330, "action": "timeline_resize_start", "startH": 396}
+{"ts": 1787149861377, "action": "timeline_resize_end"}
+{"ts": 1787149863610, "action": "timeline_resize_start", "startH": 80}
+{"ts": 1787149866985, "action": "timeline_resize_end"}
+{"ts": 1787149868377, "action": "audio_play", "time": "0.00"}
+{"ts": 1787149884882, "action": "select_element", "eid": "el_6e2a284999c3"}
+{"ts": 1787149884888, "action": "drag_start", "eid": "el_6e2a284999c3"}
+{"ts": 1787149886857, "action": "drag_end", "eid": "el_6e2a284999c3"}
+{"ts": 1787149888962, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787149888970, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787149889097, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787149894569, "action": "select_scene", "sid": "scene_5705bb732caf"}
+{"ts": 1787149909112, "action": "select_scene", "sid": "scene_5e8ad8be231f"}
+{"ts": 1787149910208, "action": "select_scene", "sid": "scene_5705bb732caf"}
+{"ts": 1787149935608, "action": "select_scene", "sid": "scene_952ec65311a9"}
+{"ts": 1787149937484, "action": "timeline_seek", "pct": "0.021", "time": "1.99"}
+{"ts": 1787149941690, "action": "select_element", "eid": "el_8d6012117a98"}
+{"ts": 1787149941834, "action": "select_element", "eid": "el_8d6012117a98"}
+{"ts": 1787149953898, "action": "select_element", "eid": "el_60375f854a59"}
+{"ts": 1787149953905, "action": "drag_start", "eid": "el_60375f854a59"}
+{"ts": 1787149954072, "action": "drag_end", "eid": "el_60375f854a59"}
+{"ts": 1787149956102, "action": "delete_element", "eid": "el_60375f854a59"}
+{"ts": 1787149958402, "action": "select_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787149958410, "action": "drag_start", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787149958512, "action": "drag_end", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787149959740, "action": "delete_element", "eid": "el_2d9f8878a1f9"}
+{"ts": 1787149962218, "action": "select_element", "eid": "el_2e86727976d4"}
+{"ts": 1787149962225, "action": "drag_start", "eid": "el_2e86727976d4"}
+{"ts": 1787149962392, "action": "drag_end", "eid": "el_2e86727976d4"}
+{"ts": 1787149963700, "action": "delete_element", "eid": "el_2e86727976d4"}
+{"ts": 1787149969377, "action": "timeline_resize_start", "startH": 217}
+{"ts": 1787149970600, "action": "timeline_resize_end"}
+{"ts": 1787149973305, "action": "timeline_resize_start", "startH": 279}
+{"ts": 1787149974608, "action": "timeline_resize_end"}
+{"ts": 1787149975752, "action": "select_scene", "sid": "scene_5705bb732caf"}
+{"ts": 1787149978048, "action": "select_scene", "sid": "scene_952ec65311a9"}
+{"ts": 1787149980273, "action": "timeline_resize_start", "startH": 206}
+{"ts": 1787149984496, "action": "timeline_resize_end"}
+{"ts": 1787149986312, "action": "select_scene", "sid": "scene_5705bb732caf"}
+{"ts": 1787150004032, "action": "select_scene", "sid": "scene_952ec65311a9"}
+{"ts": 1787150006800, "action": "audio_pause", "time": "69.15"}
+{"ts": 1787153194972, "action": "app_init"}
+{"ts": 1787153215680, "action": "open_import_modal"}
+{"ts": 1787153235576, "action": "select_import", "pid": "9cf974133800"}
+{"ts": 1787153239168, "action": "do_import", "we_pid": "9cf974133800"}
+{"ts": 1787153244969, "action": "load_project", "pid": "7711e468dc81"}
+{"ts": 1787153247849, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787153254567, "action": "generate_scenes", "pid": "7711e468dc81"}
+{"ts": 1787153263863, "action": "generate_scenes", "pid": "7711e468dc81"}
+{"ts": 1787153348923, "action": "app_init"}
+{"ts": 1787153352598, "action": "app_init"}
+{"ts": 1787153358311, "action": "open_projects"}
+{"ts": 1787153365135, "action": "load_project", "pid": "d0e217336789"}
+{"ts": 1787153365500, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787153373326, "action": "open_projects"}
+{"ts": 1787153376022, "action": "load_project", "pid": "7711e468dc81"}
+{"ts": 1787153376073, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787153383198, "action": "generate_scenes", "pid": "7711e468dc81"}
+{"ts": 1787153383512, "action": "load_project", "pid": "7711e468dc81"}
+{"ts": 1787153383554, "action": "scenes_generated", "count": 10, "elements": 93}
+{"ts": 1787153418510, "action": "select_scene", "sid": "scene_e855374b4bc3"}
+{"ts": 1787153419662, "action": "select_scene", "sid": "scene_eee24c64d181"}
+{"ts": 1787153420574, "action": "select_scene", "sid": "scene_65929f270058"}
+{"ts": 1787153421526, "action": "select_scene", "sid": "scene_478514e477f4"}
+{"ts": 1787153422702, "action": "select_scene", "sid": "scene_171e557d87cf"}
+{"ts": 1787153423686, "action": "select_scene", "sid": "scene_49955b4f9e0b"}
+{"ts": 1787153425525, "action": "select_scene", "sid": "scene_2a40f6c084d3"}
+{"ts": 1787153426213, "action": "select_scene", "sid": "scene_e855374b4bc3"}
+{"ts": 1787153426941, "action": "select_scene", "sid": "scene_eee24c64d181"}
+{"ts": 1787153427549, "action": "select_scene", "sid": "scene_65929f270058"}
+{"ts": 1787153428725, "action": "select_scene", "sid": "scene_478514e477f4"}
+{"ts": 1787153429477, "action": "select_scene", "sid": "scene_171e557d87cf"}
+{"ts": 1787153430645, "action": "select_scene", "sid": "scene_49955b4f9e0b"}
+{"ts": 1787153432125, "action": "select_scene", "sid": "scene_2a40f6c084d3"}
+{"ts": 1787153432821, "action": "select_scene", "sid": "scene_e855374b4bc3"}
+{"ts": 1787153433453, "action": "select_scene", "sid": "scene_eee24c64d181"}
+{"ts": 1787153434141, "action": "select_scene", "sid": "scene_2a40f6c084d3"}
+{"ts": 1787153434741, "action": "select_scene", "sid": "scene_e855374b4bc3"}
+{"ts": 1787153435509, "action": "select_scene", "sid": "scene_eee24c64d181"}
+{"ts": 1787153436149, "action": "select_scene", "sid": "scene_65929f270058"}
+{"ts": 1787153436957, "action": "select_scene", "sid": "scene_478514e477f4"}
+{"ts": 1787153437494, "action": "select_scene", "sid": "scene_171e557d87cf"}
+{"ts": 1787153438821, "action": "select_scene", "sid": "scene_2a40f6c084d3"}
+{"ts": 1787153449269, "action": "open_projects"}
+{"ts": 1787153454446, "action": "load_project", "pid": "5e5fe5498027"}
+{"ts": 1787153454785, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787153461262, "action": "audio_play", "time": "0.00"}
+{"ts": 1787153464589, "action": "audio_pause", "time": "3.13"}
+{"ts": 1787153467893, "action": "generate_scenes", "pid": "5e5fe5498027"}
+{"ts": 1787153486661, "action": "select_element", "eid": "el_7f34afa96f2d"}
+{"ts": 1787153486698, "action": "drag_start", "eid": "el_7f34afa96f2d"}
+{"ts": 1787153486797, "action": "drag_end", "eid": "el_7f34afa96f2d"}
+{"ts": 1787153487847, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787153487855, "action": "drag_start", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787153487941, "action": "drag_end", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787153488414, "action": "select_element", "eid": "el_8d6012117a98"}
+{"ts": 1787153488418, "action": "drag_start", "eid": "el_8d6012117a98"}
+{"ts": 1787153488557, "action": "drag_end", "eid": "el_8d6012117a98"}
+{"ts": 1787153489086, "action": "select_element", "eid": "el_f182fdec1ef1"}
+{"ts": 1787153489093, "action": "drag_start", "eid": "el_f182fdec1ef1"}
+{"ts": 1787153489189, "action": "drag_end", "eid": "el_f182fdec1ef1"}
+{"ts": 1787153489574, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787153489581, "action": "drag_start", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787153489661, "action": "drag_end", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787153490246, "action": "select_element", "eid": "el_7f34afa96f2d"}
+{"ts": 1787153490255, "action": "drag_start", "eid": "el_7f34afa96f2d"}
+{"ts": 1787153490357, "action": "drag_end", "eid": "el_7f34afa96f2d"}
+{"ts": 1787153490856, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787153490862, "action": "drag_start", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787153490941, "action": "drag_end", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787153491318, "action": "select_element", "eid": "el_5d608f88db10"}
+{"ts": 1787153491327, "action": "drag_start", "eid": "el_5d608f88db10"}
+{"ts": 1787153491407, "action": "drag_end", "eid": "el_5d608f88db10"}
+{"ts": 1787153491743, "action": "select_element", "eid": "el_8d6012117a98"}
+{"ts": 1787153491750, "action": "drag_start", "eid": "el_8d6012117a98"}
+{"ts": 1787153491853, "action": "drag_end", "eid": "el_8d6012117a98"}
+{"ts": 1787153493150, "action": "select_element", "eid": "el_072edbed2e5a"}
+{"ts": 1787153493158, "action": "drag_start", "eid": "el_072edbed2e5a"}
+{"ts": 1787153493285, "action": "drag_end", "eid": "el_072edbed2e5a"}
+{"ts": 1787153493662, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787153494158, "action": "select_element", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787153494166, "action": "drag_start", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787153494293, "action": "drag_end", "eid": "el_bd5a0f3aedfd"}
+{"ts": 1787153494919, "action": "select_element", "eid": "el_7f34afa96f2d"}
+{"ts": 1787153494923, "action": "drag_start", "eid": "el_7f34afa96f2d"}
+{"ts": 1787153495061, "action": "drag_end", "eid": "el_7f34afa96f2d"}
+{"ts": 1787153502381, "action": "audio_play", "time": "3.27"}
+{"ts": 1787153506677, "action": "timeline_resize_start", "startH": 180}
+{"ts": 1787153518854, "action": "timeline_resize_end"}
+{"ts": 1787153521125, "action": "select_scene", "sid": "scene_5705bb732caf"}
+{"ts": 1787153524133, "action": "select_scene", "sid": "scene_5e8ad8be231f"}
+{"ts": 1787153525748, "action": "select_scene", "sid": "scene_5705bb732caf"}
+{"ts": 1787153528509, "action": "timeline_resize_start", "startH": 173}
+{"ts": 1787153528877, "action": "timeline_resize_end"}
+{"ts": 1787157788943, "action": "app_init"}
+{"ts": 1787157818998, "action": "open_projects"}
+{"ts": 1787157822231, "action": "load_project", "pid": "cd7824dc202a"}
+{"ts": 1787157822575, "action": "audio_loaded", "duration": "92.59"}
+{"ts": 1787157827303, "action": "timeline_resize_start", "startH": 180}
+{"ts": 1787157836238, "action": "timeline_resize_end"}
+{"ts": 1787157837534, "action": "audio_play", "time": "0.00"}
+{"ts": 1787157840351, "action": "timeline_resize_start", "startH": 345}
+{"ts": 1787157841437, "action": "timeline_resize_end"}
+{"ts": 1787157853630, "action": "audio_pause", "time": "15.92"}
+{"ts": 1787157856783, "action": "timeline_resize_start", "startH": 198}
+{"ts": 1787157860397, "action": "timeline_resize_end"}
+{"ts": 1787157863382, "action": "audio_play", "time": "16.07"}
+{"ts": 1787157865633, "action": "timeline_seek", "pct": "0.004", "time": "0.67"}
+{"ts": 1787157869327, "action": "select_element", "eid": "el_e45057151abb"}
+{"ts": 1787157869393, "action": "drag_start", "eid": "el_e45057151abb"}
+{"ts": 1787157869989, "action": "drag_end", "eid": "el_e45057151abb"}
+{"ts": 1787157877183, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787157880293, "action": "audio_pause", "time": "14.38"}
+{"ts": 1787161393092, "action": "app_init"}
+{"ts": 1787161423828, "action": "canvas_pointerdown", "target": "empty-state"}
+{"ts": 1787161484703, "action": "app_init"}
+{"ts": 1787161631361, "action": "open_projects"}
+{"ts": 1787161644210, "action": "load_project", "pid": "d0e217336789"}
+{"ts": 1787161644920, "action": "audio_loaded", "duration": "92.59", "scenes": 1, "totalElements": 60, "sceneDurations": "93.0", "src": "C:\\Users\\AITREC\\AppData\\Local\\VideoComposerWork\\d0e217336789\\source.mp3"}
+{"ts": 1787161652857, "action": "open_projects"}
+{"ts": 1787161657553, "action": "load_project", "pid": "7711e468dc81"}
+{"ts": 1787161657823, "action": "audio_error", "src": "/audio/9cf974133800/source.mp3", "error": "[object Event]"}
+{"ts": 1787161693329, "action": "open_import_modal"}
+{"ts": 1787161708032, "action": "open_projects"}
+{"ts": 1787161722214, "action": "app_init"}
+{"ts": 1787161723873, "action": "canvas_pointerdown", "target": {}}
+{"ts": 1787161723984, "action": "open_import_modal"}
+{"ts": 1787161732649, "action": "select_import", "pid": "9cf974133800"}
+{"ts": 1787161736017, "action": "do_import", "we_pid": "9cf974133800"}
+{"ts": 1787161745665, "action": "canvas_pointerdown", "target": {}}
+{"ts": 1787161745760, "action": "open_import_modal"}
+{"ts": 1787161746480, "action": "load_project", "pid": "eabeda9a6679"}
+{"ts": 1787161749229, "action": "audio_loaded", "duration": "92.59", "scenes": 1, "totalElements": 50, "sceneDurations": "93.0", "src": "C:\\Users\\AITREC\\AppData\\Local\\VideoComposerWork\\eabeda9a6679\\source.mp3"}
+{"ts": 1787161750256, "action": "select_import", "pid": "9cf974133800"}
+{"ts": 1787161750848, "action": "select_import", "pid": "9cf974133800"}
+{"ts": 1787161751032, "action": "select_import", "pid": "9cf974133800"}
+{"ts": 1787161753088, "action": "do_import", "we_pid": "9cf974133800"}
+{"ts": 1787161755173, "action": "load_project", "pid": "ab006c208102"}
+{"ts": 1787161755350, "action": "audio_loaded", "duration": "92.59", "scenes": 1, "totalElements": 50, "sceneDurations": "93.0", "src": "C:\\Users\\AITREC\\AppData\\Local\\VideoComposerWork\\ab006c208102\\source.mp3"}
+{"ts": 1787161763144, "action": "generate_scenes", "pid": "ab006c208102"}
+{"ts": 1787161767058, "action": "load_project", "pid": "ab006c208102"}
+{"ts": 1787161767112, "action": "scenes_generated", "count": 10, "elements": 93}
+{"ts": 1787161767131, "action": "audio_error", "src": "/audio/9cf974133800/source.mp3", "error": "[object Event]"}
+{"ts": 1787161773472, "action": "audio_play", "time": "0.00", "duration": "88.80", "scenes": 10, "captions": 50, "otherElements": 43, "audioSrc": "/audio/9cf974133800/source.mp3", "audioReady": 0, "currentSceneName": "Opening — In my last..."}
+{"ts": 1787161781705, "action": "timeline_resize_start", "startH": 180}
+{"ts": 1787161784303, "action": "timeline_resize_end"}
+{"ts": 1787161785544, "action": "select_scene", "sid": "scene_a40bc652ce74"}
+{"ts": 1787161786415, "action": "select_scene", "sid": "scene_d71fbadb99e2"}
+{"ts": 1787161787119, "action": "select_scene", "sid": "scene_52b9ce96cbb8"}
+{"ts": 1787161788135, "action": "select_scene", "sid": "scene_63373c8c481a"}
+{"ts": 1787161788927, "action": "select_scene", "sid": "scene_1fcd2c606359"}
+{"ts": 1787161788929, "action": "canvas_frame", "time": "45.50", "visible": 4, "types": "caption,text,shape,shape", "scene": "Scene 6 — Until I saw..."}
+{"ts": 1787161789592, "action": "select_scene", "sid": "scene_589be20d150b"}
+{"ts": 1787161791625, "action": "select_element", "eid": "el_3d086d21bda6"}
+{"ts": 1787161791742, "action": "select_element", "eid": "el_3d086d21bda6"}
+{"ts": 1787161792489, "action": "select_element", "eid": "el_25cde1041429"}
+{"ts": 1787161792601, "action": "select_element", "eid": "el_25cde1041429"}
+{"ts": 1787161794776, "action": "timeline_resize_start", "startH": 315}
+{"ts": 1787161797431, "action": "timeline_resize_end"}
+{"ts": 1787161806240, "action": "audio_pause", "time": "53.80"}
+{"ts": 1787161806696, "action": "audio_play", "time": "53.80", "duration": "88.80", "scenes": 10, "captions": 50, "otherElements": 43, "audioSrc": "/audio/9cf974133800/source.mp3", "audioReady": 0, "currentSceneName": "Scene 7 — But without a..."}
+{"ts": 1787161809199, "action": "audio_pause", "time": "53.80"}
+{"ts": 1787161812023, "action": "select_scene", "sid": "scene_bfbd790c51f3"}
+{"ts": 1787161812695, "action": "select_scene", "sid": "scene_bfbd790c51f3"}
+{"ts": 1787161813911, "action": "audio_play", "time": "0.00", "duration": "88.80", "scenes": 10, "captions": 50, "otherElements": 43, "audioSrc": "/audio/9cf974133800/source.mp3", "audioReady": 0, "currentSceneName": "Opening — In my last..."}
+{"ts": 1787161815751, "action": "audio_pause", "time": "0.00"}
+{"ts": 1787161826215, "action": "generate_scenes", "pid": "ab006c208102"}
+{"ts": 1787161827220, "action": "load_project", "pid": "ab006c208102"}
+{"ts": 1787161827264, "action": "scenes_generated", "count": 10, "elements": 93}
+{"ts": 1787161827276, "action": "audio_error", "src": "/audio/9cf974133800/source.mp3", "error": "[object Event]"}
+{"ts": 1787161833656, "action": "timeline_resize_start", "startH": 140}
+{"ts": 1787161836143, "action": "timeline_resize_end"}
+{"ts": 1787161839027, "action": "timeline_seek", "pct": "0.033", "time": "2.91"}
+{"ts": 1787161843122, "action": "timeline_seek", "pct": "0.121", "time": "10.78"}
+{"ts": 1787161844520, "action": "select_element", "eid": "el_533776b61704"}
+{"ts": 1787161844656, "action": "select_element", "eid": "el_533776b61704"}
+{"ts": 1787161846120, "action": "select_element", "eid": "el_b4f2f7a6e146"}
+{"ts": 1787161846256, "action": "select_element", "eid": "el_b4f2f7a6e146"}
+{"ts": 1787161847416, "action": "select_element", "eid": "el_533776b61704"}
+{"ts": 1787161847538, "action": "select_element", "eid": "el_533776b61704"}
+{"ts": 1787161850322, "action": "timeline_seek", "pct": "0.102", "time": "9.08"}
+{"ts": 1787161852519, "action": "select_scene", "sid": "scene_a15d230b88b8"}
+{"ts": 1787161854663, "action": "select_scene", "sid": "scene_cfd1e42a3bf7"}
+{"ts": 1787161855729, "action": "select_scene", "sid": "scene_bb4557438a1e"}
+{"ts": 1787161856705, "action": "select_element", "eid": "el_533776b61704"}
+{"ts": 1787161856808, "action": "select_element", "eid": "el_533776b61704"}
+{"ts": 1787161857792, "action": "select_element", "eid": "el_b4f2f7a6e146"}
+{"ts": 1787161857905, "action": "select_element", "eid": "el_b4f2f7a6e146"}
+{"ts": 1787161859584, "action": "select_element", "eid": "el_28a85480edef"}
+{"ts": 1787161859697, "action": "select_element", "eid": "el_28a85480edef"}
+{"ts": 1787161860496, "action": "select_element", "eid": "el_00f3d1f5dbcf"}
+{"ts": 1787161860632, "action": "select_element", "eid": "el_00f3d1f5dbcf"}
+{"ts": 1787161861080, "action": "select_element", "eid": "el_d019c83dc1fd"}
+{"ts": 1787161861216, "action": "select_element", "eid": "el_d019c83dc1fd"}
+{"ts": 1787161861824, "action": "select_element", "eid": "el_279ce3b7053f"}
+{"ts": 1787161861928, "action": "select_element", "eid": "el_279ce3b7053f"}
+{"ts": 1787161863776, "action": "timeline_resize_start", "startH": 365}
+{"ts": 1787161865279, "action": "timeline_resize_end"}
+{"ts": 1787161872515, "action": "app_init"}
+{"ts": 1787161875135, "action": "open_projects"}
+{"ts": 1787161878240, "action": "load_project", "pid": "0f2ebb4dad5e"}
+{"ts": 1787161892079, "action": "open_projects"}
+{"ts": 1787161896159, "action": "load_project", "pid": "777a2f3a6ca5"}
+{"ts": 1787161899511, "action": "open_projects"}
+{"ts": 1787161902071, "action": "load_project", "pid": "cd7824dc202a"}
+{"ts": 1787161902380, "action": "audio_loaded", "duration": "92.59", "scenes": 12, "totalElements": 117, "sceneDurations": "93.0,5.4,9.0,5.7,5.4,9.2,9.6,7.9,5.4,12.2,12.9,3.0", "src": "C:\\Users\\AITREC\\AppData\\Local\\VideoComposerWork\\cd7824dc202a\\source.mp3"}
+{"ts": 1787161907231, "action": "audio_play", "time": "0.00", "duration": "92.59", "scenes": 12, "captions": 57, "otherElements": 60, "audioSrc": "C:\\Users\\AITREC\\AppData\\Local\\VideoComposerWork\\cd7824dc202a\\source.mp3", "audioReady": 4, "currentSceneName": "Opening — In my last..."}
+{"ts": 1787161908550, "action": "canvas_frame", "time": "1.25", "visible": 5, "types": "caption,text,text,shape,shape", "scene": "Opening — In my last..."}
+{"ts": 1787161909885, "action": "canvas_frame", "time": "2.59", "visible": 5, "types": "caption,text,text,shape,shape", "scene": "Opening — In my last..."}
+{"ts": 1787161911207, "action": "canvas_frame", "time": "3.92", "visible": 6, "types": "caption,text,text,shape,shape,shape", "scene": "Opening — In my last..."}
+{"ts": 1787161912546, "action": "canvas_frame", "time": "5.26", "visible": 6, "types": "caption,text,text,shape,shape,shape", "scene": "Opening — In my last..."}
+{"ts": 1787161913865, "action": "canvas_frame", "time": "6.58", "visible": 7, "types": "caption,caption,text,text,shape,shape,shape", "scene": "Opening — In my last..."}
+{"ts": 1787161915204, "action": "canvas_frame", "time": "7.93", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161916519, "action": "canvas_frame", "time": "9.24", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161917718, "action": "select_scene", "sid": "scene_a1c2acc16691"}
+{"ts": 1787161917720, "action": "canvas_frame", "time": "93.00", "visible": 2, "types": "text,shape", "scene": "Scene 1 — We walked through..."}
+{"ts": 1787161918818, "action": "canvas_frame", "time": "1.05", "visible": 5, "types": "caption,text,text,shape,shape", "scene": "Opening — In my last..."}
+{"ts": 1787161919974, "action": "select_scene", "sid": "scene_a1c2acc16691"}
+{"ts": 1787161919976, "action": "canvas_frame", "time": "93.00", "visible": 2, "types": "text,shape", "scene": "Scene 1 — We walked through..."}
+{"ts": 1787161921050, "action": "canvas_frame", "time": "1.02", "visible": 5, "types": "caption,text,text,shape,shape", "scene": "Opening — In my last..."}
+{"ts": 1787161922379, "action": "canvas_frame", "time": "2.35", "visible": 6, "types": "caption,caption,text,text,shape,shape", "scene": "Opening — In my last..."}
+{"ts": 1787161922495, "action": "timeline_resize_start", "startH": 180}
+{"ts": 1787161923070, "action": "timeline_resize_end"}
+{"ts": 1787161923706, "action": "canvas_frame", "time": "3.68", "visible": 6, "types": "caption,text,text,shape,shape,shape", "scene": "Opening — In my last..."}
+{"ts": 1787161925035, "action": "canvas_frame", "time": "5.01", "visible": 6, "types": "caption,text,text,shape,shape,shape", "scene": "Opening — In my last..."}
+{"ts": 1787161926368, "action": "canvas_frame", "time": "6.35", "visible": 6, "types": "caption,text,text,shape,shape,shape", "scene": "Opening — In my last..."}
+{"ts": 1787161926816, "action": "select_element", "eid": "el_23ccafed6c9e"}
+{"ts": 1787161926920, "action": "select_element", "eid": "el_23ccafed6c9e"}
+{"ts": 1787161927699, "action": "canvas_frame", "time": "7.66", "visible": 4, "types": "text,shape,shape,shape", "scene": "Opening — In my last..."}
+{"ts": 1787161929018, "action": "canvas_frame", "time": "8.99", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161930358, "action": "canvas_frame", "time": "10.33", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161931319, "action": "select_element", "eid": "el_c4135493b2e0"}
+{"ts": 1787161931440, "action": "select_element", "eid": "el_c4135493b2e0"}
+{"ts": 1787161931676, "action": "canvas_frame", "time": "11.65", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161933016, "action": "canvas_frame", "time": "12.99", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161934337, "action": "canvas_frame", "time": "14.32", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161934663, "action": "timeline_resize_start", "startH": 392}
+{"ts": 1787161935664, "action": "canvas_frame", "time": "15.65", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161935990, "action": "timeline_resize_end"}
+{"ts": 1787161936993, "action": "canvas_frame", "time": "16.96", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161937016, "action": "select_element", "eid": "el_108af3396c75"}
+{"ts": 1787161937831, "action": "select_element", "eid": "el_43f277538747"}
+{"ts": 1787161937952, "action": "select_element", "eid": "el_43f277538747"}
+{"ts": 1787161938053, "action": "canvas_frame", "time": "18.03", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161939175, "action": "select_element", "eid": "el_01875d895bff"}
+{"ts": 1787161939304, "action": "select_element", "eid": "el_01875d895bff"}
+{"ts": 1787161939388, "action": "canvas_frame", "time": "19.37", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161940312, "action": "select_element", "eid": "el_4b42e9bea9ba"}
+{"ts": 1787161940456, "action": "select_element", "eid": "el_4b42e9bea9ba"}
+{"ts": 1787161940706, "action": "canvas_frame", "time": "20.69", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161941951, "action": "select_element", "eid": "el_6c08d46942bd"}
+{"ts": 1787161942047, "action": "canvas_frame", "time": "22.03", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161942112, "action": "select_element", "eid": "el_6c08d46942bd"}
+{"ts": 1787161942967, "action": "select_element", "eid": "el_841e4eed7e0f"}
+{"ts": 1787161943112, "action": "select_element", "eid": "el_841e4eed7e0f"}
+{"ts": 1787161943374, "action": "canvas_frame", "time": "23.34", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161944691, "action": "canvas_frame", "time": "24.66", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161944831, "action": "timeline_resize_start", "startH": 309}
+{"ts": 1787161946019, "action": "canvas_frame", "time": "25.99", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161947353, "action": "canvas_frame", "time": "27.33", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161948686, "action": "canvas_frame", "time": "28.66", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161949630, "action": "timeline_resize_end"}
+{"ts": 1787161950002, "action": "canvas_frame", "time": "29.98", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161951332, "action": "canvas_frame", "time": "31.31", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161952667, "action": "canvas_frame", "time": "32.63", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161953990, "action": "canvas_frame", "time": "33.96", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161955325, "action": "canvas_frame", "time": "35.30", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161956648, "action": "canvas_frame", "time": "36.62", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161957971, "action": "canvas_frame", "time": "37.95", "visible": 0, "types": "none", "scene": "Opening — In my last..."}
+{"ts": 1787161958751, "action": "audio_pause", "time": "38.47"}
+{"ts": 1787161985564, "action": "timeline_seek", "pct": "0.552", "time": "98.63"}
+{"ts": 1787161989647, "action": "timeline_resize_start", "startH": 201}
+{"ts": 1787161992174, "action": "timeline_resize_end"}
+{"ts": 1787161997311, "action": "prop_change", "id": "prop-pattern", "value": "bg-gradient-radial"}
+{"ts": 1787162004986, "action": "prop_change", "id": "prop-bg-color", "value": "#d7f207"}
+{"ts": 1787162008291, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787162024966, "action": "select_element", "eid": "el_462a411c052f"}
+{"ts": 1787162024970, "action": "drag_start", "eid": "el_462a411c052f"}
+{"ts": 1787162025086, "action": "drag_end", "eid": "el_462a411c052f"}
+{"ts": 1787162027167, "action": "select_element", "eid": "el_462a411c052f"}
+{"ts": 1787162027169, "action": "drag_start", "eid": "el_462a411c052f"}
+{"ts": 1787162027294, "action": "drag_end", "eid": "el_462a411c052f"}
+{"ts": 1787162028727, "action": "resize_start", "eid": "el_462a411c052f", "corner": "r"}
+{"ts": 1787162029838, "action": "resize_end", "eid": "el_462a411c052f"}
+{"ts": 1787162030214, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787162032870, "action": "select_scene", "sid": "scene_a1c2acc16691"}
+{"ts": 1787162034317, "action": "select_scene", "sid": "scene_a1c2acc16691"}
+{"ts": 1787162036552, "action": "timeline_resize_start", "startH": 142}
+{"ts": 1787162038189, "action": "timeline_resize_end"}
+{"ts": 1787162044983, "action": "timeline_resize_start", "startH": 177}
+{"ts": 1787162055909, "action": "timeline_resize_end"}
+{"ts": 1787162063864, "action": "select_element", "eid": "el_462a411c052f"}
+{"ts": 1787162063870, "action": "drag_start", "eid": "el_462a411c052f"}
+{"ts": 1787162064030, "action": "drag_end", "eid": "el_462a411c052f"}
+{"ts": 1787162066031, "action": "select_element", "eid": "el_462a411c052f"}
+{"ts": 1787162066033, "action": "drag_start", "eid": "el_462a411c052f"}
+{"ts": 1787162066141, "action": "drag_end", "eid": "el_462a411c052f"}
+{"ts": 1787162066238, "action": "select_element", "eid": "el_462a411c052f"}
+{"ts": 1787162066239, "action": "drag_start", "eid": "el_462a411c052f"}
+{"ts": 1787162066333, "action": "drag_end", "eid": "el_462a411c052f"}
+{"ts": 1787162073327, "action": "select_element", "eid": "el_dbd07bc8171c"}
+{"ts": 1787162073462, "action": "select_element", "eid": "el_dbd07bc8171c"}
+{"ts": 1787162075585, "action": "select_element", "eid": "el_462a411c052f"}
+{"ts": 1787162075589, "action": "drag_start", "eid": "el_462a411c052f"}
+{"ts": 1787162075735, "action": "drag_end", "eid": "el_462a411c052f"}
+{"ts": 1787162077216, "action": "select_element", "eid": "el_23ccafed6c9e"}
+{"ts": 1787162077343, "action": "select_element", "eid": "el_23ccafed6c9e"}
+{"ts": 1787162078129, "action": "timeline_seek", "pct": "0.563", "time": "100.54"}
+{"ts": 1787162078688, "action": "select_element", "eid": "el_dbd07bc8171c"}
+{"ts": 1787162078814, "action": "select_element", "eid": "el_dbd07bc8171c"}
+{"ts": 1787162079976, "action": "select_element", "eid": "el_23ccafed6c9e"}
+{"ts": 1787162080094, "action": "select_element", "eid": "el_23ccafed6c9e"}
+{"ts": 1787162080624, "action": "timeline_seek", "pct": "0.588", "time": "105.04"}
+{"ts": 1787162082047, "action": "select_element", "eid": "el_462a411c052f"}
+{"ts": 1787162082050, "action": "drag_start", "eid": "el_462a411c052f"}
+{"ts": 1787162082181, "action": "drag_end", "eid": "el_462a411c052f"}
+{"ts": 1787162083023, "action": "select_element", "eid": "el_462a411c052f"}
+{"ts": 1787162083025, "action": "drag_start", "eid": "el_462a411c052f"}
+{"ts": 1787162083157, "action": "drag_end", "eid": "el_462a411c052f"}
+{"ts": 1787162083326, "action": "select_element", "eid": "el_462a411c052f"}
+{"ts": 1787162083327, "action": "drag_start", "eid": "el_462a411c052f"}
+{"ts": 1787162083437, "action": "drag_end", "eid": "el_462a411c052f"}
+{"ts": 1787162086942, "action": "select_element", "eid": "el_7fda0f7373b0"}
+{"ts": 1787162089303, "action": "select_element", "eid": "el_3f199da923a5"}
+{"ts": 1787162089439, "action": "select_element", "eid": "el_3f199da923a5"}
+{"ts": 1787162090783, "action": "select_element", "eid": "el_dbd07bc8171c"}
+{"ts": 1787162090894, "action": "select_element", "eid": "el_dbd07bc8171c"}
+{"ts": 1787162094110, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787162094526, "action": "select_element", "eid": "el_462a411c052f"}
+{"ts": 1787162094528, "action": "drag_start", "eid": "el_462a411c052f"}
+{"ts": 1787162094645, "action": "drag_end", "eid": "el_462a411c052f"}
+{"ts": 1787162095367, "action": "select_element", "eid": "el_462a411c052f"}
+{"ts": 1787162095370, "action": "drag_start", "eid": "el_462a411c052f"}
+{"ts": 1787162095477, "action": "drag_end", "eid": "el_462a411c052f"}
+{"ts": 1787162095574, "action": "select_element", "eid": "el_462a411c052f"}
+{"ts": 1787162095577, "action": "drag_start", "eid": "el_462a411c052f"}
+{"ts": 1787162095653, "action": "drag_end", "eid": "el_462a411c052f"}
+{"ts": 1787162095782, "action": "select_element", "eid": "el_462a411c052f"}
+{"ts": 1787162095785, "action": "drag_start", "eid": "el_462a411c052f"}
+{"ts": 1787162095846, "action": "drag_end", "eid": "el_462a411c052f"}
+{"ts": 1787162096238, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787162097399, "action": "select_element", "eid": "el_c00c6a554edc"}
+{"ts": 1787162097403, "action": "drag_start", "eid": "el_c00c6a554edc"}
+{"ts": 1787162097581, "action": "drag_end", "eid": "el_c00c6a554edc"}
+{"ts": 1787162098119, "action": "select_element", "eid": "el_c00c6a554edc"}
+{"ts": 1787162098121, "action": "drag_start", "eid": "el_c00c6a554edc"}
+{"ts": 1787162098229, "action": "drag_end", "eid": "el_c00c6a554edc"}
+{"ts": 1787162098319, "action": "select_element", "eid": "el_c00c6a554edc"}
+{"ts": 1787162098323, "action": "drag_start", "eid": "el_c00c6a554edc"}
+{"ts": 1787162098413, "action": "drag_end", "eid": "el_c00c6a554edc"}
+{"ts": 1787162099350, "action": "select_element", "eid": "el_efd0eb9aa777"}
+{"ts": 1787162099353, "action": "drag_start", "eid": "el_efd0eb9aa777"}
+{"ts": 1787162099461, "action": "drag_end", "eid": "el_efd0eb9aa777"}
+{"ts": 1787162100207, "action": "select_element", "eid": "el_462a411c052f"}
+{"ts": 1787162100210, "action": "drag_start", "eid": "el_462a411c052f"}
+{"ts": 1787162100341, "action": "drag_end", "eid": "el_462a411c052f"}
+{"ts": 1787162100886, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787162106983, "action": "select_element", "eid": "el_462a411c052f"}
+{"ts": 1787162106986, "action": "drag_start", "eid": "el_462a411c052f"}
+{"ts": 1787162107079, "action": "drag_end", "eid": "el_462a411c052f"}
+{"ts": 1787162107150, "action": "select_element", "eid": "el_462a411c052f"}
+{"ts": 1787162107151, "action": "drag_start", "eid": "el_462a411c052f"}
+{"ts": 1787162107269, "action": "drag_end", "eid": "el_462a411c052f"}
+{"ts": 1787162107342, "action": "select_element", "eid": "el_462a411c052f"}
+{"ts": 1787162107343, "action": "drag_start", "eid": "el_462a411c052f"}
+{"ts": 1787162107478, "action": "drag_end", "eid": "el_462a411c052f"}
+{"ts": 1787162108959, "action": "resize_start", "eid": "el_462a411c052f", "corner": "r"}
+{"ts": 1787162112885, "action": "resize_end", "eid": "el_462a411c052f"}
+{"ts": 1787162114469, "action": "open_projects"}
+{"ts": 1787162116830, "action": "load_project", "pid": "ab006c208102"}
+{"ts": 1787162116903, "action": "audio_error", "src": "/audio/9cf974133800/source.mp3", "error": "[object Event]"}
+{"ts": 1787162123693, "action": "select_scene", "sid": "scene_cfd1e42a3bf7"}
+{"ts": 1787162124589, "action": "select_scene", "sid": "scene_bb4557438a1e"}
+{"ts": 1787162125646, "action": "select_element", "eid": "el_6e1b0dd45794"}
+{"ts": 1787162125656, "action": "drag_start", "eid": "el_6e1b0dd45794"}
+{"ts": 1787162125797, "action": "drag_end", "eid": "el_6e1b0dd45794"}
+{"ts": 1787162127205, "action": "select_scene", "sid": "scene_74c8e61f24d1"}
+{"ts": 1787162127982, "action": "select_element", "eid": "el_98539abda09c"}
+{"ts": 1787162127990, "action": "drag_start", "eid": "el_98539abda09c"}
+{"ts": 1787162128117, "action": "drag_end", "eid": "el_98539abda09c"}
+{"ts": 1787162128598, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787162134979, "action": "prop_change", "id": "prop-bg-color", "value": "#ed8207"}
+{"ts": 1787162136766, "action": "select_element", "eid": "el_98539abda09c"}
+{"ts": 1787162136774, "action": "drag_start", "eid": "el_98539abda09c"}
+{"ts": 1787162136893, "action": "drag_end", "eid": "el_98539abda09c"}
+{"ts": 1787162148869, "action": "prop_change", "id": "prop-size", "value": "47"}
+{"ts": 1787162149069, "action": "prop_change", "id": "prop-size", "value": "48"}
+{"ts": 1787162149237, "action": "prop_change", "id": "prop-size", "value": "49"}
+{"ts": 1787162149413, "action": "prop_change", "id": "prop-size", "value": "50"}
+{"ts": 1787162149581, "action": "prop_change", "id": "prop-size", "value": "51"}
+{"ts": 1787162149765, "action": "prop_change", "id": "prop-size", "value": "52"}
+{"ts": 1787162149934, "action": "prop_change", "id": "prop-size", "value": "53"}
+{"ts": 1787162150141, "action": "prop_change", "id": "prop-size", "value": "54"}
+{"ts": 1787162150309, "action": "prop_change", "id": "prop-size", "value": "55"}
+{"ts": 1787162150493, "action": "prop_change", "id": "prop-size", "value": "56"}
+{"ts": 1787162150669, "action": "prop_change", "id": "prop-size", "value": "57"}
+{"ts": 1787162150853, "action": "prop_change", "id": "prop-size", "value": "58"}
+{"ts": 1787162151037, "action": "prop_change", "id": "prop-size", "value": "59"}
+{"ts": 1787162151221, "action": "prop_change", "id": "prop-size", "value": "60"}
+{"ts": 1787162151413, "action": "prop_change", "id": "prop-size", "value": "61"}
+{"ts": 1787162151605, "action": "prop_change", "id": "prop-size", "value": "62"}
+{"ts": 1787162151797, "action": "prop_change", "id": "prop-size", "value": "63"}
+{"ts": 1787162151989, "action": "prop_change", "id": "prop-size", "value": "64"}
+{"ts": 1787162152173, "action": "prop_change", "id": "prop-size", "value": "65"}
+{"ts": 1787162152349, "action": "prop_change", "id": "prop-size", "value": "66"}
+{"ts": 1787162152541, "action": "prop_change", "id": "prop-size", "value": "67"}
+{"ts": 1787162152717, "action": "prop_change", "id": "prop-size", "value": "68"}
+{"ts": 1787162152925, "action": "prop_change", "id": "prop-size", "value": "69"}
+{"ts": 1787162153109, "action": "prop_change", "id": "prop-size", "value": "70"}
+{"ts": 1787162153317, "action": "prop_change", "id": "prop-size", "value": "71"}
+{"ts": 1787162165382, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787162165383, "action": "prop_change", "id": "prop-size", "value": "69"}
+{"ts": 1787162167958, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787162168430, "action": "select_element", "eid": "el_28a85480edef"}
+{"ts": 1787162168441, "action": "drag_start", "eid": "el_28a85480edef"}
+{"ts": 1787162168581, "action": "drag_end", "eid": "el_28a85480edef"}
+{"ts": 1787162169342, "action": "select_element", "eid": "el_28a85480edef"}
+{"ts": 1787162169348, "action": "drag_start", "eid": "el_28a85480edef"}
+{"ts": 1787162169492, "action": "drag_end", "eid": "el_28a85480edef"}
+{"ts": 1787162170101, "action": "select_element", "eid": "el_72072c089920"}
+{"ts": 1787162170107, "action": "drag_start", "eid": "el_72072c089920"}
+{"ts": 1787162170260, "action": "drag_end", "eid": "el_72072c089920"}
+{"ts": 1787162170390, "action": "select_element", "eid": "el_72072c089920"}
+{"ts": 1787162170396, "action": "drag_start", "eid": "el_72072c089920"}
+{"ts": 1787162170477, "action": "drag_end", "eid": "el_72072c089920"}
+{"ts": 1787162178891, "action": "prop_change", "id": "prop-fill", "value": "#0075fa"}
+{"ts": 1787162180286, "action": "canvas_pointerdown", "target": "canvas-stage"}
+{"ts": 1787162181286, "action": "select_element", "eid": "el_98539abda09c"}
+{"ts": 1787162181295, "action": "drag_start", "eid": "el_98539abda09c"}
+{"ts": 1787162181437, "action": "drag_end", "eid": "el_98539abda09c"}
+{"ts": 1787162182341, "action": "select_element", "eid": "el_98539abda09c"}
+{"ts": 1787162182344, "action": "drag_start", "eid": "el_98539abda09c"}
+{"ts": 1787162185188, "action": "drag_end", "eid": "el_98539abda09c"}
+{"ts": 1787162187997, "action": "audio_play", "time": "26.60", "duration": "88.80", "scenes": 10, "captions": 50, "otherElements": 43, "audioSrc": "/audio/9cf974133800/source.mp3", "audioReady": 0, "currentSceneName": "Scene 4 — That codebase wasn't..."}
+{"ts": 1787162189372, "action": "audio_pause", "time": "26.60"}
+{"ts": 1787162189804, "action": "audio_play", "time": "26.60", "duration": "88.80", "scenes": 10, "captions": 50, "otherElements": 43, "audioSrc": "/audio/9cf974133800/source.mp3", "audioReady": 0, "currentSceneName": "Scene 4 — That codebase wasn't..."}
+{"ts": 1787162190244, "action": "audio_pause", "time": "26.60"}
+{"ts": 1787162191296, "action": "timeline_seek", "pct": "0.302", "time": "26.84"}
+{"ts": 1787162191638, "action": "select_element", "eid": "el_b4f2f7a6e146"}
+{"ts": 1787162191749, "action": "select_element", "eid": "el_b4f2f7a6e146"}
+{"ts": 1787162192517, "action": "select_element", "eid": "el_28a85480edef"}
+{"ts": 1787162192638, "action": "select_element", "eid": "el_28a85480edef"}
+{"ts": 1787162193256, "action": "select_element", "eid": "el_00f3d1f5dbcf"}
+{"ts": 1787162193357, "action": "select_element", "eid": "el_00f3d1f5dbcf"}
+{"ts": 1787162193847, "action": "select_element", "eid": "el_d019c83dc1fd"}
+{"ts": 1787162193967, "action": "select_element", "eid": "el_d019c83dc1fd"}
+{"ts": 1787162195260, "action": "select_scene", "sid": "scene_cfd1e42a3bf7"}
+{"ts": 1787162195940, "action": "select_scene", "sid": "scene_bb4557438a1e"}
+{"ts": 1787162196516, "action": "select_scene", "sid": "scene_74c8e61f24d1"}
+{"ts": 1787162197604, "action": "select_scene", "sid": "scene_9f827373529e"}
+{"ts": 1787162198444, "action": "select_scene", "sid": "scene_4b3d8ba51205"}
+{"ts": 1787162199076, "action": "select_scene", "sid": "scene_ae209a4f7c8f"}
+{"ts": 1787162200172, "action": "select_scene", "sid": "scene_a15d230b88b8"}
+{"ts": 1787162201372, "action": "select_scene", "sid": "scene_cfd1e42a3bf7"}
+{"ts": 1787162202004, "action": "select_scene", "sid": "scene_bb4557438a1e"}
+{"ts": 1787162202636, "action": "select_scene", "sid": "scene_74c8e61f24d1"}
+{"ts": 1787162203212, "action": "select_scene", "sid": "scene_9f827373529e"}
+{"ts": 1787162203868, "action": "select_scene", "sid": "scene_4b3d8ba51205"}
+{"ts": 1787162204396, "action": "select_scene", "sid": "scene_ae209a4f7c8f"}
+{"ts": 1787162206356, "action": "select_scene", "sid": "scene_a15d230b88b8"}
+{"ts": 1787217348869, "action": "app_init"}
+{"ts": 1787217373344, "action": "app_init"}
+{"ts": 1787217380263, "action": "open_projects"}
+{"ts": 1787217387111, "action": "load_project", "pid": "cd7824dc202a"}
+{"ts": 1787217387591, "action": "audio_loaded", "duration": "92.59", "scenes": 7, "totalElements": 113, "sceneDurations": "93.0,11.3,16.1,12.8,15.6,10.5,15.8", "src": "C:/Users/AITREC/AppData/Local/VideoComposerWork/cd7824dc202a/source.mp3"}
+{"ts": 1787217391975, "action": "audio_play", "time": "0.00", "duration": "92.59", "scenes": 7, "captions": 50, "otherElements": 63, "audioSrc": "C:/Users/AITREC/AppData/Local/VideoComposerWork/cd7824dc202a/source.mp3", "audioReady": 4, "currentSceneName": "Hook — In My Last Video"}
+{"ts": 1787217393300, "action": "canvas_frame", "time": "1.26", "visible": 8, "types": "caption,text,shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217394629, "action": "canvas_frame", "time": "2.59", "visible": 8, "types": "caption,text,shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217395975, "action": "canvas_frame", "time": "3.94", "visible": 10, "types": "caption,text,shape,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217397312, "action": "canvas_frame", "time": "5.28", "visible": 10, "types": "caption,text,shape,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217398629, "action": "canvas_frame", "time": "6.61", "visible": 9, "types": "caption,shape,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217399956, "action": "canvas_frame", "time": "7.93", "visible": 7, "types": "caption,shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217401294, "action": "canvas_frame", "time": "9.25", "visible": 7, "types": "caption,shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217402614, "action": "canvas_frame", "time": "10.58", "visible": 6, "types": "shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217403950, "action": "canvas_frame", "time": "11.92", "visible": 0, "types": "none", "scene": "Hook — In My Last Video"}
+{"ts": 1787217405271, "action": "canvas_frame", "time": "13.24", "visible": 0, "types": "none", "scene": "Hook — In My Last Video"}
+{"ts": 1787217406595, "action": "canvas_frame", "time": "14.57", "visible": 0, "types": "none", "scene": "Hook — In My Last Video"}
+{"ts": 1787217407929, "action": "canvas_frame", "time": "15.91", "visible": 0, "types": "none", "scene": "Hook — In My Last Video"}
+{"ts": 1787217409252, "action": "canvas_frame", "time": "17.23", "visible": 0, "types": "none", "scene": "Hook — In My Last Video"}
+{"ts": 1787217410582, "action": "canvas_frame", "time": "18.54", "visible": 0, "types": "none", "scene": "Hook — In My Last Video"}
+{"ts": 1787217411914, "action": "canvas_frame", "time": "19.88", "visible": 0, "types": "none", "scene": "Hook — In My Last Video"}
+{"ts": 1787217413237, "action": "canvas_frame", "time": "21.20", "visible": 0, "types": "none", "scene": "Hook — In My Last Video"}
+{"ts": 1787217413686, "action": "select_scene", "sid": "scene_370589_0032"}
+{"ts": 1787217414254, "action": "canvas_frame", "time": "0.51", "visible": 8, "types": "caption,text,shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217415581, "action": "canvas_frame", "time": "1.84", "visible": 8, "types": "caption,text,shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217416814, "action": "timeline_resize_start", "startH": 180}
+{"ts": 1787217416913, "action": "canvas_frame", "time": "3.17", "visible": 8, "types": "caption,text,shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217418239, "action": "canvas_frame", "time": "4.48", "visible": 10, "types": "caption,text,shape,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217419574, "action": "canvas_frame", "time": "5.82", "visible": 9, "types": "caption,shape,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217420382, "action": "timeline_resize_end"}
+{"ts": 1787217420896, "action": "canvas_frame", "time": "7.14", "visible": 7, "types": "shape,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217421102, "action": "timeline_resize_start", "startH": 194}
+{"ts": 1787217421533, "action": "timeline_resize_end"}
+{"ts": 1787217422231, "action": "canvas_frame", "time": "8.48", "visible": 7, "types": "caption,shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217423062, "action": "select_element", "eid": "el_370589_0029"}
+{"ts": 1787217425221, "action": "select_element", "eid": "el_370589_0029"}
+{"ts": 1787217425236, "action": "select_element", "eid": "el_370871_0047"}
+{"ts": 1787217425290, "action": "canvas_frame", "time": "11.53", "visible": 0, "types": "none", "scene": "Hook — In My Last Video"}
+{"ts": 1787217426616, "action": "canvas_frame", "time": "12.86", "visible": 0, "types": "none", "scene": "Hook — In My Last Video"}
+{"ts": 1787217427526, "action": "select_element", "eid": "el_370871_0043"}
+{"ts": 1787217427700, "action": "canvas_frame", "time": "13.96", "visible": 0, "types": "none", "scene": "Hook — In My Last Video"}
+{"ts": 1787217429023, "action": "canvas_frame", "time": "15.28", "visible": 0, "types": "none", "scene": "Hook — In My Last Video"}
+{"ts": 1787217430053, "action": "select_scene", "sid": "scene_370984_0085"}
+{"ts": 1787217430077, "action": "canvas_frame", "time": "0.01", "visible": 8, "types": "caption,text,shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217431393, "action": "canvas_frame", "time": "1.28", "visible": 8, "types": "caption,text,shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217432005, "action": "select_scene", "sid": "scene_370896_0067"}
+{"ts": 1787217432288, "action": "canvas_frame", "time": "0.25", "visible": 8, "types": "caption,text,shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217433612, "action": "canvas_frame", "time": "1.57", "visible": 8, "types": "caption,text,shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217434949, "action": "canvas_frame", "time": "2.89", "visible": 8, "types": "caption,text,shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787217435293, "action": "audio_pause", "time": "3.17"}
+{"ts": 1787220272514, "action": "open_projects"}
+{"ts": 1787220273819, "action": "load_project", "pid": "cd7824dc202a"}
+{"ts": 1787220274008, "action": "audio_loaded", "duration": "92.59", "scenes": 7, "totalElements": 113, "sceneDurations": "93.0,11.3,16.1,12.8,15.6,10.5,15.8", "src": "C:/Users/AITREC/AppData/Local/VideoComposerWork/cd7824dc202a/source.mp3"}
+{"ts": 1787220282018, "action": "audio_play", "time": "0.00", "duration": "92.59", "scenes": 7, "captions": 50, "otherElements": 63, "audioSrc": "C:/Users/AITREC/AppData/Local/VideoComposerWork/cd7824dc202a/source.mp3", "audioReady": 4, "currentSceneName": "Hook — In My Last Video"}
+{"ts": 1787220283348, "action": "canvas_frame", "time": "1.26", "visible": 8, "types": "caption,text,shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787220284685, "action": "canvas_frame", "time": "2.60", "visible": 8, "types": "caption,text,shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787220286010, "action": "canvas_frame", "time": "3.93", "visible": 10, "types": "caption,text,shape,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787220287332, "action": "canvas_frame", "time": "5.25", "visible": 10, "types": "caption,text,shape,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787220288659, "action": "canvas_frame", "time": "6.58", "visible": 9, "types": "caption,shape,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787220289988, "action": "canvas_frame", "time": "7.92", "visible": 7, "types": "caption,shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787220291327, "action": "canvas_frame", "time": "9.26", "visible": 7, "types": "caption,shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787220292648, "action": "canvas_frame", "time": "10.56", "visible": 6, "types": "shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787220293971, "action": "canvas_frame", "time": "11.89", "visible": 0, "types": "none", "scene": "Hook — In My Last Video"}
+{"ts": 1787220295299, "action": "canvas_frame", "time": "13.22", "visible": 0, "types": "none", "scene": "Hook — In My Last Video"}
+{"ts": 1787220296633, "action": "canvas_frame", "time": "14.56", "visible": 0, "types": "none", "scene": "Hook — In My Last Video"}
+{"ts": 1787220297966, "action": "canvas_frame", "time": "15.89", "visible": 0, "types": "none", "scene": "Hook — In My Last Video"}
+{"ts": 1787220299283, "action": "canvas_frame", "time": "17.21", "visible": 0, "types": "none", "scene": "Hook — In My Last Video"}
+{"ts": 1787220299889, "action": "audio_pause", "time": "17.75"}
+{"ts": 1787220303226, "action": "timeline_resize_start", "startH": 180}
+{"ts": 1787220304209, "action": "timeline_resize_end"}
+{"ts": 1787220307754, "action": "timeline_resize_start", "startH": 403}
+{"ts": 1787220311009, "action": "timeline_resize_end"}
+{"ts": 1787220311578, "action": "timeline_resize_start", "startH": 340}
+{"ts": 1787220314001, "action": "timeline_resize_end"}
+{"ts": 1787220314625, "action": "select_scene", "sid": "scene_370589_0032"}
+{"ts": 1787220316017, "action": "select_scene", "sid": "scene_370871_0050"}
+{"ts": 1787220316721, "action": "select_scene", "sid": "scene_370896_0067"}
+{"ts": 1787220317561, "action": "select_scene", "sid": "scene_370984_0085"}
+{"ts": 1787220318545, "action": "select_scene", "sid": "scene_371008_0102"}
+{"ts": 1787220320321, "action": "select_scene", "sid": "scene_371036_0120"}
+{"ts": 1787220321529, "action": "audio_play", "time": "0.00", "duration": "175.01", "scenes": 7, "captions": 50, "otherElements": 63, "audioSrc": "C:/Users/AITREC/AppData/Local/VideoComposerWork/cd7824dc202a/source.mp3", "audioReady": 4, "currentSceneName": "Let's Build The Blueprint"}
+{"ts": 1787220322317, "action": "canvas_frame", "time": "0.74", "visible": 8, "types": "caption,text,shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787220322721, "action": "select_scene", "sid": "scene_371036_0120"}
+{"ts": 1787220323271, "action": "canvas_frame", "time": "0.50", "visible": 8, "types": "caption,text,shape,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787220324385, "action": "audio_pause", "time": "1.57"}
+{"ts": 1787220328321, "action": "timeline_resize_start", "startH": 169}
+{"ts": 1787220329009, "action": "timeline_resize_end"}
+{"ts": 1787220336585, "action": "select_scene", "sid": "scene_370589_0032"}
+{"ts": 1787220339041, "action": "timeline_resize_start", "startH": 391}
+{"ts": 1787220340112, "action": "timeline_resize_end"}

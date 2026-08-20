@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Composer</title>
+<link rel="stylesheet" href="style.css?v=9">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="app" id="app">
+
+  <!-- ===== HEADER ===== -->
+  <div class="header">
+    <div class="header-logo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21"/></svg>
+      Video Composer
+    </div>
+    <div class="header-sep"></div>
+    <div class="header-project" id="project-name" onclick="App.openProjects()">No project</div>
+    <div class="header-actions">
+      <div class="header-time" id="time-display">00:00.000 / 00:00.000</div>
+      <button class="header-play" id="play-btn" onclick="App.togglePlay()" title="Play / Pause">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><polygon points="5 3 19 12 5 21"/></svg>
+      </button>
+      <button class="btn sm primary" onclick="App.renderProject()">Render</button>
+      <button class="btn sm" onclick="App.exportComposition()">Export HTML</button>
+    </div>
+  </div>
+
+  <!-- ===== SIDEBAR ===== -->
+  <div class="sidebar">
+    <button class="sidebar-btn active" data-tool="select" onclick="App.setTool('select')" title="Select">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/></svg>
+      <span class="tooltip">Select (V)</span>
+    </button>
+    <button class="sidebar-btn" data-tool="text" onclick="App.setTool('text')" title="Add Text">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" y1="20" x2="15" y2="20"/><line x1="12" y1="4" x2="12" y2="20"/></svg>
+      <span class="tooltip">Add Text (T)</span>
+    </button>
+    <button class="sidebar-btn" data-tool="image" onclick="App.setTool('image')" title="Add Image">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+      <span class="tooltip">Add Image (I)</span>
+    </button>
+    <button class="sidebar-btn" data-tool="shape" onclick="App.cycleShapeTool()" title="Add Shape">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>
+      <span class="tooltip">Shape (S — click to cycle)</span>
+    </button>
+    <button class="sidebar-btn" data-tool="caption" onclick="App.setTool('caption')" title="Add Caption">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><line x1="6" y1="12" x2="18" y2="12"/><line x1="6" y1="16" x2="14" y2="16"/></svg>
+      <span class="tooltip">Add Caption (C)</span>
+    </button>
+
+    <div class="sidebar-spacer"></div>
+
+    <button class="sidebar-btn" onclick="App.toggleSnap()" title="Toggle Snap-to-Grid">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+      <span class="tooltip">Snap Grid</span>
+    </button>
+    <button class="sidebar-btn" onclick="App.undo()" title="Undo (Ctrl+Z)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+      <span class="tooltip">Undo</span>
+    </button>
+    <button class="sidebar-btn" onclick="App.redo()" title="Redo (Ctrl+Shift+Z)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.13-9.36L23 10"/></svg>
+      <span class="tooltip">Redo</span>
+    </button>
+
+    <button class="sidebar-btn" onclick="App.openImportModal()" title="Import from Word Editor">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      <span class="tooltip">Import Audio</span>
+    </button>
+    <button class="sidebar-btn" onclick="App.generateScenes()" title="AI: Generate scenes from audio timestamps">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      <span class="tooltip">Generate Scenes</span>
+    </button>
+    <button class="sidebar-btn" onclick="App.openProjects()" title="My Projects">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+      <span class="tooltip">Projects</span>
+    </button>
+    <button class="sidebar-btn" onclick="App.createNew()" title="New Project">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+      <span class="tooltip">New Project</span>
+    </button>
+  </div>
+
+  <!-- ===== CANVAS ===== -->
+  <div class="canvas-area" id="canvas-area">
+    <!-- Toolbar -->
+    <div class="canvas-toolbar" id="canvas-toolbar">
+      <button class="btn" onclick="App.addTextElement()" title="Add Text">T</button>
+      <button class="btn" onclick="App.addImageElement()" title="Add Image">🖼</button>
+      <button class="btn" onclick="App.addShapeElement()" title="Add Shape">▢</button>
+    </div>
+
+    <!-- Canvas scaler (sets visual size) -->
+    <div class="canvas-scaler" id="canvas-scaler">
+      <!-- Canvas wrapper (1920x1080, scaled via CSS transform) -->
+      <div class="canvas-wrapper" id="canvas-wrapper">
+        <div class="canvas-stage" id="canvas-stage">
+        <!-- Empty state when no project -->
+        <div class="empty-state" id="empty-state">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2">
+            <rect x="4" y="8" width="40" height="28" rx="3"/>
+            <polygon points="20,16 20,30 32,23" fill="currentColor" opacity="0.3"/>
+            <line x1="4" y1="38" x2="44" y2="38" stroke-dasharray="3,3" opacity="0.3"/>
+            <circle cx="12" cy="14" r="2" opacity="0.3"/>
+            <circle cx="36" cy="14" r="2" opacity="0.3"/>
+          </svg>
+          <h3>Video Composer</h3>
+          <p>Import audio from Word Editor to start building your video.<br>Elements appear and animate in sync with your audio.</p>
+          <div style="display:flex;gap:10px;margin-top:12px">
+            <button class="btn primary" onclick="App.openImportModal()" style="padding:8px 20px;font-size:14px">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Import Audio
+            </button>
+            <button class="btn" onclick="App.createNew()" style="padding:8px 20px;font-size:14px">New Project</button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PROPERTIES PANEL ===== -->
+  <div class="properties" id="properties-panel">
+    <div id="props-content">
+      <div class="empty-state" style="padding:20px">
+        <p style="font-size:12px;color:var(--text-dim)">Select an element to edit its properties</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== TIMELINE ===== -->
+  <div class="timeline" id="timeline">
+    <!-- Drag handle to resize the timeline area -->
+    <div class="timeline-resize-handle" id="timeline-resize-handle"></div>
+    <!-- Audio info bar -->
+    <div class="audio-info" id="audio-info"></div>
+
+    <div class="scene-strip" id="scene-strip">
+      <button class="scene-chip active" data-scene="default" onclick="App.selectScene('default')">Scene 1</button>
+    </div>
+    <div class="timeline-toolbar">
+      <button class="btn sm" onclick="App.addScene()">+ Scene</button>
+      <button class="btn sm" onclick="App.deleteScene()">🗑 Scene</button>
+      <div style="flex:1"></div>
+      <span id="scene-info" style="font-size:12px;color:var(--text-dim)">No scenes</span>
+    </div>
+    <div class="timeline-tracks" id="timeline-tracks">
+      <div class="empty-state" style="padding:16px">
+        <p style="font-size:12px;color:var(--text-dim)">Add elements to see them on the timeline</p>
+      </div>
+      <div class="timeline-playhead" id="playhead" style="left:0px;top:0"></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Toast container -->
+<div class="toast-container" id="toast-container"></div>
+
+<!-- Hidden file input for image import -->
+<input type="file" id="file-input" accept="image/*" style="display:none" onchange="App.handleImageUpload(event)">
+
+<script src="app.js?v=12"></script>
+</body>
+</html>

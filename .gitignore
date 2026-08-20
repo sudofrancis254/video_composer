@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Large binary / user data — keep scene/meta configs but exclude audio & images
+projects/*/source.mp3
+projects/*/source.wav
+projects/*/images/
+projects/*/export/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Logs
+logs/*.log
+
+# Temp
+*.tmp
+*.bak

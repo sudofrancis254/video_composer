@@ -1,0 +1,2503 @@
+[
+  {
+    "name": "hook",
+    "duration": 93,
+    "bg_color": "#0e1116",
+    "elements": [
+      {
+        "id": "el_7a1fcd9654d5",
+        "type": "caption",
+        "content": "In my last video I gave",
+        "x": 6.25,
+        "y": 87.03703703703704,
+        "width": 90,
+        "height": 15,
+        "start": 0.1,
+        "end": 1.825,
+        "words": [
+          {
+            "text": "In",
+            "start": 0.1,
+            "end": 0.287
+          },
+          {
+            "text": "my",
+            "start": 0.3,
+            "end": 0.438
+          },
+          {
+            "text": "last",
+            "start": 0.45,
+            "end": 0.787
+          },
+          {
+            "text": "video",
+            "start": 0.8,
+            "end": 1.15
+          },
+          {
+            "text": "I",
+            "start": 1.387,
+            "end": 1.475
+          },
+          {
+            "text": "gave",
+            "start": 1.488,
+            "end": 1.725
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_d0db48e636c4",
+        "type": "caption",
+        "content": "you a tour of the POSTemplate",
+        "x": 7.291666666666667,
+        "y": 90.74074074074075,
+        "width": 90,
+        "height": 15,
+        "start": 1.738,
+        "end": 3.513,
+        "words": [
+          {
+            "text": "you",
+            "start": 1.738,
+            "end": 1.875
+          },
+          {
+            "text": "a",
+            "start": 1.887,
+            "end": 1.95
+          },
+          {
+            "text": "tour",
+            "start": 1.962,
+            "end": 2.263
+          },
+          {
+            "text": "of",
+            "start": 2.275,
+            "end": 2.375
+          },
+          {
+            "text": "the",
+            "start": 2.388,
+            "end": 2.487
+          },
+          {
+            "text": "POSTemplate",
+            "start": 2.5,
+            "end": 3.413
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_072edbed2e5a",
+        "type": "caption",
+        "content": "codebase a real point-of-sale system built",
+        "x": 6.25,
+        "y": 88.88888888888889,
+        "width": 90,
+        "height": 15,
+        "start": 3.425,
+        "end": 6.137,
+        "words": [
+          {
+            "text": "codebase",
+            "start": 3.425,
+            "end": 4.112
+          },
+          {
+            "text": "a",
+            "start": 4.3,
+            "end": 4.35
+          },
+          {
+            "text": "real",
+            "start": 4.362,
+            "end": 4.675
+          },
+          {
+            "text": "point-of-sale",
+            "start": 4.688,
+            "end": 5.35
+          },
+          {
+            "text": "system",
+            "start": 5.362,
+            "end": 5.75
+          },
+          {
+            "text": "built",
+            "start": 5.763,
+            "end": 6.037
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_d0ddb4acc78e",
+        "type": "caption",
+        "content": "with Apps Script",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 6.05,
+        "end": 7,
+        "words": [
+          {
+            "text": "with",
+            "start": 6.05,
+            "end": 6.188
+          },
+          {
+            "text": "Apps",
+            "start": 6.2,
+            "end": 6.438
+          },
+          {
+            "text": "Script",
+            "start": 6.45,
+            "end": 6.9
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_f35f32d6e9d1",
+        "type": "caption",
+        "content": "We walked through every layer the",
+        "x": 7.291666666666667,
+        "y": 88.88888888888889,
+        "width": 90,
+        "height": 15,
+        "start": 7.763,
+        "end": 9.65,
+        "words": [
+          {
+            "text": "We",
+            "start": 7.763,
+            "end": 7.975
+          },
+          {
+            "text": "walked",
+            "start": 7.987,
+            "end": 8.287
+          },
+          {
+            "text": "through",
+            "start": 8.3,
+            "end": 8.55
+          },
+          {
+            "text": "every",
+            "start": 8.562,
+            "end": 8.825
+          },
+          {
+            "text": "layer",
+            "start": 8.838,
+            "end": 9.213
+          },
+          {
+            "text": "the",
+            "start": 9.463,
+            "end": 9.55
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_2bb8dc15ae53",
+        "type": "caption",
+        "content": "database the business logic the security",
+        "x": 5.208333333333334,
+        "y": 88.88888888888889,
+        "width": 90,
+        "height": 15,
+        "start": 9.562,
+        "end": 12.45,
+        "words": [
+          {
+            "text": "database",
+            "start": 9.562,
+            "end": 10.238
+          },
+          {
+            "text": "the",
+            "start": 10.375,
+            "end": 10.475
+          },
+          {
+            "text": "business",
+            "start": 10.488,
+            "end": 10.887
+          },
+          {
+            "text": "logic",
+            "start": 10.9,
+            "end": 11.387
+          },
+          {
+            "text": "the",
+            "start": 11.575,
+            "end": 11.662
+          },
+          {
+            "text": "security",
+            "start": 11.675,
+            "end": 12.35
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_6db23b34eec7",
+        "type": "caption",
+        "content": "And at the end I made",
+        "x": 5.208333333333334,
+        "y": 90.74074074074075,
+        "width": 90,
+        "height": 15,
+        "start": 13.213,
+        "end": 14.588,
+        "words": [
+          {
+            "text": "And",
+            "start": 13.213,
+            "end": 13.412
+          },
+          {
+            "text": "at",
+            "start": 13.425,
+            "end": 13.512
+          },
+          {
+            "text": "the",
+            "start": 13.525,
+            "end": 13.675
+          },
+          {
+            "text": "end",
+            "start": 13.688,
+            "end": 13.988
+          },
+          {
+            "text": "I",
+            "start": 14.188,
+            "end": 14.25
+          },
+          {
+            "text": "made",
+            "start": 14.262,
+            "end": 14.488
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_6e2a284999c3",
+        "type": "caption",
+        "content": "a promise one more video first",
+        "x": 5.208333333333334,
+        "y": 90.74074074074075,
+        "width": 90,
+        "height": 15,
+        "start": 14.5,
+        "end": 16.788,
+        "words": [
+          {
+            "text": "a",
+            "start": 14.5,
+            "end": 14.55
+          },
+          {
+            "text": "promise",
+            "start": 14.562,
+            "end": 15.05
+          },
+          {
+            "text": "one",
+            "start": 15.238,
+            "end": 15.488
+          },
+          {
+            "text": "more",
+            "start": 15.5,
+            "end": 15.688
+          },
+          {
+            "text": "video",
+            "start": 15.7,
+            "end": 16.075
+          },
+          {
+            "text": "first",
+            "start": 16.087,
+            "end": 16.688
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_2fa357298ab6",
+        "type": "caption",
+        "content": "How to plan a codebase like",
+        "x": 6.25,
+        "y": 88.88888888888889,
+        "width": 90,
+        "height": 15,
+        "start": 17.55,
+        "end": 19.2,
+        "words": [
+          {
+            "text": "How",
+            "start": 17.55,
+            "end": 17.775
+          },
+          {
+            "text": "to",
+            "start": 17.788,
+            "end": 17.913
+          },
+          {
+            "text": "plan",
+            "start": 17.925,
+            "end": 18.175
+          },
+          {
+            "text": "a",
+            "start": 18.188,
+            "end": 18.238
+          },
+          {
+            "text": "codebase",
+            "start": 18.25,
+            "end": 18.9
+          },
+          {
+            "text": "like",
+            "start": 18.913,
+            "end": 19.1
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_ff063f72f924",
+        "type": "caption",
+        "content": "this before you write a single",
+        "x": 5.208333333333334,
+        "y": 90.74074074074075,
+        "width": 90,
+        "height": 15,
+        "start": 19.113,
+        "end": 20.588,
+        "words": [
+          {
+            "text": "this",
+            "start": 19.113,
+            "end": 19.312
+          },
+          {
+            "text": "before",
+            "start": 19.325,
+            "end": 19.613
+          },
+          {
+            "text": "you",
+            "start": 19.625,
+            "end": 19.775
+          },
+          {
+            "text": "write",
+            "start": 19.788,
+            "end": 20.025
+          },
+          {
+            "text": "a",
+            "start": 20.038,
+            "end": 20.1
+          },
+          {
+            "text": "single",
+            "start": 20.113,
+            "end": 20.488
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_6ac14f9604b0",
+        "type": "caption",
+        "content": "line of code",
+        "x": 7.291666666666667,
+        "y": 88.88888888888889,
+        "width": 90,
+        "height": 15,
+        "start": 20.5,
+        "end": 21.425,
+        "words": [
+          {
+            "text": "line",
+            "start": 20.5,
+            "end": 20.725
+          },
+          {
+            "text": "of",
+            "start": 20.738,
+            "end": 20.825
+          },
+          {
+            "text": "code",
+            "start": 20.837,
+            "end": 21.325
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_0e83027980d8",
+        "type": "caption",
+        "content": "This is that video",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 22.188,
+        "end": 23.375,
+        "words": [
+          {
+            "text": "This",
+            "start": 22.188,
+            "end": 22.438
+          },
+          {
+            "text": "is",
+            "start": 22.45,
+            "end": 22.562
+          },
+          {
+            "text": "that",
+            "start": 22.575,
+            "end": 22.788
+          },
+          {
+            "text": "video",
+            "start": 22.8,
+            "end": 23.275
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_a74230111d5e",
+        "type": "caption",
+        "content": "Here's what I didn't fully explain",
+        "x": 6.25,
+        "y": 87.03703703703704,
+        "width": 90,
+        "height": 15,
+        "start": 24.137,
+        "end": 25.85,
+        "words": [
+          {
+            "text": "Here's",
+            "start": 24.137,
+            "end": 24.45
+          },
+          {
+            "text": "what",
+            "start": 24.462,
+            "end": 24.625
+          },
+          {
+            "text": "I",
+            "start": 24.637,
+            "end": 24.712
+          },
+          {
+            "text": "didn't",
+            "start": 24.725,
+            "end": 25
+          },
+          {
+            "text": "fully",
+            "start": 25.012,
+            "end": 25.275
+          },
+          {
+            "text": "explain",
+            "start": 25.288,
+            "end": 25.75
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_1024578da00e",
+        "type": "caption",
+        "content": "last time though",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 25.762,
+        "end": 27.088,
+        "words": [
+          {
+            "text": "last",
+            "start": 25.762,
+            "end": 26.1
+          },
+          {
+            "text": "time",
+            "start": 26.113,
+            "end": 26.475
+          },
+          {
+            "text": "though",
+            "start": 26.675,
+            "end": 26.988
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_091fcf275014",
+        "type": "caption",
+        "content": "That codebase wasn't just organized it",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 27.85,
+        "end": 30.225,
+        "words": [
+          {
+            "text": "That",
+            "start": 27.85,
+            "end": 28.113
+          },
+          {
+            "text": "codebase",
+            "start": 28.125,
+            "end": 28.675
+          },
+          {
+            "text": "wasn't",
+            "start": 28.688,
+            "end": 29
+          },
+          {
+            "text": "just",
+            "start": 29.012,
+            "end": 29.238
+          },
+          {
+            "text": "organized",
+            "start": 29.25,
+            "end": 29.85
+          },
+          {
+            "text": "it",
+            "start": 30.05,
+            "end": 30.125
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_652749a4ef56",
+        "type": "caption",
+        "content": "was built to be read by",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 30.137,
+        "end": 31.3,
+        "words": [
+          {
+            "text": "was",
+            "start": 30.137,
+            "end": 30.275
+          },
+          {
+            "text": "built",
+            "start": 30.288,
+            "end": 30.525
+          },
+          {
+            "text": "to",
+            "start": 30.538,
+            "end": 30.6
+          },
+          {
+            "text": "be",
+            "start": 30.613,
+            "end": 30.7
+          },
+          {
+            "text": "read",
+            "start": 30.712,
+            "end": 31.025
+          },
+          {
+            "text": "by",
+            "start": 31.038,
+            "end": 31.2
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_5a413cb95016",
+        "type": "caption",
+        "content": "two different readers",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 31.212,
+        "end": 32.488,
+        "words": [
+          {
+            "text": "two",
+            "start": 31.212,
+            "end": 31.512
+          },
+          {
+            "text": "different",
+            "start": 31.525,
+            "end": 31.875
+          },
+          {
+            "text": "readers",
+            "start": 31.887,
+            "end": 32.388
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_a693380505c9",
+        "type": "caption",
+        "content": "Humans",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 33.25,
+        "end": 34.038,
+        "words": [
+          {
+            "text": "Humans",
+            "start": 33.25,
+            "end": 33.938
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_6dca9a4d2b85",
+        "type": "caption",
+        "content": "And AI coding assistants",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 34.8,
+        "end": 36.45,
+        "words": [
+          {
+            "text": "And",
+            "start": 34.8,
+            "end": 35.013
+          },
+          {
+            "text": "AI",
+            "start": 35.025,
+            "end": 35.275
+          },
+          {
+            "text": "coding",
+            "start": 35.288,
+            "end": 35.675
+          },
+          {
+            "text": "assistants",
+            "start": 35.688,
+            "end": 36.35
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_fed44a71f15b",
+        "type": "caption",
+        "content": "Every file every naming choice every",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 37.212,
+        "end": 39.763,
+        "words": [
+          {
+            "text": "Every",
+            "start": 37.212,
+            "end": 37.513
+          },
+          {
+            "text": "file",
+            "start": 37.525,
+            "end": 37.938
+          },
+          {
+            "text": "every",
+            "start": 38.175,
+            "end": 38.375
+          },
+          {
+            "text": "naming",
+            "start": 38.388,
+            "end": 38.763
+          },
+          {
+            "text": "choice",
+            "start": 38.775,
+            "end": 39.225
+          },
+          {
+            "text": "every",
+            "start": 39.438,
+            "end": 39.663
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_5c8480756019",
+        "type": "caption",
+        "content": "doc built with both in mind",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 39.675,
+        "end": 41.725,
+        "words": [
+          {
+            "text": "doc",
+            "start": 39.675,
+            "end": 40.038
+          },
+          {
+            "text": "built",
+            "start": 40.25,
+            "end": 40.487
+          },
+          {
+            "text": "with",
+            "start": 40.5,
+            "end": 40.638
+          },
+          {
+            "text": "both",
+            "start": 40.65,
+            "end": 40.938
+          },
+          {
+            "text": "in",
+            "start": 40.95,
+            "end": 41.062
+          },
+          {
+            "text": "mind",
+            "start": 41.075,
+            "end": 41.625
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_e4ea0cec1e25",
+        "type": "caption",
+        "content": "I know agent-ready sounds like a",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 42.487,
+        "end": 44.25,
+        "words": [
+          {
+            "text": "I",
+            "start": 42.487,
+            "end": 42.612
+          },
+          {
+            "text": "know",
+            "start": 42.625,
+            "end": 42.875
+          },
+          {
+            "text": "agent-ready",
+            "start": 43,
+            "end": 43.5
+          },
+          {
+            "text": "sounds",
+            "start": 43.513,
+            "end": 43.888
+          },
+          {
+            "text": "like",
+            "start": 43.9,
+            "end": 44.075
+          },
+          {
+            "text": "a",
+            "start": 44.087,
+            "end": 44.15
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#ed0707",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        },
+        "animation": {
+          "type": "elastic",
+          "duration": 0.8
+        }
+      },
+      {
+        "id": "el_0ada58327b16",
+        "type": "caption",
+        "content": "buzzword",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 44.163,
+        "end": 44.788,
+        "words": [
+          {
+            "text": "buzzword",
+            "start": 44.163,
+            "end": 44.688
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_2bf9665c1f9c",
+        "type": "caption",
+        "content": "I thought so too",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 45.55,
+        "end": 46.687,
+        "words": [
+          {
+            "text": "I",
+            "start": 45.55,
+            "end": 45.7
+          },
+          {
+            "text": "thought",
+            "start": 45.712,
+            "end": 45.938
+          },
+          {
+            "text": "so",
+            "start": 45.95,
+            "end": 46.138
+          },
+          {
+            "text": "too",
+            "start": 46.15,
+            "end": 46.587
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_9a48f2b124ef",
+        "type": "caption",
+        "content": "Until I saw how much less",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 47.45,
+        "end": 48.962,
+        "words": [
+          {
+            "text": "Until",
+            "start": 47.45,
+            "end": 47.788
+          },
+          {
+            "text": "I",
+            "start": 47.8,
+            "end": 47.888
+          },
+          {
+            "text": "saw",
+            "start": 47.9,
+            "end": 48.163
+          },
+          {
+            "text": "how",
+            "start": 48.175,
+            "end": 48.35
+          },
+          {
+            "text": "much",
+            "start": 48.362,
+            "end": 48.587
+          },
+          {
+            "text": "less",
+            "start": 48.6,
+            "end": 48.862
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_b64524dc6211",
+        "type": "caption",
+        "content": "my AI guessed once the docs",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 48.875,
+        "end": 50.538,
+        "words": [
+          {
+            "text": "my",
+            "start": 48.875,
+            "end": 49.075
+          },
+          {
+            "text": "AI",
+            "start": 49.087,
+            "end": 49.35
+          },
+          {
+            "text": "guessed",
+            "start": 49.362,
+            "end": 49.688
+          },
+          {
+            "text": "once",
+            "start": 49.7,
+            "end": 49.987
+          },
+          {
+            "text": "the",
+            "start": 50,
+            "end": 50.1
+          },
+          {
+            "text": "docs",
+            "start": 50.112,
+            "end": 50.438
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_973a85e25175",
+        "type": "caption",
+        "content": "were in place",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 50.45,
+        "end": 51.35,
+        "words": [
+          {
+            "text": "were",
+            "start": 50.45,
+            "end": 50.6
+          },
+          {
+            "text": "in",
+            "start": 50.612,
+            "end": 50.7
+          },
+          {
+            "text": "place",
+            "start": 50.712,
+            "end": 51.25
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_b06e300e07d2",
+        "type": "caption",
+        "content": "Because here's the thing about AI",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 52.112,
+        "end": 53.925,
+        "words": [
+          {
+            "text": "Because",
+            "start": 52.112,
+            "end": 52.425
+          },
+          {
+            "text": "here's",
+            "start": 52.438,
+            "end": 52.725
+          },
+          {
+            "text": "the",
+            "start": 52.737,
+            "end": 52.837
+          },
+          {
+            "text": "thing",
+            "start": 52.85,
+            "end": 53.062
+          },
+          {
+            "text": "about",
+            "start": 53.075,
+            "end": 53.413
+          },
+          {
+            "text": "AI",
+            "start": 53.425,
+            "end": 53.825
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_3f0bb9a3062a",
+        "type": "caption",
+        "content": "it's incredible at building",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 54,
+        "end": 55.388,
+        "words": [
+          {
+            "text": "it's",
+            "start": 54,
+            "end": 54.138
+          },
+          {
+            "text": "incredible",
+            "start": 54.15,
+            "end": 54.7
+          },
+          {
+            "text": "at",
+            "start": 54.712,
+            "end": 54.812
+          },
+          {
+            "text": "building",
+            "start": 54.825,
+            "end": 55.288
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_7a0ea12da5c1",
+        "type": "caption",
+        "content": "But without a plan it has",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 56.15,
+        "end": 57.65,
+        "words": [
+          {
+            "text": "But",
+            "start": 56.15,
+            "end": 56.325
+          },
+          {
+            "text": "without",
+            "start": 56.337,
+            "end": 56.663
+          },
+          {
+            "text": "a",
+            "start": 56.675,
+            "end": 56.725
+          },
+          {
+            "text": "plan",
+            "start": 56.737,
+            "end": 57.112
+          },
+          {
+            "text": "it",
+            "start": 57.275,
+            "end": 57.35
+          },
+          {
+            "text": "has",
+            "start": 57.362,
+            "end": 57.55
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_81230c9e20d6",
+        "type": "caption",
+        "content": "to guess what you actually want",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 57.562,
+        "end": 59.25,
+        "words": [
+          {
+            "text": "to",
+            "start": 57.562,
+            "end": 57.663
+          },
+          {
+            "text": "guess",
+            "start": 57.675,
+            "end": 57.938
+          },
+          {
+            "text": "what",
+            "start": 57.95,
+            "end": 58.138
+          },
+          {
+            "text": "you",
+            "start": 58.15,
+            "end": 58.288
+          },
+          {
+            "text": "actually",
+            "start": 58.3,
+            "end": 58.688
+          },
+          {
+            "text": "want",
+            "start": 58.7,
+            "end": 59.15
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_24d8817d3819",
+        "type": "caption",
+        "content": "And when it guesses your codebase",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 60.013,
+        "end": 61.937,
+        "words": [
+          {
+            "text": "And",
+            "start": 60.013,
+            "end": 60.212
+          },
+          {
+            "text": "when",
+            "start": 60.225,
+            "end": 60.388
+          },
+          {
+            "text": "it",
+            "start": 60.4,
+            "end": 60.513
+          },
+          {
+            "text": "guesses",
+            "start": 60.525,
+            "end": 60.938
+          },
+          {
+            "text": "your",
+            "start": 61.062,
+            "end": 61.212
+          },
+          {
+            "text": "codebase",
+            "start": 61.225,
+            "end": 61.837
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_3390e802af00",
+        "type": "caption",
+        "content": "pays for it",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 61.85,
+        "end": 62.725,
+        "words": [
+          {
+            "text": "pays",
+            "start": 61.85,
+            "end": 62.188
+          },
+          {
+            "text": "for",
+            "start": 62.2,
+            "end": 62.375
+          },
+          {
+            "text": "it",
+            "start": 62.388,
+            "end": 62.625
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_f1d204f5232c",
+        "type": "caption",
+        "content": "So here's the deal",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 63.487,
+        "end": 64.625,
+        "words": [
+          {
+            "text": "So",
+            "start": 63.487,
+            "end": 63.7
+          },
+          {
+            "text": "here's",
+            "start": 63.712,
+            "end": 63.975
+          },
+          {
+            "text": "the",
+            "start": 63.987,
+            "end": 64.075
+          },
+          {
+            "text": "deal",
+            "start": 64.088,
+            "end": 64.525
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_357375d490a3",
+        "type": "caption",
+        "content": "By the end of this video",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 65.388,
+        "end": 66.688,
+        "words": [
+          {
+            "text": "By",
+            "start": 65.388,
+            "end": 65.575
+          },
+          {
+            "text": "the",
+            "start": 65.588,
+            "end": 65.737
+          },
+          {
+            "text": "end",
+            "start": 65.75,
+            "end": 65.912
+          },
+          {
+            "text": "of",
+            "start": 65.925,
+            "end": 66
+          },
+          {
+            "text": "this",
+            "start": 66.013,
+            "end": 66.2
+          },
+          {
+            "text": "video",
+            "start": 66.213,
+            "end": 66.588
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_eda8845e2cc0",
+        "type": "caption",
+        "content": "you'll know exactly which files to",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 66.812,
+        "end": 68.45,
+        "words": [
+          {
+            "text": "you'll",
+            "start": 66.812,
+            "end": 66.95
+          },
+          {
+            "text": "know",
+            "start": 66.963,
+            "end": 67.15
+          },
+          {
+            "text": "exactly",
+            "start": 67.162,
+            "end": 67.625
+          },
+          {
+            "text": "which",
+            "start": 67.638,
+            "end": 67.85
+          },
+          {
+            "text": "files",
+            "start": 67.862,
+            "end": 68.25
+          },
+          {
+            "text": "to",
+            "start": 68.263,
+            "end": 68.35
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_e0c84767f5a2",
+        "type": "caption",
+        "content": "create before your AI writes a",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 68.362,
+        "end": 70.025,
+        "words": [
+          {
+            "text": "create",
+            "start": 68.362,
+            "end": 68.713
+          },
+          {
+            "text": "before",
+            "start": 68.725,
+            "end": 68.987
+          },
+          {
+            "text": "your",
+            "start": 69,
+            "end": 69.213
+          },
+          {
+            "text": "AI",
+            "start": 69.225,
+            "end": 69.475
+          },
+          {
+            "text": "writes",
+            "start": 69.487,
+            "end": 69.85
+          },
+          {
+            "text": "a",
+            "start": 69.862,
+            "end": 69.925
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_f5fb405ef6f9",
+        "type": "caption",
+        "content": "single line what goes inside each",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 69.938,
+        "end": 72.1,
+        "words": [
+          {
+            "text": "single",
+            "start": 69.938,
+            "end": 70.3
+          },
+          {
+            "text": "line",
+            "start": 70.312,
+            "end": 70.675
+          },
+          {
+            "text": "what",
+            "start": 70.875,
+            "end": 71.013
+          },
+          {
+            "text": "goes",
+            "start": 71.025,
+            "end": 71.263
+          },
+          {
+            "text": "inside",
+            "start": 71.275,
+            "end": 71.763
+          },
+          {
+            "text": "each",
+            "start": 71.775,
+            "end": 72
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_0db30f44cdb3",
+        "type": "caption",
+        "content": "one and how to lay out",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 72.013,
+        "end": 73.363,
+        "words": [
+          {
+            "text": "one",
+            "start": 72.013,
+            "end": 72.312
+          },
+          {
+            "text": "and",
+            "start": 72.513,
+            "end": 72.612
+          },
+          {
+            "text": "how",
+            "start": 72.625,
+            "end": 72.787
+          },
+          {
+            "text": "to",
+            "start": 72.8,
+            "end": 72.925
+          },
+          {
+            "text": "lay",
+            "start": 72.938,
+            "end": 73.112
+          },
+          {
+            "text": "out",
+            "start": 73.125,
+            "end": 73.263
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_bcc2390c715a",
+        "type": "caption",
+        "content": "a project so an AI can",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 73.275,
+        "end": 74.575,
+        "words": [
+          {
+            "text": "a",
+            "start": 73.275,
+            "end": 73.338
+          },
+          {
+            "text": "project",
+            "start": 73.35,
+            "end": 73.737
+          },
+          {
+            "text": "so",
+            "start": 73.75,
+            "end": 73.9
+          },
+          {
+            "text": "an",
+            "start": 73.912,
+            "end": 74.025
+          },
+          {
+            "text": "AI",
+            "start": 74.037,
+            "end": 74.3
+          },
+          {
+            "text": "can",
+            "start": 74.312,
+            "end": 74.475
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_c58bd076b74a",
+        "type": "caption",
+        "content": "move through it like it already",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 74.487,
+        "end": 75.875,
+        "words": [
+          {
+            "text": "move",
+            "start": 74.487,
+            "end": 74.75
+          },
+          {
+            "text": "through",
+            "start": 74.763,
+            "end": 74.975
+          },
+          {
+            "text": "it",
+            "start": 74.987,
+            "end": 75.088
+          },
+          {
+            "text": "like",
+            "start": 75.1,
+            "end": 75.287
+          },
+          {
+            "text": "it",
+            "start": 75.3,
+            "end": 75.4
+          },
+          {
+            "text": "already",
+            "start": 75.412,
+            "end": 75.775
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_34cbbd32bae3",
+        "type": "caption",
+        "content": "knows the place",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 75.787,
+        "end": 76.8,
+        "words": [
+          {
+            "text": "knows",
+            "start": 75.787,
+            "end": 76.1
+          },
+          {
+            "text": "the",
+            "start": 76.112,
+            "end": 76.188
+          },
+          {
+            "text": "place",
+            "start": 76.2,
+            "end": 76.7
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_b741fae792e4",
+        "type": "caption",
+        "content": "We're covering four things why codebases",
+        "x": 5,
+        "y": 80,
+        "width": 90,
+        "height": 15,
+        "start": 77.562,
+        "end": 80.313,
+        "words": [
+          {
+            "text": "We're",
+            "start": 77.562,
+            "end": 77.862
+          },
+          {
+            "text": "covering",
+            "start": 77.875,
+            "end": 78.3
+          },
+          {
+            "text": "four",
+            "start": 78.312,
+            "end": 78.487
+          },
+          {
+            "text": "things",
+            "start": 78.5,
+            "end": 78.987
+          },
+          {
+            "text": "why",
+            "start": 79.213,
+            "end": 79.475
+          },
+          {
+            "text": "codebases",
+            "start": 79.487,
+            "end": 80.213
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_69e4df2eb70a",
+        "type": "caption",
+        "content": "fall apart five files that fix",
+        "x": 5.208333333333334,
+        "y": 74.07407407407408,
+        "width": 90,
+        "height": 15,
+        "start": 80.225,
+        "end": 82.4,
+        "words": [
+          {
+            "text": "fall",
+            "start": 80.225,
+            "end": 80.45
+          },
+          {
+            "text": "apart",
+            "start": 80.463,
+            "end": 80.938
+          },
+          {
+            "text": "five",
+            "start": 81.138,
+            "end": 81.45
+          },
+          {
+            "text": "files",
+            "start": 81.463,
+            "end": 81.85
+          },
+          {
+            "text": "that",
+            "start": 81.862,
+            "end": 82.013
+          },
+          {
+            "text": "fix",
+            "start": 82.025,
+            "end": 82.3
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_49c077056551",
+        "type": "caption",
+        "content": "it a quick look at the",
+        "x": 7.291666666666667,
+        "y": 87.03703703703704,
+        "width": 90,
+        "height": 15,
+        "start": 82.312,
+        "end": 83.488,
+        "words": [
+          {
+            "text": "it",
+            "start": 82.312,
+            "end": 82.463
+          },
+          {
+            "text": "a",
+            "start": 82.675,
+            "end": 82.737
+          },
+          {
+            "text": "quick",
+            "start": 82.75,
+            "end": 83
+          },
+          {
+            "text": "look",
+            "start": 83.013,
+            "end": 83.225
+          },
+          {
+            "text": "at",
+            "start": 83.237,
+            "end": 83.287
+          },
+          {
+            "text": "the",
+            "start": 83.3,
+            "end": 83.388
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_ae3e9d51780f",
+        "type": "caption",
+        "content": "small rules that hold it together",
+        "x": 5.208333333333334,
+        "y": 68.51851851851852,
+        "width": 90,
+        "height": 15,
+        "start": 83.4,
+        "end": 85.137,
+        "words": [
+          {
+            "text": "small",
+            "start": 83.4,
+            "end": 83.812
+          },
+          {
+            "text": "rules",
+            "start": 83.825,
+            "end": 84.15
+          },
+          {
+            "text": "that",
+            "start": 84.162,
+            "end": 84.275
+          },
+          {
+            "text": "hold",
+            "start": 84.287,
+            "end": 84.475
+          },
+          {
+            "text": "it",
+            "start": 84.487,
+            "end": 84.575
+          },
+          {
+            "text": "together",
+            "start": 84.588,
+            "end": 85.037
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_a2f998e056ff",
+        "type": "caption",
+        "content": "and one idea at the end",
+        "x": 5.208333333333334,
+        "y": 0,
+        "width": 90,
+        "height": 15,
+        "start": 85.213,
+        "end": 86.613,
+        "words": [
+          {
+            "text": "and",
+            "start": 85.213,
+            "end": 85.362
+          },
+          {
+            "text": "one",
+            "start": 85.375,
+            "end": 85.588
+          },
+          {
+            "text": "idea",
+            "start": 85.6,
+            "end": 86.05
+          },
+          {
+            "text": "at",
+            "start": 86.062,
+            "end": 86.138
+          },
+          {
+            "text": "the",
+            "start": 86.15,
+            "end": 86.3
+          },
+          {
+            "text": "end",
+            "start": 86.312,
+            "end": 86.513
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_d236ec48a73a",
+        "type": "caption",
+        "content": "that changes how you'll think about",
+        "x": 8.333333333333332,
+        "y": 20.37037037037037,
+        "width": 90,
+        "height": 15,
+        "start": 86.525,
+        "end": 88.15,
+        "words": [
+          {
+            "text": "that",
+            "start": 86.525,
+            "end": 86.675
+          },
+          {
+            "text": "changes",
+            "start": 86.688,
+            "end": 87.112
+          },
+          {
+            "text": "how",
+            "start": 87.125,
+            "end": 87.3
+          },
+          {
+            "text": "you'll",
+            "start": 87.312,
+            "end": 87.5
+          },
+          {
+            "text": "think",
+            "start": 87.513,
+            "end": 87.75
+          },
+          {
+            "text": "about",
+            "start": 87.763,
+            "end": 88.05
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_dffa3544064f",
+        "type": "caption",
+        "content": "markdown files forever",
+        "x": 1.0416666666666665,
+        "y": 48.148148148148145,
+        "width": 90,
+        "height": 15,
+        "start": 88.062,
+        "end": 89.675,
+        "words": [
+          {
+            "text": "markdown",
+            "start": 88.062,
+            "end": 88.588
+          },
+          {
+            "text": "files",
+            "start": 88.6,
+            "end": 89.062
+          },
+          {
+            "text": "forever",
+            "start": 89.075,
+            "end": 89.575
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "id": "el_a132b7602265",
+        "type": "caption",
+        "content": "Let's build the blueprint",
+        "x": 5.208333333333334,
+        "y": 11.11111111111111,
+        "width": 90,
+        "height": 15,
+        "start": 90.438,
+        "end": 91.825,
+        "words": [
+          {
+            "text": "Let's",
+            "start": 90.438,
+            "end": 90.75
+          },
+          {
+            "text": "build",
+            "start": 90.763,
+            "end": 91
+          },
+          {
+            "text": "the",
+            "start": 91.013,
+            "end": 91.088
+          },
+          {
+            "text": "blueprint",
+            "start": 91.1,
+            "end": 91.725
+          }
+        ],
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.7)",
+          "border_radius": 12,
+          "align": "center"
+        }
+      },
+      {
+        "type": "text",
+        "content": "New Text",
+        "x": 23.958333333333336,
+        "y": 1.8518518518518516,
+        "width": 30,
+        "height": 8,
+        "font": "Inter",
+        "size": 48,
+        "color": "#FFFFFF",
+        "id": "el_60375f854a59"
+      },
+      {
+        "type": "text",
+        "content": "New Text",
+        "x": 66.66666666666666,
+        "y": 35.18518518518518,
+        "width": 30,
+        "height": 8,
+        "font": "Inter",
+        "size": 48,
+        "color": "#FFFFFF",
+        "id": "el_2d9f8878a1f9"
+      },
+      {
+        "type": "shape",
+        "x": 65.625,
+        "y": 42.592592592592595,
+        "width": 30,
+        "height": 30,
+        "fill": "#4a9eff",
+        "border_radius": 0,
+        "id": "el_bd5a0f3aedfd",
+        "end": null
+      },
+      {
+        "type": "text",
+        "content": "hey what is happening here",
+        "x": 1.0416666666666665,
+        "y": 87.03703703703704,
+        "width": 37.5,
+        "height": 7.4074074074074066,
+        "font": "Inter",
+        "size": 48,
+        "color": "#FFFFFF",
+        "id": "el_2e86727976d4"
+      },
+      {
+        "type": "shape",
+        "shape": "rect",
+        "x": 43.75,
+        "y": 35.18518518518518,
+        "width": 20,
+        "height": 20,
+        "fill": "#4a9eff",
+        "border_radius": 0,
+        "id": "el_e7f81ee3d186"
+      },
+      {
+        "type": "shape",
+        "shape": "rect",
+        "x": 72.91666666666666,
+        "y": 72.22222222222221,
+        "width": 20,
+        "height": 20,
+        "fill": "#4a9eff",
+        "border_radius": 0,
+        "id": "el_f182fdec1ef1"
+      },
+      {
+        "type": "shape",
+        "shape": "rect",
+        "x": 71.875,
+        "y": 1.8518518518518516,
+        "width": 20,
+        "height": 20,
+        "fill": "#4a9eff",
+        "border_radius": 0,
+        "id": "el_a69e08421bff"
+      },
+      {
+        "type": "shape",
+        "shape": "rect",
+        "x": 47.91666666666667,
+        "y": 72.22222222222221,
+        "width": 20,
+        "height": 20,
+        "fill": "#4a9eff",
+        "border_radius": 0,
+        "id": "el_5d608f88db10"
+      },
+      {
+        "type": "shape",
+        "shape": "triangle",
+        "x": 50,
+        "y": 1.8518518518518516,
+        "width": 12.791096558824126,
+        "height": 18.9041105768967,
+        "fill": "#4a9eff",
+        "border_radius": 0,
+        "id": "el_af6ae5eafd52"
+      },
+      {
+        "type": "image",
+        "src": "/images/d0e217336789/ChatGPT_Image_Aug_15__2026__04_26_20_PM.png",
+        "x": 0,
+        "y": 11.11111111111111,
+        "width": 41.66666666666667,
+        "height": 70.37037037037037,
+        "fit": "cover",
+        "id": "el_8d6012117a98"
+      }
+    ],
+    "audio_track": {
+      "source": "C:\\Users\\AITREC\\AppData\\Local\\VideoComposerWork\\d0e217336789\\source.mp3",
+      "words_json": "C:\\Users\\AITREC\\Videos\\video_composer\\projects\\d0e217336789\\words.json",
+      "duration": 91.7
+    },
+    "source_project": "9cf974133800",
+    "source_name": "hook",
+    "id": "scene_e2315d3fe364"
+  }
+]
