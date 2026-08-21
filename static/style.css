@@ -963,3 +963,99 @@ body {
   background: radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.5) 100%);
 }
 
+/* ---- Motion Graphic Keyframe Animations ---- */
+
+@keyframes vc-shake {
+  0%, 100% { transform: translateX(0); }
+  10% { transform: translateX(-8px) rotate(-1deg); }
+  20% { transform: translateX(8px) rotate(1deg); }
+  30% { transform: translateX(-6px) rotate(-0.5deg); }
+  40% { transform: translateX(6px) rotate(0.5deg); }
+  50% { transform: translateX(-4px); }
+  60% { transform: translateX(4px); }
+  70% { transform: translateX(-2px); }
+  80% { transform: translateX(2px); }
+  90% { transform: translateX(-1px); }
+}
+
+@keyframes vc-glitch {
+  0% { clip-path: inset(0 0 0 0); transform: translate(0); }
+  5% { clip-path: inset(20% 0 60% 0); transform: translate(-4px, 2px); }
+  10% { clip-path: inset(60% 0 10% 0); transform: translate(4px, -2px); }
+  15% { clip-path: inset(30% 0 40% 0); transform: translate(-2px, 1px); }
+  20% { clip-path: inset(0 0 0 0); transform: translate(0); }
+  100% { clip-path: inset(0 0 0 0); transform: translate(0); }
+}
+
+@keyframes vc-kinetic-in {
+  0% { transform: translateY(100%) rotate(15deg); opacity: 0; }
+  50% { transform: translateY(-5%) rotate(-2deg); opacity: 1; }
+  70% { transform: translateY(2%) rotate(1deg); }
+  100% { transform: translateY(0) rotate(0); opacity: 1; }
+}
+
+@keyframes vc-morph-scale {
+  0% { transform: scaleX(0.1) scaleY(1.5); opacity: 0; border-radius: 50%; }
+  40% { transform: scaleX(1.2) scaleY(0.8); opacity: 1; border-radius: 0; }
+  70% { transform: scaleX(0.95) scaleY(1.05); }
+  100% { transform: scaleX(1) scaleY(1); opacity: 1; border-radius: inherit; }
+}
+
+@keyframes vc-text-path {
+  0% { offset-distance: 0%; opacity: 0; }
+  20% { opacity: 1; }
+  100% { offset-distance: 100%; opacity: 1; }
+}
+
+@keyframes vc-elastic-wave {
+  0% { transform: scaleY(0.1) scaleX(1.3); }
+  25% { transform: scaleY(1.3) scaleX(0.85); }
+  50% { transform: scaleY(0.9) scaleX(1.05); }
+  75% { transform: scaleY(1.05) scaleX(0.98); }
+  100% { transform: scaleY(1) scaleX(1); }
+}
+
+@keyframes vc-glow-breathe {
+  0%, 100% { filter: drop-shadow(0 0 8px var(--glow-color, #4a9eff)); }
+  50% { filter: drop-shadow(0 0 24px var(--glow-color, #4a9eff)); }
+}
+
+@keyframes vc-counter-spin {
+  0% { transform: rotate(360deg) scale(0); opacity: 0; }
+  60% { transform: rotate(-10deg) scale(1.1); opacity: 1; }
+  80% { transform: rotate(5deg) scale(0.95); }
+  100% { transform: rotate(0deg) scale(1); opacity: 1; }
+}
+
+@keyframes vc-flip-y {
+  0% { transform: perspective(600px) rotateY(90deg); opacity: 0; }
+  60% { transform: perspective(600px) rotateY(-10deg); opacity: 1; }
+  80% { transform: perspective(600px) rotateY(5deg); }
+  100% { transform: perspective(600px) rotateY(0deg); opacity: 1; }
+}
+
+@keyframes vc-exit-shrink {
+  0% { transform: scale(1); opacity: 1; }
+  30% { transform: scale(1.05); }
+  100% { transform: scale(0) rotate(15deg); opacity: 0; }
+}
+
+@keyframes vc-exit-fly-right {
+  0% { transform: translateX(0); opacity: 1; }
+  100% { transform: translateX(120%); opacity: 0; }
+}
+
+@keyframes vc-exit-fly-up {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-120%); opacity: 0; }
+}
+
+@keyframes vc-exit-dissolve {
+  0% { filter: blur(0); opacity: 1; }
+  100% { filter: blur(12px); opacity: 0; }
+}
+
+/* Hidden element state */
+.canvas-el[data-visible="false"] {
+  display: none !important;
+}

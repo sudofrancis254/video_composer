@@ -1129,105 +1129,81 @@ const App = {
     div.dataset.eid = el.id;
     div.dataset.type = el.type;
 
-    const x = this.toPx(el.x, canvasW);
-    const y = this.toPx(el.y, canvasH);
+    let x = this.toPx(el.x, canvasW);
+    let y = this.toPx(el.y, canvasH);
     const w = this.toPx(el.width, canvasW);
-    const hh = this.toPx(el.height, canvasH);
+    let hh = this.toPx(el.height, canvasH);
 
-    div.style.left = x + 'px';
-    div.style.top = y + 'px';
-    div.style.width = w + 'px';
-    div.style.height = hh + 'px';
+    // Caption position presets override x/y
+    if (el.type === 'caption' && el.style?.position && el.style.position !== 'custom') {
+      const pos = el.style.position;
+      const xOff = (el.style.x_offset || 50) / 100;
+      const yOff = (el.style.y_offset || 85) / 100;
+      if (pos === 'top') { y = canvasH * 0.05; x = canvasW * xOff - w / 2; }
+      else if (pos === 'center') { y = canvasH * 0.45; x = canvasW * xOff - w / 2; }
+      else if (pos === 'bottom') { y = canvasH * 0.82; x = canvasW * xOff - w / 2; }
+      div.style.left = x + 'px';
+      div.style.top = y + 'px';
+      div.style.width = Math.min(w, canvasW * 0.9) + 'px';
+      div.style.height = hh + 'px';
+    } else {
+      div.style.left = x + 'px';
+      div.style.top = y + 'px';
+      div.style.width = w + 'px';
+      div.style.height = hh + 'px';
+    }
 
-    // --- Animation application ---
+    // --- 3-Phase Animation system (Entrance + Emphasis + Exit) ---
     const t = this.currentTime;
-    const anim = (typeof el.animation === 'object' ? el.animation : null) || (el.animation !== 'none' ? { type: el.animation } : null);
-    const animType = anim?.type || 'none';
-    const animDur = anim?.duration || 0.5;
+    const elapsed = t - (elStart ?? 0);
+    const remaining = (elEnd ?? t) - t;
+    const elDur = (elEnd ?? 0) - (elStart ?? 0);
 
-    if (animType !== 'none') {
-      const elapsed = t - (elStart ?? 0);
-      const remaining = (elEnd ?? t) - t;
-      div.style.transition = `all ${animDur}s ease-out`;
+    // Backward compat: old { type, duration } → entrance
+    const raw = el.animation;
+    const entrance = el.entrance || (typeof raw === 'object' && raw?.type ? raw : (raw && raw !== 'none' ? { type: raw } : { type: 'none' }));
+    const emphasis = el.emphasis || { type: 'none' };
+    const exit = el.exit || { type: 'none' };
 
-      // Enter animation (first 0.5s after start)
-      if (elapsed >= 0 && elapsed < animDur + 0.1) {
-        const progress = Math.min(1, elapsed / animDur);
-        const ease = 1 - Math.pow(1 - progress, 3); // ease-out cubic
+    const enType = entrance?.type || 'none';
+    const enDur = entrance?.duration || 0.6;
+    const emType = emphasis?.type || 'none';
+    const emDur = emphasis?.duration || 0.4;
+    const exType = exit?.type || 'none';
+    const exDur = exit?.duration || 0.5;
 
-        if (animType === 'fade-in') {
-          div.style.opacity = ease;
-        } else if (animType === 'slide-up') {
-          div.style.opacity = ease;
-          div.style.transform = `translateY(${(1 - ease) * 60}px)`;
-        } else if (animType === 'slide-down') {
-          div.style.opacity = ease;
-          div.style.transform = `translateY(${(ease - 1) * 60}px)`;
-        } else if (animType === 'slide-left') {
-          div.style.opacity = ease;
-          div.style.transform = `translateX(${(1 - ease) * 80}px)`;
-        } else if (animType === 'slide-right') {
-          div.style.opacity = ease;
-          div.style.transform = `translateX(${(ease - 1) * 80}px)`;
-        } else if (animType === 'zoom-in') {
-          div.style.opacity = ease;
-          div.style.transform = `scale(${0.3 + ease * 0.7})`;
-        } else if (animType === 'zoom-out') {
-          div.style.opacity = ease;
-          div.style.transform = `scale(${1.7 - ease * 0.7})`;
-        } else if (animType === 'bounce') {
-          const bounce = ease < 0.6 ? (ease / 0.6) : 1 + Math.sin((ease - 0.6) * Math.PI * 2.5) * 0.15 * (1 - ease);
-          div.style.opacity = Math.min(1, ease * 2);
-          div.style.transform = `translateY(${(1 - bounce) * 50}px) scale(${0.8 + bounce * 0.2})`;
-        } else if (animType === 'elastic') {
-          const elastic = 1 + Math.sin(elapsed * 8) * Math.exp(-elapsed * 3) * 0.3;
-          div.style.opacity = ease;
-          div.style.transform = `scale(${elastic})`;
-        } else if (animType === 'typewriter') {
-          div.style.opacity = ease;
-          div.style.clipPath = `inset(0 ${(1 - ease) * 100}% 0 0)`;
-        } else if (animType === 'wave') {
-          div.style.opacity = ease;
-          div.style.transform = `translateY(${Math.sin(elapsed * 6) * 10 * (1 - ease)}px)`;
-        } else if (animType === 'spin-in') {
-          div.style.opacity = ease;
-          div.style.transform = `rotate(${(1 - ease) * 180}deg) scale(${0.3 + ease * 0.7})`;
-        } else if (animType === 'glow-pulse') {
-          div.style.opacity = ease;
-          const glow = Math.sin(elapsed * 4) * 0.5 + 0.5;
-          div.style.textShadow = `0 0 ${10 + glow * 20}px ${el.color || '#FFD700'}`;
-        } else if (animType === 'blur-in') {
-          div.style.opacity = ease;
-          div.style.filter = `blur(${(1 - ease) * 10}px)`;
-        } else if (animType === 'flip-in') {
-          div.style.opacity = ease;
-          div.style.transform = `perspective(400px) rotateY(${(1 - ease) * 90}deg)`;
-        }
-      }
-      // Exit animation (last 0.5s before end)
-      else if (remaining >= 0 && remaining < animDur) {
-        const progress = 1 - (remaining / animDur);
-        const ease = progress * progress; // ease-in
+    // Determine which phase we're in
+    const inEntrance = elapsed >= 0 && elapsed < enDur + 0.05;
+    const inExit = remaining >= 0 && remaining < exDur && !inEntrance;
+    const inEmphasis = !inEntrance && !inExit && elDur > enDur + exDur + 0.1;
 
-        if (animType === 'fade-out') {
-          div.style.opacity = 1 - ease;
-        } else if (animType === 'fade-in' || animType === 'slide-up' || animType === 'slide-down' ||
-                   animType === 'slide-left' || animType === 'slide-right' ||
-                   animType === 'zoom-in' || animType === 'zoom-out' ||
-                   animType === 'bounce' || animType === 'elastic' ||
-                   animType === 'typewriter' || animType === 'wave' ||
-                   animType === 'spin-in' || animType === 'glow-pulse' ||
-                   animType === 'blur-in' || animType === 'flip-in') {
-          div.style.opacity = 1 - ease;
-        }
-      }
-      // Mid-life: stable state
-      else if (elapsed >= animDur) {
-        div.style.opacity = '1';
-        div.style.transform = 'none';
-        div.style.filter = 'none';
-        div.style.clipPath = 'none';
-      }
+    // -- ENTRANCE --
+    if (inEntrance && enType !== 'none') {
+      const p = Math.min(1, elapsed / enDur);
+      const e = 1 - Math.pow(1 - p, 3);
+      this._applyAnimType(div, enType, e, elapsed, 'enter');
+    }
+    // -- EXIT --
+    else if (inExit && exType !== 'none') {
+      const p = 1 - (remaining / exDur);
+      const e = Math.min(1, p);
+      this._applyExitType(div, exType, e, remaining);
+    }
+    // -- EMPHASIS (mid-life effects) --
+    else if (inEmphasis && emType !== 'none') {
+      this._applyEmphasisType(div, emType, elapsed - enDur, elDur - enDur - exDur);
+    }
+    // -- STABLE STATE --
+    else if (elapsed >= enDur || !inEntrance) {
+      div.style.opacity = '1';
+      div.style.transform = 'none';
+      div.style.filter = 'none';
+      div.style.clipPath = 'none';
+    }
+
+    // Visibility toggle
+    if (el.visible === false) {
+      div.dataset.visible = 'false';
     }
 
     if (el.type === 'text') {
@@ -1276,6 +1252,8 @@ const App = {
       }
       // Apply text glow/shadow if set
       if (s.text_shadow) div.style.textShadow = s.text_shadow;
+      // Caption hidden
+      if (s.hidden) { div.dataset.visible = 'false'; }
     }
     else if (el.type === 'image') {
       const img = document.createElement('img');
@@ -1359,6 +1337,114 @@ const App = {
     });
     Logger.log('select_element', { eid });
     this.renderProperties();
+  },
+
+  // ---- 3-Phase Animation Engine ----
+  _applyAnimType(div, type, p, elapsed, phase) {
+    const e = 1 - Math.pow(1 - Math.min(1, p), 3); // ease-out cubic
+    switch (type) {
+      case 'fade-in': div.style.opacity = e; break;
+      case 'slide-up': div.style.opacity = e; div.style.transform = `translateY(${(1 - e) * 60}px)`; break;
+      case 'slide-down': div.style.opacity = e; div.style.transform = `translateY(${(e - 1) * 60}px)`; break;
+      case 'slide-left': div.style.opacity = e; div.style.transform = `translateX(${(1 - e) * 80}px)`; break;
+      case 'slide-right': div.style.opacity = e; div.style.transform = `translateX(${(e - 1) * 80}px)`; break;
+      case 'zoom-in': div.style.opacity = e; div.style.transform = `scale(${0.3 + e * 0.7})`; break;
+      case 'zoom-out': div.style.opacity = e; div.style.transform = `scale(${1.7 - e * 0.7})`; break;
+      case 'bounce': {
+        const b = e < 0.6 ? (e / 0.6) : 1 + Math.sin((e - 0.6) * Math.PI * 2.5) * 0.15 * (1 - e);
+        div.style.opacity = Math.min(1, e * 2);
+        div.style.transform = `translateY(${(1 - b) * 50}px) scale(${0.8 + b * 0.2})`;
+        break;
+      }
+      case 'elastic': {
+        const el = 1 + Math.sin(elapsed * 8) * Math.exp(-elapsed * 3) * 0.3;
+        div.style.opacity = e; div.style.transform = `scale(${el})`; break;
+      }
+      case 'kinetic-in': {
+        div.style.animation = `vc-kinetic-in ${0.6}s cubic-bezier(0.23,1,0.32,1) both`; break;
+      }
+      case 'morph-scale': {
+        div.style.animation = `vc-morph-scale ${0.7}s cubic-bezier(0.23,1,0.32,1) both`; break;
+      }
+      case 'typewriter': div.style.opacity = e; div.style.clipPath = `inset(0 ${(1 - e) * 100}% 0 0)`; break;
+      case 'spin-in': div.style.opacity = e; div.style.transform = `rotate(${(1 - e) * 180}deg) scale(${0.3 + e * 0.7})`; break;
+      case 'counter-spin': {
+        div.style.animation = `vc-counter-spin ${0.8}s cubic-bezier(0.23,1,0.32,1) both`; break;
+      }
+      case 'flip-in': {
+        div.style.animation = `vc-flip-y ${0.7}s cubic-bezier(0.23,1,0.32,1) both`; break;
+      }
+      case 'blur-in': div.style.opacity = e; div.style.filter = `blur(${(1 - e) * 10}px)`; break;
+      case 'glow-pulse': {
+        div.style.opacity = e;
+        const glow = Math.sin(elapsed * 4) * 0.5 + 0.5;
+        div.style.textShadow = `0 0 ${10 + glow * 20}px ${div.style.color || '#FFD700'}`;
+        break;
+      }
+    }
+  },
+
+  _applyExitType(div, type, p, remaining) {
+    const e = Math.min(1, p);
+    switch (type) {
+      case 'fade-out': div.style.opacity = 1 - e; break;
+      case 'exit-shrink': {
+        div.style.animation = `vc-exit-shrink ${0.5}s ease-in both`; break;
+      }
+      case 'exit-fly-right': {
+        div.style.animation = `vc-exit-fly-right ${0.5}s ease-in both`; break;
+      }
+      case 'exit-fly-up': {
+        div.style.animation = `vc-exit-fly-up ${0.5}s ease-in both`; break;
+      }
+      case 'exit-dissolve': {
+        div.style.animation = `vc-exit-dissolve ${0.6}s ease-in both`; break;
+      }
+      case 'slide-down': div.style.opacity = 1 - e; div.style.transform = `translateY(${e * 60}px)`; break;
+      case 'zoom-out': div.style.opacity = 1 - e; div.style.transform = `scale(${1 - e * 0.7})`; break;
+      case 'blur-in': div.style.opacity = 1 - e; div.style.filter = `blur(${e * 10}px)`; break;
+      default: div.style.opacity = 1 - e;
+    }
+  },
+
+  _applyEmphasisType(div, type, elapsedInPhase, phaseDur) {
+    const cycle = elapsedInPhase * 3; // cycles per second
+    switch (type) {
+      case 'shake':
+        div.style.animation = `vc-shake 0.5s ease-in-out infinite`;
+        break;
+      case 'glitch':
+        div.style.animation = `vc-glitch 2s steps(1) infinite`;
+        break;
+      case 'glow-breathe':
+        div.style.animation = `vc-glow-breathe 2s ease-in-out infinite`;
+        div.style.setProperty('--glow-color', div.style.color || '#4a9eff');
+        break;
+      case 'elastic-wave':
+        div.style.animation = `vc-elastic-wave 1.2s ease-in-out infinite`;
+        break;
+      case 'pulse': {
+        const pulse = 1 + Math.sin(cycle * Math.PI) * 0.06;
+        div.style.transform = `scale(${pulse})`;
+        break;
+      }
+      case 'wave-float': {
+        const yOff = Math.sin(cycle * Math.PI) * 4;
+        const rot = Math.sin(cycle * Math.PI * 0.5) * 2;
+        div.style.transform = `translateY(${yOff}px) rotate(${rot}deg)`;
+        break;
+      }
+      case 'rotate-subtle': {
+        const angle = Math.sin(cycle * Math.PI) * 3;
+        div.style.transform = `rotate(${angle}deg)`;
+        break;
+      }
+      case 'color-shift': {
+        const hue = (elapsedInPhase * 30) % 360;
+        div.style.filter = `hue-rotate(${hue}deg)`;
+        break;
+      }
+    }
   },
 
   deselectAll() {
@@ -1685,6 +1771,13 @@ const App = {
       html += this.propRow('Box Shape', 'select', s.box_style || 'rounded', ['rounded', 'sharp', 'pill', 'circle', 'none'], v => this.updateNestedProp(el, 'style', 'box_style', v));
       html += this.propRow('Radius', 'number', s.border_radius || 12, v => this.updateNestedProp(el, 'style', 'border_radius', parseInt(v)));
       html += this.propRow('Align', 'select', s.align || 'center', ['left', 'center', 'right'], v => this.updateNestedProp(el, 'style', 'align', v));
+      // Caption positioning
+      html += '<div class="prop-title" style="margin-top:8px">Caption Position</div>';
+      html += this.propRow('Position', 'select', s.position || 'bottom', ['top', 'center', 'bottom', 'custom'], v => this.updateNestedProp(el, 'style', 'position', v));
+      html += this.propRow('X Offset %', 'number', s.x_offset || 50, v => this.updateNestedProp(el, 'style', 'x_offset', parseInt(v)));
+      html += this.propRow('Y Offset %', 'number', s.y_offset || 85, v => this.updateNestedProp(el, 'style', 'y_offset', parseInt(v)));
+      html += this.propRow('Hide Captions', 'select', s.hidden ? 'yes' : 'no', ['no', 'yes'], v => this.updateNestedProp(el, 'style', 'hidden', v === 'yes'));
+      html += '</div>';
       // Per-word effects
       html += '<div class="prop-title" style="margin-top:8px">Word Effects</div>';
       html += this.propRow('Word Animation', 'select', s.word_animation || 'none', ['none', 'typewriter', 'wave', 'bounce-in', 'scale-up', 'glow-pulse'], v => this.updateNestedProp(el, 'style', 'word_animation', v));
@@ -1705,13 +1798,53 @@ const App = {
       html += '</div>';
     }
 
-    // Animation
+    // 3-Phase Animation System
+    const _entranceTypes = ['none', 'fade-in', 'slide-up', 'slide-down', 'slide-left', 'slide-right', 'zoom-in', 'zoom-out', 'bounce', 'elastic', 'kinetic-in', 'morph-scale', 'typewriter', 'spin-in', 'flip-in', 'blur-in', 'counter-spin', 'glow-pulse'];
+    const _emphasisTypes = ['none', 'shake', 'glitch', 'glow-breathe', 'elastic-wave', 'pulse', 'wave-float', 'rotate-subtle', 'color-shift'];
+    const _exitTypes = ['none', 'fade-out', 'exit-shrink', 'exit-fly-right', 'exit-fly-up', 'exit-dissolve', 'slide-down', 'zoom-out', 'blur-in'];
+
     html += '<div class="prop-section">';
-    html += '<div class="prop-title">Animation</div>';
-    const animType = (typeof el.animation === 'object' ? el.animation?.type : el.animation) || 'none';
-    html += this.propRow('Type', 'select', animType, ['none', 'fade-in', 'fade-out', 'slide-up', 'slide-down', 'slide-left', 'slide-right', 'zoom-in', 'zoom-out', 'bounce', 'elastic', 'typewriter', 'wave', 'spin-in', 'glow-pulse', 'blur-in', 'flip-in'], v => {
-      if (v === 'none') { this.updateProp(el, 'animation', v); }
-      else { this.updateProp(el, 'animation', { type: v, duration: 0.8 }); }
+    html += '<div class="prop-title">Entrance Animation</div>';
+    const enVal = (el.entrance?.type) || ((typeof el.animation === 'object' ? el.animation?.type : el.animation) || 'none');
+    html += this.propRow('Type', 'select', enVal, _entranceTypes, v => {
+      const dur = el.entrance?.duration || 0.6;
+      this.updateProp(el, 'entrance', v === 'none' ? { type: 'none' } : { type: v, duration: dur });
+    });
+    const enDur = el.entrance?.duration || 0.6;
+    html += this.propRow('Duration (s)', 'number', enDur, v => {
+      const cur = el.entrance?.type || 'none';
+      this.updateProp(el, 'entrance', { type: cur, duration: parseFloat(v) || 0.6 });
+    });
+    html += '</div>';
+
+    html += '<div class="prop-section">';
+    html += '<div class="prop-title">Emphasis (Mid-Life)</div>';
+    const emVal = el.emphasis?.type || 'none';
+    html += this.propRow('Type', 'select', emVal, _emphasisTypes, v => {
+      const dur = el.emphasis?.duration || 0.4;
+      this.updateProp(el, 'emphasis', v === 'none' ? { type: 'none' } : { type: v, duration: dur });
+    });
+    html += '</div>';
+
+    html += '<div class="prop-section">';
+    html += '<div class="prop-title">Exit Animation</div>';
+    const exVal = el.exit?.type || 'none';
+    html += this.propRow('Type', 'select', exVal, _exitTypes, v => {
+      const dur = el.exit?.duration || 0.5;
+      this.updateProp(el, 'exit', v === 'none' ? { type: 'none' } : { type: v, duration: dur });
+    });
+    const exDur = el.exit?.duration || 0.5;
+    html += this.propRow('Duration (s)', 'number', exDur, v => {
+      const cur = el.exit?.type || 'none';
+      this.updateProp(el, 'exit', { type: cur, duration: parseFloat(v) || 0.5 });
+    });
+    html += '</div>';
+
+    // Visibility toggle
+    html += '<div class="prop-section">';
+    html += '<div class="prop-title">Visibility</div>';
+    html += this.propRow('Hidden', 'select', el.visible === false ? 'yes' : 'no', ['no', 'yes'], v => {
+      this.updateProp(el, 'visible', v === 'yes' ? false : true);
     });
     html += '</div>';
 
