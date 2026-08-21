@@ -4329,3 +4329,472 @@
 {"ts": 1787304774692, "action": "canvas_frame", "time": "3.05", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
 {"ts": 1787304774805, "action": "canvas_frame", "time": "3.17", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
 {"ts": 1787304774827, "action": "audio_pause", "time": "3.17"}
+{"ts": 1787305360060, "action": "app_init"}
+{"ts": 1787305369499, "action": "open_projects"}
+{"ts": 1787305381656, "action": "load_project", "pid": "cd7824dc202a"}
+{"ts": 1787305384804, "action": "audio_loaded", "duration": "92.59", "scenes": 8, "totalElements": 114, "sceneDurations": "8.3,10.7,7.4,15.2,10.8,17.3,11.8,12.9", "src": "C:/Users/AITREC/AppData/Local/VideoComposerWork/cd7824dc202a/source.mp3"}
+{"ts": 1787305388963, "action": "timeline_resize_start", "startH": 180}
+{"ts": 1787305393029, "action": "timeline_resize_end"}
+{"ts": 1787305395488, "action": "audio_play", "time": "0.00", "duration": "92.59", "scenes": 8, "captions": 50, "otherElements": 64, "audioSrc": "C:/Users/AITREC/AppData/Local/VideoComposerWork/cd7824dc202a/source.mp3", "audioReady": 4, "currentSceneName": "Hook — In My Last Video"}
+{"ts": 1787305396546, "action": "canvas_frame", "time": "0.78", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305396617, "action": "canvas_frame", "time": "0.93", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305396730, "action": "canvas_frame", "time": "1.03", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305396815, "action": "canvas_frame", "time": "1.12", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305396952, "action": "canvas_frame", "time": "1.27", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305397180, "action": "canvas_frame", "time": "1.49", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305397449, "action": "canvas_frame", "time": "1.76", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305397516, "action": "canvas_frame", "time": "1.83", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305397600, "action": "canvas_frame", "time": "1.90", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305397685, "action": "canvas_frame", "time": "1.98", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305397767, "action": "canvas_frame", "time": "2.07", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305397852, "action": "canvas_frame", "time": "2.16", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305397935, "action": "canvas_frame", "time": "2.23", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305398001, "action": "canvas_frame", "time": "2.30", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305398085, "action": "canvas_frame", "time": "2.39", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305398329, "action": "canvas_frame", "time": "2.63", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305398435, "action": "canvas_frame", "time": "2.74", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305398521, "action": "canvas_frame", "time": "2.83", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305398628, "action": "canvas_frame", "time": "2.93", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305398732, "action": "canvas_frame", "time": "3.04", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305398830, "action": "canvas_frame", "time": "3.14", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305398910, "action": "canvas_frame", "time": "3.21", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305398991, "action": "canvas_frame", "time": "3.29", "visible": 11, "types": "caption,caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305399091, "action": "canvas_frame", "time": "3.40", "visible": 11, "types": "caption,caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305399192, "action": "canvas_frame", "time": "3.51", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305399313, "action": "canvas_frame", "time": "3.61", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305399430, "action": "canvas_frame", "time": "3.74", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305399511, "action": "canvas_frame", "time": "3.82", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305399618, "action": "canvas_frame", "time": "3.92", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305399744, "action": "canvas_frame", "time": "4.05", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305399825, "action": "canvas_frame", "time": "4.14", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305399940, "action": "canvas_frame", "time": "4.24", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305400035, "action": "canvas_frame", "time": "4.34", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305400115, "action": "canvas_frame", "time": "4.43", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305400228, "action": "canvas_frame", "time": "4.53", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305400337, "action": "canvas_frame", "time": "4.64", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305400410, "action": "canvas_frame", "time": "4.72", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305400523, "action": "canvas_frame", "time": "4.82", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305400593, "action": "canvas_frame", "time": "4.90", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305400662, "action": "canvas_frame", "time": "4.97", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305400761, "action": "canvas_frame", "time": "5.07", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305400861, "action": "canvas_frame", "time": "5.16", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305400941, "action": "timeline_resize_start", "startH": 207}
+{"ts": 1787305400945, "action": "canvas_frame", "time": "5.25", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305401048, "action": "canvas_frame", "time": "5.36", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305401159, "action": "canvas_frame", "time": "5.46", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305401301, "action": "canvas_frame", "time": "5.61", "visible": 9, "types": "caption,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305401379, "action": "canvas_frame", "time": "5.69", "visible": 9, "types": "caption,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305401447, "action": "canvas_frame", "time": "5.75", "visible": 9, "types": "caption,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305401553, "action": "canvas_frame", "time": "5.85", "visible": 9, "types": "caption,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305401664, "action": "canvas_frame", "time": "5.97", "visible": 9, "types": "caption,caption,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305401731, "action": "canvas_frame", "time": "6.04", "visible": 8, "types": "caption,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305401815, "action": "canvas_frame", "time": "6.11", "visible": 8, "types": "caption,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305401898, "action": "canvas_frame", "time": "6.20", "visible": 8, "types": "caption,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305401969, "action": "canvas_frame", "time": "6.28", "visible": 8, "types": "caption,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305402049, "action": "canvas_frame", "time": "6.36", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305402133, "action": "canvas_frame", "time": "6.43", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305402216, "action": "canvas_frame", "time": "6.52", "visible": 6, "types": "caption,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305402283, "action": "canvas_frame", "time": "6.59", "visible": 6, "types": "caption,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305402367, "action": "canvas_frame", "time": "6.68", "visible": 6, "types": "caption,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305402452, "action": "canvas_frame", "time": "6.75", "visible": 6, "types": "caption,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305402517, "action": "canvas_frame", "time": "6.82", "visible": 6, "types": "caption,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305402601, "action": "canvas_frame", "time": "6.91", "visible": 5, "types": "shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305402685, "action": "canvas_frame", "time": "7.00", "visible": 5, "types": "shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305402756, "action": "canvas_frame", "time": "7.06", "visible": 5, "types": "shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305402836, "action": "canvas_frame", "time": "7.14", "visible": 5, "types": "shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305402931, "action": "canvas_frame", "time": "7.24", "visible": 5, "types": "shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305403035, "action": "canvas_frame", "time": "7.35", "visible": 5, "types": "shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305403102, "action": "canvas_frame", "time": "7.40", "visible": 5, "types": "shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305403185, "action": "canvas_frame", "time": "7.49", "visible": 5, "types": "shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305403287, "action": "canvas_frame", "time": "7.60", "visible": 5, "types": "shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305403354, "action": "canvas_frame", "time": "7.67", "visible": 6, "types": "caption,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305403440, "action": "canvas_frame", "time": "7.74", "visible": 6, "types": "caption,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305403522, "action": "canvas_frame", "time": "7.83", "visible": 9, "types": "caption,shape,shape,shape,shape,shape,text,text,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305403592, "action": "canvas_frame", "time": "7.90", "visible": 9, "types": "caption,shape,shape,shape,shape,shape,text,text,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305403673, "action": "canvas_frame", "time": "7.99", "visible": 9, "types": "shape,shape,shape,shape,shape,text,shape,text,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305403755, "action": "canvas_frame", "time": "8.05", "visible": 9, "types": "shape,shape,shape,shape,shape,text,shape,text,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305403838, "action": "canvas_frame", "time": "8.14", "visible": 9, "types": "shape,shape,shape,shape,shape,text,shape,text,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305403861, "action": "timeline_resize_end"}
+{"ts": 1787305403906, "action": "canvas_frame", "time": "8.22", "visible": 9, "types": "shape,shape,shape,shape,shape,text,shape,text,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305404018, "action": "canvas_frame", "time": "8.32", "visible": 11, "types": "shape,shape,shape,shape,shape,caption,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305404141, "action": "canvas_frame", "time": "8.44", "visible": 11, "types": "shape,shape,shape,shape,shape,caption,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305404207, "action": "canvas_frame", "time": "8.51", "visible": 11, "types": "shape,shape,shape,shape,shape,caption,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305404291, "action": "canvas_frame", "time": "8.60", "visible": 11, "types": "shape,shape,shape,shape,shape,caption,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305404375, "action": "canvas_frame", "time": "8.67", "visible": 11, "types": "shape,shape,shape,shape,shape,caption,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305404441, "action": "canvas_frame", "time": "8.74", "visible": 11, "types": "shape,shape,shape,shape,shape,caption,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305404526, "action": "canvas_frame", "time": "8.83", "visible": 7, "types": "caption,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305404608, "action": "canvas_frame", "time": "8.92", "visible": 7, "types": "caption,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305404682, "action": "canvas_frame", "time": "8.98", "visible": 7, "types": "caption,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305404759, "action": "canvas_frame", "time": "9.06", "visible": 7, "types": "caption,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305404842, "action": "canvas_frame", "time": "9.15", "visible": 7, "types": "caption,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305404926, "action": "canvas_frame", "time": "9.24", "visible": 7, "types": "caption,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305404993, "action": "canvas_frame", "time": "9.29", "visible": 7, "types": "caption,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305405076, "action": "canvas_frame", "time": "9.38", "visible": 8, "types": "caption,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305405159, "action": "canvas_frame", "time": "9.47", "visible": 8, "types": "caption,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305405229, "action": "canvas_frame", "time": "9.54", "visible": 8, "types": "caption,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305405311, "action": "canvas_frame", "time": "9.61", "visible": 8, "types": "caption,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305405394, "action": "canvas_frame", "time": "9.70", "visible": 8, "types": "caption,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305405477, "action": "canvas_frame", "time": "9.79", "visible": 8, "types": "caption,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305405545, "action": "canvas_frame", "time": "9.86", "visible": 8, "types": "caption,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305405628, "action": "canvas_frame", "time": "9.92", "visible": 8, "types": "caption,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305405713, "action": "canvas_frame", "time": "10.01", "visible": 8, "types": "caption,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305405779, "action": "canvas_frame", "time": "10.09", "visible": 8, "types": "caption,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305405863, "action": "canvas_frame", "time": "10.17", "visible": 8, "types": "caption,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305405957, "action": "canvas_frame", "time": "10.24", "visible": 8, "types": "caption,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305406025, "action": "canvas_frame", "time": "10.33", "visible": 9, "types": "caption,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305406097, "action": "canvas_frame", "time": "10.40", "visible": 9, "types": "caption,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305406181, "action": "canvas_frame", "time": "10.49", "visible": 9, "types": "caption,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305406265, "action": "canvas_frame", "time": "10.56", "visible": 9, "types": "caption,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305406331, "action": "canvas_frame", "time": "10.63", "visible": 9, "types": "caption,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305406415, "action": "canvas_frame", "time": "10.72", "visible": 9, "types": "caption,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305406499, "action": "canvas_frame", "time": "10.81", "visible": 9, "types": "caption,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305406565, "action": "canvas_frame", "time": "10.86", "visible": 9, "types": "caption,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305406649, "action": "canvas_frame", "time": "10.95", "visible": 9, "types": "caption,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305406733, "action": "canvas_frame", "time": "11.04", "visible": 9, "types": "caption,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305406807, "action": "canvas_frame", "time": "11.12", "visible": 9, "types": "caption,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305406883, "action": "canvas_frame", "time": "11.18", "visible": 9, "types": "caption,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305406966, "action": "canvas_frame", "time": "11.27", "visible": 9, "types": "caption,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305407051, "action": "canvas_frame", "time": "11.36", "visible": 9, "types": "caption,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305407118, "action": "canvas_frame", "time": "11.43", "visible": 9, "types": "caption,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305407200, "action": "canvas_frame", "time": "11.50", "visible": 10, "types": "caption,text,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305407284, "action": "canvas_frame", "time": "11.58", "visible": 10, "types": "caption,text,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305407353, "action": "canvas_frame", "time": "11.66", "visible": 10, "types": "caption,text,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305407435, "action": "canvas_frame", "time": "11.74", "visible": 10, "types": "caption,text,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305407518, "action": "canvas_frame", "time": "11.82", "visible": 10, "types": "caption,text,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305407602, "action": "canvas_frame", "time": "11.90", "visible": 10, "types": "caption,text,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305407669, "action": "canvas_frame", "time": "11.97", "visible": 10, "types": "caption,text,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305407753, "action": "canvas_frame", "time": "12.06", "visible": 10, "types": "caption,text,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305407837, "action": "canvas_frame", "time": "12.13", "visible": 10, "types": "caption,text,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305407903, "action": "canvas_frame", "time": "12.20", "visible": 10, "types": "caption,text,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305407987, "action": "canvas_frame", "time": "12.29", "visible": 10, "types": "caption,text,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305408071, "action": "canvas_frame", "time": "12.38", "visible": 10, "types": "caption,text,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305408142, "action": "canvas_frame", "time": "12.46", "visible": 10, "types": "caption,text,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305408222, "action": "canvas_frame", "time": "12.52", "visible": 10, "types": "caption,text,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305408305, "action": "canvas_frame", "time": "12.61", "visible": 10, "types": "caption,text,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305408389, "action": "canvas_frame", "time": "12.70", "visible": 10, "types": "caption,text,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305408455, "action": "canvas_frame", "time": "12.77", "visible": 9, "types": "text,text,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305408539, "action": "canvas_frame", "time": "12.84", "visible": 8, "types": "text,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305408622, "action": "canvas_frame", "time": "12.93", "visible": 8, "types": "text,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305408689, "action": "canvas_frame", "time": "13.00", "visible": 8, "types": "text,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305408773, "action": "canvas_frame", "time": "13.09", "visible": 8, "types": "text,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305408857, "action": "canvas_frame", "time": "13.16", "visible": 8, "types": "text,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305408927, "action": "canvas_frame", "time": "13.23", "visible": 8, "types": "text,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305409007, "action": "canvas_frame", "time": "13.32", "visible": 8, "types": "text,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305409090, "action": "canvas_frame", "time": "13.40", "visible": 7, "types": "text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305409174, "action": "canvas_frame", "time": "13.47", "visible": 8, "types": "caption,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305409241, "action": "canvas_frame", "time": "13.54", "visible": 8, "types": "caption,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305409325, "action": "canvas_frame", "time": "13.63", "visible": 8, "types": "caption,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305409409, "action": "canvas_frame", "time": "13.72", "visible": 8, "types": "caption,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305409477, "action": "canvas_frame", "time": "13.78", "visible": 8, "types": "caption,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305409559, "action": "canvas_frame", "time": "13.86", "visible": 8, "types": "caption,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305409644, "action": "canvas_frame", "time": "13.95", "visible": 8, "types": "caption,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305409726, "action": "canvas_frame", "time": "14.04", "visible": 8, "types": "caption,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305409794, "action": "canvas_frame", "time": "14.09", "visible": 8, "types": "caption,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305409878, "action": "canvas_frame", "time": "14.18", "visible": 8, "types": "caption,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305409961, "action": "canvas_frame", "time": "14.27", "visible": 8, "types": "caption,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305410028, "action": "canvas_frame", "time": "14.34", "visible": 7, "types": "caption,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305410111, "action": "canvas_frame", "time": "14.41", "visible": 8, "types": "caption,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305410195, "action": "canvas_frame", "time": "14.50", "visible": 8, "types": "caption,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305410266, "action": "canvas_frame", "time": "14.57", "visible": 8, "types": "caption,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305410345, "action": "canvas_frame", "time": "14.66", "visible": 8, "types": "caption,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305410429, "action": "canvas_frame", "time": "14.73", "visible": 8, "types": "caption,text,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305410513, "action": "canvas_frame", "time": "14.81", "visible": 8, "types": "caption,caption,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305410580, "action": "canvas_frame", "time": "14.89", "visible": 7, "types": "caption,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305410663, "action": "canvas_frame", "time": "14.98", "visible": 7, "types": "caption,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305410747, "action": "canvas_frame", "time": "15.04", "visible": 7, "types": "caption,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305410814, "action": "canvas_frame", "time": "15.11", "visible": 7, "types": "caption,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305410899, "action": "canvas_frame", "time": "15.21", "visible": 7, "types": "caption,text,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305410982, "action": "canvas_frame", "time": "15.29", "visible": 6, "types": "caption,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305411053, "action": "canvas_frame", "time": "15.35", "visible": 6, "types": "caption,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305411132, "action": "canvas_frame", "time": "15.43", "visible": 6, "types": "caption,text,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305411216, "action": "canvas_frame", "time": "15.52", "visible": 5, "types": "caption,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305411298, "action": "canvas_frame", "time": "15.61", "visible": 5, "types": "caption,text,text,shape,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305411319, "action": "select_scene", "sid": "sc_929974_0061"}
+{"ts": 1787305411719, "action": "canvas_frame", "time": "0.27", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305411784, "action": "canvas_frame", "time": "0.32", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305411867, "action": "canvas_frame", "time": "0.41", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305411938, "action": "canvas_frame", "time": "0.49", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305412018, "action": "canvas_frame", "time": "0.57", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305412102, "action": "canvas_frame", "time": "0.64", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305412185, "action": "canvas_frame", "time": "0.73", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305412253, "action": "canvas_frame", "time": "0.80", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305412336, "action": "canvas_frame", "time": "0.89", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305412421, "action": "canvas_frame", "time": "0.96", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305412488, "action": "canvas_frame", "time": "1.03", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305412570, "action": "canvas_frame", "time": "1.12", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305412654, "action": "canvas_frame", "time": "1.21", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305412739, "action": "canvas_frame", "time": "1.28", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305412820, "action": "canvas_frame", "time": "1.36", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305412906, "action": "canvas_frame", "time": "1.45", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305412990, "action": "canvas_frame", "time": "1.54", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305413057, "action": "canvas_frame", "time": "1.59", "visible": 9, "types": "caption,caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305413140, "action": "canvas_frame", "time": "1.68", "visible": 9, "types": "caption,caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305413224, "action": "canvas_frame", "time": "1.77", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305413290, "action": "canvas_frame", "time": "1.84", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305413372, "action": "canvas_frame", "time": "1.91", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305413456, "action": "canvas_frame", "time": "2.00", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305413527, "action": "canvas_frame", "time": "2.07", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305413608, "action": "canvas_frame", "time": "2.16", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305413690, "action": "canvas_frame", "time": "2.23", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305413775, "action": "canvas_frame", "time": "2.32", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305413841, "action": "canvas_frame", "time": "2.39", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305413925, "action": "canvas_frame", "time": "2.48", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305414008, "action": "canvas_frame", "time": "2.55", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305414076, "action": "canvas_frame", "time": "2.61", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305414158, "action": "canvas_frame", "time": "2.70", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305414241, "action": "canvas_frame", "time": "2.79", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305414319, "action": "canvas_frame", "time": "2.86", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305414393, "action": "canvas_frame", "time": "2.93", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305414476, "action": "canvas_frame", "time": "3.02", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305414561, "action": "canvas_frame", "time": "3.11", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305414627, "action": "canvas_frame", "time": "3.18", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305414710, "action": "canvas_frame", "time": "3.25", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305414794, "action": "canvas_frame", "time": "3.34", "visible": 11, "types": "caption,caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305414863, "action": "canvas_frame", "time": "3.41", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305414945, "action": "canvas_frame", "time": "3.50", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305415028, "action": "canvas_frame", "time": "3.57", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305415112, "action": "canvas_frame", "time": "3.66", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305415179, "action": "canvas_frame", "time": "3.73", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305415263, "action": "canvas_frame", "time": "3.82", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305415346, "action": "canvas_frame", "time": "3.88", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305415413, "action": "canvas_frame", "time": "3.96", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305415501, "action": "canvas_frame", "time": "4.05", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305415580, "action": "canvas_frame", "time": "4.13", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305415653, "action": "canvas_frame", "time": "4.19", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305415732, "action": "canvas_frame", "time": "4.27", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305415815, "action": "canvas_frame", "time": "4.36", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305415898, "action": "canvas_frame", "time": "4.45", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305415965, "action": "canvas_frame", "time": "4.50", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305416049, "action": "canvas_frame", "time": "4.59", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305416132, "action": "canvas_frame", "time": "4.68", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305416204, "action": "canvas_frame", "time": "4.76", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305416283, "action": "canvas_frame", "time": "4.82", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305416366, "action": "canvas_frame", "time": "4.91", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305416448, "action": "canvas_frame", "time": "5.00", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305416516, "action": "canvas_frame", "time": "5.07", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305416601, "action": "canvas_frame", "time": "5.14", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305416687, "action": "canvas_frame", "time": "5.23", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305416767, "action": "canvas_frame", "time": "5.32", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305416850, "action": "canvas_frame", "time": "5.40", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305416938, "action": "canvas_frame", "time": "5.48", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305417024, "action": "canvas_frame", "time": "5.57", "visible": 9, "types": "caption,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305417102, "action": "canvas_frame", "time": "5.65", "visible": 9, "types": "caption,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305417187, "action": "canvas_frame", "time": "5.74", "visible": 9, "types": "caption,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305417272, "action": "canvas_frame", "time": "5.81", "visible": 9, "types": "caption,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305417338, "action": "canvas_frame", "time": "5.88", "visible": 9, "types": "caption,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305417416, "action": "ruler_seek", "pct": "0.052"}
+{"ts": 1787305417420, "action": "canvas_frame", "time": "5.69", "visible": 9, "types": "caption,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305417420, "action": "timeline_seek", "pct": "0.060", "time": "5.69"}
+{"ts": 1787305417469, "action": "canvas_frame", "time": "5.69", "visible": 9, "types": "caption,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305417701, "action": "canvas_frame", "time": "0.23", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305417771, "action": "canvas_frame", "time": "0.31", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305417856, "action": "canvas_frame", "time": "0.38", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305417939, "action": "canvas_frame", "time": "0.47", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305418011, "action": "canvas_frame", "time": "0.54", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305418089, "action": "canvas_frame", "time": "0.62", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305418173, "action": "canvas_frame", "time": "0.69", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305418258, "action": "canvas_frame", "time": "0.78", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305418323, "action": "canvas_frame", "time": "0.85", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305418409, "action": "canvas_frame", "time": "0.94", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305418495, "action": "canvas_frame", "time": "1.01", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305418559, "action": "canvas_frame", "time": "1.08", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305418643, "action": "canvas_frame", "time": "1.17", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305418727, "action": "canvas_frame", "time": "1.26", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305418811, "action": "canvas_frame", "time": "1.33", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305418878, "action": "canvas_frame", "time": "1.40", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305418962, "action": "canvas_frame", "time": "1.49", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305419045, "action": "canvas_frame", "time": "1.58", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305419112, "action": "canvas_frame", "time": "1.63", "visible": 9, "types": "caption,caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305419193, "action": "canvas_frame", "time": "1.72", "visible": 9, "types": "caption,caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305419280, "action": "canvas_frame", "time": "1.81", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305419349, "action": "canvas_frame", "time": "1.88", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305419427, "action": "canvas_frame", "time": "1.95", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305419513, "action": "canvas_frame", "time": "2.04", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305419596, "action": "canvas_frame", "time": "2.12", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305419664, "action": "canvas_frame", "time": "2.20", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305419746, "action": "canvas_frame", "time": "2.26", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305419849, "action": "canvas_frame", "time": "2.37", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305419914, "action": "canvas_frame", "time": "2.44", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305420002, "action": "canvas_frame", "time": "2.54", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305420083, "action": "canvas_frame", "time": "2.60", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305420162, "action": "canvas_frame", "time": "2.69", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305420231, "action": "canvas_frame", "time": "2.76", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305420314, "action": "canvas_frame", "time": "2.85", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305420398, "action": "canvas_frame", "time": "2.92", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305420465, "action": "canvas_frame", "time": "2.99", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305420549, "action": "canvas_frame", "time": "3.08", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305420632, "action": "canvas_frame", "time": "3.17", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305420702, "action": "canvas_frame", "time": "3.22", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305420783, "action": "canvas_frame", "time": "3.31", "visible": 11, "types": "caption,caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305420867, "action": "canvas_frame", "time": "3.40", "visible": 11, "types": "caption,caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305420950, "action": "canvas_frame", "time": "3.48", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305421017, "action": "canvas_frame", "time": "3.54", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305421100, "action": "canvas_frame", "time": "3.62", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305421185, "action": "canvas_frame", "time": "3.71", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305421250, "action": "canvas_frame", "time": "3.78", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305421335, "action": "canvas_frame", "time": "3.85", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305421419, "action": "canvas_frame", "time": "3.94", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305421487, "action": "canvas_frame", "time": "4.01", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305421568, "action": "canvas_frame", "time": "4.10", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305421653, "action": "canvas_frame", "time": "4.17", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305421742, "action": "canvas_frame", "time": "4.27", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305421819, "action": "canvas_frame", "time": "4.35", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305421903, "action": "canvas_frame", "time": "4.44", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305421987, "action": "canvas_frame", "time": "4.50", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305422054, "action": "canvas_frame", "time": "4.58", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305422137, "action": "canvas_frame", "time": "4.67", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305422219, "action": "canvas_frame", "time": "4.75", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305422288, "action": "canvas_frame", "time": "4.81", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305422370, "action": "canvas_frame", "time": "4.89", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305422471, "action": "canvas_frame", "time": "3.83", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305422471, "action": "ruler_seek", "pct": "0.041"}
+{"ts": 1787305422474, "action": "timeline_seek", "pct": "0.049", "time": "4.61"}
+{"ts": 1787305422508, "action": "canvas_frame", "time": "4.61", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305422613, "action": "canvas_frame", "time": "4.61", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305422688, "action": "canvas_frame", "time": "0.18", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305422776, "action": "canvas_frame", "time": "0.27", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305422856, "action": "canvas_frame", "time": "0.33", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305422940, "action": "canvas_frame", "time": "0.42", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305423023, "action": "canvas_frame", "time": "0.51", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305423091, "action": "canvas_frame", "time": "0.58", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305423174, "action": "canvas_frame", "time": "0.65", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305423258, "action": "canvas_frame", "time": "0.74", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305423325, "action": "canvas_frame", "time": "0.81", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305423408, "action": "canvas_frame", "time": "0.90", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305423491, "action": "canvas_frame", "time": "0.97", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305423560, "action": "canvas_frame", "time": "1.04", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305423643, "action": "canvas_frame", "time": "1.13", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305423726, "action": "canvas_frame", "time": "1.22", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305423810, "action": "canvas_frame", "time": "1.29", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305423876, "action": "canvas_frame", "time": "1.36", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305423960, "action": "canvas_frame", "time": "1.45", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305424044, "action": "canvas_frame", "time": "1.54", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305424111, "action": "canvas_frame", "time": "1.59", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305424196, "action": "canvas_frame", "time": "1.68", "visible": 9, "types": "caption,caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305424279, "action": "canvas_frame", "time": "1.77", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305424349, "action": "canvas_frame", "time": "1.84", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305424428, "action": "canvas_frame", "time": "1.91", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305424513, "action": "canvas_frame", "time": "1.99", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305424596, "action": "canvas_frame", "time": "2.08", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305424663, "action": "canvas_frame", "time": "2.15", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305424746, "action": "canvas_frame", "time": "2.22", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305424830, "action": "canvas_frame", "time": "2.31", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305424899, "action": "canvas_frame", "time": "2.39", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305424980, "action": "canvas_frame", "time": "2.47", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305425064, "action": "canvas_frame", "time": "2.54", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305425147, "action": "canvas_frame", "time": "2.63", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305425215, "action": "canvas_frame", "time": "2.70", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305425299, "action": "canvas_frame", "time": "2.79", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305425382, "action": "canvas_frame", "time": "2.86", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305425386, "action": "playhead_drag_start"}
+{"ts": 1787305425438, "action": "canvas_frame", "time": "2.66", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305425489, "action": "canvas_frame", "time": "3.46", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305425543, "action": "canvas_frame", "time": "4.18", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305425579, "action": "canvas_frame", "time": "4.54", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305425638, "action": "canvas_frame", "time": "5.33", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305425686, "action": "canvas_frame", "time": "7.70", "visible": 6, "types": "caption,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305425724, "action": "canvas_frame", "time": "9.43", "visible": 8, "types": "caption,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305425756, "action": "canvas_frame", "time": "9.65", "visible": 8, "types": "caption,text,text,text,text,shape,text,shape", "scene": "Layers — Database, Logic, Security"}
+{"ts": 1787305425815, "action": "canvas_frame", "time": "0.01", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305425900, "action": "canvas_frame", "time": "0.10", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305425983, "action": "canvas_frame", "time": "0.19", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305426050, "action": "canvas_frame", "time": "0.26", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305426134, "action": "canvas_frame", "time": "0.33", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305426218, "action": "canvas_frame", "time": "0.42", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305426291, "action": "canvas_frame", "time": "0.50", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305426368, "action": "canvas_frame", "time": "0.58", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305426452, "action": "canvas_frame", "time": "0.65", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305426536, "action": "canvas_frame", "time": "0.74", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305426602, "action": "canvas_frame", "time": "0.81", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305426686, "action": "canvas_frame", "time": "0.90", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305426769, "action": "canvas_frame", "time": "0.97", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305426837, "action": "canvas_frame", "time": "1.04", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305426920, "action": "canvas_frame", "time": "1.13", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305427004, "action": "canvas_frame", "time": "1.22", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305427087, "action": "canvas_frame", "time": "1.28", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305427154, "action": "canvas_frame", "time": "1.35", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305427238, "action": "canvas_frame", "time": "1.44", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305427321, "action": "canvas_frame", "time": "1.53", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305427388, "action": "canvas_frame", "time": "1.59", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305427472, "action": "canvas_frame", "time": "1.67", "visible": 9, "types": "caption,caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305427535, "action": "ruler_seek", "pct": "0.005"}
+{"ts": 1787305427539, "action": "canvas_frame", "time": "1.37", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305427539, "action": "timeline_seek", "pct": "0.015", "time": "1.37"}
+{"ts": 1787305427588, "action": "canvas_frame", "time": "1.37", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305427672, "action": "canvas_frame", "time": "0.07", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305427756, "action": "canvas_frame", "time": "0.16", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305427824, "action": "canvas_frame", "time": "0.24", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305427907, "action": "canvas_frame", "time": "0.31", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305427990, "action": "canvas_frame", "time": "0.39", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305428073, "action": "canvas_frame", "time": "0.48", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305428141, "action": "canvas_frame", "time": "0.55", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305428225, "action": "canvas_frame", "time": "0.62", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305428310, "action": "canvas_frame", "time": "0.71", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305428376, "action": "canvas_frame", "time": "0.78", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305428461, "action": "canvas_frame", "time": "0.87", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305428544, "action": "canvas_frame", "time": "0.94", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305428615, "action": "canvas_frame", "time": "1.02", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305428694, "action": "canvas_frame", "time": "1.10", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305428777, "action": "canvas_frame", "time": "1.19", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305428861, "action": "canvas_frame", "time": "1.26", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305428928, "action": "canvas_frame", "time": "1.33", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305429011, "action": "canvas_frame", "time": "1.42", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305429095, "action": "canvas_frame", "time": "1.51", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305429101, "action": "select_scene", "sid": "sc_930022_0075"}
+{"ts": 1787305429162, "action": "canvas_frame", "time": "0.02", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305429244, "action": "canvas_frame", "time": "0.09", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305429328, "action": "canvas_frame", "time": "0.18", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305429400, "action": "canvas_frame", "time": "0.25", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305429480, "action": "canvas_frame", "time": "0.32", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305429564, "action": "canvas_frame", "time": "0.41", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305429647, "action": "canvas_frame", "time": "0.49", "visible": 7, "types": "caption,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305429714, "action": "canvas_frame", "time": "0.57", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305429798, "action": "canvas_frame", "time": "0.63", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305429882, "action": "canvas_frame", "time": "0.72", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305429950, "action": "canvas_frame", "time": "0.80", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305430032, "action": "canvas_frame", "time": "0.88", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305430116, "action": "canvas_frame", "time": "0.95", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305430197, "action": "canvas_frame", "time": "1.04", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305430267, "action": "canvas_frame", "time": "1.11", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305430350, "action": "canvas_frame", "time": "1.20", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305430433, "action": "canvas_frame", "time": "1.27", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305430500, "action": "canvas_frame", "time": "1.34", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305430584, "action": "canvas_frame", "time": "1.43", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305430667, "action": "canvas_frame", "time": "1.52", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305430736, "action": "canvas_frame", "time": "1.58", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305430818, "action": "canvas_frame", "time": "1.66", "visible": 9, "types": "caption,caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305430902, "action": "canvas_frame", "time": "1.75", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305430985, "action": "canvas_frame", "time": "1.84", "visible": 8, "types": "caption,text,text,shape,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305431052, "action": "canvas_frame", "time": "1.91", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305431136, "action": "canvas_frame", "time": "1.98", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305431218, "action": "canvas_frame", "time": "2.06", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305431285, "action": "canvas_frame", "time": "2.14", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305431371, "action": "canvas_frame", "time": "2.22", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305431453, "action": "canvas_frame", "time": "2.29", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305431524, "action": "canvas_frame", "time": "2.37", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305431603, "action": "canvas_frame", "time": "2.45", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305431687, "action": "canvas_frame", "time": "2.54", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305431771, "action": "canvas_frame", "time": "2.61", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305431838, "action": "canvas_frame", "time": "2.68", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305431921, "action": "canvas_frame", "time": "2.77", "visible": 9, "types": "caption,text,text,shape,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305432005, "action": "canvas_frame", "time": "2.86", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305432074, "action": "canvas_frame", "time": "2.91", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305432345, "action": "canvas_frame", "time": "3.19", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305432438, "action": "canvas_frame", "time": "3.28", "visible": 11, "types": "caption,caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305432522, "action": "canvas_frame", "time": "3.37", "visible": 11, "types": "caption,caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305432605, "action": "canvas_frame", "time": "3.46", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305432689, "action": "canvas_frame", "time": "3.53", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305432773, "action": "canvas_frame", "time": "3.62", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305432859, "action": "canvas_frame", "time": "3.71", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305432940, "action": "canvas_frame", "time": "3.80", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305433023, "action": "canvas_frame", "time": "3.86", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305433107, "action": "canvas_frame", "time": "3.95", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305433175, "action": "canvas_frame", "time": "4.03", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305433259, "action": "canvas_frame", "time": "4.11", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305433342, "action": "canvas_frame", "time": "4.18", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305433427, "action": "canvas_frame", "time": "4.27", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305433496, "action": "canvas_frame", "time": "4.35", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305433594, "action": "canvas_frame", "time": "4.45", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305433677, "action": "canvas_frame", "time": "4.52", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305433744, "action": "canvas_frame", "time": "4.59", "visible": 10, "types": "caption,text,text,shape,text,text,shape,shape,shape,shape", "scene": "Hook — In My Last Video"}
+{"ts": 1787305433932, "action": "audio_pause", "time": "4.62"}

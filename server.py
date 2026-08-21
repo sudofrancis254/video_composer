@@ -349,13 +349,12 @@ class ComposerHandler(SimpleHTTPRequestHandler):
         self.wfile.write(data)
 
     def _handle_audio(self, path: str):
-        """Serve audio files from project directories."""
+        """Serve audio files with Range request support (required for seeking)."""
         m = re.match(r"^/audio/([^/]+)/(.+)$", path)
         if not m:
             self._json_response({"error": "bad audio path"}, 400)
             return
         pid, filename = m.group(1), m.group(2)
-        # Check multiple locations: VC fast_dir → WE fast_dir → project dir
         search_dirs = [
             ps.fast_dir(pid),
             ps.WORD_EDITOR_FAST_DIR + '/' + pid,
@@ -371,15 +370,37 @@ class ComposerHandler(SimpleHTTPRequestHandler):
         if not fpath:
             self._json_response({"error": "audio not found"}, 404)
             return
-        self.send_response(200)
         ct = "audio/mpeg" if filename.endswith(".mp3") else "audio/wav"
+        file_size = os.path.getsize(fpath)
+        range_header = self.headers.get("Range")
+        if range_header:
+            # Parse Range: bytes=START-END
+            rm = re.match(r"bytes=(\d+)-(\d*)", range_header)
+            if rm:
+                start = int(rm.group(1))
+                end = int(rm.group(2)) if rm.group(2) else file_size - 1
+                end = min(end, file_size - 1)
+                length = end - start + 1
+                self.send_response(206)
+                self.send_header("Content-Type", ct)
+                self.send_header("Content-Range", f"bytes {start}-{end}/{file_size}")
+                self.send_header("Content-Length", str(length))
+                self.send_header("Accept-Ranges", "bytes")
+                self._set_cors()
+                self.end_headers()
+                with open(fpath, "rb") as f:
+                    f.seek(start)
+                    self.wfile.write(f.read(length))
+                return
+        # Full file (no Range header)
+        self.send_response(200)
         self.send_header("Content-Type", ct)
+        self.send_header("Content-Length", str(file_size))
+        self.send_header("Accept-Ranges", "bytes")
         self._set_cors()
-        with open(fpath, "rb") as f:
-            data = f.read()
-        self.send_header("Content-Length", str(len(data)))
         self.end_headers()
-        self.wfile.write(data)
+        with open(fpath, "rb") as f:
+            self.wfile.write(f.read())
 
     def _handle_image(self, path: str):
         """Serve uploaded images from project directories."""
