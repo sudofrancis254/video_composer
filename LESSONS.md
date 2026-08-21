@@ -231,4 +231,17 @@ This set Scene 0's duration from 8.28s → 92s (full audio length). Since `_getA
 
 ---
 
+### Phase 4: Motion Graphics Typography (August 2026)
+
+| Decision | Why | Impact |
+|----------|-----|--------|
+| **3-phase animation system (Entrance → Emphasis → Exit)** | Single animation property couldn't express "appear dramatically, pulse while visible, exit with dissolve" — the core of motion graphics | Each element gets 3 independent animation slots with separate types and durations |
+| **Backward compat: old `animation` → `entrance`** | Existing projects use `animation: { type: 'fade-in' }` — breaking this would destroy saved projects | Old single-animation properties are read as entrance animation, no data migration needed |
+| **CSS keyframe animations for complex effects** | JavaScript Math.sin() loops for shake/glitch are CPU-heavy and not smooth | Complex effects (`shake`, `glitch`, `elastic-wave`, `kinetic-in`) use CSS `@keyframes` for GPU-accelerated rendering |
+| **Caption position presets (top/center/bottom/custom)** | Captions at bottom is boring — motion graphics use text appearing at strategic positions | Position presets calculate x/y from percentages, overriding manual positioning |
+| **Per-element visibility toggle** | Some elements should be hidden during certain sections without deleting them | `data-visible="false"` on div with CSS `display:none` — not rendered but preserved |
+| **Per-caption hide** | Same as visibility but for captions specifically — allows hiding caption groups selectively | Caption style `hidden: true` prevents rendering while keeping the caption data intact |
+
+---
+
 *Last updated: August 2026 — after completing Word Editor, Caption Studio, Image Editor, and building Video Composer Phases 1-4.*
