@@ -198,6 +198,34 @@
 6. **Blob URLs die on reload** — always persist images to server
 7. **Every drag/resize must call saveScene()** — DOM changes aren't persisted automatically
 8. **Playback needs frame-level logging** — essential for diagnosing timing issues
+9. **NEVER modify scene durations from audio metadata** — the loadedmetadata handler must NOT change scene durations; only extend the LAST scene if audio exceeds total scene time; corrupting a scene's duration destroys the entire timeline (all subsequent scenes shift, rendering 0 elements)
+10. **Use requestAnimationFrame for playback rendering** — timeupdate fires only ~4 times/sec, far too slow for smooth animations; RAF gives 60fps rendering
+
+### The loadedmetadata Disaster (August 2026)
+
+**What happened:** At playback time, scenes after Scene 0 showed 0 rendered elements. Console logs showed `rendered=0` for all timestamps past Scene 0.
+
+**Root cause:** The `loadedmetadata` event handler contained:
+```javascript
+if (this.currentScene && this.currentScene.duration < this.duration) {
+  this.currentScene.duration = Math.ceil(this.duration);
+}
+```
+This set Scene 0's duration from 8.28s → 92s (full audio length). Since `_getActiveScene()` iterates scenes by cumulative duration, ALL other scenes were pushed beyond the audio duration, so no elements from Scene 1-8 ever matched.
+
+**Fix:** Only extend the LAST scene if total scene time < audio duration. Never touch other scene durations.
+
+**Lesson:** Audio metadata is about the AUDIO, not the SCENES. Scene durations define the visual timeline. The audio may be longer or shorter — that's fine, but the scene structure must remain intact.
+
+### Timeline & Scrubbing Lessons (August 2026)
+
+| Issue | Root Cause | Fix |
+|-------|------------|-----|
+| **Playhead scrolls away with tracks** | Playhead was inside `timeline-tracks` (overflow-y: auto) | Moved playhead outside scrollable area to be a direct child of `.timeline` |
+| **Clicking scene chip doesn't jump** | Scene chip only selected the scene, didn't seek audio to scene start | `selectScene()` already seeks to scene offset; ensured it works with RAF render loop |
+| **Timeline segment click doesn't seek** | Segment click only selected element, didn't move playhead to element's start | Added `seekTo()` call in segment click handler |
+| **Ruler not clickable for seeking** | Ruler rendered but had no click handler | Added pointerdown handler on `.timeline-ruler` that seeks to clicked position |
+| **Playhead handle too small** | 10px triangle was hard to grab | Increased to 14px with rounded triangle shape |
 
 ---
 

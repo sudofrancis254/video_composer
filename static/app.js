@@ -576,6 +576,8 @@ const App = {
       this.audio = null;
     }
     this.playing = false;
+    if (this._renderRAF) { cancelAnimationFrame(this._renderRAF); this._renderRAF = null; }
+    if (this._sceneHighlightRAF) { cancelAnimationFrame(this._sceneHighlightRAF); this._sceneHighlightRAF = null; }
     this.currentTime = 0;
     this.duration = 0;
     this.currentElement = null;
@@ -1812,6 +1814,17 @@ const App = {
 
     tracks.innerHTML = html;
     this._bindTimelineSegments();
+
+    // Click ruler to seek
+    const ruler = tracks.querySelector('.timeline-ruler');
+    if (ruler) {
+      ruler.addEventListener('pointerdown', e => {
+        const rect = ruler.getBoundingClientRect();
+        const pct = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+        this.seekTo(pct * projectDur);
+        Logger.log('ruler_seek', { pct: pct.toFixed(3) });
+      });
+    }
   },
 
   _bindTimelineSegments() {
@@ -1819,12 +1832,17 @@ const App = {
     if (!tracks) return;
     const projectDur = this.duration || this._getProjectDuration();
 
-    // Click on segment to select
+    // Click on segment to select AND seek to its start time
     tracks.querySelectorAll('.timeline-segment').forEach(seg => {
       seg.addEventListener('click', e => {
         if (e.target.classList.contains('seg-handle') || e.target.classList.contains('keyframe-dot')) return;
         e.stopPropagation();
         this.selectElement(seg.dataset.eid);
+        // Seek playhead to the start of this element
+        const found = findEl(seg.dataset.eid);
+        if (found) {
+          this.seekTo(found.offset + (found.el.start ?? 0));
+        }
       });
     });
 
@@ -1963,9 +1981,13 @@ const App = {
     // Get duration from metadata
     this.audio.addEventListener('loadedmetadata', () => {
       this.duration = this.audio.duration || this.duration;
-      // Update scene duration to match audio if scene is shorter
-      if (this.currentScene && this.currentScene.duration < this.duration) {
-        this.currentScene.duration = Math.ceil(this.duration);
+      // Recalculate total duration from scene sum (do NOT modify scene durations)
+      const sceneTotal = this.scenes.reduce((n, s) => n + (s.duration || 10), 0);
+      if (this.duration > sceneTotal) {
+        // Extend LAST scene to cover remaining audio
+        const last = this.scenes[this.scenes.length - 1];
+        if (last) last.duration = this.duration - (sceneTotal - (last.duration || 10));
+        this.duration = this._getProjectDuration();
       }
       this.updateTimeDisplay();
       this.updateAudioInfo();
@@ -2007,6 +2029,7 @@ const App = {
     if (this.playing) {
       this.audio.pause();
       this.playing = false;
+      if (this._renderRAF) { cancelAnimationFrame(this._renderRAF); this._renderRAF = null; }
       Logger.log('audio_pause', { time: this.currentTime.toFixed(2) });
     } else {
       this.audio.play();
@@ -2026,8 +2049,23 @@ const App = {
       });
     }
     this.updatePlayButton();
-    // Update active scene highlight during playback
-    if (this.playing) this._startSceneHighlightLoop();
+    // Start smooth RAF render loop for animations
+    if (this.playing) this._startRenderLoop();
+  },
+
+  _startRenderLoop() {
+    if (this._renderRAF) return;
+    const loop = () => {
+      if (!this.playing) { this._renderRAF = null; return; }
+      // Sync time from audio
+      if (this.audio) this.currentTime = this.audio.currentTime;
+      this.updateTimeDisplay();
+      if (!this._playheadDrag) this.updatePlayhead();
+      this.highlightWords();
+      this.renderCanvas();
+      this._renderRAF = requestAnimationFrame(loop);
+    };
+    this._renderRAF = requestAnimationFrame(loop);
   },
 
   _startSceneHighlightLoop() {
@@ -2057,30 +2095,48 @@ const App = {
     const playhead = document.getElementById('playhead');
     if (!playhead) return;
     const pct = this.duration > 0 ? (this.currentTime / this.duration) : 0;
-    // Position relative to the tracks area, clamped to visible bounds
+    // Playhead is now a child of .timeline — position relative to tracks area
     const tracks = document.getElementById('timeline-tracks');
     if (!tracks) return;
+    const tracksRect = tracks.getBoundingClientRect();
+    const timeline = document.getElementById('timeline');
+    const timelineRect = timeline ? timeline.getBoundingClientRect() : { top: 0, left: 0 };
     const tracksWidth = tracks.clientWidth;
     const px = pct * tracksWidth;
-    playhead.style.left = px + 'px';
+    // Position top so the playhead aligns with the top of tracks
+    const topOffset = tracksRect.top - timelineRect.top;
+    playhead.style.left = (px + tracks.offsetLeft) + 'px';
+    playhead.style.top = topOffset + 'px';
     playhead.style.height = tracks.scrollHeight + 'px';
   },
 
   highlightWords() {
-    if (!this.currentScene) return;
     const t = this.currentTime;
+    // Build a lookup of all elements across all scenes (for cross-scene captions)
+    const allElements = {};
+    for (const s of this.scenes) {
+      const offset = this._getSceneTimeOffset(s);
+      for (const el of (s.elements || [])) {
+        allElements[el.id] = { el, offset };
+      }
+    }
     document.querySelectorAll('.canvas-el[data-type="caption"] .word').forEach(wordEl => {
       const idx = parseInt(wordEl.dataset.idx);
       const caption = wordEl.closest('.canvas-el');
       if (!caption) return;
-      const el = this.currentScene.elements?.find(e => e.id === caption.dataset.eid);
+      const found = allElements[caption.dataset.eid];
+      if (!found) return;
+      const { el, offset } = found;
       if (!el?.words?.[idx]) return;
       const w = el.words[idx];
-      if (t >= w.start && t <= w.end) {
+      // Convert scene-relative word timestamps to absolute for comparison
+      const absWStart = w.start + offset;
+      const absWEnd = w.end + offset;
+      if (t >= absWStart && t <= absWEnd) {
         wordEl.style.color = (el.style || {}).highlight || '#FFD700';
         wordEl.style.fontWeight = 'bold';
         wordEl.style.opacity = '1';
-      } else if (t > w.end) {
+      } else if (t > absWEnd) {
         wordEl.style.color = (el.style || {}).color || '#FFFFFF';
         wordEl.style.fontWeight = 'normal';
         wordEl.style.opacity = '1';
