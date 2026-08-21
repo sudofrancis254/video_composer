@@ -226,6 +226,7 @@ This set Scene 0's duration from 8.28s → 92s (full audio length). Since `_getA
 | **Timeline segment click doesn't seek** | Segment click only selected element, didn't move playhead to element's start | Added `seekTo()` call in segment click handler |
 | **Ruler not clickable for seeking** | Ruler rendered but had no click handler | Added pointerdown handler on `.timeline-ruler` that seeks to clicked position |
 | **Playhead handle too small** | 10px triangle was hard to grab | Increased to 14px with rounded triangle shape |
+| **Seeking restarts video** | RAF loop and timeupdate handler overwrote seeked currentTime with stale audio.currentTime | Added `_seeking` flag — set by `seekTo()`, checked by RAF and timeupdate to prevent overwrite during seek |
 
 ---
 

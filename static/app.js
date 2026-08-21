@@ -492,16 +492,18 @@ const App = {
   },
 
   seekTo(time) {
+    const prev = this.currentTime;
     this.currentTime = Math.max(0, Math.min(time, this.duration));
-    this._seeking = true; // block RAF from overwriting currentTime
+    console.log(`[SEEK] prev=${prev.toFixed(2)} → target=${this.currentTime.toFixed(2)} audioReady=${this.audio?.readyState} audioTime=${this.audio?.currentTime?.toFixed(2)} playing=${this.playing}`);
+    this._seeking = true;
     if (this.audio) {
       this.audio.currentTime = this.currentTime;
+      console.log(`[SEEK] after set audio.currentTime=${this.audio.currentTime.toFixed(2)}`);
     }
     this.updateTimeDisplay();
     this.updatePlayhead();
     this.highlightWords();
     this.renderCanvas();
-    // Release seeking lock after a short delay so audio settles
     setTimeout(() => { this._seeking = false; }, 100);
   },
 
@@ -809,8 +811,11 @@ const App = {
     const targetScene = this.scenes.find(s => s.id === sid) || this.scenes[0];
     if (!targetScene) return;
 
+    console.log(`[SCENE] selectScene called: sid=${sid} currentScene=${this.currentScene?.id} playing=${this.playing} audioTime=${this.audio?.currentTime?.toFixed(2)}`);
+
     // If clicking the already-active scene, just deselect current element
     if (this.currentScene && this.currentScene.id === targetScene.id) {
+      console.log('[SCENE] same scene — deselecting only');
       this.currentElement = null;
       this.renderCanvas();
       this.renderProperties();
@@ -819,12 +824,12 @@ const App = {
 
     this.currentScene = targetScene;
     this.currentElement = null;
-    // Seek to the absolute start time of this scene
     const sceneOffset = this._getSceneTimeOffset(this.currentScene);
+    console.log(`[SCENE] seeking to sceneOffset=${sceneOffset.toFixed(2)} scene=${targetScene.name}`);
     this.currentTime = sceneOffset;
     if (this.audio) {
       this.audio.currentTime = this.currentTime;
-      Logger.log('scene_seek', { sid, time: sceneOffset.toFixed(2) });
+      console.log(`[SCENE] audio.currentTime set to ${this.audio.currentTime.toFixed(2)}`);
     }
     this.updateTimeDisplay();
     this.updatePlayhead();
@@ -995,8 +1000,11 @@ const App = {
       src = `/audio/${we_pid}/source.mp3`;
     }
     if (!src) return;
-    if (this.audio && this._lastAudioSrc === src) return;
-    console.log('[Audio] Loading global audio:', src);
+    if (this.audio && this._lastAudioSrc === src) {
+      console.log('[AUDIO] _loadGlobalAudio: guard OK, skipping');
+      return;
+    }
+    console.log('[AUDIO] _loadGlobalAudio: LOADING! src=' + src + ' audioExists=' + !!this.audio + ' lastSrc=' + this._lastAudioSrc);
     this.loadAudio(src);
   },
 
@@ -1954,6 +1962,7 @@ const App = {
 
   // ---- Audio ----
   loadAudio(src) {
+    console.log(`[AUDIO] loadAudio called: src=${src} existing=${!!this.audio} lastSrc=${this._lastAudioSrc}`);
     if (this.audio) { this.audio.pause(); this.audio = null; }
     if (!src) return;
     this._lastAudioSrc = src;
@@ -2005,9 +2014,14 @@ const App = {
     });
 
     this.audio.addEventListener('timeupdate', () => {
-      // Don't overwrite currentTime during a seek — seekTo already set it
-      if (!this._seeking) {
-        this.currentTime = this.audio.currentTime;
+      const audioT = this.audio.currentTime;
+      if (this._seeking) {
+        console.log(`[TIMEUPDATE] BLOCKED (seeking) audio=${audioT.toFixed(2)} current=${this.currentTime.toFixed(2)}`);
+      } else {
+        if (Math.abs(audioT - this.currentTime) > 0.5) {
+          console.log(`[TIMEUPDATE] JUMP DETECTED audio=${audioT.toFixed(2)} current=${this.currentTime.toFixed(2)} diff=${(audioT - this.currentTime).toFixed(2)}`);
+        }
+        this.currentTime = audioT;
       }
       this.updateTimeDisplay();
       if (!this._playheadDrag) this.updatePlayhead();
@@ -2027,6 +2041,7 @@ const App = {
   },
 
   togglePlay() {
+    console.log(`[PLAY] togglePlay called: playing=${this.playing} audioTime=${this.audio?.currentTime?.toFixed(2)} readyState=${this.audio?.readyState}`);
     if (!this.audio) {
       this.toast('No audio loaded', 'error');
       return;
@@ -2060,10 +2075,18 @@ const App = {
 
   _startRenderLoop() {
     if (this._renderRAF) return;
+    console.log('[RAF] render loop started');
+    let frameCount = 0;
     const loop = () => {
-      if (!this.playing) { this._renderRAF = null; return; }
-      // Sync time from audio — but NOT during seek (seekTo sets _seeking)
-      if (!this._seeking && this.audio) this.currentTime = this.audio.currentTime;
+      if (!this.playing) { console.log('[RAF] render loop stopped'); this._renderRAF = null; return; }
+      const audioT = this.audio?.currentTime ?? 0;
+      if (!this._seeking && this.audio) {
+        if (Math.abs(audioT - this.currentTime) > 0.3) {
+          console.log(`[RAF] frame=${frameCount} audio=${audioT.toFixed(2)} was=${this.currentTime.toFixed(2)} CORRECTING`);
+        }
+        this.currentTime = audioT;
+      }
+      frameCount++;
       this.updateTimeDisplay();
       if (!this._playheadDrag) this.updatePlayhead();
       this.highlightWords();
