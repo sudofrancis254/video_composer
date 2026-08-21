@@ -227,6 +227,7 @@ This set Scene 0's duration from 8.28s → 92s (full audio length). Since `_getA
 | **Ruler not clickable for seeking** | Ruler rendered but had no click handler | Added pointerdown handler on `.timeline-ruler` that seeks to clicked position |
 | **Playhead handle too small** | 10px triangle was hard to grab | Increased to 14px with rounded triangle shape |
 | **Seeking restarts video** | RAF loop and timeupdate handler overwrote seeked currentTime with stale audio.currentTime | Added `_seeking` flag — set by `seekTo()`, checked by RAF and timeupdate to prevent overwrite during seek |
+| **Audio seeking always resets to 0** | Server `_handle_audio()` sent entire file as 200 OK — no HTTP Range request support. Browser Audio requires Range requests to seek to arbitrary positions | Added Range header parsing with 206 Partial Content responses in the audio handler |
 
 ---
 
