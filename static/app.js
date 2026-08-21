@@ -611,6 +611,8 @@ const App = {
     this.renderCanvas();
     this.renderTimeline();
     this.scaleCanvas();
+    // Explicitly load audio on project open
+    this._loadGlobalAudio();
     this.toast(`Loaded "${this.project.name}"`);
   },
 
@@ -993,11 +995,9 @@ const App = {
         if (s.audio_track?.source) { src = s.audio_track.source; break; }
       }
     }
-    // Also check the project's audio_source (Word Editor source path)
+    // Also check the project's audio_source (Word Editor source path or VideoComposerWork path)
     if (!src && this.project?.audio_source) {
-      // audio_source could be a WE project ID — try standard naming
-      const we_pid = this.project.audio_source;
-      src = `/audio/${we_pid}/source.mp3`;
+      src = this.project.audio_source;
     }
     if (!src) return;
     if (this.audio && this._lastAudioSrc === src) {

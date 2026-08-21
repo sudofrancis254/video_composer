@@ -493,6 +493,19 @@ work_scenes = os.path.join(WORK, "scenes.json")
 with open(work_scenes, "w", encoding="utf-8") as f:
     json.dump(scenes, f, indent=2, ensure_ascii=False)
 
+# Ensure meta.json has audio_source pointing to the MP3
+meta_path = os.path.join(BASE, "meta.json")
+if os.path.exists(meta_path):
+    meta = json.load(open(meta_path, encoding="utf-8"))
+else:
+    meta = {}
+audio_mp3 = os.path.join(WORK, "source.mp3")
+if os.path.exists(audio_mp3) and not meta.get("audio_source"):
+    meta["audio_source"] = audio_mp3
+    with open(meta_path, "w", encoding="utf-8") as f:
+        json.dump(meta, f, indent=2, ensure_ascii=False)
+    print(f"   Set audio_source in meta.json")
+
 total_elements = sum(len(s["elements"]) for s in scenes)
 print(f"✅ Motion Graphics Demo created!")
 print(f"   {len(scenes)} scenes, {total_elements} elements")
