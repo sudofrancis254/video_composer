@@ -1331,12 +1331,26 @@ const App = {
 
   // ---- Element interaction ----
   selectElement(eid) {
-    this.currentElement = this.currentScene?.elements?.find(e => e.id === eid);
+    // Search ALL scenes — elements from all scenes are rendered on canvas
+    let found = null;
+    for (const s of this.scenes) {
+      found = (s.elements || []).find(e => e.id === eid);
+      if (found) {
+        // Also switch to the scene this element belongs to
+        if (s.id !== this.currentScene?.id) {
+          this.currentScene = s;
+          this.renderSceneStrip();
+        }
+        break;
+      }
+    }
+    this.currentElement = found || null;
     document.querySelectorAll('.canvas-el').forEach(el => {
       el.classList.toggle('selected', el.dataset.eid === eid);
     });
-    Logger.log('select_element', { eid });
+    Logger.log('select_element', { eid, found: !!found });
     this.renderProperties();
+    this.renderTimeline();
   },
 
   // ---- 3-Phase Animation Engine ----
