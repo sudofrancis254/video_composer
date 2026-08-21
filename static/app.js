@@ -1183,6 +1183,25 @@ const App = {
           const elastic = 1 + Math.sin(elapsed * 8) * Math.exp(-elapsed * 3) * 0.3;
           div.style.opacity = ease;
           div.style.transform = `scale(${elastic})`;
+        } else if (animType === 'typewriter') {
+          div.style.opacity = ease;
+          div.style.clipPath = `inset(0 ${(1 - ease) * 100}% 0 0)`;
+        } else if (animType === 'wave') {
+          div.style.opacity = ease;
+          div.style.transform = `translateY(${Math.sin(elapsed * 6) * 10 * (1 - ease)}px)`;
+        } else if (animType === 'spin-in') {
+          div.style.opacity = ease;
+          div.style.transform = `rotate(${(1 - ease) * 180}deg) scale(${0.3 + ease * 0.7})`;
+        } else if (animType === 'glow-pulse') {
+          div.style.opacity = ease;
+          const glow = Math.sin(elapsed * 4) * 0.5 + 0.5;
+          div.style.textShadow = `0 0 ${10 + glow * 20}px ${el.color || '#FFD700'}`;
+        } else if (animType === 'blur-in') {
+          div.style.opacity = ease;
+          div.style.filter = `blur(${(1 - ease) * 10}px)`;
+        } else if (animType === 'flip-in') {
+          div.style.opacity = ease;
+          div.style.transform = `perspective(400px) rotateY(${(1 - ease) * 90}deg)`;
         }
       }
       // Exit animation (last 0.5s before end)
@@ -1195,8 +1214,10 @@ const App = {
         } else if (animType === 'fade-in' || animType === 'slide-up' || animType === 'slide-down' ||
                    animType === 'slide-left' || animType === 'slide-right' ||
                    animType === 'zoom-in' || animType === 'zoom-out' ||
-                   animType === 'bounce' || animType === 'elastic') {
-          // Fade out at end for all enter animations
+                   animType === 'bounce' || animType === 'elastic' ||
+                   animType === 'typewriter' || animType === 'wave' ||
+                   animType === 'spin-in' || animType === 'glow-pulse' ||
+                   animType === 'blur-in' || animType === 'flip-in') {
           div.style.opacity = 1 - ease;
         }
       }
@@ -1204,6 +1225,8 @@ const App = {
       else if (elapsed >= animDur) {
         div.style.opacity = '1';
         div.style.transform = 'none';
+        div.style.filter = 'none';
+        div.style.clipPath = 'none';
       }
     }
 
@@ -1219,6 +1242,7 @@ const App = {
       if (el.bg_color) { div.style.background = el.bg_color; div.style.padding = '12px 24px'; }
       if (el.border_radius) div.style.borderRadius = el.border_radius + 'px';
       if (el.glow) div.style.textShadow = `0 0 ${el.glow.radius || 10}px ${el.glow.color || '#FFD700'}`;
+      if (el.text_shadow) div.style.textShadow = el.text_shadow;
       div.textContent = el.content || 'Text';
     }
     else if (el.type === 'caption') {
@@ -1235,13 +1259,23 @@ const App = {
       const words = el.words || [];
       if (words.length > 0) {
         const boxClass = s.box_style || 'rounded';
+        const wordAnim = s.word_animation || 'none';
+        const wordDelay = s.word_delay || 0;
+        const unspoken = s.unspoken || 'visible';
+        let boxStyle = `background:${s.bg_color || 'rgba(0,0,0,0.7)'};border-radius:${s.border_radius || 12}px;padding:8px 16px`;
+        if (boxClass === 'pill') boxStyle += ';border-radius:999px';
+        else if (boxClass === 'circle') boxStyle += ';border-radius:50%;width:60px;height:60px;display:flex;align-items:center;justify-content:center';
+        else if (boxClass === 'sharp') boxStyle += ';border-radius:0';
+        else if (boxClass === 'none') boxStyle = 'background:transparent;padding:8px 16px';
         let wordHtml = words.map((w, i) =>
-          `<span class="word" data-idx="${i}">${this.esc(w.text)}</span>`
+          `<span class="word" data-idx="${i}" data-word-anim="${wordAnim}" data-word-delay="${wordDelay * i}" data-unspoken="${unspoken}" style="display:inline-block;transition:all 0.3s ease">${this.esc(w.text)}</span>`
         ).join(' ');
-        div.innerHTML = `<span class="caption-box ${boxClass}" style="background:${s.bg_color || 'rgba(0,0,0,0.7)'};border-radius:${s.border_radius || 12}px;padding:8px 16px">${wordHtml}</span>`;
+        div.innerHTML = `<span class="caption-box ${boxClass}" style="${boxStyle}">${wordHtml}</span>`;
       } else {
         div.textContent = el.content || '';
       }
+      // Apply text glow/shadow if set
+      if (s.text_shadow) div.style.textShadow = s.text_shadow;
     }
     else if (el.type === 'image') {
       const img = document.createElement('img');
@@ -1610,13 +1644,31 @@ const App = {
       html += '<div class="prop-section">';
       html += '<div class="prop-title">Text</div>';
       html += this.propRow('Content', 'text', el.content, v => this.updateProp(el, 'content', v));
-      html += this.propRow('Font', 'text', el.font || 'Inter', v => this.updateProp(el, 'font', v));
+      html += this._fontPicker('Font', el.font || 'Inter', v => this.updateProp(el, 'font', v));
       html += this.propRow('Size', 'number', el.size || 48, v => this.updateProp(el, 'size', parseInt(v)));
       html += this.propRow('Color', 'color', el.color || '#FFFFFF', v => this.updateProp(el, 'color', v));
       html += this.propRow('Weight', 'select', el.weight || 'normal', ['normal', 'bold', '600', '700'], v => this.updateProp(el, 'weight', v));
       html += this.propRow('Align', 'select', el.align || 'center', ['left', 'center', 'right'], v => this.updateProp(el, 'align', v));
       html += this.propRow('BG Color', 'color', el.bg_color || '', v => this.updateProp(el, 'bg_color', v || undefined));
       html += this.propRow('Radius', 'number', el.border_radius || 0, v => this.updateProp(el, 'border_radius', parseInt(v)));
+      // Glow / Shadow
+      html += '<div class="prop-title" style="margin-top:8px">Effects</div>';
+      const glow = el.glow || {};
+      html += this.propRow('Glow Color', 'color', glow.color || '', v => {
+        if (!el.glow) el.glow = {};
+        el.glow.color = v || undefined;
+        if (!v) delete el.glow.color;
+        if (!el.glow.color && !el.glow.radius) delete el.glow;
+        this.updateProp(el, 'glow', el.glow || undefined);
+      });
+      html += this.propRow('Glow Radius', 'number', glow.radius || 0, v => {
+        if (!el.glow) el.glow = {};
+        el.glow.radius = parseInt(v);
+        if (!el.glow.radius) delete el.glow.radius;
+        if (!el.glow.color && !el.glow.radius) delete el.glow;
+        this.updateProp(el, 'glow', el.glow || undefined);
+      });
+      html += this.propRow('Shadow', 'text', el.text_shadow || '', v => this.updateProp(el, 'text_shadow', v || undefined));
       html += '</div>';
     }
 
@@ -1625,13 +1677,19 @@ const App = {
       const s = el.style || {};
       html += '<div class="prop-section">';
       html += '<div class="prop-title">Caption Style</div>';
-      html += this.propRow('Font', 'text', s.font || 'Inter', v => this.updateNestedProp(el, 'style', 'font', v));
+      html += this._fontPicker('Font', s.font || 'Inter', v => this.updateNestedProp(el, 'style', 'font', v));
       html += this.propRow('Size', 'number', s.size || 46, v => this.updateNestedProp(el, 'style', 'size', parseInt(v)));
       html += this.propRow('Color', 'color', s.color || '#FFFFFF', v => this.updateNestedProp(el, 'style', 'color', v));
       html += this.propRow('Highlight', 'color', s.highlight || '#FFD700', v => this.updateNestedProp(el, 'style', 'highlight', v));
       html += this.propRow('BG Color', 'color', s.bg_color || '#000000', v => this.updateNestedProp(el, 'style', 'bg_color', v));
+      html += this.propRow('Box Shape', 'select', s.box_style || 'rounded', ['rounded', 'sharp', 'pill', 'circle', 'none'], v => this.updateNestedProp(el, 'style', 'box_style', v));
       html += this.propRow('Radius', 'number', s.border_radius || 12, v => this.updateNestedProp(el, 'style', 'border_radius', parseInt(v)));
       html += this.propRow('Align', 'select', s.align || 'center', ['left', 'center', 'right'], v => this.updateNestedProp(el, 'style', 'align', v));
+      // Per-word effects
+      html += '<div class="prop-title" style="margin-top:8px">Word Effects</div>';
+      html += this.propRow('Word Animation', 'select', s.word_animation || 'none', ['none', 'typewriter', 'wave', 'bounce-in', 'scale-up', 'glow-pulse'], v => this.updateNestedProp(el, 'style', 'word_animation', v));
+      html += this.propRow('Word Delay (ms)', 'number', s.word_delay || 0, v => this.updateNestedProp(el, 'style', 'word_delay', parseInt(v)));
+      html += this.propRow('Unspoken', 'select', s.unspoken || 'visible', ['visible', 'dimmed', 'hidden'], v => this.updateNestedProp(el, 'style', 'unspoken', v));
       html += '</div>';
     }
 
@@ -1651,7 +1709,7 @@ const App = {
     html += '<div class="prop-section">';
     html += '<div class="prop-title">Animation</div>';
     const animType = (typeof el.animation === 'object' ? el.animation?.type : el.animation) || 'none';
-    html += this.propRow('Type', 'select', animType, ['none', 'fade-in', 'fade-out', 'slide-up', 'slide-down', 'slide-left', 'slide-right', 'zoom-in', 'zoom-out', 'bounce', 'elastic'], v => {
+    html += this.propRow('Type', 'select', animType, ['none', 'fade-in', 'fade-out', 'slide-up', 'slide-down', 'slide-left', 'slide-right', 'zoom-in', 'zoom-out', 'bounce', 'elastic', 'typewriter', 'wave', 'spin-in', 'glow-pulse', 'blur-in', 'flip-in'], v => {
       if (v === 'none') { this.updateProp(el, 'animation', v); }
       else { this.updateProp(el, 'animation', { type: v, duration: 0.8 }); }
     });
@@ -1709,6 +1767,16 @@ const App = {
     }
     if (onChange) this._propCallbacks[id] = onChange;
     return `<div class="prop-row"><div class="prop-label">${label}</div>${input}</div>`;
+  },
+
+  _fontPicker(label, value, onChange) {
+    const fonts = ['Inter', 'Roboto', 'Open Sans', 'Lato', 'Montserrat', 'Oswald', 'Raleway', 'Poppins', 'Playfair Display', 'Merriweather', 'Source Code Pro', 'Fira Code', 'Bebas Neue', 'Anton', 'Permanent Marker', 'Pacifico', 'Lobster', 'Orbitron', 'Righteous', 'Caveat'];
+    const id = 'prop-' + label.replace(/\s/g, '-').toLowerCase();
+    const opts = fonts.map(f => `<option value="${f}" ${f === value ? 'selected' : ''}>${f}</option>`).join('');
+    const extra = !fonts.includes(value) ? `<option value="${value}" selected>${value}</option>` : '';
+    const select = `<select class="prop-select" id="${id}" onchange="App._propChange('${id}', this.value)" style="font-family:'${value}'">${extra}${opts}</select>`;
+    if (onChange) this._propCallbacks[id] = onChange;
+    return `<div class="prop-row"><div class="prop-label">${label}</div>${select}</div>`;
   },
 
   _propChange(id, value) {
@@ -2160,18 +2228,47 @@ const App = {
       // Convert scene-relative word timestamps to absolute for comparison
       const absWStart = w.start + offset;
       const absWEnd = w.end + offset;
+      const wordAnim = wordEl.dataset.wordAnim || 'none';
+      const unspoken = wordEl.dataset.unspoken || 'visible';
       if (t >= absWStart && t <= absWEnd) {
+        // Currently spoken word — apply highlight + word animation
         wordEl.style.color = (el.style || {}).highlight || '#FFD700';
         wordEl.style.fontWeight = 'bold';
         wordEl.style.opacity = '1';
+        if (wordAnim === 'typewriter') {
+          wordEl.style.clipPath = 'inset(0 0 0 0)';
+          wordEl.style.transform = 'none';
+        } else if (wordAnim === 'wave') {
+          wordEl.style.transform = `translateY(${Math.sin(Date.now() / 100) * 3}px)`;
+        } else if (wordAnim === 'bounce-in') {
+          wordEl.style.transform = 'scale(1.2)';
+        } else if (wordAnim === 'scale-up') {
+          wordEl.style.transform = 'scale(1.15)';
+        } else if (wordAnim === 'glow-pulse') {
+          wordEl.style.textShadow = `0 0 12px ${el.style?.highlight || '#FFD700'}`;
+        }
       } else if (t > absWEnd) {
+        // Already spoken — full visibility
         wordEl.style.color = (el.style || {}).color || '#FFFFFF';
         wordEl.style.fontWeight = 'normal';
         wordEl.style.opacity = '1';
+        wordEl.style.transform = 'none';
+        wordEl.style.clipPath = 'none';
+        wordEl.style.textShadow = 'none';
       } else {
-        wordEl.style.opacity = '0.4';
+        // Not yet spoken — apply unspoken style
         wordEl.style.color = (el.style || {}).color || '#FFFFFF';
         wordEl.style.fontWeight = 'normal';
+        wordEl.style.transform = 'none';
+        wordEl.style.clipPath = 'none';
+        wordEl.style.textShadow = 'none';
+        if (unspoken === 'hidden') {
+          wordEl.style.opacity = '0';
+        } else if (unspoken === 'dimmed') {
+          wordEl.style.opacity = '0.3';
+        } else {
+          wordEl.style.opacity = '0.5';
+        }
       }
     });
   },
