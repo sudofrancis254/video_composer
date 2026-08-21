@@ -57,6 +57,7 @@ const App = {
   dragState: null,
   resizeState: null,
   _playheadDrag: false,       // user is dragging the playhead
+  _seeking: false,            // true while seekTo is executing — blocks RAF/timeupdate from overwriting
   _selectedImportPid: null,
   _propCallbacks: {},         // property panel change callbacks
 
@@ -492,14 +493,16 @@ const App = {
 
   seekTo(time) {
     this.currentTime = Math.max(0, Math.min(time, this.duration));
+    this._seeking = true; // block RAF from overwriting currentTime
     if (this.audio) {
       this.audio.currentTime = this.currentTime;
     }
     this.updateTimeDisplay();
     this.updatePlayhead();
     this.highlightWords();
-    // Re-render canvas to show/hide time-based captions
     this.renderCanvas();
+    // Release seeking lock after a short delay so audio settles
+    setTimeout(() => { this._seeking = false; }, 100);
   },
 
   // ---- Canvas scaling ----
@@ -2002,11 +2005,13 @@ const App = {
     });
 
     this.audio.addEventListener('timeupdate', () => {
-      this.currentTime = this.audio.currentTime;
+      // Don't overwrite currentTime during a seek — seekTo already set it
+      if (!this._seeking) {
+        this.currentTime = this.audio.currentTime;
+      }
       this.updateTimeDisplay();
       if (!this._playheadDrag) this.updatePlayhead();
       this.highlightWords();
-      // Re-render canvas to show/hide time-based captions
       this.renderCanvas();
     });
 
@@ -2057,8 +2062,8 @@ const App = {
     if (this._renderRAF) return;
     const loop = () => {
       if (!this.playing) { this._renderRAF = null; return; }
-      // Sync time from audio
-      if (this.audio) this.currentTime = this.audio.currentTime;
+      // Sync time from audio — but NOT during seek (seekTo sets _seeking)
+      if (!this._seeking && this.audio) this.currentTime = this.audio.currentTime;
       this.updateTimeDisplay();
       if (!this._playheadDrag) this.updatePlayhead();
       this.highlightWords();
