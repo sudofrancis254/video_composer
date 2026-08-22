@@ -66,19 +66,20 @@ const WordAlignment = {
   },
 
   /**
-   * Resolve a wordRef to { start, end } timestamps
+   * Resolve a wordRef to { start, end } absolute timestamps
    * wordRef: { startWord, endWord, padBefore, padAfter }
-   * offset: scene-local time offset to subtract (for scenes with absolute word indices)
+   * Returns ABSOLUTE times matching words.json (no offset subtraction — word timestamps are always absolute)
    */
   resolveTiming(wordRef, offset = 0) {
     if (!wordRef || wordRef.startWord == null || wordRef.endWord == null) {
       return null;
     }
-    const key = `${wordRef.startWord}-${wordRef.endWord}-${offset}`;
+    const key = `${wordRef.startWord}-${wordRef.endWord}`;
     if (this._cache[key]) return this._cache[key];
 
-    const start = this.wordStartTime(wordRef.startWord) - offset;
-    const end = this.wordEndTime(wordRef.endWord) - offset;
+    // Word timestamps are ABSOLUTE — do NOT subtract offset
+    const start = this.wordStartTime(wordRef.startWord);
+    const end = this.wordEndTime(wordRef.endWord);
     const padBefore = wordRef.padBefore || 0;
     const padAfter = wordRef.padAfter || 0;
 

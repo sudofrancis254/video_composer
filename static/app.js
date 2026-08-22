@@ -964,22 +964,22 @@ const App = {
       const fadeInfo = this._sceneFade[s.id] || { fadeIn: 1, fadeOut: 1 };
       const sceneOpacity = Math.min(fadeInfo.fadeIn, fadeInfo.fadeOut);
       for (const el of elements) {
-        // Resolve wordRef timing if available (surgical precision from words.json)
+        // Resolve wordRef timing if available (absolute timestamps from words.json)
         if (el.wordRef && el.wordRef.startWord != null && WordAlignment.words.length > 0) {
-          const wt = WordAlignment.resolveTiming(el.wordRef, sceneOffset);
+          const wt = WordAlignment.resolveTiming(el.wordRef);
           if (wt) {
             el._resolvedStart = wt.start;
             el._resolvedEnd = wt.end;
           }
         }
-        // Convert scene-local times to absolute project times
-        // Use resolved timing from wordRef if available, else fall back to raw start/end
+        // Use resolved timing (absolute) from wordRef if available, else fall back to scene-local start/end
         const absStart = el._resolvedStart ?? ((el.start ?? 0) + sceneOffset);
         const absEnd = el._resolvedEnd ?? ((el.end ?? 5) + sceneOffset);
-        // Captions need precise timing — no buffer to prevent overlap
-        // Other elements get a small buffer for smooth enter/exit animations
+        // Captions and single-word elements need precise timing — no overlap
+        // Multi-word scene elements get a small buffer for smooth enter/exit animations
         const isCaption = el.type === 'caption';
-        const buffer = isCaption ? 0.05 : 0.5;
+        const isSingleWord = el.wordRef && el.wordRef.startWord === el.wordRef.endWord;
+        const buffer = (isCaption || isSingleWord) ? 0.05 : 0.5;
         if (t < absStart - buffer || t > absEnd + buffer) continue;
         this.renderElement(el, stage, w, h, absStart, absEnd, sceneOpacity);
         renderedCount++;
@@ -1203,11 +1203,16 @@ const App = {
     const exit = el.exit || { type: 'none' };
 
     const enType = entrance?.type || 'none';
-    const enDur = entrance?.duration || 0.6;
     const emType = emphasis?.type || 'none';
-    const emDur = emphasis?.duration || 0.4;
     const exType = exit?.type || 'none';
-    const exDur = exit?.duration || 0.5;
+    // For single-word elements (wordRef with startWord===endWord), scale durations
+    // so the word is visible for most of its brief lifetime
+    const _elLifetime = (elEnd ?? 0) - (elStart ?? 0);
+    const _isSingleWord = el.wordRef && el.wordRef.startWord === el.wordRef.endWord;
+    const _scale = _isSingleWord ? Math.min(1, _elLifetime / 0.4) : 1;
+    const enDur = entrance?.duration ?? (0.6 * _scale);
+    const emDur = emphasis?.duration ?? 0.4;
+    const exDur = exit?.duration ?? (0.5 * _scale);
 
     // Determine which phase we're in
     const inEntrance = elapsed >= 0 && elapsed < enDur + 0.05;
