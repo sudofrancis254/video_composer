@@ -975,10 +975,9 @@ const App = {
         // Use resolved timing (absolute) from wordRef if available, else fall back to scene-local start/end
         const absStart = el._resolvedStart ?? ((el.start ?? 0) + sceneOffset);
         const absEnd = el._resolvedEnd ?? ((el.end ?? 5) + sceneOffset);
-        // Captions and single-word elements need precise timing — no overlap
-        // Multi-word scene elements get a small buffer for smooth enter/exit animations
-        // Tiny buffer for all word-aligned elements to prevent overlap
-        const buffer = 0.05;  // 50ms — just enough for animation smoothness
+        // Buffer matches animation duration so elements appear smoothly
+        // without flickering or overlapping
+        const buffer = 0.12;  // 120ms — enough for quick fade-in/out, not enough to overlap
         if (t < absStart - buffer || t > absEnd + buffer) continue;
         this.renderElement(el, stage, w, h, absStart, absEnd, sceneOpacity);
         renderedCount++;
@@ -1209,9 +1208,10 @@ const App = {
     const _elLifetime = (elEnd ?? 0) - (elStart ?? 0);
     const _isSingleWord = el.wordRef && el.wordRef.startWord === el.wordRef.endWord;
     const _scale = _isSingleWord ? Math.min(1, _elLifetime / 0.4) : 1;
-    const enDur = entrance?.duration ?? (0.6 * _scale);
-    const emDur = emphasis?.duration ?? 0.4;
-    const exDur = exit?.duration ?? (0.5 * _scale);
+    // Short defaults to prevent flickering — animations must complete in <120ms
+    const enDur = entrance?.duration ?? 0.10;
+    const emDur = emphasis?.duration ?? 0.2;
+    const exDur = exit?.duration ?? 0.08;
 
     // Determine which phase we're in
     const inEntrance = elapsed >= 0 && elapsed < enDur + 0.05;

@@ -368,30 +368,27 @@ def _find_word_index(word: Dict) -> int:
 
 
 def _pick_entrance(group: Dict) -> Dict:
-    """Pick an entrance animation based on content."""
+    """Pick an entrance animation — must complete within 100ms to avoid flicker."""
     if group['dominant_class'] == 'emphasis':
-        return {'type': 'kinetic-in', 'duration': 0.4}
+        return {'type': 'kinetic-in', 'duration': 0.10}
     elif group['word_count'] == 1:
-        return {'type': 'morph-scale', 'duration': 0.25}
+        return {'type': 'morph-scale', 'duration': 0.08}
     elif group['word_count'] <= 3:
-        return {'type': 'zoom-in', 'duration': 0.3}
+        return {'type': 'zoom-in', 'duration': 0.10}
     else:
-        return {'type': 'fade-in', 'duration': 0.35}
+        return {'type': 'fade-in', 'duration': 0.10}
 
 
 def _pick_emphasis(group: Dict) -> Dict:
-    """Pick an emphasis animation."""
+    """Pick an emphasis animation — subtle glow, no duration constraint."""
     if group['dominant_class'] == 'emphasis':
-        return {'type': 'glow-breathe', 'duration': 0.5}
+        return {'type': 'glow-breathe', 'duration': 0.3}
     return {'type': 'none', 'duration': 0}
 
 
 def _pick_exit(group: Dict) -> Dict:
-    """Pick an exit animation."""
-    if group['word_count'] == 1:
-        return {'type': 'exit-dissolve', 'duration': 0.2}
-    else:
-        return {'type': 'fade-out', 'duration': 0.25}
+    """Pick an exit animation — must complete within 80ms to avoid flicker."""
+    return {'type': 'fade-out', 'duration': 0.08}
 
 
 # ─── Main Pipeline ───────────────────────────────────────────────────
