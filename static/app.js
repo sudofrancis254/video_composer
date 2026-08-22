@@ -977,9 +977,8 @@ const App = {
         const absEnd = el._resolvedEnd ?? ((el.end ?? 5) + sceneOffset);
         // Captions and single-word elements need precise timing — no overlap
         // Multi-word scene elements get a small buffer for smooth enter/exit animations
-        const isCaption = el.type === 'caption';
-        const isSingleWord = el.wordRef && el.wordRef.startWord === el.wordRef.endWord;
-        const buffer = (isCaption || isSingleWord) ? 0.05 : 0.5;
+        // Tiny buffer for all word-aligned elements to prevent overlap
+        const buffer = 0.05;  // 50ms — just enough for animation smoothness
         if (t < absStart - buffer || t > absEnd + buffer) continue;
         this.renderElement(el, stage, w, h, absStart, absEnd, sceneOpacity);
         renderedCount++;

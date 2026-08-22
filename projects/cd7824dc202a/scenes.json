@@ -26,9 +26,7 @@
         },
         "wordRef": {
           "startWord": 0,
-          "endWord": 4,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 4
         },
         "animation": {
           "type": "none"
@@ -65,9 +63,7 @@
         },
         "wordRef": {
           "startWord": 5,
-          "endWord": 9,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 9
         },
         "animation": {
           "type": "none"
@@ -104,9 +100,7 @@
         },
         "wordRef": {
           "startWord": 10,
-          "endWord": 10,
-          "padBefore": 0.05,
-          "padAfter": 0.3
+          "endWord": 10
         },
         "animation": {
           "type": "none"
@@ -143,9 +137,7 @@
         },
         "wordRef": {
           "startWord": 11,
-          "endWord": 14,
-          "padBefore": 0.05,
-          "padAfter": 0.32
+          "endWord": 14
         },
         "animation": {
           "type": "none"
@@ -182,9 +174,7 @@
         },
         "wordRef": {
           "startWord": 15,
-          "endWord": 18,
-          "padBefore": 0.05,
-          "padAfter": 0.32
+          "endWord": 18
         },
         "animation": {
           "type": "none"
@@ -221,9 +211,7 @@
         },
         "wordRef": {
           "startWord": 19,
-          "endWord": 20,
-          "padBefore": 0.05,
-          "padAfter": 0.3
+          "endWord": 20
         },
         "animation": {
           "type": "none"
@@ -270,9 +258,7 @@
         },
         "wordRef": {
           "startWord": 21,
-          "endWord": 25,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 25
         },
         "animation": {
           "type": "none"
@@ -309,9 +295,7 @@
         },
         "wordRef": {
           "startWord": 26,
-          "endWord": 30,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 30
         },
         "animation": {
           "type": "none"
@@ -348,9 +332,7 @@
         },
         "wordRef": {
           "startWord": 31,
-          "endWord": 32,
-          "padBefore": 0.05,
-          "padAfter": 0.3
+          "endWord": 32
         },
         "animation": {
           "type": "none"
@@ -397,9 +379,7 @@
         },
         "wordRef": {
           "startWord": 33,
-          "endWord": 37,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 37
         },
         "animation": {
           "type": "none"
@@ -436,9 +416,7 @@
         },
         "wordRef": {
           "startWord": 38,
-          "endWord": 42,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 42
         },
         "animation": {
           "type": "none"
@@ -475,9 +453,7 @@
         },
         "wordRef": {
           "startWord": 43,
-          "endWord": 44,
-          "padBefore": 0.05,
-          "padAfter": 0.3
+          "endWord": 44
         },
         "animation": {
           "type": "none"
@@ -524,9 +500,7 @@
         },
         "wordRef": {
           "startWord": 45,
-          "endWord": 49,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 49
         },
         "animation": {
           "type": "none"
@@ -563,9 +537,7 @@
         },
         "wordRef": {
           "startWord": 50,
-          "endWord": 54,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 54
         },
         "animation": {
           "type": "none"
@@ -602,9 +574,7 @@
         },
         "wordRef": {
           "startWord": 55,
-          "endWord": 59,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 59
         },
         "animation": {
           "type": "none"
@@ -651,9 +621,7 @@
         },
         "wordRef": {
           "startWord": 60,
-          "endWord": 63,
-          "padBefore": 0.05,
-          "padAfter": 0.32
+          "endWord": 63
         },
         "animation": {
           "type": "none"
@@ -700,9 +668,7 @@
         },
         "wordRef": {
           "startWord": 64,
-          "endWord": 68,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 68
         },
         "animation": {
           "type": "none"
@@ -739,9 +705,7 @@
         },
         "wordRef": {
           "startWord": 69,
-          "endWord": 72,
-          "padBefore": 0.05,
-          "padAfter": 0.32
+          "endWord": 72
         },
         "animation": {
           "type": "none"
@@ -788,9 +752,7 @@
         },
         "wordRef": {
           "startWord": 73,
-          "endWord": 77,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 77
         },
         "animation": {
           "type": "none"
@@ -827,9 +789,7 @@
         },
         "wordRef": {
           "startWord": 78,
-          "endWord": 82,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 82
         },
         "animation": {
           "type": "none"
@@ -866,9 +826,7 @@
         },
         "wordRef": {
           "startWord": 83,
-          "endWord": 87,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 87
         },
         "animation": {
           "type": "none"
@@ -915,9 +873,7 @@
         },
         "wordRef": {
           "startWord": 88,
-          "endWord": 88,
-          "padBefore": 0.05,
-          "padAfter": 0.3
+          "endWord": 88
         },
         "animation": {
           "type": "none"
@@ -964,9 +920,7 @@
         },
         "wordRef": {
           "startWord": 89,
-          "endWord": 92,
-          "padBefore": 0.05,
-          "padAfter": 0.32
+          "endWord": 92
         },
         "animation": {
           "type": "none"
@@ -1013,9 +967,7 @@
         },
         "wordRef": {
           "startWord": 93,
-          "endWord": 97,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 97
         },
         "animation": {
           "type": "none"
@@ -1052,9 +1004,7 @@
         },
         "wordRef": {
           "startWord": 98,
-          "endWord": 102,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 102
         },
         "animation": {
           "type": "none"
@@ -1091,9 +1041,7 @@
         },
         "wordRef": {
           "startWord": 103,
-          "endWord": 104,
-          "padBefore": 0.05,
-          "padAfter": 0.3
+          "endWord": 104
         },
         "animation": {
           "type": "none"
@@ -1140,9 +1088,7 @@
         },
         "wordRef": {
           "startWord": 105,
-          "endWord": 106,
-          "padBefore": 0.05,
-          "padAfter": 0.3
+          "endWord": 106
         },
         "animation": {
           "type": "none"
@@ -1179,9 +1125,7 @@
         },
         "wordRef": {
           "startWord": 107,
-          "endWord": 111,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 111
         },
         "animation": {
           "type": "none"
@@ -1228,9 +1172,7 @@
         },
         "wordRef": {
           "startWord": 112,
-          "endWord": 115,
-          "padBefore": 0.05,
-          "padAfter": 0.32
+          "endWord": 115
         },
         "animation": {
           "type": "none"
@@ -1277,9 +1219,7 @@
         },
         "wordRef": {
           "startWord": 116,
-          "endWord": 120,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 120
         },
         "animation": {
           "type": "none"
@@ -1316,9 +1256,7 @@
         },
         "wordRef": {
           "startWord": 121,
-          "endWord": 122,
-          "padBefore": 0.05,
-          "padAfter": 0.3
+          "endWord": 122
         },
         "animation": {
           "type": "none"
@@ -1355,9 +1293,7 @@
         },
         "wordRef": {
           "startWord": 123,
-          "endWord": 127,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 127
         },
         "animation": {
           "type": "none"
@@ -1394,9 +1330,7 @@
         },
         "wordRef": {
           "startWord": 128,
-          "endWord": 130,
-          "padBefore": 0.05,
-          "padAfter": 0.3
+          "endWord": 130
         },
         "animation": {
           "type": "none"
@@ -1443,9 +1377,7 @@
         },
         "wordRef": {
           "startWord": 131,
-          "endWord": 135,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 135
         },
         "animation": {
           "type": "none"
@@ -1482,9 +1414,7 @@
         },
         "wordRef": {
           "startWord": 136,
-          "endWord": 140,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 140
         },
         "animation": {
           "type": "none"
@@ -1531,9 +1461,7 @@
         },
         "wordRef": {
           "startWord": 141,
-          "endWord": 145,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 145
         },
         "animation": {
           "type": "none"
@@ -1570,9 +1498,7 @@
         },
         "wordRef": {
           "startWord": 146,
-          "endWord": 150,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 150
         },
         "animation": {
           "type": "none"
@@ -1609,9 +1535,7 @@
         },
         "wordRef": {
           "startWord": 151,
-          "endWord": 152,
-          "padBefore": 0.05,
-          "padAfter": 0.3
+          "endWord": 152
         },
         "animation": {
           "type": "none"
@@ -1658,9 +1582,7 @@
         },
         "wordRef": {
           "startWord": 153,
-          "endWord": 157,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 157
         },
         "animation": {
           "type": "none"
@@ -1697,9 +1619,7 @@
         },
         "wordRef": {
           "startWord": 158,
-          "endWord": 161,
-          "padBefore": 0.05,
-          "padAfter": 0.32
+          "endWord": 161
         },
         "animation": {
           "type": "none"
@@ -1746,9 +1666,7 @@
         },
         "wordRef": {
           "startWord": 162,
-          "endWord": 165,
-          "padBefore": 0.05,
-          "padAfter": 0.32
+          "endWord": 165
         },
         "animation": {
           "type": "none"
@@ -1795,9 +1713,7 @@
         },
         "wordRef": {
           "startWord": 166,
-          "endWord": 170,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 170
         },
         "animation": {
           "type": "none"
@@ -1834,9 +1750,7 @@
         },
         "wordRef": {
           "startWord": 171,
-          "endWord": 175,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 175
         },
         "animation": {
           "type": "none"
@@ -1873,9 +1787,7 @@
         },
         "wordRef": {
           "startWord": 176,
-          "endWord": 180,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 180
         },
         "animation": {
           "type": "none"
@@ -1912,9 +1824,7 @@
         },
         "wordRef": {
           "startWord": 181,
-          "endWord": 185,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 185
         },
         "animation": {
           "type": "none"
@@ -1951,9 +1861,7 @@
         },
         "wordRef": {
           "startWord": 186,
-          "endWord": 190,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 190
         },
         "animation": {
           "type": "none"
@@ -1990,9 +1898,7 @@
         },
         "wordRef": {
           "startWord": 191,
-          "endWord": 195,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 195
         },
         "animation": {
           "type": "none"
@@ -2029,9 +1935,7 @@
         },
         "wordRef": {
           "startWord": 196,
-          "endWord": 199,
-          "padBefore": 0.05,
-          "padAfter": 0.32
+          "endWord": 199
         },
         "animation": {
           "type": "none"
@@ -2068,9 +1972,7 @@
         },
         "wordRef": {
           "startWord": 200,
-          "endWord": 204,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 204
         },
         "animation": {
           "type": "none"
@@ -2117,9 +2019,7 @@
         },
         "wordRef": {
           "startWord": 205,
-          "endWord": 209,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 209
         },
         "animation": {
           "type": "none"
@@ -2156,9 +2056,7 @@
         },
         "wordRef": {
           "startWord": 210,
-          "endWord": 210,
-          "padBefore": 0.05,
-          "padAfter": 0.3
+          "endWord": 210
         },
         "animation": {
           "type": "none"
@@ -2205,9 +2103,7 @@
         },
         "wordRef": {
           "startWord": 211,
-          "endWord": 215,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 215
         },
         "animation": {
           "type": "none"
@@ -2244,9 +2140,7 @@
         },
         "wordRef": {
           "startWord": 216,
-          "endWord": 220,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 220
         },
         "animation": {
           "type": "none"
@@ -2283,9 +2177,7 @@
         },
         "wordRef": {
           "startWord": 221,
-          "endWord": 225,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 225
         },
         "animation": {
           "type": "none"
@@ -2322,9 +2214,7 @@
         },
         "wordRef": {
           "startWord": 226,
-          "endWord": 230,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 230
         },
         "animation": {
           "type": "none"
@@ -2361,9 +2251,7 @@
         },
         "wordRef": {
           "startWord": 231,
-          "endWord": 235,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 235
         },
         "animation": {
           "type": "none"
@@ -2400,9 +2288,7 @@
         },
         "wordRef": {
           "startWord": 236,
-          "endWord": 240,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 240
         },
         "animation": {
           "type": "none"
@@ -2439,9 +2325,7 @@
         },
         "wordRef": {
           "startWord": 241,
-          "endWord": 245,
-          "padBefore": 0.05,
-          "padAfter": 0.4
+          "endWord": 245
         },
         "animation": {
           "type": "none"
@@ -2478,9 +2362,7 @@
         },
         "wordRef": {
           "startWord": 246,
-          "endWord": 249,
-          "padBefore": 0.05,
-          "padAfter": 0.32
+          "endWord": 249
         },
         "animation": {
           "type": "none"
@@ -2527,9 +2409,7 @@
         },
         "wordRef": {
           "startWord": 250,
-          "endWord": 253,
-          "padBefore": 0.05,
-          "padAfter": 0.32
+          "endWord": 253
         },
         "animation": {
           "type": "none"

@@ -347,8 +347,8 @@ def generate_display_elements(groups: List[Dict]) -> List[Dict]:
             'wordRef': {
                 'startWord': _find_word_index(word_list[0]),
                 'endWord': _find_word_index(word_list[-1]),
-                'padBefore': 0.05,
-                'padAfter': max(0.3, group['word_count'] * 0.08),
+                # NO padding — display exactly during word audio
+                # The canvas 0.05s buffer handles smooth transitions
             },
             'animation': {'type': 'none'},
             'entrance': _pick_entrance(group),
