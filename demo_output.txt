@@ -1,0 +1,105 @@
+Natural pauses found:
+  Gap 1: Script → We  (0.86s gap, 6.90s → 7.76s)
+  Gap 2: security → And  (0.86s gap, 12.35s → 13.21s)
+  Gap 3: first → How  (0.86s gap, 16.69s → 17.55s)
+  Gap 4: code → This  (0.86s gap, 21.32s → 22.19s)
+  Gap 5: video → Here's  (0.86s gap, 23.27s → 24.14s)
+  Gap 6: though → That  (0.86s gap, 26.99s → 27.85s)
+  Gap 7: readers → Humans  (0.86s gap, 32.39s → 33.25s)
+  Gap 8: Humans → And  (0.86s gap, 33.94s → 34.80s)
+  Gap 9: assistants → Every  (0.86s gap, 36.35s → 37.21s)
+  Gap 10: mind → I  (0.86s gap, 41.62s → 42.49s)
+  Gap 11: buzzword → I  (0.86s gap, 44.69s → 45.55s)
+  Gap 12: too → Until  (0.86s gap, 46.59s → 47.45s)
+  Gap 13: place → Because  (0.86s gap, 51.25s → 52.11s)
+  Gap 14: building → But  (0.86s gap, 55.29s → 56.15s)
+  Gap 15: want → And  (0.86s gap, 59.15s → 60.01s)
+  Gap 16: it → So  (0.86s gap, 62.62s → 63.49s)
+  Gap 17: deal → By  (0.86s gap, 64.53s → 65.39s)
+  Gap 18: place → We're  (0.86s gap, 76.70s → 77.56s)
+  Gap 19: forever → Let's  (0.86s gap, 89.58s → 90.44s)
+
+============================================================
+  WORD-ALIGNED DEMO CREATED
+  Scenes: 8
+  Elements: 41
+  Duration: 95.0s
+  Words: 254
+============================================================
+  Scene 1: Hook — In My Last Video
+    Words 0-12: "In ... codebase"
+    Audio: 0.10s → 4.11s  (dur: 4.5s)
+    Elements: 6
+      [text] wordRef={'startWord': 0, 'wordEnd': 3} "IN MY LAST VIDEO"
+      [text] wordRef={'startWord': 11, 'wordEnd': 12} "POSTEMPlATE"
+      [text] wordRef={'startWord': 12, 'wordEnd': 12} "CODEBASE"
+      [caption] wordRef={'startWord': 0, 'wordEnd': 12} (13 words)
+
+  Scene 2: What It Is — POS System
+    Words 13-18: "a ... with"
+    Audio: 4.30s → 6.19s  (dur: 2.4s)
+    Elements: 4
+      [text] wordRef={'startWord': 13, 'wordEnd': 15} "REAL POINT-OF-SALE"
+      [text] wordRef={'startWord': 16, 'wordEnd': 17} "BUILT WITH"
+      [text] wordRef={'startWord': 17, 'wordEnd': 18} "APPS SCRIPT"
+      [caption] wordRef={'startWord': 13, 'wordEnd': 18} (19 words)
+
+  Scene 3: Layers — DB / Logic / Security
+    Words 19-27: "Apps ... database"
+    Audio: 6.20s → 10.24s  (dur: 4.5s)
+    Elements: 6
+      [text] wordRef={'startWord': 19, 'wordEnd': 20} "EVERY LAYER"
+      [text] wordRef={'startWord': 21, 'wordEnd': 21} "DATABASE"
+      [text] wordRef={'startWord': 24, 'wordEnd': 25} "BUSINESS LOGIC"
+      [text] wordRef={'startWord': 27, 'wordEnd': 27} "SECURITY"
+      [caption] wordRef={'startWord': 19, 'wordEnd': 27} (28 words)
+
+  Scene 4: The Promise — One More Video
+    Words 28-42: "the ... more"
+    Audio: 10.38s → 15.69s  (dur: 5.8s)
+    Elements: 4
+      [text] wordRef={'startWord': 33, 'wordEnd': 34} "I MADE A"
+      [text] wordRef={'startWord': 35, 'wordEnd': 35} "PROMISE"
+      [text] wordRef={'startWord': 38, 'wordEnd': 41} "ONE MORE VIDEO"
+      [caption] wordRef={'startWord': 28, 'wordEnd': 42} (43 words)
+
+  Scene 5: How to Plan a Codebase
+    Words 43-56: "video ... single"
+    Audio: 15.70s → 20.49s  (dur: 5.3s)
+    Elements: 5
+      [text] wordRef={'startWord': 43, 'wordEnd': 46} "HOW TO PLAN"
+      [text] wordRef={'startWord': 47, 'wordEnd': 48} "A CODEBASE"
+      [text] wordRef={'startWord': 49, 'wordEnd': 54} "BEFORE YOU WRITE"
+      [text] wordRef={'startWord': 54, 'wordEnd': 56} "A SINGLE LINE OF CODE"
+      [caption] wordRef={'startWord': 43, 'wordEnd': 56} (57 words)
+
+  Scene 6: That Video I Didn't Fully Explain
+    Words 57-68: "line ... fully"
+    Audio: 20.50s → 25.27s  (dur: 5.3s)
+    Elements: 5
+      [text] wordRef={'startWord': 57, 'wordEnd': 59} "THIS IS THAT"
+      [text] wordRef={'startWord': 60, 'wordEnd': 60} "VIDEO"
+      [text] wordRef={'startWord': 62, 'wordEnd': 65} "I DIDN'T FULLY"
+      [text] wordRef={'startWord': 66, 'wordEnd': 66} "EXPLAIN"
+      [caption] wordRef={'startWord': 57, 'wordEnd': 68} (69 words)
+
+  Scene 7: Built to Be Read
+    Words 69-77: "explain ... organized"
+    Audio: 25.29s → 29.85s  (dur: 5.1s)
+    Elements: 6
+      [text] wordRef={'startWord': 69, 'wordEnd': 70} "THAT CODEBASE"
+      [text] wordRef={'startWord': 71, 'wordEnd': 71} "WASN'T JUST"
+      [text] wordRef={'startWord': 71, 'wordEnd': 71} "ORGANIZED"
+      [text] wordRef={'startWord': 72, 'wordEnd': 73} "IT WAS BUILT"
+      [text] wordRef={'startWord': 76, 'wordEnd': 77} "TO BE READ"
+      [caption] wordRef={'startWord': 69, 'wordEnd': 77} (78 words)
+
+  Scene 8: Two Readers — Humans & AI
+    Words 78-253: "it ... blueprint"
+    Audio: 30.05s → 91.72s  (dur: 62.2s)
+    Elements: 5
+      [text] wordRef={'startWord': 78, 'wordEnd': 80} "BY TWO READERS"
+      [text] wordRef={'startWord': 81, 'wordEnd': 81} "HUMANS"
+      [text] wordRef={'startWord': 83, 'wordEnd': 83} "AI ASSISTANTS"
+      [caption] wordRef={'startWord': 78, 'wordEnd': 253} (254 words)
+

@@ -921,6 +921,14 @@ def _build_captions_from_words(words: list, scene_start: float) -> list:
 
         if gap > 0.4 or len(group) >= 6:
             text_content = " ".join(cw.get("text", "") for cw in group)
+            # Find word indices for this group in the full words list
+            group_word_start = None
+            group_word_end = None
+            for wi, ww in enumerate(words):
+                if ww is group[0]:
+                    group_word_start = wi
+                if ww is group[-1]:
+                    group_word_end = wi
             captions.append({
                 "id": "el_" + ps._new_id(),
                 "type": "caption",
@@ -928,6 +936,7 @@ def _build_captions_from_words(words: list, scene_start: float) -> list:
                 "x": 5, "y": 80, "width": 90, "height": 15,
                 "start": round(group_start - scene_start, 3),
                 "end": round(end - scene_start + 0.1, 3),
+                "wordRef": {"startWord": group_word_start, "wordEnd": group_word_end},
                 "words": [
                     {"text": cw.get("text", ""),
                      "start": round(cw.get("start", 0) - scene_start, 3),
@@ -947,6 +956,13 @@ def _build_captions_from_words(words: list, scene_start: float) -> list:
     # Flush remaining
     if group:
         text_content = " ".join(cw.get("text", "") for cw in group)
+        group_word_start = None
+        group_word_end = None
+        for wi, ww in enumerate(words):
+            if ww is group[0]:
+                group_word_start = wi
+            if ww is group[-1]:
+                group_word_end = wi
         captions.append({
             "id": "el_" + ps._new_id(),
             "type": "caption",
@@ -954,6 +970,7 @@ def _build_captions_from_words(words: list, scene_start: float) -> list:
             "x": 5, "y": 80, "width": 90, "height": 15,
             "start": round((group_start or 0) - scene_start, 3),
             "end": round(group[-1].get("end", 0) - scene_start + 0.1, 3),
+            "wordRef": {"startWord": group_word_start, "wordEnd": group_word_end},
             "words": [
                 {"text": cw.get("text", ""),
                  "start": round(cw.get("start", 0) - scene_start, 3),
@@ -992,7 +1009,10 @@ def _generate_visuals_for_scene(
     title_end = min(scene_duration, 5)  # title shows for up to 5s
 
     # Don't add title for first scene (it's the hook)
-    if scene_idx > 0:
+    if scene_idx > 0 and len(words) >= 2:
+        # Find absolute word indices for first 3 words
+        title_word_end_idx = min(2, len(words) - 1)
+        title_abs_end = words[title_word_end_idx].get("end", scene_end) - scene_start
         visuals.append({
             "id": "el_" + ps._new_id(),
             "type": "text",
@@ -1001,7 +1021,8 @@ def _generate_visuals_for_scene(
             "font": theme["font"], "size": theme["title_size"],
             "color": accent, "weight": "bold", "align": "center",
             "start": round(first_word_start, 3),
-            "end": round(title_end, 3),
+            "end": round(min(title_end, title_abs_end + 1.0), 3),
+            "wordRef": {"startWord": 0, "wordEnd": title_word_end_idx},
             "bg_color": f"{accent}11",
             "border_radius": 12,
             "animation": {"type": "bounce", "duration": 0.7},

@@ -1,25 +1,123 @@
 [
   {
-    "id": "0400ad14d794",
-    "name": "Hook — In My Last Video",
-    "duration": 5,
+    "id": "bd7ff237440e",
+    "name": "Hook",
+    "duration": 4.51,
     "bg_color": "#0a0e14",
     "bg_pattern": "bg-grid",
+    "wordStart": 0,
+    "wordEnd": 12,
     "elements": [
       {
-        "id": "06f51d7f2929",
+        "id": "316042f7803f",
+        "type": "caption",
+        "words": [
+          {
+            "text": "In",
+            "start": 0.0,
+            "end": 0.187
+          },
+          {
+            "text": "my",
+            "start": 0.2,
+            "end": 0.338
+          },
+          {
+            "text": "last",
+            "start": 0.35,
+            "end": 0.687
+          },
+          {
+            "text": "video",
+            "start": 0.7,
+            "end": 1.05
+          },
+          {
+            "text": "I",
+            "start": 1.287,
+            "end": 1.375
+          },
+          {
+            "text": "gave",
+            "start": 1.388,
+            "end": 1.625
+          },
+          {
+            "text": "you",
+            "start": 1.638,
+            "end": 1.775
+          },
+          {
+            "text": "a",
+            "start": 1.787,
+            "end": 1.85
+          },
+          {
+            "text": "tour",
+            "start": 1.862,
+            "end": 2.163
+          },
+          {
+            "text": "of",
+            "start": 2.175,
+            "end": 2.275
+          },
+          {
+            "text": "the",
+            "start": 2.288,
+            "end": 2.387
+          },
+          {
+            "text": "POSTemplate",
+            "start": 2.4,
+            "end": 3.313
+          },
+          {
+            "text": "codebase",
+            "start": 3.325,
+            "end": 4.012
+          }
+        ],
+        "x": 5,
+        "y": 82,
+        "width": 90,
+        "height": 15,
+        "start": 0,
+        "end": 4.51,
+        "wordRef": {
+          "startWord": 0,
+          "wordEnd": 12
+        },
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.75)",
+          "border_radius": 16,
+          "align": "center",
+          "position": "bottom",
+          "word_animation": "bounce-in",
+          "unspoken": "dimmed"
+        }
+      },
+      {
+        "id": "bc9bf19be546",
         "type": "text",
         "content": "IN MY LAST VIDEO",
         "x": 10,
-        "y": 10,
+        "y": 8,
         "width": 80,
         "height": 20,
-        "start": 0,
-        "end": 4.5,
+        "start": 0.0,
+        "end": 1.55,
+        "wordRef": {
+          "startWord": 0,
+          "wordEnd": 3
+        },
         "font": "Bebas Neue",
         "size": 96,
         "color": "#FFFFFF",
-        "weight": "normal",
         "align": "center",
         "text_shadow": "0 4px 20px rgba(74,158,255,0.5)",
         "entrance": {
@@ -32,23 +130,26 @@
         },
         "exit": {
           "type": "exit-fly-right",
-          "duration": 0.4
+          "duration": 0.5
         }
       },
       {
-        "id": "ef5cb89ca546",
+        "id": "5fb4d2dff6c7",
         "type": "text",
         "content": "POSTEMPlATE",
-        "x": 20,
+        "x": 15,
         "y": 38,
-        "width": 60,
+        "width": 70,
         "height": 18,
-        "start": 0.1,
-        "end": 5.112,
+        "start": 2.4,
+        "end": 3.813,
+        "wordRef": {
+          "startWord": 11,
+          "wordEnd": 11
+        },
         "font": "Orbitron",
         "size": 72,
         "color": "#4a9eff",
-        "weight": "normal",
         "align": "center",
         "entrance": {
           "type": "morph-scale",
@@ -64,23 +165,26 @@
         }
       },
       {
-        "id": "d6f4945f6591",
+        "id": "585cc947407a",
         "type": "text",
         "content": "CODEBASE",
-        "x": 27.083333333333332,
-        "y": 64.81481481481481,
-        "width": 40,
+        "x": 25,
+        "y": 62,
+        "width": 50,
         "height": 14,
-        "start": 4.112,
-        "end": 5.612,
+        "start": 3.325,
+        "end": 5.012,
+        "wordRef": {
+          "startWord": 12,
+          "wordEnd": 12
+        },
         "font": "Anton",
         "size": 64,
         "color": "#FFD700",
-        "weight": "normal",
         "align": "center",
         "entrance": {
           "type": "zoom-in",
-          "duration": 0.5
+          "duration": 0.6
         },
         "emphasis": {
           "type": "wave-float",
@@ -88,22 +192,98 @@
         },
         "exit": {
           "type": "fade-out",
-          "duration": 0.3
+          "duration": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "7b28dabc873d",
+    "name": "POS System",
+    "duration": 2.39,
+    "bg_color": "#0d0221",
+    "bg_pattern": "bg-vignette",
+    "wordStart": 13,
+    "wordEnd": 18,
+    "elements": [
+      {
+        "id": "847878571fef",
+        "type": "caption",
+        "words": [
+          {
+            "text": "a",
+            "start": 0.0,
+            "end": 0.05
+          },
+          {
+            "text": "real",
+            "start": 0.062,
+            "end": 0.375
+          },
+          {
+            "text": "point-of-sale",
+            "start": 0.388,
+            "end": 1.05
+          },
+          {
+            "text": "system",
+            "start": 1.062,
+            "end": 1.45
+          },
+          {
+            "text": "built",
+            "start": 1.463,
+            "end": 1.737
+          },
+          {
+            "text": "with",
+            "start": 1.75,
+            "end": 1.888
+          }
+        ],
+        "x": 5,
+        "y": 82,
+        "width": 90,
+        "height": 15,
+        "start": 0,
+        "end": 2.39,
+        "wordRef": {
+          "startWord": 13,
+          "wordEnd": 18
+        },
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.75)",
+          "border_radius": 16,
+          "align": "center",
+          "position": "bottom",
+          "word_animation": "bounce-in",
+          "unspoken": "dimmed"
         }
       },
       {
-        "id": "8306a53f4bc9",
-        "type": "shape",
-        "shape": "circle",
-        "x": 84.375,
-        "y": 20.37037037037037,
-        "width": 8,
-        "height": 8,
-        "start": 0,
-        "end": 4.5,
-        "fill": "#4a9eff",
+        "id": "99ad8bd3fe88",
+        "type": "text",
+        "content": "REAL POINT-OF-SALE",
+        "x": 8,
+        "y": 15,
+        "width": 84,
+        "height": 20,
+        "start": 0.0,
+        "end": 0.875,
+        "wordRef": {
+          "startWord": 13,
+          "wordEnd": 14
+        },
+        "font": "Orbitron",
+        "size": 80,
+        "color": "#00E5FF",
+        "align": "center",
         "entrance": {
-          "type": "morph-scale",
+          "type": "kinetic-in",
           "duration": 0.6
         },
         "emphasis": {
@@ -116,23 +296,29 @@
         }
       },
       {
-        "id": "17cae9916f3f",
-        "type": "shape",
-        "shape": "rect",
-        "x": 2,
-        "y": 80,
-        "width": 12,
-        "height": 3,
-        "start": 0.5,
-        "end": 4.5,
-        "fill": "#FFD700",
-        "border_radius": 4,
+        "id": "f912b032f210",
+        "type": "text",
+        "content": "APPS SCRIPT",
+        "x": 20,
+        "y": 55,
+        "width": 60,
+        "height": 16,
+        "start": 1.463,
+        "end": 2.388,
+        "wordRef": {
+          "startWord": 17,
+          "wordEnd": 18
+        },
+        "font": "Montserrat",
+        "size": 72,
+        "color": "#E0E0E0",
+        "align": "center",
         "entrance": {
-          "type": "slide-left",
+          "type": "typewriter",
           "duration": 0.6
         },
         "emphasis": {
-          "type": "pulse",
+          "type": "wave-float",
           "duration": 0.4
         },
         "exit": {
@@ -143,26 +329,104 @@
     ]
   },
   {
-    "id": "650cd1ab2ac4",
-    "name": "Layers — DB / Logic / Security",
-    "duration": 7,
-    "bg_color": "#0d0221",
-    "bg_pattern": "bg-vignette",
+    "id": "2f074ef67ab1",
+    "name": "Layers",
+    "duration": 4.54,
+    "bg_color": "#1a0a2e",
+    "bg_pattern": "bg-dots",
+    "wordStart": 19,
+    "wordEnd": 27,
     "elements": [
       {
-        "id": "cccc36601690",
+        "id": "5b15bb1eea16",
+        "type": "caption",
+        "words": [
+          {
+            "text": "Apps",
+            "start": 0.0,
+            "end": 0.238
+          },
+          {
+            "text": "Script",
+            "start": 0.25,
+            "end": 0.7
+          },
+          {
+            "text": "We",
+            "start": 1.563,
+            "end": 1.775
+          },
+          {
+            "text": "walked",
+            "start": 1.787,
+            "end": 2.087
+          },
+          {
+            "text": "through",
+            "start": 2.1,
+            "end": 2.35
+          },
+          {
+            "text": "every",
+            "start": 2.362,
+            "end": 2.625
+          },
+          {
+            "text": "layer",
+            "start": 2.638,
+            "end": 3.013
+          },
+          {
+            "text": "the",
+            "start": 3.263,
+            "end": 3.35
+          },
+          {
+            "text": "database",
+            "start": 3.362,
+            "end": 4.038
+          }
+        ],
+        "x": 5,
+        "y": 82,
+        "width": 90,
+        "height": 15,
+        "start": 0,
+        "end": 4.54,
+        "wordRef": {
+          "startWord": 19,
+          "wordEnd": 27
+        },
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.75)",
+          "border_radius": 16,
+          "align": "center",
+          "position": "bottom",
+          "word_animation": "bounce-in",
+          "unspoken": "dimmed"
+        }
+      },
+      {
+        "id": "fdfe750b993f",
         "type": "text",
         "content": "EVERY LAYER",
         "x": 10,
         "y": 5,
         "width": 80,
-        "height": 18,
-        "start": 0,
-        "end": 6.5,
+        "height": 16,
+        "start": 0.0,
+        "end": 1.2,
+        "wordRef": {
+          "startWord": 19,
+          "wordEnd": 20
+        },
         "font": "Bebas Neue",
         "size": 88,
         "color": "#FFFFFF",
-        "weight": "normal",
         "align": "center",
         "entrance": {
           "type": "slide-down",
@@ -178,23 +442,26 @@
         }
       },
       {
-        "id": "722234dbed9b",
+        "id": "a85945ca6a94",
         "type": "text",
         "content": "DATABASE",
         "x": 5,
-        "y": 30,
+        "y": 28,
         "width": 42,
         "height": 20,
-        "start": 4.663,
-        "end": 7.163,
+        "start": 1.563,
+        "end": 2.275,
+        "wordRef": {
+          "startWord": 21,
+          "wordEnd": 21
+        },
         "font": "Orbitron",
         "size": 80,
         "color": "#00E5FF",
-        "weight": "normal",
         "align": "center",
         "entrance": {
           "type": "kinetic-in",
-          "duration": 0.7
+          "duration": 0.6
         },
         "emphasis": {
           "type": "glow-breathe",
@@ -206,23 +473,26 @@
         }
       },
       {
-        "id": "1da9808cf015",
+        "id": "8ca4f35b074f",
         "type": "text",
         "content": "BUSINESS LOGIC",
         "x": 53,
-        "y": 30,
+        "y": 28,
         "width": 42,
         "height": 20,
-        "start": 5.688,
-        "end": 8.188,
+        "start": 2.362,
+        "end": 3.513,
+        "wordRef": {
+          "startWord": 24,
+          "wordEnd": 25
+        },
         "font": "Anton",
         "size": 72,
         "color": "#FF9100",
-        "weight": "normal",
         "align": "center",
         "entrance": {
           "type": "counter-spin",
-          "duration": 0.8
+          "duration": 0.6
         },
         "emphasis": {
           "type": "pulse",
@@ -234,23 +504,26 @@
         }
       },
       {
-        "id": "d7885d42c787",
+        "id": "b11770f8512e",
         "type": "text",
         "content": "SECURITY",
         "x": 25,
-        "y": 58,
+        "y": 55,
         "width": 50,
         "height": 20,
-        "start": 6.875,
-        "end": 9.375,
+        "start": 3.362,
+        "end": 4.538,
+        "wordRef": {
+          "startWord": 27,
+          "wordEnd": 27
+        },
         "font": "Raleway",
         "size": 76,
         "color": "#FF5252",
-        "weight": "normal",
         "align": "center",
         "entrance": {
           "type": "flip-in",
-          "duration": 0.7
+          "duration": 0.6
         },
         "emphasis": {
           "type": "shake",
@@ -260,114 +533,138 @@
           "type": "exit-shrink",
           "duration": 0.5
         }
-      },
-      {
-        "id": "597fefb06f80",
-        "type": "shape",
-        "shape": "line",
-        "x": 20,
-        "y": 56,
-        "width": 60,
-        "height": 0.5,
-        "start": 0.5,
-        "end": 6.5,
-        "fill": "#FFD700",
-        "entrance": {
-          "type": "slide-left",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "pulse",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-dissolve",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "3f16a35b683b",
-        "type": "shape",
-        "shape": "circle",
-        "x": 35,
-        "y": 85,
-        "width": 4,
-        "height": 4,
-        "start": 0.5,
-        "end": 6.5,
-        "fill": "#4a9eff",
-        "entrance": {
-          "type": "morph-scale",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "glow-breathe",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "dd1d16482ed7",
-        "type": "shape",
-        "shape": "circle",
-        "x": 48,
-        "y": 85,
-        "width": 4,
-        "height": 4,
-        "start": 0.8,
-        "end": 6.5,
-        "fill": "#FFD700",
-        "entrance": {
-          "type": "morph-scale",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "glow-breathe",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "745bdbb3b74f",
-        "type": "shape",
-        "shape": "circle",
-        "x": 61,
-        "y": 85,
-        "width": 4,
-        "height": 4,
-        "start": 1.1,
-        "end": 6.5,
-        "fill": "#FF5252",
-        "entrance": {
-          "type": "morph-scale",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "glow-breathe",
-          "duration": 0.4
-        }
       }
     ]
   },
   {
-    "id": "6f7e81307076",
-    "name": "Promise — One More Video",
-    "duration": 6,
-    "bg_color": "#1a1a2e",
-    "bg_pattern": "bg-dots",
+    "id": "51f6ed15d602",
+    "name": "Promise",
+    "duration": 5.81,
+    "bg_color": "#0a0e14",
+    "bg_pattern": "bg-grid",
+    "wordStart": 28,
+    "wordEnd": 42,
     "elements": [
       {
-        "id": "1aaeadcb366d",
+        "id": "4b01c3770c22",
+        "type": "caption",
+        "words": [
+          {
+            "text": "the",
+            "start": 0.0,
+            "end": 0.1
+          },
+          {
+            "text": "business",
+            "start": 0.113,
+            "end": 0.512
+          },
+          {
+            "text": "logic",
+            "start": 0.525,
+            "end": 1.012
+          },
+          {
+            "text": "the",
+            "start": 1.2,
+            "end": 1.287
+          },
+          {
+            "text": "security",
+            "start": 1.3,
+            "end": 1.975
+          },
+          {
+            "text": "And",
+            "start": 2.838,
+            "end": 3.037
+          },
+          {
+            "text": "at",
+            "start": 3.05,
+            "end": 3.137
+          },
+          {
+            "text": "the",
+            "start": 3.15,
+            "end": 3.3
+          },
+          {
+            "text": "end",
+            "start": 3.313,
+            "end": 3.613
+          },
+          {
+            "text": "I",
+            "start": 3.813,
+            "end": 3.875
+          },
+          {
+            "text": "made",
+            "start": 3.887,
+            "end": 4.113
+          },
+          {
+            "text": "a",
+            "start": 4.125,
+            "end": 4.175
+          },
+          {
+            "text": "promise",
+            "start": 4.187,
+            "end": 4.675
+          },
+          {
+            "text": "one",
+            "start": 4.863,
+            "end": 5.113
+          },
+          {
+            "text": "more",
+            "start": 5.125,
+            "end": 5.313
+          }
+        ],
+        "x": 5,
+        "y": 82,
+        "width": 90,
+        "height": 15,
+        "start": 0,
+        "end": 5.81,
+        "wordRef": {
+          "startWord": 28,
+          "wordEnd": 42
+        },
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.75)",
+          "border_radius": 16,
+          "align": "center",
+          "position": "bottom",
+          "word_animation": "bounce-in",
+          "unspoken": "dimmed"
+        }
+      },
+      {
+        "id": "7a006b66ae37",
         "type": "text",
         "content": "I MADE A",
-        "x": 19.791666666666664,
-        "y": 14.814814814814813,
+        "x": 20,
+        "y": 15,
         "width": 60,
         "height": 18,
-        "start": 0,
-        "end": 5,
+        "start": 2.838,
+        "end": 3.637,
+        "wordRef": {
+          "startWord": 33,
+          "wordEnd": 34
+        },
         "font": "Bebas Neue",
         "size": 96,
         "color": "#FFFFFF",
-        "weight": "normal",
         "align": "center",
         "entrance": {
           "type": "typewriter",
@@ -383,19 +680,22 @@
         }
       },
       {
-        "id": "3238805dd0bb",
+        "id": "426e4789568a",
         "type": "text",
         "content": "PROMISE",
         "x": 15,
         "y": 35,
         "width": 70,
         "height": 22,
-        "start": 1.55,
-        "end": 4.05,
+        "start": 3.15,
+        "end": 5.3,
+        "wordRef": {
+          "startWord": 35,
+          "wordEnd": 35
+        },
         "font": "Permanent Marker",
         "size": 108,
         "color": "#FFD700",
-        "weight": "normal",
         "align": "center",
         "entrance": {
           "type": "morph-scale",
@@ -411,19 +711,22 @@
         }
       },
       {
-        "id": "e44b56ae3afa",
+        "id": "8fc2fdaea8ef",
         "type": "text",
-        "content": "HOW TO PLAN",
+        "content": "ONE MORE VIDEO",
         "x": 10,
         "y": 62,
         "width": 80,
-        "height": 15,
-        "start": 4.55,
-        "end": 7.05,
+        "height": 14,
+        "start": 3.887,
+        "end": 5.613,
+        "wordRef": {
+          "startWord": 38,
+          "wordEnd": 41
+        },
         "font": "Anton",
-        "size": 72,
+        "size": 64,
         "color": "#4a9eff",
-        "weight": "normal",
         "align": "center",
         "entrance": {
           "type": "slide-up",
@@ -437,44 +740,167 @@
           "type": "fade-out",
           "duration": 0.5
         }
+      }
+    ]
+  },
+  {
+    "id": "19ccb27aaee2",
+    "name": "Plan",
+    "duration": 5.29,
+    "bg_color": "#1a1a2e",
+    "bg_pattern": "bg-vignette",
+    "wordStart": 43,
+    "wordEnd": 56,
+    "elements": [
+      {
+        "id": "daddf3c0e084",
+        "type": "caption",
+        "words": [
+          {
+            "text": "video",
+            "start": 0.0,
+            "end": 0.375
+          },
+          {
+            "text": "first",
+            "start": 0.387,
+            "end": 0.988
+          },
+          {
+            "text": "How",
+            "start": 1.85,
+            "end": 2.075
+          },
+          {
+            "text": "to",
+            "start": 2.088,
+            "end": 2.213
+          },
+          {
+            "text": "plan",
+            "start": 2.225,
+            "end": 2.475
+          },
+          {
+            "text": "a",
+            "start": 2.488,
+            "end": 2.538
+          },
+          {
+            "text": "codebase",
+            "start": 2.55,
+            "end": 3.2
+          },
+          {
+            "text": "like",
+            "start": 3.213,
+            "end": 3.4
+          },
+          {
+            "text": "this",
+            "start": 3.413,
+            "end": 3.612
+          },
+          {
+            "text": "before",
+            "start": 3.625,
+            "end": 3.913
+          },
+          {
+            "text": "you",
+            "start": 3.925,
+            "end": 4.075
+          },
+          {
+            "text": "write",
+            "start": 4.088,
+            "end": 4.325
+          },
+          {
+            "text": "a",
+            "start": 4.338,
+            "end": 4.4
+          },
+          {
+            "text": "single",
+            "start": 4.413,
+            "end": 4.788
+          }
+        ],
+        "x": 5,
+        "y": 82,
+        "width": 90,
+        "height": 15,
+        "start": 0,
+        "end": 5.29,
+        "wordRef": {
+          "startWord": 43,
+          "wordEnd": 56
+        },
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.75)",
+          "border_radius": 16,
+          "align": "center",
+          "position": "bottom",
+          "word_animation": "bounce-in",
+          "unspoken": "dimmed"
+        }
       },
       {
-        "id": "87bb01e379ed",
+        "id": "a2f1efe61347",
         "type": "text",
-        "content": "A CODEBASE",
-        "x": 15,
-        "y": 78,
-        "width": 70,
-        "height": 14,
-        "start": 4.9,
-        "end": 7.4,
-        "font": "Montserrat",
-        "size": 60,
-        "color": "#E0E0E0",
-        "weight": "normal",
+        "content": "HOW TO PLAN",
+        "x": 10,
+        "y": 10,
+        "width": 80,
+        "height": 20,
+        "start": 0.0,
+        "end": 2.713,
+        "wordRef": {
+          "startWord": 43,
+          "wordEnd": 46
+        },
+        "font": "Bebas Neue",
+        "size": 96,
+        "color": "#FFFFFF",
         "align": "center",
         "entrance": {
-          "type": "zoom-in",
-          "duration": 0.5
+          "type": "kinetic-in",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
         },
         "exit": {
-          "type": "exit-shrink",
+          "type": "exit-fly-right",
           "duration": 0.5
         }
       },
       {
-        "id": "63f0749fbf98",
-        "type": "shape",
-        "shape": "triangle",
-        "x": 63.541666666666664,
-        "y": 75.92592592592592,
-        "width": 16,
-        "height": 12,
-        "start": 1,
-        "end": 5,
-        "fill": "#FFD700",
+        "id": "86314b5cfca4",
+        "type": "text",
+        "content": "A CODEBASE",
+        "x": 15,
+        "y": 38,
+        "width": 70,
+        "height": 16,
+        "start": 2.225,
+        "end": 3.038,
+        "wordRef": {
+          "startWord": 47,
+          "wordEnd": 48
+        },
+        "font": "Montserrat",
+        "size": 72,
+        "color": "#FFD700",
+        "align": "center",
         "entrance": {
-          "type": "slide-up",
+          "type": "morph-scale",
           "duration": 0.6
         },
         "emphasis": {
@@ -482,33 +908,153 @@
           "duration": 0.4
         },
         "exit": {
-          "type": "exit-fly-right",
+          "type": "exit-dissolve",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "23ac3dfbb9df",
+        "type": "text",
+        "content": "A SINGLE LINE OF CODE",
+        "x": 10,
+        "y": 70,
+        "width": 80,
+        "height": 12,
+        "start": 4.088,
+        "end": 5.288,
+        "wordRef": {
+          "startWord": 54,
+          "wordEnd": 56
+        },
+        "font": "Orbitron",
+        "size": 48,
+        "color": "#4a9eff",
+        "align": "center",
+        "entrance": {
+          "type": "typewriter",
+          "duration": 0.6
+        },
+        "exit": {
+          "type": "exit-shrink",
           "duration": 0.5
         }
       }
     ]
   },
   {
-    "id": "479aa632a083",
-    "name": "Two Readers — Humans & AI",
-    "duration": 8.0,
-    "bg_color": "#0e1116",
+    "id": "11865af159bc",
+    "name": "That Video",
+    "duration": 5.27,
+    "bg_color": "#0d0221",
     "bg_pattern": "bg-grid",
+    "wordStart": 57,
+    "wordEnd": 68,
     "elements": [
       {
-        "id": "a202d4dddfd3",
+        "id": "909daccbe022",
+        "type": "caption",
+        "words": [
+          {
+            "text": "line",
+            "start": 0.0,
+            "end": 0.225
+          },
+          {
+            "text": "of",
+            "start": 0.238,
+            "end": 0.325
+          },
+          {
+            "text": "code",
+            "start": 0.337,
+            "end": 0.825
+          },
+          {
+            "text": "This",
+            "start": 1.688,
+            "end": 1.938
+          },
+          {
+            "text": "is",
+            "start": 1.95,
+            "end": 2.062
+          },
+          {
+            "text": "that",
+            "start": 2.075,
+            "end": 2.288
+          },
+          {
+            "text": "video",
+            "start": 2.3,
+            "end": 2.775
+          },
+          {
+            "text": "Here's",
+            "start": 3.637,
+            "end": 3.95
+          },
+          {
+            "text": "what",
+            "start": 3.962,
+            "end": 4.125
+          },
+          {
+            "text": "I",
+            "start": 4.137,
+            "end": 4.212
+          },
+          {
+            "text": "didn't",
+            "start": 4.225,
+            "end": 4.5
+          },
+          {
+            "text": "fully",
+            "start": 4.512,
+            "end": 4.775
+          }
+        ],
+        "x": 5,
+        "y": 82,
+        "width": 90,
+        "height": 15,
+        "start": 0,
+        "end": 5.27,
+        "wordRef": {
+          "startWord": 57,
+          "wordEnd": 68
+        },
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.75)",
+          "border_radius": 16,
+          "align": "center",
+          "position": "bottom",
+          "word_animation": "bounce-in",
+          "unspoken": "dimmed"
+        }
+      },
+      {
+        "id": "fb5091b3437c",
         "type": "text",
-        "content": "BUILT TO BE READ",
+        "content": "THIS IS THAT VIDEO",
         "x": 10,
-        "y": 8,
+        "y": 10,
         "width": 80,
-        "height": 16,
+        "height": 20,
         "start": 0.0,
-        "end": 7.0,
+        "end": 2.438,
+        "wordRef": {
+          "startWord": 57,
+          "wordEnd": 60
+        },
         "font": "Bebas Neue",
         "size": 84,
         "color": "#FFFFFF",
-        "weight": "normal",
         "align": "center",
         "entrance": {
           "type": "slide-left",
@@ -524,43 +1070,1149 @@
         }
       },
       {
-        "id": "cb6eec9ef1a0",
+        "id": "dadcaabe431f",
         "type": "text",
-        "content": "BY TWO READERS",
-        "x": 20,
-        "y": 28,
-        "width": 60,
-        "height": 12,
-        "start": 0.5,
-        "end": 7.0,
-        "font": "Montserrat",
-        "size": 48,
-        "color": "#8B93A1",
-        "weight": "normal",
+        "content": "EXPLAIN",
+        "x": 25,
+        "y": 55,
+        "width": 50,
+        "height": 14,
+        "start": 4.137,
+        "end": 5.212,
+        "wordRef": {
+          "startWord": 66,
+          "wordEnd": 66
+        },
+        "font": "Anton",
+        "size": 72,
+        "color": "#FF5252",
         "align": "center",
         "entrance": {
-          "type": "fade-in",
+          "type": "shake",
           "duration": 0.6
         },
         "emphasis": {
-          "type": "wave-float",
+          "type": "shake",
           "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-shrink",
+          "duration": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "bff7716cc52e",
+    "name": "Built to Read",
+    "duration": 5.06,
+    "bg_color": "#0e1116",
+    "bg_pattern": "bg-grid",
+    "wordStart": 69,
+    "wordEnd": 77,
+    "elements": [
+      {
+        "id": "648dbf5b9854",
+        "type": "caption",
+        "words": [
+          {
+            "text": "explain",
+            "start": 0.0,
+            "end": 0.462
+          },
+          {
+            "text": "last",
+            "start": 0.474,
+            "end": 0.812
+          },
+          {
+            "text": "time",
+            "start": 0.825,
+            "end": 1.187
+          },
+          {
+            "text": "though",
+            "start": 1.387,
+            "end": 1.7
+          },
+          {
+            "text": "That",
+            "start": 2.562,
+            "end": 2.825
+          },
+          {
+            "text": "codebase",
+            "start": 2.837,
+            "end": 3.387
+          },
+          {
+            "text": "wasn't",
+            "start": 3.4,
+            "end": 3.712
+          },
+          {
+            "text": "just",
+            "start": 3.724,
+            "end": 3.95
+          },
+          {
+            "text": "organized",
+            "start": 3.962,
+            "end": 4.562
+          }
+        ],
+        "x": 5,
+        "y": 82,
+        "width": 90,
+        "height": 15,
+        "start": 0,
+        "end": 5.06,
+        "wordRef": {
+          "startWord": 69,
+          "wordEnd": 77
+        },
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.75)",
+          "border_radius": 16,
+          "align": "center",
+          "position": "bottom",
+          "word_animation": "bounce-in",
+          "unspoken": "dimmed"
         }
       },
       {
-        "id": "eb9f4e4423ab",
+        "id": "a85a5478a912",
+        "type": "text",
+        "content": "THAT CODEBASE",
+        "x": 10,
+        "y": 8,
+        "width": 80,
+        "height": 16,
+        "start": 0.0,
+        "end": 1.312,
+        "wordRef": {
+          "startWord": 69,
+          "wordEnd": 70
+        },
+        "font": "Bebas Neue",
+        "size": 84,
+        "color": "#FFFFFF",
+        "align": "center",
+        "entrance": {
+          "type": "kinetic-in",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-fly-right",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "09cf3b8aea9a",
+        "type": "text",
+        "content": "BUILT TO BE READ",
+        "x": 10,
+        "y": 60,
+        "width": 80,
+        "height": 16,
+        "start": 1.387,
+        "end": 5.062,
+        "wordRef": {
+          "startWord": 72,
+          "wordEnd": 77
+        },
+        "font": "Orbitron",
+        "size": 72,
+        "color": "#4CAF50",
+        "align": "center",
+        "entrance": {
+          "type": "morph-scale",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "pulse",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-dissolve",
+          "duration": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "1d4219e4c175",
+    "name": "Two Readers",
+    "duration": 62.17,
+    "bg_color": "#1a0a2e",
+    "bg_pattern": "bg-vignette",
+    "wordStart": 78,
+    "wordEnd": 253,
+    "elements": [
+      {
+        "id": "214756868f57",
+        "type": "caption",
+        "words": [
+          {
+            "text": "it",
+            "start": 0.0,
+            "end": 0.075
+          },
+          {
+            "text": "was",
+            "start": 0.087,
+            "end": 0.225
+          },
+          {
+            "text": "built",
+            "start": 0.238,
+            "end": 0.475
+          },
+          {
+            "text": "to",
+            "start": 0.488,
+            "end": 0.55
+          },
+          {
+            "text": "be",
+            "start": 0.563,
+            "end": 0.65
+          },
+          {
+            "text": "read",
+            "start": 0.662,
+            "end": 0.975
+          },
+          {
+            "text": "by",
+            "start": 0.988,
+            "end": 1.15
+          },
+          {
+            "text": "two",
+            "start": 1.162,
+            "end": 1.462
+          },
+          {
+            "text": "different",
+            "start": 1.475,
+            "end": 1.825
+          },
+          {
+            "text": "readers",
+            "start": 1.837,
+            "end": 2.338
+          },
+          {
+            "text": "Humans",
+            "start": 3.2,
+            "end": 3.888
+          },
+          {
+            "text": "And",
+            "start": 4.75,
+            "end": 4.963
+          },
+          {
+            "text": "AI",
+            "start": 4.975,
+            "end": 5.225
+          },
+          {
+            "text": "coding",
+            "start": 5.238,
+            "end": 5.625
+          },
+          {
+            "text": "assistants",
+            "start": 5.638,
+            "end": 6.3
+          },
+          {
+            "text": "Every",
+            "start": 7.162,
+            "end": 7.463
+          },
+          {
+            "text": "file",
+            "start": 7.475,
+            "end": 7.888
+          },
+          {
+            "text": "every",
+            "start": 8.125,
+            "end": 8.325
+          },
+          {
+            "text": "naming",
+            "start": 8.338,
+            "end": 8.713
+          },
+          {
+            "text": "choice",
+            "start": 8.725,
+            "end": 9.175
+          },
+          {
+            "text": "every",
+            "start": 9.388,
+            "end": 9.613
+          },
+          {
+            "text": "doc",
+            "start": 9.625,
+            "end": 9.988
+          },
+          {
+            "text": "built",
+            "start": 10.2,
+            "end": 10.437
+          },
+          {
+            "text": "with",
+            "start": 10.45,
+            "end": 10.588
+          },
+          {
+            "text": "both",
+            "start": 10.6,
+            "end": 10.888
+          },
+          {
+            "text": "in",
+            "start": 10.9,
+            "end": 11.012
+          },
+          {
+            "text": "mind",
+            "start": 11.025,
+            "end": 11.575
+          },
+          {
+            "text": "I",
+            "start": 12.437,
+            "end": 12.562
+          },
+          {
+            "text": "know",
+            "start": 12.575,
+            "end": 12.825
+          },
+          {
+            "text": "agent-ready",
+            "start": 12.95,
+            "end": 13.45
+          },
+          {
+            "text": "sounds",
+            "start": 13.463,
+            "end": 13.838
+          },
+          {
+            "text": "like",
+            "start": 13.85,
+            "end": 14.025
+          },
+          {
+            "text": "a",
+            "start": 14.037,
+            "end": 14.1
+          },
+          {
+            "text": "buzzword",
+            "start": 14.113,
+            "end": 14.638
+          },
+          {
+            "text": "I",
+            "start": 15.5,
+            "end": 15.65
+          },
+          {
+            "text": "thought",
+            "start": 15.662,
+            "end": 15.888
+          },
+          {
+            "text": "so",
+            "start": 15.9,
+            "end": 16.088
+          },
+          {
+            "text": "too",
+            "start": 16.1,
+            "end": 16.537
+          },
+          {
+            "text": "Until",
+            "start": 17.4,
+            "end": 17.738
+          },
+          {
+            "text": "I",
+            "start": 17.75,
+            "end": 17.838
+          },
+          {
+            "text": "saw",
+            "start": 17.85,
+            "end": 18.113
+          },
+          {
+            "text": "how",
+            "start": 18.125,
+            "end": 18.3
+          },
+          {
+            "text": "much",
+            "start": 18.312,
+            "end": 18.537
+          },
+          {
+            "text": "less",
+            "start": 18.55,
+            "end": 18.812
+          },
+          {
+            "text": "my",
+            "start": 18.825,
+            "end": 19.025
+          },
+          {
+            "text": "AI",
+            "start": 19.037,
+            "end": 19.3
+          },
+          {
+            "text": "guessed",
+            "start": 19.312,
+            "end": 19.638
+          },
+          {
+            "text": "once",
+            "start": 19.65,
+            "end": 19.937
+          },
+          {
+            "text": "the",
+            "start": 19.95,
+            "end": 20.05
+          },
+          {
+            "text": "docs",
+            "start": 20.062,
+            "end": 20.388
+          },
+          {
+            "text": "were",
+            "start": 20.4,
+            "end": 20.55
+          },
+          {
+            "text": "in",
+            "start": 20.562,
+            "end": 20.65
+          },
+          {
+            "text": "place",
+            "start": 20.662,
+            "end": 21.2
+          },
+          {
+            "text": "Because",
+            "start": 22.062,
+            "end": 22.375
+          },
+          {
+            "text": "here's",
+            "start": 22.388,
+            "end": 22.675
+          },
+          {
+            "text": "the",
+            "start": 22.687,
+            "end": 22.787
+          },
+          {
+            "text": "thing",
+            "start": 22.8,
+            "end": 23.012
+          },
+          {
+            "text": "about",
+            "start": 23.025,
+            "end": 23.363
+          },
+          {
+            "text": "AI",
+            "start": 23.375,
+            "end": 23.775
+          },
+          {
+            "text": "it's",
+            "start": 23.95,
+            "end": 24.088
+          },
+          {
+            "text": "incredible",
+            "start": 24.1,
+            "end": 24.65
+          },
+          {
+            "text": "at",
+            "start": 24.662,
+            "end": 24.762
+          },
+          {
+            "text": "building",
+            "start": 24.775,
+            "end": 25.238
+          },
+          {
+            "text": "But",
+            "start": 26.1,
+            "end": 26.275
+          },
+          {
+            "text": "without",
+            "start": 26.287,
+            "end": 26.613
+          },
+          {
+            "text": "a",
+            "start": 26.625,
+            "end": 26.675
+          },
+          {
+            "text": "plan",
+            "start": 26.687,
+            "end": 27.062
+          },
+          {
+            "text": "it",
+            "start": 27.225,
+            "end": 27.3
+          },
+          {
+            "text": "has",
+            "start": 27.312,
+            "end": 27.5
+          },
+          {
+            "text": "to",
+            "start": 27.512,
+            "end": 27.613
+          },
+          {
+            "text": "guess",
+            "start": 27.625,
+            "end": 27.888
+          },
+          {
+            "text": "what",
+            "start": 27.9,
+            "end": 28.088
+          },
+          {
+            "text": "you",
+            "start": 28.1,
+            "end": 28.238
+          },
+          {
+            "text": "actually",
+            "start": 28.25,
+            "end": 28.638
+          },
+          {
+            "text": "want",
+            "start": 28.65,
+            "end": 29.1
+          },
+          {
+            "text": "And",
+            "start": 29.963,
+            "end": 30.162
+          },
+          {
+            "text": "when",
+            "start": 30.175,
+            "end": 30.338
+          },
+          {
+            "text": "it",
+            "start": 30.35,
+            "end": 30.463
+          },
+          {
+            "text": "guesses",
+            "start": 30.475,
+            "end": 30.888
+          },
+          {
+            "text": "your",
+            "start": 31.012,
+            "end": 31.162
+          },
+          {
+            "text": "codebase",
+            "start": 31.175,
+            "end": 31.787
+          },
+          {
+            "text": "pays",
+            "start": 31.8,
+            "end": 32.138
+          },
+          {
+            "text": "for",
+            "start": 32.15,
+            "end": 32.325
+          },
+          {
+            "text": "it",
+            "start": 32.338,
+            "end": 32.575
+          },
+          {
+            "text": "So",
+            "start": 33.437,
+            "end": 33.65
+          },
+          {
+            "text": "here's",
+            "start": 33.662,
+            "end": 33.925
+          },
+          {
+            "text": "the",
+            "start": 33.937,
+            "end": 34.025
+          },
+          {
+            "text": "deal",
+            "start": 34.038,
+            "end": 34.475
+          },
+          {
+            "text": "By",
+            "start": 35.338,
+            "end": 35.525
+          },
+          {
+            "text": "the",
+            "start": 35.538,
+            "end": 35.687
+          },
+          {
+            "text": "end",
+            "start": 35.7,
+            "end": 35.862
+          },
+          {
+            "text": "of",
+            "start": 35.875,
+            "end": 35.95
+          },
+          {
+            "text": "this",
+            "start": 35.963,
+            "end": 36.15
+          },
+          {
+            "text": "video",
+            "start": 36.163,
+            "end": 36.538
+          },
+          {
+            "text": "you'll",
+            "start": 36.762,
+            "end": 36.9
+          },
+          {
+            "text": "know",
+            "start": 36.913,
+            "end": 37.1
+          },
+          {
+            "text": "exactly",
+            "start": 37.112,
+            "end": 37.575
+          },
+          {
+            "text": "which",
+            "start": 37.588,
+            "end": 37.8
+          },
+          {
+            "text": "files",
+            "start": 37.812,
+            "end": 38.2
+          },
+          {
+            "text": "to",
+            "start": 38.213,
+            "end": 38.3
+          },
+          {
+            "text": "create",
+            "start": 38.312,
+            "end": 38.663
+          },
+          {
+            "text": "before",
+            "start": 38.675,
+            "end": 38.937
+          },
+          {
+            "text": "your",
+            "start": 38.95,
+            "end": 39.163
+          },
+          {
+            "text": "AI",
+            "start": 39.175,
+            "end": 39.425
+          },
+          {
+            "text": "writes",
+            "start": 39.437,
+            "end": 39.8
+          },
+          {
+            "text": "a",
+            "start": 39.812,
+            "end": 39.875
+          },
+          {
+            "text": "single",
+            "start": 39.888,
+            "end": 40.25
+          },
+          {
+            "text": "line",
+            "start": 40.262,
+            "end": 40.625
+          },
+          {
+            "text": "what",
+            "start": 40.825,
+            "end": 40.963
+          },
+          {
+            "text": "goes",
+            "start": 40.975,
+            "end": 41.213
+          },
+          {
+            "text": "inside",
+            "start": 41.225,
+            "end": 41.713
+          },
+          {
+            "text": "each",
+            "start": 41.725,
+            "end": 41.95
+          },
+          {
+            "text": "one",
+            "start": 41.963,
+            "end": 42.262
+          },
+          {
+            "text": "and",
+            "start": 42.463,
+            "end": 42.562
+          },
+          {
+            "text": "how",
+            "start": 42.575,
+            "end": 42.737
+          },
+          {
+            "text": "to",
+            "start": 42.75,
+            "end": 42.875
+          },
+          {
+            "text": "lay",
+            "start": 42.888,
+            "end": 43.062
+          },
+          {
+            "text": "out",
+            "start": 43.075,
+            "end": 43.213
+          },
+          {
+            "text": "a",
+            "start": 43.225,
+            "end": 43.288
+          },
+          {
+            "text": "project",
+            "start": 43.3,
+            "end": 43.687
+          },
+          {
+            "text": "so",
+            "start": 43.7,
+            "end": 43.85
+          },
+          {
+            "text": "an",
+            "start": 43.862,
+            "end": 43.975
+          },
+          {
+            "text": "AI",
+            "start": 43.987,
+            "end": 44.25
+          },
+          {
+            "text": "can",
+            "start": 44.262,
+            "end": 44.425
+          },
+          {
+            "text": "move",
+            "start": 44.437,
+            "end": 44.7
+          },
+          {
+            "text": "through",
+            "start": 44.713,
+            "end": 44.925
+          },
+          {
+            "text": "it",
+            "start": 44.937,
+            "end": 45.038
+          },
+          {
+            "text": "like",
+            "start": 45.05,
+            "end": 45.237
+          },
+          {
+            "text": "it",
+            "start": 45.25,
+            "end": 45.35
+          },
+          {
+            "text": "already",
+            "start": 45.362,
+            "end": 45.725
+          },
+          {
+            "text": "knows",
+            "start": 45.737,
+            "end": 46.05
+          },
+          {
+            "text": "the",
+            "start": 46.062,
+            "end": 46.138
+          },
+          {
+            "text": "place",
+            "start": 46.15,
+            "end": 46.65
+          },
+          {
+            "text": "We're",
+            "start": 47.512,
+            "end": 47.812
+          },
+          {
+            "text": "covering",
+            "start": 47.825,
+            "end": 48.25
+          },
+          {
+            "text": "four",
+            "start": 48.262,
+            "end": 48.437
+          },
+          {
+            "text": "things",
+            "start": 48.45,
+            "end": 48.937
+          },
+          {
+            "text": "why",
+            "start": 49.163,
+            "end": 49.425
+          },
+          {
+            "text": "codebases",
+            "start": 49.437,
+            "end": 50.163
+          },
+          {
+            "text": "fall",
+            "start": 50.175,
+            "end": 50.4
+          },
+          {
+            "text": "apart",
+            "start": 50.413,
+            "end": 50.888
+          },
+          {
+            "text": "five",
+            "start": 51.088,
+            "end": 51.4
+          },
+          {
+            "text": "files",
+            "start": 51.413,
+            "end": 51.8
+          },
+          {
+            "text": "that",
+            "start": 51.812,
+            "end": 51.963
+          },
+          {
+            "text": "fix",
+            "start": 51.975,
+            "end": 52.25
+          },
+          {
+            "text": "it",
+            "start": 52.262,
+            "end": 52.413
+          },
+          {
+            "text": "a",
+            "start": 52.625,
+            "end": 52.687
+          },
+          {
+            "text": "quick",
+            "start": 52.7,
+            "end": 52.95
+          },
+          {
+            "text": "look",
+            "start": 52.963,
+            "end": 53.175
+          },
+          {
+            "text": "at",
+            "start": 53.187,
+            "end": 53.237
+          },
+          {
+            "text": "the",
+            "start": 53.25,
+            "end": 53.338
+          },
+          {
+            "text": "small",
+            "start": 53.35,
+            "end": 53.762
+          },
+          {
+            "text": "rules",
+            "start": 53.775,
+            "end": 54.1
+          },
+          {
+            "text": "that",
+            "start": 54.112,
+            "end": 54.225
+          },
+          {
+            "text": "hold",
+            "start": 54.237,
+            "end": 54.425
+          },
+          {
+            "text": "it",
+            "start": 54.437,
+            "end": 54.525
+          },
+          {
+            "text": "together",
+            "start": 54.538,
+            "end": 54.987
+          },
+          {
+            "text": "and",
+            "start": 55.163,
+            "end": 55.312
+          },
+          {
+            "text": "one",
+            "start": 55.325,
+            "end": 55.538
+          },
+          {
+            "text": "idea",
+            "start": 55.55,
+            "end": 56.0
+          },
+          {
+            "text": "at",
+            "start": 56.012,
+            "end": 56.088
+          },
+          {
+            "text": "the",
+            "start": 56.1,
+            "end": 56.25
+          },
+          {
+            "text": "end",
+            "start": 56.262,
+            "end": 56.463
+          },
+          {
+            "text": "that",
+            "start": 56.475,
+            "end": 56.625
+          },
+          {
+            "text": "changes",
+            "start": 56.638,
+            "end": 57.062
+          },
+          {
+            "text": "how",
+            "start": 57.075,
+            "end": 57.25
+          },
+          {
+            "text": "you'll",
+            "start": 57.262,
+            "end": 57.45
+          },
+          {
+            "text": "think",
+            "start": 57.463,
+            "end": 57.7
+          },
+          {
+            "text": "about",
+            "start": 57.713,
+            "end": 58.0
+          },
+          {
+            "text": "markdown",
+            "start": 58.012,
+            "end": 58.538
+          },
+          {
+            "text": "files",
+            "start": 58.55,
+            "end": 59.012
+          },
+          {
+            "text": "forever",
+            "start": 59.025,
+            "end": 59.525
+          },
+          {
+            "text": "Let's",
+            "start": 60.388,
+            "end": 60.7
+          },
+          {
+            "text": "build",
+            "start": 60.713,
+            "end": 60.95
+          },
+          {
+            "text": "the",
+            "start": 60.963,
+            "end": 61.038
+          },
+          {
+            "text": "blueprint",
+            "start": 61.05,
+            "end": 61.675
+          }
+        ],
+        "x": 5,
+        "y": 82,
+        "width": 90,
+        "height": 15,
+        "start": 0,
+        "end": 62.17,
+        "wordRef": {
+          "startWord": 78,
+          "wordEnd": 253
+        },
+        "style": {
+          "font": "Inter",
+          "size": 46,
+          "color": "#FFFFFF",
+          "highlight": "#FFD700",
+          "bg_color": "rgba(0,0,0,0.75)",
+          "border_radius": 16,
+          "align": "center",
+          "position": "bottom",
+          "word_animation": "bounce-in",
+          "unspoken": "dimmed"
+        }
+      },
+      {
+        "id": "c87dfd435648",
+        "type": "text",
+        "content": "BY TWO READERS",
+        "x": 10,
+        "y": 5,
+        "width": 80,
+        "height": 14,
+        "start": 0.0,
+        "end": 0.975,
+        "wordRef": {
+          "startWord": 78,
+          "wordEnd": 80
+        },
+        "font": "Bebas Neue",
+        "size": 72,
+        "color": "#FFFFFF",
+        "align": "center",
+        "entrance": {
+          "type": "slide-down",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-fly-right",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "7575ba0c3e6d",
         "type": "text",
         "content": "HUMANS",
         "x": 10,
-        "y": 48,
+        "y": 25,
         "width": 35,
-        "height": 22,
-        "start": 3.962,
-        "end": 6.962,
+        "height": 25,
+        "start": 0.488,
+        "end": 1.05,
+        "wordRef": {
+          "startWord": 81,
+          "wordEnd": 81
+        },
         "font": "Bebas Neue",
         "size": 96,
         "color": "#4CAF50",
-        "weight": "normal",
         "align": "center",
         "glow": {
           "color": "#4CAF50",
@@ -568,7 +2220,7 @@
         },
         "entrance": {
           "type": "kinetic-in",
-          "duration": 0.7
+          "duration": 0.6
         },
         "emphasis": {
           "type": "glow-breathe",
@@ -580,19 +2232,22 @@
         }
       },
       {
-        "id": "5e3158b78e6d",
+        "id": "975a6fb777d5",
         "type": "text",
         "content": "AI ASSISTANTS",
         "x": 55,
-        "y": 48,
+        "y": 25,
         "width": 35,
-        "height": 22,
-        "start": 5.737,
-        "end": 8.737,
+        "height": 25,
+        "start": 0.662,
+        "end": 1.962,
+        "wordRef": {
+          "startWord": 83,
+          "wordEnd": 85
+        },
         "font": "Bebas Neue",
         "size": 96,
         "color": "#E040FB",
-        "weight": "normal",
         "align": "center",
         "glow": {
           "color": "#E040FB",
@@ -600,932 +2255,6 @@
         },
         "entrance": {
           "type": "counter-spin",
-          "duration": 0.8
-        },
-        "emphasis": {
-          "type": "pulse",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-dissolve",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "cabb0c91e146",
-        "type": "shape",
-        "shape": "line",
-        "x": 48,
-        "y": 45,
-        "width": 0.3,
-        "height": 30,
-        "start": 1.0,
-        "end": 7.0,
-        "fill": "#FFD700",
-        "entrance": {
-          "type": "slide-down",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "glow-breathe",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "df443f822fef",
-        "type": "shape",
-        "shape": "circle",
-        "x": 8,
-        "y": 44,
-        "width": 3,
-        "height": 3,
-        "start": 2.0,
-        "end": 7.0,
-        "fill": "#4CAF50",
-        "entrance": {
-          "type": "morph-scale",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "pulse",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "30341624b1a7",
-        "type": "shape",
-        "shape": "circle",
-        "x": 89,
-        "y": 44,
-        "width": 3,
-        "height": 3,
-        "start": 2.5,
-        "end": 7.0,
-        "fill": "#E040FB",
-        "entrance": {
-          "type": "morph-scale",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "pulse",
-          "duration": 0.4
-        }
-      }
-    ]
-  },
-  {
-    "id": "90eb0ac0f3bb",
-    "name": "Agent-Ready — Not a Buzzword",
-    "duration": 8.0,
-    "bg_color": "#1a0a2e",
-    "bg_pattern": "bg-vignette",
-    "elements": [
-      {
-        "id": "e0c2707bd67b",
-        "type": "text",
-        "content": "AGENT-READY",
-        "x": 10,
-        "y": 12,
-        "width": 80,
-        "height": 24,
-        "start": 0.5,
-        "end": 7.0,
-        "font": "Orbitron",
-        "size": 108,
-        "color": "#00E5FF",
-        "weight": "normal",
-        "align": "center",
-        "glow": {
-          "color": "#00E5FF",
-          "radius": 30
-        },
-        "text_shadow": "0 0 40px rgba(0,229,255,0.4)",
-        "entrance": {
-          "type": "morph-scale",
-          "duration": 1.0
-        },
-        "emphasis": {
-          "type": "glow-breathe",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-dissolve",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "f45f3b10b6da",
-        "type": "text",
-        "content": "SOUNDS LIKE A",
-        "x": 20,
-        "y": 45,
-        "width": 60,
-        "height": 12,
-        "start": 1.663,
-        "end": 3.663,
-        "font": "Montserrat",
-        "size": 40,
-        "color": "#8B93A1",
-        "weight": "normal",
-        "align": "center",
-        "entrance": {
-          "type": "slide-up",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "wave-float",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "fade-out",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "d0763716c093",
-        "type": "text",
-        "content": "BUZZWORD",
-        "x": 25,
-        "y": 58,
-        "width": 50,
-        "height": 16,
-        "start": 2.163,
-        "end": 4.163,
-        "font": "Anton",
-        "size": 72,
-        "color": "#FF5252",
-        "weight": "normal",
-        "align": "center",
-        "entrance": {
-          "type": "shake",
-          "duration": 0.5
-        },
-        "emphasis": {
-          "type": "shake",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-shrink",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "9247d5aa16a6",
-        "type": "text",
-        "content": "UNTIL I SAW",
-        "x": 10,
-        "y": 75,
-        "width": 35,
-        "height": 10,
-        "start": 16.525,
-        "end": 19.025,
-        "font": "Montserrat",
-        "size": 36,
-        "color": "#FFFFFF",
-        "weight": "normal",
-        "align": "center",
-        "entrance": {
-          "type": "typewriter",
-          "duration": 0.6
-        },
-        "exit": {
-          "type": "fade-out",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "e1cc0553f9aa",
-        "type": "text",
-        "content": "HOW IT CHANGES",
-        "x": 48,
-        "y": 75,
-        "width": 45,
-        "height": 10,
-        "start": 17.025,
-        "end": 19.525,
-        "font": "Montserrat",
-        "size": 36,
-        "color": "#FFD700",
-        "weight": "normal",
-        "align": "center",
-        "entrance": {
-          "type": "slide-right",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "glow-breathe",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "cf6a6b0e5d2a",
-        "type": "shape",
-        "shape": "rect",
-        "x": 5,
-        "y": 40,
-        "width": 2,
-        "height": 35,
-        "start": 0.0,
-        "end": 7.0,
-        "fill": "#00E5FF",
-        "entrance": {
-          "type": "slide-down",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "glow-breathe",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-dissolve",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "21ee2013f656",
-        "type": "shape",
-        "shape": "circle",
-        "x": 90,
-        "y": 10,
-        "width": 6,
-        "height": 6,
-        "start": 1.0,
-        "end": 7.0,
-        "fill": "#E040FB",
-        "entrance": {
-          "type": "morph-scale",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "pulse",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-shrink",
-          "duration": 0.5
-        }
-      }
-    ]
-  },
-  {
-    "id": "fdf04d76acd2",
-    "name": "The Deal — Four Things",
-    "duration": 10.0,
-    "bg_color": "#0a0e14",
-    "bg_pattern": "bg-grid",
-    "elements": [
-      {
-        "id": "96d332294e48",
-        "type": "text",
-        "content": "HERE'S THE DEAL",
-        "x": 10,
-        "y": 5,
-        "width": 80,
-        "height": 16,
-        "start": 0.0,
-        "end": 9.0,
-        "font": "Bebas Neue",
-        "size": 84,
-        "color": "#FFD700",
-        "weight": "normal",
-        "align": "center",
-        "entrance": {
-          "type": "kinetic-in",
-          "duration": 0.8
-        },
-        "emphasis": {
-          "type": "glow-breathe",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-fly-right",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "7e7c854dbb7d",
-        "type": "text",
-        "content": "01  WHICH FILES EXIST",
-        "x": 12,
-        "y": 26,
-        "width": 75,
-        "height": 12,
-        "start": 1.5,
-        "end": 4.737,
-        "font": "Inter",
-        "size": 48,
-        "color": "#FFFFFF",
-        "weight": "normal",
-        "align": "center",
-        "entrance": {
-          "type": "slide-left",
-          "duration": 0.5
-        },
-        "emphasis": {
-          "type": "pulse",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-fly-right",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "56c942c4b8e7",
-        "type": "text",
-        "content": "02  WHAT GOES INSIDE",
-        "x": 12,
-        "y": 42,
-        "width": 75,
-        "height": 12,
-        "start": 4.737,
-        "end": 6.487,
-        "font": "Inter",
-        "size": 48,
-        "color": "#FFFFFF",
-        "weight": "normal",
-        "align": "center",
-        "entrance": {
-          "type": "slide-left",
-          "duration": 0.5
-        },
-        "emphasis": {
-          "type": "pulse",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-fly-right",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "fa96fedc3bfb",
-        "type": "text",
-        "content": "03  HOW TO LAY OUT",
-        "x": 12,
-        "y": 58,
-        "width": 75,
-        "height": 12,
-        "start": 6.487,
-        "end": 21.924,
-        "font": "Inter",
-        "size": 48,
-        "color": "#FFFFFF",
-        "weight": "normal",
-        "align": "center",
-        "entrance": {
-          "type": "slide-left",
-          "duration": 0.5
-        },
-        "emphasis": {
-          "type": "pulse",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-fly-right",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "56feb55eb5e0",
-        "type": "text",
-        "content": "04  MARKDOWN FILES",
-        "x": 12,
-        "y": 74,
-        "width": 75,
-        "height": 12,
-        "start": 21.924,
-        "end": 24.424,
-        "font": "Inter",
-        "size": 48,
-        "color": "#4a9eff",
-        "weight": "normal",
-        "align": "center",
-        "entrance": {
-          "type": "slide-left",
-          "duration": 0.5
-        },
-        "emphasis": {
-          "type": "glow-breathe",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-dissolve",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "b67c00af3889",
-        "type": "shape",
-        "shape": "rect",
-        "x": 5,
-        "y": 24,
-        "width": 3,
-        "height": 65,
-        "start": 0.5,
-        "end": 9.0,
-        "fill": "#FFD700",
-        "entrance": {
-          "type": "slide-down",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "glow-breathe",
-          "duration": 0.4
-        }
-      }
-    ]
-  },
-  {
-    "id": "a580dc9ba9c7",
-    "name": "Four Things Grid",
-    "duration": 10.0,
-    "bg_color": "#0d1117",
-    "bg_pattern": "bg-dots",
-    "elements": [
-      {
-        "id": "3ee6fe0a2b09",
-        "type": "text",
-        "content": "WE'RE COVERING",
-        "x": 10,
-        "y": 3,
-        "width": 80,
-        "height": 10,
-        "start": 0.0,
-        "end": 9.0,
-        "font": "Bebas Neue",
-        "size": 64,
-        "color": "#FFFFFF",
-        "weight": "normal",
-        "align": "center",
-        "entrance": {
-          "type": "slide-down",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "wave-float",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "2be4fe744065",
-        "type": "text",
-        "content": "FOUR THINGS",
-        "x": 20,
-        "y": 10,
-        "width": 60,
-        "height": 12,
-        "start": 0.5,
-        "end": 9.0,
-        "font": "Orbitron",
-        "size": 56,
-        "color": "#FFD700",
-        "weight": "normal",
-        "align": "center",
-        "entrance": {
-          "type": "morph-scale",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "pulse",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "14b2f35043cb",
-        "type": "shape",
-        "shape": "rect",
-        "x": 5,
-        "y": 15,
-        "width": 42,
-        "height": 35,
-        "start": 8.063,
-        "end": 11.563,
-        "fill": "#1a1e24",
-        "border_radius": 12,
-        "entrance": {
-          "type": "morph-scale",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "glow-breathe",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-shrink",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "5bec638b5f06",
-        "type": "text",
-        "content": "1",
-        "x": 20,
-        "y": 18,
-        "width": 12,
-        "height": 10,
-        "start": 8.063,
-        "end": 11.563,
-        "font": "Bebas Neue",
-        "size": 64,
-        "color": "#4a9eff",
-        "weight": "normal",
-        "align": "center",
-        "entrance": {
-          "type": "zoom-in",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "pulse",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "fade-out",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "91bc84c41477",
-        "type": "text",
-        "content": "ONE IDEA",
-        "x": 7,
-        "y": 37,
-        "width": 38,
-        "height": 10,
-        "start": 8.363,
-        "end": 11.563,
-        "font": "Montserrat",
-        "size": 36,
-        "color": "#FFFFFF",
-        "weight": "normal",
-        "align": "center",
-        "entrance": {
-          "type": "slide-up",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "wave-float",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-dissolve",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "d94de0a38e57",
-        "type": "shape",
-        "shape": "rect",
-        "x": 52,
-        "y": 15,
-        "width": 42,
-        "height": 35,
-        "start": 9.238,
-        "end": 12.738,
-        "fill": "#1a1e24",
-        "border_radius": 12,
-        "entrance": {
-          "type": "morph-scale",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "glow-breathe",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-shrink",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "f9704035574e",
-        "type": "text",
-        "content": "2",
-        "x": 67,
-        "y": 18,
-        "width": 12,
-        "height": 10,
-        "start": 9.238,
-        "end": 12.738,
-        "font": "Bebas Neue",
-        "size": 64,
-        "color": "#FFD700",
-        "weight": "normal",
-        "align": "center",
-        "entrance": {
-          "type": "zoom-in",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "pulse",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "fade-out",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "519776b08d1c",
-        "type": "text",
-        "content": "THE STRUCTURE",
-        "x": 54,
-        "y": 37,
-        "width": 38,
-        "height": 10,
-        "start": 9.538,
-        "end": 12.738,
-        "font": "Montserrat",
-        "size": 36,
-        "color": "#FFFFFF",
-        "weight": "normal",
-        "align": "center",
-        "entrance": {
-          "type": "slide-up",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "wave-float",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-dissolve",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "19bd48a4f5ec",
-        "type": "shape",
-        "shape": "rect",
-        "x": 5,
-        "y": 55,
-        "width": 42,
-        "height": 35,
-        "start": 10.75,
-        "end": 14.25,
-        "fill": "#1a1e24",
-        "border_radius": 12,
-        "entrance": {
-          "type": "morph-scale",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "glow-breathe",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-shrink",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "eb26e443aff4",
-        "type": "text",
-        "content": "3",
-        "x": 20,
-        "y": 58,
-        "width": 12,
-        "height": 10,
-        "start": 10.75,
-        "end": 14.25,
-        "font": "Bebas Neue",
-        "size": 64,
-        "color": "#FF9100",
-        "weight": "normal",
-        "align": "center",
-        "entrance": {
-          "type": "zoom-in",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "pulse",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "fade-out",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "71c6b2fbd600",
-        "type": "text",
-        "content": "THE DOCS",
-        "x": 7,
-        "y": 77,
-        "width": 38,
-        "height": 10,
-        "start": 11.05,
-        "end": 14.25,
-        "font": "Montserrat",
-        "size": 36,
-        "color": "#FFFFFF",
-        "weight": "normal",
-        "align": "center",
-        "entrance": {
-          "type": "slide-up",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "wave-float",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-dissolve",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "549a2e361755",
-        "type": "shape",
-        "shape": "rect",
-        "x": 52,
-        "y": 55,
-        "width": 42,
-        "height": 35,
-        "start": -77.312,
-        "end": -73.812,
-        "fill": "#1a1e24",
-        "border_radius": 12,
-        "entrance": {
-          "type": "morph-scale",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "glow-breathe",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-shrink",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "b6766eeea80c",
-        "type": "text",
-        "content": "4",
-        "x": 67,
-        "y": 58,
-        "width": 12,
-        "height": 10,
-        "start": -77.312,
-        "end": -73.812,
-        "font": "Bebas Neue",
-        "size": 64,
-        "color": "#E040FB",
-        "weight": "normal",
-        "align": "center",
-        "entrance": {
-          "type": "zoom-in",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "pulse",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "fade-out",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "4231a3281db5",
-        "type": "text",
-        "content": "EVERYBODY ELSE",
-        "x": 54,
-        "y": 77,
-        "width": 38,
-        "height": 10,
-        "start": -77.012,
-        "end": -73.812,
-        "font": "Montserrat",
-        "size": 36,
-        "color": "#FFFFFF",
-        "weight": "normal",
-        "align": "center",
-        "entrance": {
-          "type": "slide-up",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "wave-float",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-dissolve",
-          "duration": 0.5
-        }
-      }
-    ]
-  },
-  {
-    "id": "1d3e04febc45",
-    "name": "Closing — Build The Blueprint",
-    "duration": 5.0,
-    "bg_color": "#0d0221",
-    "bg_pattern": "bg-gradient-radial",
-    "elements": [
-      {
-        "id": "482fb0ca12b2",
-        "type": "text",
-        "content": "LET'S BUILD",
-        "x": 10,
-        "y": 15,
-        "width": 80,
-        "height": 20,
-        "start": 0.5,
-        "end": 4.5,
-        "font": "Bebas Neue",
-        "size": 108,
-        "color": "#FFFFFF",
-        "weight": "normal",
-        "align": "center",
-        "glow": {
-          "color": "#4a9eff",
-          "radius": 25
-        },
-        "entrance": {
-          "type": "kinetic-in",
-          "duration": 0.9
-        },
-        "emphasis": {
-          "type": "glow-breathe",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-dissolve",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "f52a02674b23",
-        "type": "text",
-        "content": "THE BLUEPRINT",
-        "x": 5,
-        "y": 40,
-        "width": 90,
-        "height": 28,
-        "start": 1.0,
-        "end": 4.5,
-        "font": "Orbitron",
-        "size": 120,
-        "color": "#FFD700",
-        "weight": "normal",
-        "align": "center",
-        "glow": {
-          "color": "#FFD700",
-          "radius": 35
-        },
-        "text_shadow": "0 0 60px rgba(255,215,0,0.4)",
-        "entrance": {
-          "type": "morph-scale",
-          "duration": 1.0
-        },
-        "emphasis": {
-          "type": "glow-breathe",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-fly-right",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "7a055b8313f7",
-        "type": "shape",
-        "shape": "line",
-        "x": 15,
-        "y": 72,
-        "width": 70,
-        "height": 0.4,
-        "start": 0.0,
-        "end": 4.5,
-        "fill": "#FFD700",
-        "entrance": {
-          "type": "slide-left",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "glow-breathe",
-          "duration": 0.4
-        },
-        "exit": {
-          "type": "exit-dissolve",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "a642ad9c2f78",
-        "type": "shape",
-        "shape": "line",
-        "x": 15,
-        "y": 80,
-        "width": 70,
-        "height": 0.4,
-        "start": 0.3,
-        "end": 4.5,
-        "fill": "#4a9eff",
-        "entrance": {
-          "type": "slide-right",
           "duration": 0.6
         },
         "emphasis": {
@@ -1535,46 +2264,6 @@
         "exit": {
           "type": "exit-dissolve",
           "duration": 0.5
-        }
-      },
-      {
-        "id": "18254a11bd38",
-        "type": "shape",
-        "shape": "circle",
-        "x": 2,
-        "y": 2,
-        "width": 4,
-        "height": 4,
-        "start": 0.0,
-        "end": 4.5,
-        "fill": "#4a9eff",
-        "entrance": {
-          "type": "morph-scale",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "pulse",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "7dd5264da31e",
-        "type": "shape",
-        "shape": "circle",
-        "x": 93,
-        "y": 2,
-        "width": 4,
-        "height": 4,
-        "start": 0.0,
-        "end": 4.5,
-        "fill": "#FFD700",
-        "entrance": {
-          "type": "morph-scale",
-          "duration": 0.6
-        },
-        "emphasis": {
-          "type": "pulse",
-          "duration": 0.4
         }
       }
     ]
