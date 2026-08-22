@@ -602,6 +602,11 @@ const App = {
     this.project = await res.json();
     this.scenes = this.project.scenes || [];
     this.currentScene = this.scenes[0] || null;
+    // Clear element cache for new project
+    if (this._elCache) {
+      for (const k in this._elCache) this._elCache[k].div.remove();
+    }
+    this._elCache = {};
     this.duration = this._getProjectDuration();
 
     // Load word-level timestamps for alignment
@@ -893,8 +898,12 @@ const App = {
     const stage = document.getElementById('canvas-stage');
     if (!stage) { console.error('[Canvas] stage element NOT FOUND'); return; }
 
-    // Remove all canvas elements (keep empty-state if present)
-    stage.querySelectorAll('.canvas-el').forEach(el => el.remove());
+    // Element caching: reuse DOM elements across frames instead of recreating
+    if (!this._elCache) this._elCache = {};  // { elementId -> { div, visible } }
+    // Mark all cached elements as not-yet-seen this frame
+    for (const k in this._elCache) this._elCache[k].visible = false;
+
+    // Remove selection rect if present (recreated when needed)
     stage.querySelectorAll('.selection-rect').forEach(el => el.remove());
     const empty = document.getElementById('empty-state');
     if (empty) empty.style.display = 'none';
@@ -981,6 +990,16 @@ const App = {
         if (t < absStart - buffer || t > absEnd + buffer) continue;
         this.renderElement(el, stage, w, h, absStart, absEnd, sceneOpacity);
         renderedCount++;
+      }
+    }
+
+    // Cleanup: remove DOM elements that are no longer visible this frame
+    if (this._elCache) {
+      for (const k in this._elCache) {
+        if (!this._elCache[k].visible) {
+          this._elCache[k].div.remove();
+          delete this._elCache[k];
+        }
       }
     }
 
@@ -1159,10 +1178,27 @@ const App = {
 
   renderElement(el, stage, canvasW, canvasH, elStart, elEnd, sceneOpacity) {
     if (sceneOpacity === undefined) sceneOpacity = 1;
-    const div = document.createElement('div');
-    div.className = 'canvas-el';
-    div.dataset.eid = el.id;
-    div.dataset.type = el.type;
+
+    // Reuse cached DOM element (HyperFrames approach: create once, update in place)
+    let div;
+    if (this._elCache && this._elCache[el.id]) {
+      div = this._elCache[el.id].div;
+      this._elCache[el.id].visible = true;
+    } else {
+      div = document.createElement('div');
+      div.className = 'canvas-el';
+      div.dataset.eid = el.id;
+      div.dataset.type = el.type;
+      // Set content only once for text elements
+      if (el.type === 'text') {
+        div.style.display = 'flex';
+        div.style.alignItems = 'center';
+        div.style.justifyContent = 'center';
+        div.style.fontFamily = "'Inter', sans-serif";
+      }
+      stage.appendChild(div);
+      if (this._elCache) this._elCache[el.id] = { div, visible: true };
+    }
 
     let x = this.toPx(el.x, canvasW);
     let y = this.toPx(el.y, canvasH);
@@ -1248,14 +1284,18 @@ const App = {
     }
 
     if (el.type === 'text') {
-      div.style.fontFamily = `'${el.font || 'Inter'}'`;
-      div.style.fontSize = (el.size || 48) + 'px';
-      div.style.color = el.color || '#FFFFFF';
-      div.style.fontWeight = el.weight || 'normal';
-      div.style.textAlign = el.align || 'center';
+      const s = el.style || {};
+      div.style.fontFamily = `'${el.font || s.fontFamily || 'Inter'}'`;
+      div.style.fontSize = (el.size || s.fontSize || 48) + 'px';
+      div.style.color = el.color || s.color || '#FFFFFF';
+      div.style.fontWeight = el.weight || s.fontWeight || 'normal';
+      div.style.textAlign = el.align || s.textAlign || 'center';
       div.style.display = 'flex';
       div.style.alignItems = 'center';
       div.style.justifyContent = 'center';
+      if (s.textShadow) div.style.textShadow = s.textShadow;
+      if (s.letterSpacing) div.style.letterSpacing = s.letterSpacing;
+      if (s.lineHeight) div.style.lineHeight = s.lineHeight;
       if (el.bg_color) { div.style.background = el.bg_color; div.style.padding = '12px 24px'; }
       if (el.border_radius) div.style.borderRadius = el.border_radius + 'px';
       if (el.glow) div.style.textShadow = `0 0 ${el.glow.radius || 10}px ${el.glow.color || '#FFD700'}`;
