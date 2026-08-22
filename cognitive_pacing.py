@@ -255,19 +255,22 @@ def compute_visual_hierarchy(groups: List[Dict], canvas_w: int = 1920, canvas_h:
 
         font_size = int(base_size * size_factor)
 
-        # Position: emphasis centered, others vary
+        # ALL text centered — the eye focus point is the center of the screen.
+        # Only vary Y slightly for visual rhythm. NEVER move X from center.
+        # Emphasis words: slightly higher to draw the eye
         if dominant == 'emphasis':
-            x, y = 50, 42  # Center, slightly above middle
+            y = 42
             color = '#FFD700'  # Gold for emphasis
             weight = '900'
         elif word_count <= 2:
-            x, y = 50, 45  # Center
+            y = 45
             color = '#FFFFFF'
             weight = '800'
         else:
-            x, y = 50, 48  # Center, slightly lower for longer text
+            y = 45  # Same center line — not lower
             color = '#E8E8E8'
             weight = '700'
+        x = 50  # ALWAYS center — this is where the eye focuses
 
         group['visual'] = {
             'x': x,
@@ -288,21 +291,14 @@ def build_overlap_free_layout(groups: List[Dict], canvas_w: int = 1920, canvas_h
     Since groups are sequential in time (only one visible at a time),
     we use the same position but vary it slightly for visual interest.
     """
-    # For word-by-word mode: all centered, one at a time
-    # Vary Y position slightly to create visual rhythm
-    positions = [
-        (50, 40),   # Center high
-        (50, 45),   # Center
-        (50, 50),   # Center mid
-        (50, 42),   # Center slightly high
-        (50, 48),   # Center slightly low
-    ]
+    # ALL text centered at x=50 (eye focus point)
+    # Only vary Y slightly for visual rhythm
+    y_positions = [42, 45, 43, 45, 44]  # Subtle vertical rhythm
 
     for i, group in enumerate(groups):
-        pos = positions[i % len(positions)]
         if 'visual' in group:
-            group['visual']['x'] = pos[0]
-            group['visual']['y'] = pos[1]
+            group['visual']['x'] = 50  # ALWAYS center
+            group['visual']['y'] = y_positions[i % len(y_positions)]
 
     return groups
 
@@ -317,8 +313,8 @@ def generate_display_elements(groups: List[Dict]) -> List[Dict]:
     for gi, group in enumerate(groups):
         vis = group.get('visual', {})
         font_size = vis.get('font_size', 72)
-        x = vis.get('x', 50)
-        y = vis.get('y', 45)
+        x = 50  # ALWAYS center — eye focus point
+        y = vis.get('y', 45)  # Only Y varies for rhythm
         color = vis.get('color', '#FFFFFF')
         weight = vis.get('weight', '700')
 

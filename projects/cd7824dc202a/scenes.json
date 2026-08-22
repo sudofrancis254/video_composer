@@ -12,7 +12,7 @@
         "type": "text",
         "content": "In my last video I",
         "x": 50,
-        "y": 40,
+        "y": 42,
         "width": 85,
         "height": 164,
         "style": {
@@ -90,7 +90,7 @@
         "type": "text",
         "content": "the",
         "x": 50,
-        "y": 50,
+        "y": 43,
         "width": 85,
         "height": 280,
         "style": {
@@ -129,7 +129,7 @@
         "type": "text",
         "content": "POSTemplate codebase a real",
         "x": 50,
-        "y": 42,
+        "y": 45,
         "width": 85,
         "height": 164,
         "style": {
@@ -168,7 +168,7 @@
         "type": "text",
         "content": "point-of-sale system built with",
         "x": 50,
-        "y": 48,
+        "y": 44,
         "width": 85,
         "height": 164,
         "style": {
@@ -207,7 +207,7 @@
         "type": "text",
         "content": "Apps Script",
         "x": 50,
-        "y": 40,
+        "y": 42,
         "width": 85,
         "height": 272,
         "style": {
@@ -295,7 +295,7 @@
         "type": "text",
         "content": "the database the business logic",
         "x": 50,
-        "y": 50,
+        "y": 43,
         "width": 85,
         "height": 126,
         "style": {
@@ -334,7 +334,7 @@
         "type": "text",
         "content": "the security",
         "x": 50,
-        "y": 42,
+        "y": 45,
         "width": 85,
         "height": 210,
         "style": {
@@ -383,7 +383,7 @@
         "type": "text",
         "content": "And at the end I",
         "x": 50,
-        "y": 48,
+        "y": 44,
         "width": 85,
         "height": 164,
         "style": {
@@ -422,7 +422,7 @@
         "type": "text",
         "content": "made a promise one more",
         "x": 50,
-        "y": 40,
+        "y": 42,
         "width": 85,
         "height": 126,
         "style": {
@@ -510,7 +510,7 @@
         "type": "text",
         "content": "How to plan a codebase",
         "x": 50,
-        "y": 50,
+        "y": 43,
         "width": 85,
         "height": 164,
         "style": {
@@ -549,7 +549,7 @@
         "type": "text",
         "content": "like this before you write",
         "x": 50,
-        "y": 42,
+        "y": 45,
         "width": 85,
         "height": 126,
         "style": {
@@ -588,7 +588,7 @@
         "type": "text",
         "content": "a single line of code",
         "x": 50,
-        "y": 48,
+        "y": 44,
         "width": 85,
         "height": 126,
         "style": {
@@ -637,7 +637,7 @@
         "type": "text",
         "content": "This is that video",
         "x": 50,
-        "y": 40,
+        "y": 42,
         "width": 85,
         "height": 164,
         "style": {
@@ -725,7 +725,7 @@
         "type": "text",
         "content": "explain last time though",
         "x": 50,
-        "y": 50,
+        "y": 43,
         "width": 85,
         "height": 126,
         "style": {
@@ -774,7 +774,7 @@
         "type": "text",
         "content": "That codebase wasn't just organized",
         "x": 50,
-        "y": 42,
+        "y": 45,
         "width": 85,
         "height": 164,
         "style": {
@@ -813,7 +813,7 @@
         "type": "text",
         "content": "it was built to be",
         "x": 50,
-        "y": 48,
+        "y": 44,
         "width": 85,
         "height": 126,
         "style": {
@@ -852,7 +852,7 @@
         "type": "text",
         "content": "read by two different readers",
         "x": 50,
-        "y": 40,
+        "y": 42,
         "width": 85,
         "height": 126,
         "style": {
@@ -950,7 +950,7 @@
         "type": "text",
         "content": "And AI coding assistants",
         "x": 50,
-        "y": 50,
+        "y": 43,
         "width": 85,
         "height": 164,
         "style": {
@@ -999,7 +999,7 @@
         "type": "text",
         "content": "Every file every naming choice",
         "x": 50,
-        "y": 42,
+        "y": 45,
         "width": 85,
         "height": 164,
         "style": {
@@ -1038,7 +1038,7 @@
         "type": "text",
         "content": "every doc built with both",
         "x": 50,
-        "y": 48,
+        "y": 44,
         "width": 85,
         "height": 126,
         "style": {
@@ -1077,7 +1077,7 @@
         "type": "text",
         "content": "in mind",
         "x": 50,
-        "y": 40,
+        "y": 42,
         "width": 85,
         "height": 210,
         "style": {
@@ -1165,7 +1165,7 @@
         "type": "text",
         "content": "agent-ready sounds like a buzzword",
         "x": 50,
-        "y": 50,
+        "y": 43,
         "width": 85,
         "height": 164,
         "style": {
@@ -1214,7 +1214,7 @@
         "type": "text",
         "content": "I thought so too",
         "x": 50,
-        "y": 42,
+        "y": 45,
         "width": 85,
         "height": 126,
         "style": {
@@ -1263,7 +1263,7 @@
         "type": "text",
         "content": "Until I saw how much",
         "x": 50,
-        "y": 48,
+        "y": 44,
         "width": 85,
         "height": 164,
         "style": {
@@ -1302,7 +1302,7 @@
         "type": "text",
         "content": "less my",
         "x": 50,
-        "y": 40,
+        "y": 42,
         "width": 85,
         "height": 210,
         "style": {
@@ -1380,7 +1380,7 @@
         "type": "text",
         "content": "were in place",
         "x": 50,
-        "y": 50,
+        "y": 43,
         "width": 85,
         "height": 168,
         "style": {
@@ -1429,7 +1429,7 @@
         "type": "text",
         "content": "Because here's the thing about",
         "x": 50,
-        "y": 42,
+        "y": 45,
         "width": 85,
         "height": 164,
         "style": {
@@ -1468,7 +1468,7 @@
         "type": "text",
         "content": "AI it's incredible at building",
         "x": 50,
-        "y": 48,
+        "y": 44,
         "width": 85,
         "height": 164,
         "style": {
@@ -1517,7 +1517,7 @@
         "type": "text",
         "content": "But without a plan it",
         "x": 50,
-        "y": 40,
+        "y": 42,
         "width": 85,
         "height": 164,
         "style": {
@@ -1595,7 +1595,7 @@
         "type": "text",
         "content": "actually want",
         "x": 50,
-        "y": 50,
+        "y": 43,
         "width": 85,
         "height": 210,
         "style": {
@@ -1644,7 +1644,7 @@
         "type": "text",
         "content": "And when it guesses your",
         "x": 50,
-        "y": 42,
+        "y": 45,
         "width": 85,
         "height": 164,
         "style": {
@@ -1683,7 +1683,7 @@
         "type": "text",
         "content": "codebase pays for it",
         "x": 50,
-        "y": 48,
+        "y": 44,
         "width": 85,
         "height": 126,
         "style": {
@@ -1732,7 +1732,7 @@
         "type": "text",
         "content": "So here's the deal",
         "x": 50,
-        "y": 40,
+        "y": 42,
         "width": 85,
         "height": 164,
         "style": {
@@ -1820,7 +1820,7 @@
         "type": "text",
         "content": "video you'll know exactly which",
         "x": 50,
-        "y": 50,
+        "y": 43,
         "width": 85,
         "height": 126,
         "style": {
@@ -1859,7 +1859,7 @@
         "type": "text",
         "content": "files to create before your",
         "x": 50,
-        "y": 42,
+        "y": 45,
         "width": 85,
         "height": 126,
         "style": {
@@ -1898,7 +1898,7 @@
         "type": "text",
         "content": "AI writes a single line",
         "x": 50,
-        "y": 48,
+        "y": 44,
         "width": 85,
         "height": 164,
         "style": {
@@ -1937,7 +1937,7 @@
         "type": "text",
         "content": "what goes inside each one",
         "x": 50,
-        "y": 40,
+        "y": 42,
         "width": 85,
         "height": 126,
         "style": {
@@ -2015,7 +2015,7 @@
         "type": "text",
         "content": "a project so an",
         "x": 50,
-        "y": 50,
+        "y": 43,
         "width": 85,
         "height": 126,
         "style": {
@@ -2054,7 +2054,7 @@
         "type": "text",
         "content": "AI can move through it",
         "x": 50,
-        "y": 42,
+        "y": 45,
         "width": 85,
         "height": 164,
         "style": {
@@ -2103,7 +2103,7 @@
         "type": "text",
         "content": "like it already knows the",
         "x": 50,
-        "y": 48,
+        "y": 44,
         "width": 85,
         "height": 126,
         "style": {
@@ -2142,7 +2142,7 @@
         "type": "text",
         "content": "place",
         "x": 50,
-        "y": 40,
+        "y": 42,
         "width": 85,
         "height": 280,
         "style": {
@@ -2230,7 +2230,7 @@
         "type": "text",
         "content": "codebases fall apart five files",
         "x": 50,
-        "y": 50,
+        "y": 43,
         "width": 85,
         "height": 126,
         "style": {
@@ -2269,7 +2269,7 @@
         "type": "text",
         "content": "that fix it a quick",
         "x": 50,
-        "y": 42,
+        "y": 45,
         "width": 85,
         "height": 126,
         "style": {
@@ -2308,7 +2308,7 @@
         "type": "text",
         "content": "look at the small rules",
         "x": 50,
-        "y": 48,
+        "y": 44,
         "width": 85,
         "height": 126,
         "style": {
@@ -2347,7 +2347,7 @@
         "type": "text",
         "content": "that hold it together and",
         "x": 50,
-        "y": 40,
+        "y": 42,
         "width": 85,
         "height": 126,
         "style": {
@@ -2425,7 +2425,7 @@
         "type": "text",
         "content": "that changes how you'll think",
         "x": 50,
-        "y": 50,
+        "y": 43,
         "width": 85,
         "height": 126,
         "style": {
@@ -2464,7 +2464,7 @@
         "type": "text",
         "content": "about markdown files forever",
         "x": 50,
-        "y": 42,
+        "y": 45,
         "width": 85,
         "height": 126,
         "style": {
@@ -2513,7 +2513,7 @@
         "type": "text",
         "content": "Let's build the blueprint",
         "x": 50,
-        "y": 48,
+        "y": 44,
         "width": 85,
         "height": 164,
         "style": {
