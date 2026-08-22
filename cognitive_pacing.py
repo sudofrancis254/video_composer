@@ -291,14 +291,17 @@ def build_overlap_free_layout(groups: List[Dict], canvas_w: int = 1920, canvas_h
     Since groups are sequential in time (only one visible at a time),
     we use the same position but vary it slightly for visual interest.
     """
-    # ALL text centered at x=50 (eye focus point)
-    # Only vary Y slightly for visual rhythm
-    y_positions = [42, 45, 43, 45, 44]  # Subtle vertical rhythm
+    # User-calibrated position: container at x=9.375%, y=40.74%,
+    # width=80.208%, height=14.81% → text centered via CSS textAlign
+    # Only vary Y slightly for visual rhythm (±2% from base)
+    y_positions = [40.74, 42.74, 41.74, 42.74, 41.74]
 
     for i, group in enumerate(groups):
         if 'visual' in group:
-            group['visual']['x'] = 50  # ALWAYS center
+            group['visual']['x'] = 9.375   # User's exact position
             group['visual']['y'] = y_positions[i % len(y_positions)]
+            group['visual']['width'] = 80.208   # User's exact width
+            group['visual']['height'] = 14.81    # User's exact height
 
     return groups
 
@@ -313,30 +316,25 @@ def generate_display_elements(groups: List[Dict]) -> List[Dict]:
     for gi, group in enumerate(groups):
         vis = group.get('visual', {})
         font_size = vis.get('font_size', 72)
-        x = 50  # ALWAYS center — eye focus point
-        y = vis.get('y', 45)  # Only Y varies for rhythm
+        x = vis.get('x', 9.375)       # User's exact X
+        y = vis.get('y', 40.74)       # User's exact Y (varies for rhythm)
+        width = vis.get('width', 80.208)   # User's exact width
+        height = vis.get('height', 14.81)  # User's exact height
         color = vis.get('color', '#FFFFFF')
         weight = vis.get('weight', '700')
 
         text = group['text']
-        start_idx = gi  # Each group gets its own word range
-        end_idx = gi
-
-        # For multi-word groups, use the actual word indices
         word_list = group['words']
-        if len(word_list) > 1:
-            # Find indices in original word list (by matching start times)
-            end_idx = gi
 
-        # Create the element
+        # Create the element with user-calibrated coordinates
         el = {
             'id': f'el_cog_{gi:04d}',
             'type': 'text',
             'content': text,
             'x': x,
             'y': y,
-            'width': 85,  # % of canvas width
-            'height': max(font_size * 2, 120),
+            'width': width,
+            'height': height,
             'style': {
                 'fontSize': font_size,
                 'fontWeight': weight,
