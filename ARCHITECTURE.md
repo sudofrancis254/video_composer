@@ -213,45 +213,66 @@ exposes common animations as presets, but any GSAP code is valid.
 }
 ```
 
-### 4. Audio-Driven Visual System
+### 4. Audio-Driven Visual System (Word-Aligned)
 
 **Audio is the DRIVER.** Every visual element is timed to exact word
-timestamps from the audio transcript. The scene generator reads
-`words.json`, splits into scenes at natural pauses, and creates
-timed captions + visual elements.
+indices from the audio transcript. Element timing is surgically
+derived from `words.json` — zero drift possible.
 
 ```
-words.json [{text: "In", start: 0.0, end: 0.187}, ...]
+words.json [{text: "In", start: 0.0, end: 0.187}, ...]  ← SOURCE OF TRUTH
        │
        ▼
-Scene Generator (server.py)
-  ├── Split at gaps > 0.7s → scene boundaries
-  ├── Group words into 4-6 word captions
-  ├── Find emphasis points → visual elements
-  └── Apply theme (bg color, pattern, accent)
+WordAlignment.loadWords(pid)
+  ├── Loads words[] into browser memory
+  ├── Auto-assigns wordRef to elements without one
+  └── resolveTiming(wordRef, offset) → {start, end} in seconds
        │
        ▼
-Scene JSON
-  ├── scene.duration = scene_end - scene_start
-  ├── elements[].start/end = scene-LOCAL times
-  └── audio_track.source = shared across all scenes
+Element wordRef format:
+  { startWord: 5, endWord: 12, padBefore: 0.1, padAfter: 0.1 }
        │
        ▼
-Canvas Rendering
-  ├── Audio = PROJECT-level (one continuous track)
-  ├── absStart = el.start + sceneOffset
-  ├── renderCanvas() checks: t >= absStart - buffer && t <= absEnd + buffer
-  ├── Captions: buffer = 0.05s (surgical precision)
-  ├── Other elements: buffer = 0.5s (smooth animation)
-  └── Scene transitions: crossfade overlay at boundaries
+RAF render loop (60fps)
+  ├── for each element:
+  │     wt = WordAlignment.resolveTiming(el.wordRef, sceneOffset)
+  │     el._resolvedStart = wt.start
+  │     el._resolvedEnd = wt.end
+  ├── absStart = el._resolvedStart ?? (el.start + sceneOffset)
+  ├── renderElement() applies entrance → emphasis → exit animations
+  └── SFX elements trigger MultiAudio.playSfx() at word timestamps
+       │
+       ▼
+verify_alignment.py
+  ├── Compares every element's timing against word timestamps
+  ├── Reports drift, gaps, coverage %
+  └── --fix mode auto-reassigns wordRefs
 ```
 
 **Key rules:**
-1. Audio is global — one continuous track, scenes are time segments
-2. Element start/end are scene-local — canvas adds scene offset for absolute time
-3. Caption timing must be surgical — no overlap between consecutive captions
-4. Non-caption elements get animation buffer for smooth enter/exit
+1. `words.json` is the source of truth — all timing derives from word timestamps
+2. Elements use `wordRef` (word indices) not raw seconds — immune to re-transcription drift
+3. Scene boundaries use `wordStart`/`wordEnd` — duration computed from word timestamps
+4. Caption timing must be surgical — buffer = 0.05s, no overlap between consecutive captions
 5. Background patterns use CSS classes (bg-grid, bg-dots) layered on backgroundColor
+
+### 4b. Multi-Audio Track System
+
+Multiple audio layers play simultaneously:
+
+```
+project.audioTracks[]
+  ├── narration:  primary voice (one continuous track)
+  ├── music:      background music (looped, ducked during narration)
+  └── sfx:        triggered at specific word timestamps
+
+Playback engine:
+  ├── One HTML Audio element per track
+  ├── All tracks seek/play/pause in sync
+  ├── Music volume drops (ducking) when narration is active
+  ├── SFX fire via word timestamp triggers in the RAF loop
+  └── Fade in/out per track for smooth transitions
+```
 
 ### 5. Timeline
 

@@ -244,4 +244,72 @@ This set Scene 0's duration from 8.28s → 92s (full audio length). Since `_getA
 
 ---
 
-*Last updated: August 2026 — after completing Word Editor, Caption Studio, Image Editor, and building Video Composer Phases 1-4.*
+### Word-Level Alignment & Multi-Audio Architecture (August 2026)
+
+| Decision | Why | Impact |
+|----------|-----|--------|
+| **Elements reference word indices, not raw timestamps** | When elements use hardcoded `start: 2.5, end: 3.4`, they drift from the audio after re-transcription or any timing change. Word indices (`wordRef.startWord: 5, wordEnd: 12`) are stable — timing is computed from `words.json` at render time | Every element's timing is surgically derived from the actual word timestamps. Zero drift possible |
+| **`WordAlignment.resolveTiming(wordRef, offset)`** | Central function that converts word indices → absolute timestamps. Called in the RAF render loop for every element | Single source of truth for all element timing |
+| **Scene `wordStart`/`wordEnd` boundaries** | Scenes should be defined by which words they cover, not arbitrary time ranges. Scene duration = `wordEndTime(wordEnd) - wordStartTime(wordStart)` | Scene boundaries are always aligned to natural speech boundaries |
+| **Auto-assign wordRefs on project load** | Not every element will have wordRef set — manual edits and imports may only have raw timestamps | `WordAlignment.autoAssignWordRefs()` scans all elements and assigns wordRef to any without one, based on nearest word timestamps |
+| **`verify_alignment.py` CLI tool** | Need a way to verify all elements are properly aligned before rendering | Python script reads words.json + scenes.json, reports misalignments, drift, gaps, and coverage percentage |
+| **Multi-audio track system (`MultiAudio`)** | Single audio track can't handle narration + SFX + background music | Separate Audio elements per track, volume control, fade in/out, loop, and ducking (music volume drops during narration) |
+| **SFX triggers at word timestamps** | Sound effects need to fire at the exact moment a word is spoken | Elements of type `sfx` with `sfx_ref.triggerAtWord: N` are triggered when playback reaches that word |
+| **`wordRef.padBefore` / `padAfter`** | Sometimes an element should appear slightly before the first word or linger after the last | Optional padding seconds extend the element's visible time beyond the exact word boundaries |
+
+### Architecture: How Alignment Flows
+
+```
+words.json (source of truth)
+    ↓
+WordAlignment.loadWords(pid)
+    ↓
+App.loadProject() → WordAlignment.autoAssignWordRefs(scenes)
+    ↓
+RAF render loop → WordAlignment.resolveTiming(el.wordRef, sceneOffset)
+    ↓
+element._resolvedStart / _resolvedEnd → used for visibility + animation timing
+    ↓
+verify_alignment.py checks drift < 0.1s tolerance
+```
+
+### Architecture: Multi-Audio Track System
+
+```
+project.audioTracks[]
+    ├── narration (primary)
+    │     source: /audio/pid/source.mp3
+    │     volume: 1.0
+    │
+    ├── music (background)
+    │     source: /audio/pid/bgm.mp3
+    │     volume: 0.4
+    │     ducking: 0.3  (volume during narration)
+    │     loop: true
+    │     fadeIn: 2.0
+    │
+    └── sfx (triggered)
+          source: /audio/pid/click.mp3
+          triggerAtWord: 42  (fires when word 42 is spoken)
+          volume: 0.8
+```
+
+### SFX Element Format
+
+```json
+{
+  "type": "sfx",
+  "sfx_ref": {
+    "trackId": "sfx_click",
+    "triggerAtWord": 42,
+    "triggerAtTime": null,
+    "volume": 0.8
+  },
+  "start": 12.5,
+  "end": 12.7
+}
+```
+
+---
+
+*Last updated: August 2026 — after completing Word Editor, Caption Studio, Image Editor, and building Video Composer Phases 1-5 (word alignment + multi-audio).*

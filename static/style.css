@@ -1059,3 +1059,60 @@ body {
 .canvas-el[data-visible="false"] {
   display: none !important;
 }
+
+/* ---- Audio Tracks Panel ---- */
+.audio-tracks {
+  padding: 6px 8px;
+  border-top: 1px solid var(--border);
+  max-height: 80px;
+  overflow-y: auto;
+}
+
+.audio-tracks:empty::before {
+  content: 'No extra audio tracks';
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+.audio-track {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 6px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-input);
+  margin-bottom: 3px;
+}
+
+.track-icon {
+  font-size: 14px;
+}
+
+.track-name {
+  font-size: 11px;
+  color: var(--text-dim);
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.track-volume {
+  width: 60px;
+  height: 4px;
+  accent-color: var(--accent);
+}
+
+.track-remove {
+  background: none;
+  border: none;
+  color: var(--red);
+  cursor: pointer;
+  font-size: 12px;
+  padding: 2px;
+  opacity: 0.6;
+}
+
+.track-remove:hover {
+  opacity: 1;
+}

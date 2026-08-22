@@ -1,3615 +1,1581 @@
 [
   {
-    "id": "sc_925694_0015",
+    "id": "0400ad14d794",
     "name": "Hook — In My Last Video",
-    "duration": 8.28,
+    "duration": 5,
     "bg_color": "#0a0e14",
     "bg_pattern": "bg-grid",
-    "audio_track": {
-      "source": "C:/Users/AITREC/AppData/Local/VideoComposerWork/cd7824dc202a/source.mp3",
-      "duration": 91.725
-    },
     "elements": [
       {
-        "id": "el_925694_0001",
-        "type": "caption",
-        "content": "In my last video I gave",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 0.0,
-        "end": 1.675,
-        "words": [
-          {
-            "text": "In",
-            "start": 0.0,
-            "end": 0.187
-          },
-          {
-            "text": "my",
-            "start": 0.2,
-            "end": 0.338
-          },
-          {
-            "text": "last",
-            "start": 0.35,
-            "end": 0.687
-          },
-          {
-            "text": "video",
-            "start": 0.7,
-            "end": 1.05
-          },
-          {
-            "text": "I",
-            "start": 1.287,
-            "end": 1.375
-          },
-          {
-            "text": "gave",
-            "start": 1.388,
-            "end": 1.625
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_925694_0002",
-        "type": "caption",
-        "content": "you a tour of the POSTemplate",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 1.638,
-        "end": 3.363,
-        "words": [
-          {
-            "text": "you",
-            "start": 1.638,
-            "end": 1.775
-          },
-          {
-            "text": "a",
-            "start": 1.787,
-            "end": 1.85
-          },
-          {
-            "text": "tour",
-            "start": 1.862,
-            "end": 2.163
-          },
-          {
-            "text": "of",
-            "start": 2.175,
-            "end": 2.275
-          },
-          {
-            "text": "the",
-            "start": 2.288,
-            "end": 2.387
-          },
-          {
-            "text": "POSTemplate",
-            "start": 2.4,
-            "end": 3.313
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_925694_0003",
-        "type": "caption",
-        "content": "codebase a real point-of-sale system built",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 3.325,
-        "end": 5.987,
-        "words": [
-          {
-            "text": "codebase",
-            "start": 3.325,
-            "end": 4.012
-          },
-          {
-            "text": "a",
-            "start": 4.2,
-            "end": 4.25
-          },
-          {
-            "text": "real",
-            "start": 4.262,
-            "end": 4.575
-          },
-          {
-            "text": "point-of-sale",
-            "start": 4.588,
-            "end": 5.25
-          },
-          {
-            "text": "system",
-            "start": 5.262,
-            "end": 5.65
-          },
-          {
-            "text": "built",
-            "start": 5.663,
-            "end": 5.937
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_925694_0004",
-        "type": "caption",
-        "content": "with Apps Script",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 5.95,
-        "end": 6.85,
-        "words": [
-          {
-            "text": "with",
-            "start": 5.95,
-            "end": 6.088
-          },
-          {
-            "text": "Apps",
-            "start": 6.1,
-            "end": 6.338
-          },
-          {
-            "text": "Script",
-            "start": 6.35,
-            "end": 6.8
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_925694_0005",
-        "type": "caption",
-        "content": "We",
-        "x": 5,
-        "y": 84,
-        "width": 90,
-        "height": 12,
-        "start": 7.663,
-        "end": 7.925,
-        "words": [
-          {
-            "text": "We",
-            "start": 7.663,
-            "end": 7.875
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_925694_0006",
+        "id": "06f51d7f2929",
         "type": "text",
-        "content": "IN MY LAST",
-        "x": 5,
-        "y": 8,
-        "width": 90,
-        "height": 14,
-        "font": "Inter",
-        "size": 80,
-        "color": "#4a9eff",
-        "weight": "bold",
-        "align": "center",
+        "content": "IN MY LAST VIDEO",
+        "x": 10,
+        "y": 10,
+        "width": 80,
+        "height": 20,
         "start": 0,
-        "end": 6,
-        "animation": {
-          "type": "slide-down",
-          "duration": 0.8
-        }
-      },
-      {
-        "id": "el_925694_0007",
-        "type": "text",
-        "content": "VIDEO",
-        "x": 5,
-        "y": 20,
-        "width": 90,
-        "height": 10,
-        "font": "Inter",
-        "size": 56,
+        "end": 4.5,
+        "font": "Bebas Neue",
+        "size": 96,
         "color": "#FFFFFF",
         "weight": "normal",
         "align": "center",
-        "start": 1.0,
-        "end": 5.0,
-        "animation": {
-          "type": "fade-in",
-          "duration": 0.6
-        }
-      },
-      {
-        "id": "el_925694_0008",
-        "type": "shape",
-        "shape": "line",
-        "x": 20,
-        "y": 31,
-        "width": 60,
-        "height": 0.5,
-        "fill": "#4a9eff",
-        "start": 0.5,
-        "end": 8.28,
-        "animation": {
-          "type": "fade-in",
+        "text_shadow": "0 4px 20px rgba(74,158,255,0.5)",
+        "entrance": {
+          "type": "kinetic-in",
+          "duration": 0.8
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-fly-right",
           "duration": 0.4
         }
       },
       {
-        "id": "el_925694_0009",
+        "id": "ef5cb89ca546",
         "type": "text",
-        "content": "POSTEMPLATE",
-        "x": 15,
-        "y": 36,
-        "width": 70,
+        "content": "POSTEMPlATE",
+        "x": 20,
+        "y": 38,
+        "width": 60,
         "height": 18,
-        "font": "Inter",
+        "start": 0.1,
+        "end": 5.112,
+        "font": "Orbitron",
         "size": 72,
-        "color": "#00ff88",
-        "weight": "bold",
+        "color": "#4a9eff",
+        "weight": "normal",
         "align": "center",
-        "bg_color": "#4a9eff15",
-        "border_radius": 16,
-        "start": 2.4,
-        "end": 5.4,
-        "animation": {
-          "type": "elastic",
+        "entrance": {
+          "type": "morph-scale",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "pulse",
           "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-dissolve",
+          "duration": 0.5
         }
       },
       {
-        "id": "el_925694_0010",
+        "id": "d6f4945f6591",
         "type": "text",
         "content": "CODEBASE",
+        "x": 27.083333333333332,
+        "y": 64.81481481481481,
+        "width": 40,
+        "height": 14,
+        "start": 4.112,
+        "end": 5.612,
+        "font": "Anton",
+        "size": 64,
+        "color": "#FFD700",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "zoom-in",
+          "duration": 0.5
+        },
+        "emphasis": {
+          "type": "wave-float",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "fade-out",
+          "duration": 0.3
+        }
+      },
+      {
+        "id": "8306a53f4bc9",
+        "type": "shape",
+        "shape": "circle",
+        "x": 84.375,
+        "y": 20.37037037037037,
+        "width": 8,
+        "height": 8,
+        "start": 0,
+        "end": 4.5,
+        "fill": "#4a9eff",
+        "entrance": {
+          "type": "morph-scale",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-dissolve",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "17cae9916f3f",
+        "type": "shape",
+        "shape": "rect",
+        "x": 2,
+        "y": 80,
+        "width": 12,
+        "height": 3,
+        "start": 0.5,
+        "end": 4.5,
+        "fill": "#FFD700",
+        "border_radius": 4,
+        "entrance": {
+          "type": "slide-left",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "pulse",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-shrink",
+          "duration": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "650cd1ab2ac4",
+    "name": "Layers — DB / Logic / Security",
+    "duration": 7,
+    "bg_color": "#0d0221",
+    "bg_pattern": "bg-vignette",
+    "elements": [
+      {
+        "id": "cccc36601690",
+        "type": "text",
+        "content": "EVERY LAYER",
+        "x": 10,
+        "y": 5,
+        "width": 80,
+        "height": 18,
+        "start": 0,
+        "end": 6.5,
+        "font": "Bebas Neue",
+        "size": 88,
+        "color": "#FFFFFF",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "slide-down",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "shake",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-fly-up",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "722234dbed9b",
+        "type": "text",
+        "content": "DATABASE",
+        "x": 5,
+        "y": 30,
+        "width": 42,
+        "height": 20,
+        "start": 4.663,
+        "end": 7.163,
+        "font": "Orbitron",
+        "size": 80,
+        "color": "#00E5FF",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "kinetic-in",
+          "duration": 0.7
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-dissolve",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "1da9808cf015",
+        "type": "text",
+        "content": "BUSINESS LOGIC",
+        "x": 53,
+        "y": 30,
+        "width": 42,
+        "height": 20,
+        "start": 5.688,
+        "end": 8.188,
+        "font": "Anton",
+        "size": 72,
+        "color": "#FF9100",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "counter-spin",
+          "duration": 0.8
+        },
+        "emphasis": {
+          "type": "pulse",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-fly-right",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "d7885d42c787",
+        "type": "text",
+        "content": "SECURITY",
+        "x": 25,
+        "y": 58,
+        "width": 50,
+        "height": 20,
+        "start": 6.875,
+        "end": 9.375,
+        "font": "Raleway",
+        "size": 76,
+        "color": "#FF5252",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "flip-in",
+          "duration": 0.7
+        },
+        "emphasis": {
+          "type": "shake",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-shrink",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "597fefb06f80",
+        "type": "shape",
+        "shape": "line",
         "x": 20,
         "y": 56,
         "width": 60,
-        "height": 14,
-        "font": "Inter",
-        "size": 56,
-        "color": "#FFD700",
-        "weight": "bold",
-        "align": "center",
-        "bg_color": "#4a9eff15",
-        "border_radius": 16,
-        "start": 3.325,
-        "end": 5.825,
-        "animation": {
-          "type": "zoom-in",
+        "height": 0.5,
+        "start": 0.5,
+        "end": 6.5,
+        "fill": "#FFD700",
+        "entrance": {
+          "type": "slide-left",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "pulse",
           "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-dissolve",
+          "duration": 0.5
         }
       },
       {
-        "id": "el_925694_0011",
+        "id": "3f16a35b683b",
         "type": "shape",
         "shape": "circle",
-        "x": 3,
-        "y": 3,
-        "width": 5,
-        "height": 5,
-        "fill": "#4a9eff20",
-        "start": 0,
-        "end": 8.28,
-        "animation": {
-          "type": "fade-in",
-          "duration": 0.8
-        }
-      },
-      {
-        "id": "el_925694_0012",
-        "type": "shape",
-        "shape": "circle",
-        "x": 91,
+        "x": 35,
         "y": 85,
         "width": 4,
         "height": 4,
-        "fill": "#FFD70020",
-        "start": 0.5,
-        "end": 8.28,
-        "animation": {
-          "type": "fade-in",
-          "duration": 0.6
-        }
-      },
-      {
-        "id": "el_925694_0013",
-        "type": "shape",
-        "shape": "line",
-        "x": 2,
-        "y": 24,
-        "width": 0.4,
-        "height": 50,
-        "fill": "#4a9eff30",
-        "start": 0.3,
-        "end": 8.28
-      },
-      {
-        "id": "el_925694_0014",
-        "type": "shape",
-        "shape": "rect",
-        "x": 0,
-        "y": 98.5,
-        "width": 100,
-        "height": 1.5,
-        "fill": "#4a9eff",
-        "start": 0,
-        "end": 8.28
-      }
-    ]
-  },
-  {
-    "id": "sc_925698_0031",
-    "name": "Layers — Database, Logic, Security",
-    "duration": 10.65,
-    "bg_color": "#0d0221",
-    "bg_pattern": "bg-vignette",
-    "audio_track": {
-      "source": "C:/Users/AITREC/AppData/Local/VideoComposerWork/cd7824dc202a/source.mp3",
-      "duration": 91.725
-    },
-    "elements": [
-      {
-        "id": "el_925698_0016",
-        "type": "caption",
-        "content": "walked through every layer the database",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 0.0,
-        "end": 2.301,
-        "words": [
-          {
-            "text": "walked",
-            "start": 0.0,
-            "end": 0.3
-          },
-          {
-            "text": "through",
-            "start": 0.313,
-            "end": 0.563
-          },
-          {
-            "text": "every",
-            "start": 0.575,
-            "end": 0.838
-          },
-          {
-            "text": "layer",
-            "start": 0.851,
-            "end": 1.226
-          },
-          {
-            "text": "the",
-            "start": 1.476,
-            "end": 1.563
-          },
-          {
-            "text": "database",
-            "start": 1.575,
-            "end": 2.251
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#ff00ff",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_925698_0017",
-        "type": "caption",
-        "content": "the business logic the security",
-        "x": 5,
-        "y": 84,
-        "width": 90,
-        "height": 12,
-        "start": 2.388,
-        "end": 4.413,
-        "words": [
-          {
-            "text": "the",
-            "start": 2.388,
-            "end": 2.488
-          },
-          {
-            "text": "business",
-            "start": 2.501,
-            "end": 2.9
-          },
-          {
-            "text": "logic",
-            "start": 2.913,
-            "end": 3.4
-          },
-          {
-            "text": "the",
-            "start": 3.588,
-            "end": 3.675
-          },
-          {
-            "text": "security",
-            "start": 3.688,
-            "end": 4.363
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#ff00ff",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_925698_0018",
-        "type": "caption",
-        "content": "And at the end I made",
-        "x": 5,
-        "y": 84,
-        "width": 90,
-        "height": 12,
-        "start": 5.226,
-        "end": 6.551,
-        "words": [
-          {
-            "text": "And",
-            "start": 5.226,
-            "end": 5.425
-          },
-          {
-            "text": "at",
-            "start": 5.438,
-            "end": 5.525
-          },
-          {
-            "text": "the",
-            "start": 5.538,
-            "end": 5.688
-          },
-          {
-            "text": "end",
-            "start": 5.701,
-            "end": 6.001
-          },
-          {
-            "text": "I",
-            "start": 6.201,
-            "end": 6.263
-          },
-          {
-            "text": "made",
-            "start": 6.275,
-            "end": 6.501
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#ff00ff",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_925698_0019",
-        "type": "caption",
-        "content": "a promise one more video first",
-        "x": 5,
-        "y": 84,
-        "width": 90,
-        "height": 12,
-        "start": 6.513,
-        "end": 8.751,
-        "words": [
-          {
-            "text": "a",
-            "start": 6.513,
-            "end": 6.563
-          },
-          {
-            "text": "promise",
-            "start": 6.575,
-            "end": 7.063
-          },
-          {
-            "text": "one",
-            "start": 7.251,
-            "end": 7.501
-          },
-          {
-            "text": "more",
-            "start": 7.513,
-            "end": 7.701
-          },
-          {
-            "text": "video",
-            "start": 7.713,
-            "end": 8.088
-          },
-          {
-            "text": "first",
-            "start": 8.1,
-            "end": 8.701
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#ff00ff",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_925698_0020",
-        "type": "caption",
-        "content": "How to plan a",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 9.563,
-        "end": 10.301,
-        "words": [
-          {
-            "text": "How",
-            "start": 9.563,
-            "end": 9.788
-          },
-          {
-            "text": "to",
-            "start": 9.801,
-            "end": 9.926
-          },
-          {
-            "text": "plan",
-            "start": 9.938,
-            "end": 10.188
-          },
-          {
-            "text": "a",
-            "start": 10.201,
-            "end": 10.251
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#ff00ff",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_925698_0021",
-        "type": "text",
-        "content": "EVERY LAYER",
-        "x": 3,
-        "y": 5,
-        "width": 45,
-        "height": 10,
-        "font": "Inter",
-        "size": 72,
-        "color": "#00ffff",
-        "weight": "bold",
-        "align": "center",
-        "start": 0,
-        "end": 6,
-        "animation": {
-          "type": "slide-left",
-          "duration": 0.6
-        }
-      },
-      {
-        "id": "el_925698_0022",
-        "type": "text",
-        "content": "DATABASE",
-        "x": 3,
-        "y": 16,
-        "width": 45,
-        "height": 10,
-        "font": "Inter",
-        "size": 56,
-        "color": "#ff00ff",
-        "weight": "bold",
-        "align": "center",
         "start": 0.5,
         "end": 6.5,
-        "animation": {
-          "type": "slide-left",
+        "fill": "#4a9eff",
+        "entrance": {
+          "type": "morph-scale",
           "duration": 0.6
-        }
-      },
-      {
-        "id": "el_925698_0023",
-        "type": "text",
-        "content": "LOGIC  SECURITY",
-        "x": 3,
-        "y": 26,
-        "width": 45,
-        "height": 8,
-        "font": "Inter",
-        "size": 42,
-        "color": "#FFFFFF",
-        "weight": "normal",
-        "align": "center",
-        "start": 1,
-        "end": 7,
-        "animation": {
-          "type": "fade-in",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "el_925698_0024",
-        "type": "text",
-        "content": "DATABASE",
-        "x": 52,
-        "y": 28,
-        "width": 40,
-        "height": 12,
-        "font": "Inter",
-        "size": 48,
-        "color": "#ff00ff",
-        "weight": "bold",
-        "align": "center",
-        "bg_color": "#00ffff20",
-        "border_radius": 16,
-        "start": 1.575,
-        "end": 4.575,
-        "animation": {
-          "type": "zoom-in",
+        },
+        "emphasis": {
+          "type": "glow-breathe",
           "duration": 0.4
         }
       },
       {
-        "id": "el_925698_0025",
-        "type": "text",
-        "content": "BUSINESS LOGIC",
-        "x": 52,
-        "y": 44,
-        "width": 42,
-        "height": 10,
-        "font": "Inter",
-        "size": 40,
-        "color": "#ff00ff",
-        "weight": "bold",
-        "align": "center",
-        "bg_color": "#00ffff15",
-        "border_radius": 16,
-        "start": 2.501,
-        "end": 5.501,
-        "animation": {
-          "type": "slide-up",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "el_925698_0026",
-        "type": "text",
-        "content": "SECURITY",
-        "x": 52,
-        "y": 58,
-        "width": 38,
-        "height": 10,
-        "font": "Inter",
-        "size": 44,
-        "color": "#ff4444",
-        "weight": "bold",
-        "align": "center",
-        "bg_color": "#00ffff15",
-        "border_radius": 16,
-        "start": 3.688,
-        "end": 6.688,
-        "animation": {
-          "type": "elastic",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "el_925698_0027",
-        "type": "text",
-        "content": "PROMISE",
-        "x": 52,
-        "y": 72,
-        "width": 36,
-        "height": 8,
-        "font": "Inter",
-        "size": 40,
-        "color": "#ff00ff",
-        "weight": "bold",
-        "align": "center",
-        "bg_color": "#00ffff20",
-        "border_radius": 16,
-        "start": 6.575,
-        "end": 9.075,
-        "animation": {
-          "type": "bounce",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "el_925698_0028",
-        "type": "shape",
-        "shape": "line",
-        "x": 50,
-        "y": 5,
-        "width": 0.4,
-        "height": 85,
-        "fill": "#00ffff30",
-        "start": 0.2,
-        "end": 10.65
-      },
-      {
-        "id": "el_925698_0029",
-        "type": "text",
-        "content": "SECTION 1",
-        "x": 2,
-        "y": 2,
-        "width": 15,
-        "height": 3,
-        "font": "Inter",
-        "size": 14,
-        "color": "#00ffff80",
-        "weight": "500",
-        "align": "left",
-        "start": 0,
-        "end": 4,
-        "animation": {
-          "type": "fade-in",
-          "duration": 0.3
-        }
-      },
-      {
-        "id": "el_925698_0030",
-        "type": "shape",
-        "shape": "rect",
-        "x": 0,
-        "y": 98.5,
-        "width": 100,
-        "height": 1.5,
-        "fill": "#00ffff",
-        "start": 0,
-        "end": 10.65
-      }
-    ]
-  },
-  {
-    "id": "sc_929702_0044",
-    "name": "How To Plan A Codebase",
-    "duration": 7.42,
-    "bg_color": "#1a1a2e",
-    "bg_pattern": "bg-dots",
-    "audio_track": {
-      "source": "C:/Users/AITREC/AppData/Local/VideoComposerWork/cd7824dc202a/source.mp3",
-      "duration": 91.725
-    },
-    "elements": [
-      {
-        "id": "el_929702_0032",
-        "type": "caption",
-        "content": "codebase like this before you write",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 0.0,
-        "end": 1.825,
-        "words": [
-          {
-            "text": "codebase",
-            "start": 0.0,
-            "end": 0.65
-          },
-          {
-            "text": "like",
-            "start": 0.663,
-            "end": 0.85
-          },
-          {
-            "text": "this",
-            "start": 0.863,
-            "end": 1.062
-          },
-          {
-            "text": "before",
-            "start": 1.075,
-            "end": 1.363
-          },
-          {
-            "text": "you",
-            "start": 1.375,
-            "end": 1.525
-          },
-          {
-            "text": "write",
-            "start": 1.538,
-            "end": 1.775
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_929702_0033",
-        "type": "caption",
-        "content": "a single line of code",
-        "x": 5,
-        "y": 84,
-        "width": 90,
-        "height": 12,
-        "start": 1.788,
-        "end": 3.125,
-        "words": [
-          {
-            "text": "a",
-            "start": 1.788,
-            "end": 1.85
-          },
-          {
-            "text": "single",
-            "start": 1.863,
-            "end": 2.238
-          },
-          {
-            "text": "line",
-            "start": 2.25,
-            "end": 2.475
-          },
-          {
-            "text": "of",
-            "start": 2.488,
-            "end": 2.575
-          },
-          {
-            "text": "code",
-            "start": 2.587,
-            "end": 3.075
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_929702_0034",
-        "type": "caption",
-        "content": "This is that video",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 3.938,
-        "end": 5.075,
-        "words": [
-          {
-            "text": "This",
-            "start": 3.938,
-            "end": 4.188
-          },
-          {
-            "text": "is",
-            "start": 4.2,
-            "end": 4.312
-          },
-          {
-            "text": "that",
-            "start": 4.325,
-            "end": 4.538
-          },
-          {
-            "text": "video",
-            "start": 4.55,
-            "end": 5.025
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_929702_0035",
-        "type": "caption",
-        "content": "Here's what I didn't fully",
-        "x": 5,
-        "y": 84,
-        "width": 90,
-        "height": 12,
-        "start": 5.887,
-        "end": 7.075,
-        "words": [
-          {
-            "text": "Here's",
-            "start": 5.887,
-            "end": 6.2
-          },
-          {
-            "text": "what",
-            "start": 6.212,
-            "end": 6.375
-          },
-          {
-            "text": "I",
-            "start": 6.387,
-            "end": 6.462
-          },
-          {
-            "text": "didn't",
-            "start": 6.475,
-            "end": 6.75
-          },
-          {
-            "text": "fully",
-            "start": 6.762,
-            "end": 7.025
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_929702_0036",
-        "type": "text",
-        "content": "HOW TO PLAN",
-        "x": 5,
-        "y": 5,
-        "width": 90,
-        "height": 12,
-        "font": "Inter",
-        "size": 76,
-        "color": "#e94560",
-        "weight": "bold",
-        "align": "center",
-        "start": 0,
-        "end": 6,
-        "animation": {
-          "type": "zoom-in",
-          "duration": 0.7
-        }
-      },
-      {
-        "id": "el_929702_0037",
-        "type": "shape",
-        "shape": "line",
-        "x": 25,
-        "y": 18,
-        "width": 50,
-        "height": 0.5,
-        "fill": "#e94560",
-        "start": 0.5,
-        "end": 7.42,
-        "animation": {
-          "type": "fade-in",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "el_929702_0038",
-        "type": "text",
-        "content": "CODEBASE",
-        "x": 15,
-        "y": 25,
-        "width": 70,
-        "height": 20,
-        "font": "Inter",
-        "size": 80,
-        "color": "#ff6b35",
-        "weight": "bold",
-        "align": "center",
-        "bg_color": "#e9456015",
-        "border_radius": 16,
-        "start": 0.0,
-        "end": 3.5,
-        "animation": {
-          "type": "elastic",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "el_929702_0039",
-        "type": "text",
-        "content": "SINGLE LINE",
-        "x": 20,
-        "y": 52,
-        "width": 60,
-        "height": 14,
-        "font": "Inter",
-        "size": 56,
-        "color": "#FFD700",
-        "weight": "bold",
-        "align": "center",
-        "bg_color": "#e9456015",
-        "border_radius": 16,
-        "start": 1.863,
-        "end": 4.363,
-        "animation": {
-          "type": "zoom-in",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "el_929702_0040",
+        "id": "dd1d16482ed7",
         "type": "shape",
         "shape": "circle",
-        "x": 90,
-        "y": 3,
+        "x": 48,
+        "y": 85,
         "width": 4,
         "height": 4,
-        "fill": "#FFD70020",
-        "start": 0.3,
-        "end": 7.42
+        "start": 0.8,
+        "end": 6.5,
+        "fill": "#FFD700",
+        "entrance": {
+          "type": "morph-scale",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        }
       },
       {
-        "id": "el_929702_0041",
+        "id": "745bdbb3b74f",
         "type": "shape",
         "shape": "circle",
-        "x": 3,
-        "y": 90,
-        "width": 3,
-        "height": 3,
-        "fill": "#e9456020",
-        "start": 0.6,
-        "end": 7.42
-      },
-      {
-        "id": "el_929702_0042",
-        "type": "shape",
-        "shape": "rect",
-        "x": 0,
-        "y": 98.5,
-        "width": 100,
-        "height": 1.5,
-        "fill": "#e94560",
-        "start": 0,
-        "end": 7.42
-      },
-      {
-        "id": "el_929702_0043",
-        "type": "text",
-        "content": "SECTION 2",
-        "x": 2,
-        "y": 2,
-        "width": 15,
-        "height": 3,
-        "font": "Inter",
-        "size": 14,
-        "color": "#e9456080",
-        "weight": "500",
-        "align": "left",
-        "start": 0,
-        "end": 4,
-        "animation": {
-          "type": "fade-in",
-          "duration": 0.3
-        }
-      }
-    ]
-  },
-  {
-    "id": "sc_929974_0061",
-    "name": "Built To Be Read By Two Readers",
-    "duration": 15.15,
-    "bg_color": "#0e1116",
-    "bg_pattern": "bg-grid",
-    "audio_track": {
-      "source": "C:/Users/AITREC/AppData/Local/VideoComposerWork/cd7824dc202a/source.mp3",
-      "duration": 91.725
-    },
-    "elements": [
-      {
-        "id": "el_929974_0045",
-        "type": "caption",
-        "content": "explain last time though",
-        "x": 5,
-        "y": 82,
-        "width": 90,
-        "height": 12,
-        "start": 0.0,
-        "end": 1.75,
-        "words": [
-          {
-            "text": "explain",
-            "start": 0.0,
-            "end": 0.462
-          },
-          {
-            "text": "last",
-            "start": 0.474,
-            "end": 0.812
-          },
-          {
-            "text": "time",
-            "start": 0.825,
-            "end": 1.187
-          },
-          {
-            "text": "though",
-            "start": 1.387,
-            "end": 1.7
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#fbbf24",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_929974_0046",
-        "type": "caption",
-        "content": "That codebase wasn't just organized it",
-        "x": 5,
-        "y": 82,
-        "width": 90,
-        "height": 12,
-        "start": 2.562,
-        "end": 4.887,
-        "words": [
-          {
-            "text": "That",
-            "start": 2.562,
-            "end": 2.825
-          },
-          {
-            "text": "codebase",
-            "start": 2.837,
-            "end": 3.387
-          },
-          {
-            "text": "wasn't",
-            "start": 3.4,
-            "end": 3.712
-          },
-          {
-            "text": "just",
-            "start": 3.724,
-            "end": 3.95
-          },
-          {
-            "text": "organized",
-            "start": 3.962,
-            "end": 4.562
-          },
-          {
-            "text": "it",
-            "start": 4.762,
-            "end": 4.837
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#fbbf24",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_929974_0047",
-        "type": "caption",
-        "content": "was built to be read by",
-        "x": 5,
-        "y": 82,
-        "width": 90,
-        "height": 12,
-        "start": 4.849,
-        "end": 5.962,
-        "words": [
-          {
-            "text": "was",
-            "start": 4.849,
-            "end": 4.987
-          },
-          {
-            "text": "built",
-            "start": 5.0,
-            "end": 5.237
-          },
-          {
-            "text": "to",
-            "start": 5.25,
-            "end": 5.312
-          },
-          {
-            "text": "be",
-            "start": 5.325,
-            "end": 5.412
-          },
-          {
-            "text": "read",
-            "start": 5.424,
-            "end": 5.737
-          },
-          {
-            "text": "by",
-            "start": 5.75,
-            "end": 5.912
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#fbbf24",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_929974_0048",
-        "type": "caption",
-        "content": "two different readers",
-        "x": 5,
-        "y": 82,
-        "width": 90,
-        "height": 12,
-        "start": 5.924,
-        "end": 7.15,
-        "words": [
-          {
-            "text": "two",
-            "start": 5.924,
-            "end": 6.224
-          },
-          {
-            "text": "different",
-            "start": 6.237,
-            "end": 6.587
-          },
-          {
-            "text": "readers",
-            "start": 6.599,
-            "end": 7.1
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#fbbf24",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_929974_0049",
-        "type": "caption",
-        "content": "Humans And AI coding assistants",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 7.962,
-        "end": 11.112,
-        "words": [
-          {
-            "text": "Humans",
-            "start": 7.962,
-            "end": 8.65
-          },
-          {
-            "text": "And",
-            "start": 9.512,
-            "end": 9.725
-          },
-          {
-            "text": "AI",
-            "start": 9.737,
-            "end": 9.987
-          },
-          {
-            "text": "coding",
-            "start": 10.0,
-            "end": 10.387
-          },
-          {
-            "text": "assistants",
-            "start": 10.4,
-            "end": 11.062
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#fbbf24",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_929974_0050",
-        "type": "caption",
-        "content": "Every file every naming choice every",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 11.924,
-        "end": 14.425,
-        "words": [
-          {
-            "text": "Every",
-            "start": 11.924,
-            "end": 12.225
-          },
-          {
-            "text": "file",
-            "start": 12.237,
-            "end": 12.65
-          },
-          {
-            "text": "every",
-            "start": 12.887,
-            "end": 13.087
-          },
-          {
-            "text": "naming",
-            "start": 13.1,
-            "end": 13.475
-          },
-          {
-            "text": "choice",
-            "start": 13.487,
-            "end": 13.937
-          },
-          {
-            "text": "every",
-            "start": 14.15,
-            "end": 14.375
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#fbbf24",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_929974_0051",
-        "type": "caption",
-        "content": "doc",
-        "x": 5,
-        "y": 84,
-        "width": 90,
-        "height": 12,
-        "start": 14.387,
-        "end": 14.8,
-        "words": [
-          {
-            "text": "doc",
-            "start": 14.387,
-            "end": 14.75
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#fbbf24",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_929974_0052",
-        "type": "text",
-        "content": "BUILT TO BE",
-        "x": 3,
-        "y": 5,
-        "width": 45,
-        "height": 10,
-        "font": "Inter",
-        "size": 72,
-        "color": "#7c3aed",
-        "weight": "bold",
-        "align": "center",
-        "start": 0,
-        "end": 6,
-        "animation": {
-          "type": "slide-left",
-          "duration": 0.6
-        }
-      },
-      {
-        "id": "el_929974_0053",
-        "type": "text",
-        "content": "READ",
-        "x": 3,
-        "y": 16,
-        "width": 45,
-        "height": 10,
-        "font": "Inter",
-        "size": 64,
-        "color": "#34d399",
-        "weight": "bold",
-        "align": "center",
-        "start": 0.5,
+        "x": 61,
+        "y": 85,
+        "width": 4,
+        "height": 4,
+        "start": 1.1,
         "end": 6.5,
-        "animation": {
-          "type": "slide-left",
+        "fill": "#FF5252",
+        "entrance": {
+          "type": "morph-scale",
           "duration": 0.6
-        }
-      },
-      {
-        "id": "el_929974_0054",
-        "type": "text",
-        "content": "BY TWO READERS",
-        "x": 3,
-        "y": 26,
-        "width": 45,
-        "height": 8,
-        "font": "Inter",
-        "size": 42,
-        "color": "#FFFFFF",
-        "weight": "normal",
-        "align": "center",
-        "start": 1,
-        "end": 7,
-        "animation": {
-          "type": "fade-in",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "el_929974_0055",
-        "type": "text",
-        "content": "ORGANIZED",
-        "x": 52,
-        "y": 28,
-        "width": 40,
-        "height": 12,
-        "font": "Inter",
-        "size": 48,
-        "color": "#34d399",
-        "weight": "bold",
-        "align": "center",
-        "bg_color": "#7c3aed20",
-        "border_radius": 16,
-        "start": 3.962,
-        "end": 6.962,
-        "animation": {
-          "type": "zoom-in",
+        },
+        "emphasis": {
+          "type": "glow-breathe",
           "duration": 0.4
         }
-      },
-      {
-        "id": "el_929974_0056",
-        "type": "text",
-        "content": "HUMANS",
-        "x": 52,
-        "y": 44,
-        "width": 38,
-        "height": 10,
-        "font": "Inter",
-        "size": 44,
-        "color": "#fbbf24",
-        "weight": "bold",
-        "align": "center",
-        "bg_color": "#7c3aed15",
-        "border_radius": 16,
-        "start": 7.962,
-        "end": 10.462,
-        "animation": {
-          "type": "slide-up",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "el_929974_0057",
-        "type": "text",
-        "content": "AI ASSISTANTS",
-        "x": 52,
-        "y": 58,
-        "width": 42,
-        "height": 10,
-        "font": "Inter",
-        "size": 40,
-        "color": "#34d399",
-        "weight": "bold",
-        "align": "center",
-        "bg_color": "#7c3aed15",
-        "border_radius": 16,
-        "start": 0.0,
-        "end": 3.0,
-        "animation": {
-          "type": "elastic",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "el_929974_0058",
-        "type": "shape",
-        "shape": "line",
-        "x": 50,
-        "y": 5,
-        "width": 0.4,
-        "height": 85,
-        "fill": "#7c3aed30",
-        "start": 0.2,
-        "end": 15.15
-      },
-      {
-        "id": "el_929974_0059",
-        "type": "text",
-        "content": "SECTION 3",
-        "x": 2,
-        "y": 2,
-        "width": 15,
-        "height": 3,
-        "font": "Inter",
-        "size": 14,
-        "color": "#7c3aed80",
-        "weight": "500",
-        "align": "left",
-        "start": 0,
-        "end": 4,
-        "animation": {
-          "type": "fade-in",
-          "duration": 0.3
-        }
-      },
-      {
-        "id": "el_929974_0060",
-        "type": "shape",
-        "shape": "rect",
-        "x": 0,
-        "y": 98.5,
-        "width": 100,
-        "height": 1.5,
-        "fill": "#7c3aed",
-        "start": 0,
-        "end": 15.15
       }
     ]
   },
   {
-    "id": "sc_930022_0075",
-    "name": "AI Is Incredible But...",
-    "duration": 10.85,
-    "bg_color": "#0d0221",
-    "bg_pattern": "bg-vignette",
-    "audio_track": {
-      "source": "C:/Users/AITREC/AppData/Local/VideoComposerWork/cd7824dc202a/source.mp3",
-      "duration": 91.725
-    },
+    "id": "6f7e81307076",
+    "name": "Promise — One More Video",
+    "duration": 6,
+    "bg_color": "#1a1a2e",
+    "bg_pattern": "bg-dots",
     "elements": [
       {
-        "id": "el_930022_0062",
-        "type": "caption",
-        "content": "built with both in mind",
-        "x": 5,
-        "y": 84,
-        "width": 90,
-        "height": 12,
-        "start": 0.0,
-        "end": 1.425,
-        "words": [
-          {
-            "text": "built",
-            "start": 0.0,
-            "end": 0.237
-          },
-          {
-            "text": "with",
-            "start": 0.25,
-            "end": 0.388
-          },
-          {
-            "text": "both",
-            "start": 0.4,
-            "end": 0.688
-          },
-          {
-            "text": "in",
-            "start": 0.7,
-            "end": 0.812
-          },
-          {
-            "text": "mind",
-            "start": 0.825,
-            "end": 1.375
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#ff00ff",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_930022_0063",
-        "type": "caption",
-        "content": "I know agent-ready sounds like a",
-        "x": 5,
-        "y": 84,
-        "width": 90,
-        "height": 12,
-        "start": 2.237,
-        "end": 3.95,
-        "words": [
-          {
-            "text": "I",
-            "start": 2.237,
-            "end": 2.362
-          },
-          {
-            "text": "know",
-            "start": 2.375,
-            "end": 2.625
-          },
-          {
-            "text": "agent-ready",
-            "start": 2.75,
-            "end": 3.25
-          },
-          {
-            "text": "sounds",
-            "start": 3.263,
-            "end": 3.638
-          },
-          {
-            "text": "like",
-            "start": 3.65,
-            "end": 3.825
-          },
-          {
-            "text": "a",
-            "start": 3.837,
-            "end": 3.9
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#ff00ff",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_930022_0064",
-        "type": "caption",
-        "content": "buzzword I thought so too",
-        "x": 5,
-        "y": 82,
-        "width": 90,
-        "height": 12,
-        "start": 3.913,
-        "end": 6.387,
-        "words": [
-          {
-            "text": "buzzword",
-            "start": 3.913,
-            "end": 4.438
-          },
-          {
-            "text": "I",
-            "start": 5.3,
-            "end": 5.45
-          },
-          {
-            "text": "thought",
-            "start": 5.462,
-            "end": 5.688
-          },
-          {
-            "text": "so",
-            "start": 5.7,
-            "end": 5.888
-          },
-          {
-            "text": "too",
-            "start": 5.9,
-            "end": 6.337
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#ff00ff",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_930022_0065",
-        "type": "caption",
-        "content": "Until I saw how much less",
-        "x": 5,
-        "y": 82,
-        "width": 90,
-        "height": 12,
-        "start": 7.2,
-        "end": 8.662,
-        "words": [
-          {
-            "text": "Until",
-            "start": 7.2,
-            "end": 7.538
-          },
-          {
-            "text": "I",
-            "start": 7.55,
-            "end": 7.638
-          },
-          {
-            "text": "saw",
-            "start": 7.65,
-            "end": 7.913
-          },
-          {
-            "text": "how",
-            "start": 7.925,
-            "end": 8.1
-          },
-          {
-            "text": "much",
-            "start": 8.112,
-            "end": 8.337
-          },
-          {
-            "text": "less",
-            "start": 8.35,
-            "end": 8.612
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#ff00ff",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_930022_0066",
-        "type": "caption",
-        "content": "my AI guessed once the docs",
-        "x": 5,
-        "y": 82,
-        "width": 90,
-        "height": 12,
-        "start": 8.625,
-        "end": 10.238,
-        "words": [
-          {
-            "text": "my",
-            "start": 8.625,
-            "end": 8.825
-          },
-          {
-            "text": "AI",
-            "start": 8.837,
-            "end": 9.1
-          },
-          {
-            "text": "guessed",
-            "start": 9.112,
-            "end": 9.438
-          },
-          {
-            "text": "once",
-            "start": 9.45,
-            "end": 9.737
-          },
-          {
-            "text": "the",
-            "start": 9.75,
-            "end": 9.85
-          },
-          {
-            "text": "docs",
-            "start": 9.862,
-            "end": 10.188
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#ff00ff",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_930022_0067",
-        "type": "caption",
-        "content": "were in",
-        "x": 5,
-        "y": 82,
-        "width": 90,
-        "height": 12,
-        "start": 10.2,
-        "end": 10.5,
-        "words": [
-          {
-            "text": "were",
-            "start": 10.2,
-            "end": 10.35
-          },
-          {
-            "text": "in",
-            "start": 10.362,
-            "end": 10.45
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#ff00ff",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_930022_0068",
+        "id": "1aaeadcb366d",
         "type": "text",
-        "content": "AGENT-READY",
-        "x": 5,
-        "y": 5,
-        "width": 90,
-        "height": 12,
-        "font": "Inter",
-        "size": 76,
-        "color": "#00ffff",
-        "weight": "bold",
-        "align": "center",
-        "start": 0,
-        "end": 6,
-        "animation": {
-          "type": "zoom-in",
-          "duration": 0.7
-        }
-      },
-      {
-        "id": "el_930022_0069",
-        "type": "shape",
-        "shape": "line",
-        "x": 25,
-        "y": 18,
-        "width": 50,
-        "height": 0.5,
-        "fill": "#00ffff",
-        "start": 0.5,
-        "end": 10.85,
-        "animation": {
-          "type": "fade-in",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "el_930022_0070",
-        "type": "text",
-        "content": "BUZZWORD",
-        "x": 15,
-        "y": 25,
-        "width": 70,
+        "content": "I MADE A",
+        "x": 19.791666666666664,
+        "y": 14.814814814814813,
+        "width": 60,
         "height": 18,
-        "font": "Inter",
-        "size": 68,
-        "color": "#ff00ff",
-        "weight": "bold",
-        "align": "center",
-        "bg_color": "#00ffff15",
-        "border_radius": 16,
-        "start": 3.913,
-        "end": 6.913,
-        "animation": {
-          "type": "elastic",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "el_930022_0071",
-        "type": "shape",
-        "shape": "circle",
-        "x": 90,
-        "y": 3,
-        "width": 4,
-        "height": 4,
-        "fill": "#ff00ff20",
-        "start": 0.3,
-        "end": 10.85
-      },
-      {
-        "id": "el_930022_0072",
-        "type": "shape",
-        "shape": "circle",
-        "x": 3,
-        "y": 90,
-        "width": 3,
-        "height": 3,
-        "fill": "#00ffff20",
-        "start": 0.6,
-        "end": 10.85
-      },
-      {
-        "id": "el_930022_0073",
-        "type": "shape",
-        "shape": "rect",
-        "x": 0,
-        "y": 98.5,
-        "width": 100,
-        "height": 1.5,
-        "fill": "#00ffff",
-        "start": 0,
-        "end": 10.85
-      },
-      {
-        "id": "el_930022_0074",
-        "type": "text",
-        "content": "SECTION 4",
-        "x": 2,
-        "y": 2,
-        "width": 15,
-        "height": 3,
-        "font": "Inter",
-        "size": 14,
-        "color": "#00ffff80",
-        "weight": "500",
-        "align": "left",
-        "start": 0,
-        "end": 4,
-        "animation": {
-          "type": "fade-in",
-          "duration": 0.3
-        }
-      }
-    ]
-  },
-  {
-    "id": "sc_932267_0091",
-    "name": "Here's The Deal",
-    "duration": 17.31,
-    "bg_color": "#0a0e14",
-    "bg_pattern": "bg-grid",
-    "audio_track": {
-      "source": "C:/Users/AITREC/AppData/Local/VideoComposerWork/cd7824dc202a/source.mp3",
-      "duration": 91.725
-    },
-    "elements": [
-      {
-        "id": "el_932267_0076",
-        "type": "caption",
-        "content": "place Because here's the thing about",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 0.0,
-        "end": 2.751,
-        "words": [
-          {
-            "text": "place",
-            "start": 0.0,
-            "end": 0.538
-          },
-          {
-            "text": "Because",
-            "start": 1.4,
-            "end": 1.713
-          },
-          {
-            "text": "here's",
-            "start": 1.726,
-            "end": 2.013
-          },
-          {
-            "text": "the",
-            "start": 2.025,
-            "end": 2.125
-          },
-          {
-            "text": "thing",
-            "start": 2.138,
-            "end": 2.35
-          },
-          {
-            "text": "about",
-            "start": 2.363,
-            "end": 2.701
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932267_0077",
-        "type": "caption",
-        "content": "AI it's incredible at building",
-        "x": 5,
-        "y": 84,
-        "width": 90,
-        "height": 12,
-        "start": 2.713,
-        "end": 4.626,
-        "words": [
-          {
-            "text": "AI",
-            "start": 2.713,
-            "end": 3.113
-          },
-          {
-            "text": "it's",
-            "start": 3.288,
-            "end": 3.426
-          },
-          {
-            "text": "incredible",
-            "start": 3.438,
-            "end": 3.988
-          },
-          {
-            "text": "at",
-            "start": 4.0,
-            "end": 4.1
-          },
-          {
-            "text": "building",
-            "start": 4.113,
-            "end": 4.576
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932267_0078",
-        "type": "caption",
-        "content": "But without a plan it has",
-        "x": 5,
-        "y": 84,
-        "width": 90,
-        "height": 12,
-        "start": 5.438,
-        "end": 6.888,
-        "words": [
-          {
-            "text": "But",
-            "start": 5.438,
-            "end": 5.613
-          },
-          {
-            "text": "without",
-            "start": 5.625,
-            "end": 5.951
-          },
-          {
-            "text": "a",
-            "start": 5.963,
-            "end": 6.013
-          },
-          {
-            "text": "plan",
-            "start": 6.025,
-            "end": 6.4
-          },
-          {
-            "text": "it",
-            "start": 6.563,
-            "end": 6.638
-          },
-          {
-            "text": "has",
-            "start": 6.65,
-            "end": 6.838
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932267_0079",
-        "type": "caption",
-        "content": "to guess what you actually want",
-        "x": 5,
-        "y": 84,
-        "width": 90,
-        "height": 12,
-        "start": 6.85,
-        "end": 8.488,
-        "words": [
-          {
-            "text": "to",
-            "start": 6.85,
-            "end": 6.951
-          },
-          {
-            "text": "guess",
-            "start": 6.963,
-            "end": 7.226
-          },
-          {
-            "text": "what",
-            "start": 7.238,
-            "end": 7.426
-          },
-          {
-            "text": "you",
-            "start": 7.438,
-            "end": 7.576
-          },
-          {
-            "text": "actually",
-            "start": 7.588,
-            "end": 7.976
-          },
-          {
-            "text": "want",
-            "start": 7.988,
-            "end": 8.438
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932267_0080",
-        "type": "caption",
-        "content": "And when it guesses your codebase",
-        "x": 5,
-        "y": 84,
-        "width": 90,
-        "height": 12,
-        "start": 9.301,
-        "end": 11.175,
-        "words": [
-          {
-            "text": "And",
-            "start": 9.301,
-            "end": 9.5
-          },
-          {
-            "text": "when",
-            "start": 9.513,
-            "end": 9.676
-          },
-          {
-            "text": "it",
-            "start": 9.688,
-            "end": 9.801
-          },
-          {
-            "text": "guesses",
-            "start": 9.813,
-            "end": 10.226
-          },
-          {
-            "text": "your",
-            "start": 10.35,
-            "end": 10.5
-          },
-          {
-            "text": "codebase",
-            "start": 10.513,
-            "end": 11.125
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932267_0081",
-        "type": "caption",
-        "content": "pays for it",
-        "x": 5,
-        "y": 84,
-        "width": 90,
-        "height": 12,
-        "start": 11.138,
-        "end": 11.963,
-        "words": [
-          {
-            "text": "pays",
-            "start": 11.138,
-            "end": 11.476
-          },
-          {
-            "text": "for",
-            "start": 11.488,
-            "end": 11.663
-          },
-          {
-            "text": "it",
-            "start": 11.676,
-            "end": 11.913
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932267_0082",
-        "type": "caption",
-        "content": "So here's the deal",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 12.775,
-        "end": 13.863,
-        "words": [
-          {
-            "text": "So",
-            "start": 12.775,
-            "end": 12.988
-          },
-          {
-            "text": "here's",
-            "start": 13.0,
-            "end": 13.263
-          },
-          {
-            "text": "the",
-            "start": 13.275,
-            "end": 13.363
-          },
-          {
-            "text": "deal",
-            "start": 13.376,
-            "end": 13.813
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932267_0083",
-        "type": "caption",
-        "content": "By the end of this video",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 14.676,
-        "end": 15.926,
-        "words": [
-          {
-            "text": "By",
-            "start": 14.676,
-            "end": 14.863
-          },
-          {
-            "text": "the",
-            "start": 14.876,
-            "end": 15.025
-          },
-          {
-            "text": "end",
-            "start": 15.038,
-            "end": 15.2
-          },
-          {
-            "text": "of",
-            "start": 15.213,
-            "end": 15.288
-          },
-          {
-            "text": "this",
-            "start": 15.301,
-            "end": 15.488
-          },
-          {
-            "text": "video",
-            "start": 15.501,
-            "end": 15.876
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932267_0084",
-        "type": "caption",
-        "content": "you'll know exactly",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 16.1,
-        "end": 16.963,
-        "words": [
-          {
-            "text": "you'll",
-            "start": 16.1,
-            "end": 16.238
-          },
-          {
-            "text": "know",
-            "start": 16.251,
-            "end": 16.438
-          },
-          {
-            "text": "exactly",
-            "start": 16.45,
-            "end": 16.913
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932267_0085",
-        "type": "text",
-        "content": "HERE'S THE DEAL",
-        "x": 5,
-        "y": 4,
-        "width": 90,
-        "height": 10,
-        "font": "Inter",
-        "size": 72,
-        "color": "#4a9eff",
-        "weight": "bold",
-        "align": "center",
-        "start": 0,
-        "end": 6,
-        "animation": {
-          "type": "slide-down",
-          "duration": 0.7
-        }
-      },
-      {
-        "id": "el_932267_0086",
-        "type": "shape",
-        "shape": "line",
-        "x": 20,
-        "y": 15,
-        "width": 60,
-        "height": 0.5,
-        "fill": "#4a9eff",
-        "start": 0.5,
-        "end": 17.31
-      },
-      {
-        "id": "el_932267_0087",
-        "type": "text",
-        "content": "BY THE END",
-        "x": 10,
-        "y": 22,
-        "width": 80,
-        "height": 10,
-        "font": "Inter",
-        "size": 48,
-        "color": "#FFD700",
-        "weight": "bold",
-        "align": "center",
-        "bg_color": "#4a9eff15",
-        "border_radius": 16,
-        "start": 15.038,
-        "end": 18.038,
-        "animation": {
-          "type": "fade-in",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "el_932267_0088",
-        "type": "text",
-        "content": "WHAT GOES INSIDE",
-        "x": 10,
-        "y": 46,
-        "width": 80,
-        "height": 10,
-        "font": "Inter",
-        "size": 44,
-        "color": "#FFD700",
-        "weight": "bold",
-        "align": "center",
-        "bg_color": "#4a9eff15",
-        "border_radius": 16,
-        "start": 7.238,
-        "end": 11.238,
-        "animation": {
-          "type": "slide-up",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "el_932267_0089",
-        "type": "text",
-        "content": "THE PROMISE",
-        "x": 2,
-        "y": 2,
-        "width": 15,
-        "height": 3,
-        "font": "Inter",
-        "size": 14,
-        "color": "#4a9eff80",
-        "weight": "500",
-        "align": "left",
-        "start": 0,
-        "end": 4,
-        "animation": {
-          "type": "fade-in",
-          "duration": 0.3
-        }
-      },
-      {
-        "id": "el_932267_0090",
-        "type": "shape",
-        "shape": "rect",
-        "x": 0,
-        "y": 98.5,
-        "width": 100,
-        "height": 1.5,
-        "fill": "#4a9eff",
-        "start": 0,
-        "end": 17.31
-      }
-    ]
-  },
-  {
-    "id": "sc_932301_0106",
-    "name": "We're Covering Four Things",
-    "duration": 11.75,
-    "bg_color": "#1a1a2e",
-    "bg_pattern": "bg-dots",
-    "audio_track": {
-      "source": "C:/Users/AITREC/AppData/Local/VideoComposerWork/cd7824dc202a/source.mp3",
-      "duration": 91.725
-    },
-    "elements": [
-      {
-        "id": "el_932301_0092",
-        "type": "caption",
-        "content": "which files to create before your",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 0.0,
-        "end": 1.625,
-        "words": [
-          {
-            "text": "which",
-            "start": 0.0,
-            "end": 0.212
-          },
-          {
-            "text": "files",
-            "start": 0.224,
-            "end": 0.612
-          },
-          {
-            "text": "to",
-            "start": 0.625,
-            "end": 0.712
-          },
-          {
-            "text": "create",
-            "start": 0.724,
-            "end": 1.075
-          },
-          {
-            "text": "before",
-            "start": 1.087,
-            "end": 1.349
-          },
-          {
-            "text": "your",
-            "start": 1.362,
-            "end": 1.575
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932301_0093",
-        "type": "caption",
-        "content": "AI writes a single line what",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 1.587,
-        "end": 3.425,
-        "words": [
-          {
-            "text": "AI",
-            "start": 1.587,
-            "end": 1.837
-          },
-          {
-            "text": "writes",
-            "start": 1.849,
-            "end": 2.212
-          },
-          {
-            "text": "a",
-            "start": 2.224,
-            "end": 2.287
-          },
-          {
-            "text": "single",
-            "start": 2.3,
-            "end": 2.662
-          },
-          {
-            "text": "line",
-            "start": 2.674,
-            "end": 3.037
-          },
-          {
-            "text": "what",
-            "start": 3.237,
-            "end": 3.375
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932301_0094",
-        "type": "caption",
-        "content": "goes inside each one and how",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 3.387,
-        "end": 5.199,
-        "words": [
-          {
-            "text": "goes",
-            "start": 3.387,
-            "end": 3.625
-          },
-          {
-            "text": "inside",
-            "start": 3.637,
-            "end": 4.125
-          },
-          {
-            "text": "each",
-            "start": 4.137,
-            "end": 4.362
-          },
-          {
-            "text": "one",
-            "start": 4.375,
-            "end": 4.674
-          },
-          {
-            "text": "and",
-            "start": 4.875,
-            "end": 4.974
-          },
-          {
-            "text": "how",
-            "start": 4.987,
-            "end": 5.149
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932301_0095",
-        "type": "caption",
-        "content": "to lay out a project so",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 5.162,
-        "end": 6.312,
-        "words": [
-          {
-            "text": "to",
-            "start": 5.162,
-            "end": 5.287
-          },
-          {
-            "text": "lay",
-            "start": 5.3,
-            "end": 5.474
-          },
-          {
-            "text": "out",
-            "start": 5.487,
-            "end": 5.625
-          },
-          {
-            "text": "a",
-            "start": 5.637,
-            "end": 5.7
-          },
-          {
-            "text": "project",
-            "start": 5.712,
-            "end": 6.099
-          },
-          {
-            "text": "so",
-            "start": 6.112,
-            "end": 6.262
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932301_0096",
-        "type": "caption",
-        "content": "an AI can move through it",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 6.274,
-        "end": 7.5,
-        "words": [
-          {
-            "text": "an",
-            "start": 6.274,
-            "end": 6.387
-          },
-          {
-            "text": "AI",
-            "start": 6.399,
-            "end": 6.662
-          },
-          {
-            "text": "can",
-            "start": 6.674,
-            "end": 6.837
-          },
-          {
-            "text": "move",
-            "start": 6.849,
-            "end": 7.112
-          },
-          {
-            "text": "through",
-            "start": 7.125,
-            "end": 7.337
-          },
-          {
-            "text": "it",
-            "start": 7.349,
-            "end": 7.45
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932301_0097",
-        "type": "caption",
-        "content": "like it already knows the place",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 7.462,
-        "end": 9.112,
-        "words": [
-          {
-            "text": "like",
-            "start": 7.462,
-            "end": 7.649
-          },
-          {
-            "text": "it",
-            "start": 7.662,
-            "end": 7.762
-          },
-          {
-            "text": "already",
-            "start": 7.774,
-            "end": 8.137
-          },
-          {
-            "text": "knows",
-            "start": 8.149,
-            "end": 8.462
-          },
-          {
-            "text": "the",
-            "start": 8.474,
-            "end": 8.55
-          },
-          {
-            "text": "place",
-            "start": 8.562,
-            "end": 9.062
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932301_0098",
-        "type": "caption",
-        "content": "We're covering four things",
-        "x": 5,
-        "y": 82,
-        "width": 90,
-        "height": 12,
-        "start": 9.924,
-        "end": 11.399,
-        "words": [
-          {
-            "text": "We're",
-            "start": 9.924,
-            "end": 10.224
-          },
-          {
-            "text": "covering",
-            "start": 10.237,
-            "end": 10.662
-          },
-          {
-            "text": "four",
-            "start": 10.674,
-            "end": 10.849
-          },
-          {
-            "text": "things",
-            "start": 10.862,
-            "end": 11.349
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#FFD700",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932301_0099",
-        "type": "text",
-        "content": "WE'RE COVERING",
-        "x": 5,
-        "y": 3,
-        "width": 90,
-        "height": 10,
-        "font": "Inter",
-        "size": 68,
-        "color": "#e94560",
-        "weight": "bold",
-        "align": "center",
         "start": 0,
         "end": 5,
-        "animation": {
-          "type": "slide-down",
-          "duration": 0.6
+        "font": "Bebas Neue",
+        "size": 96,
+        "color": "#FFFFFF",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "typewriter",
+          "duration": 0.8
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-fly-up",
+          "duration": 0.5
         }
       },
       {
-        "id": "el_932301_0100",
+        "id": "3238805dd0bb",
         "type": "text",
-        "content": "FOUR THINGS",
+        "content": "PROMISE",
+        "x": 15,
+        "y": 35,
+        "width": 70,
+        "height": 22,
+        "start": 1.55,
+        "end": 4.05,
+        "font": "Permanent Marker",
+        "size": 108,
+        "color": "#FFD700",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "morph-scale",
+          "duration": 0.9
+        },
+        "emphasis": {
+          "type": "pulse",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-dissolve",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "e44b56ae3afa",
+        "type": "text",
+        "content": "HOW TO PLAN",
+        "x": 10,
+        "y": 62,
+        "width": 80,
+        "height": 15,
+        "start": 4.55,
+        "end": 7.05,
+        "font": "Anton",
+        "size": 72,
+        "color": "#4a9eff",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "slide-up",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "wave-float",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "fade-out",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "87bb01e379ed",
+        "type": "text",
+        "content": "A CODEBASE",
+        "x": 15,
+        "y": 78,
+        "width": 70,
+        "height": 14,
+        "start": 4.9,
+        "end": 7.4,
+        "font": "Montserrat",
+        "size": 60,
+        "color": "#E0E0E0",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "zoom-in",
+          "duration": 0.5
+        },
+        "exit": {
+          "type": "exit-shrink",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "63f0749fbf98",
+        "type": "shape",
+        "shape": "triangle",
+        "x": 63.541666666666664,
+        "y": 75.92592592592592,
+        "width": 16,
+        "height": 12,
+        "start": 1,
+        "end": 5,
+        "fill": "#FFD700",
+        "entrance": {
+          "type": "slide-up",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "pulse",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-fly-right",
+          "duration": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "479aa632a083",
+    "name": "Two Readers — Humans & AI",
+    "duration": 8.0,
+    "bg_color": "#0e1116",
+    "bg_pattern": "bg-grid",
+    "elements": [
+      {
+        "id": "a202d4dddfd3",
+        "type": "text",
+        "content": "BUILT TO BE READ",
+        "x": 10,
+        "y": 8,
+        "width": 80,
+        "height": 16,
+        "start": 0.0,
+        "end": 7.0,
+        "font": "Bebas Neue",
+        "size": 84,
+        "color": "#FFFFFF",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "slide-left",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-fly-right",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "cb6eec9ef1a0",
+        "type": "text",
+        "content": "BY TWO READERS",
+        "x": 20,
+        "y": 28,
+        "width": 60,
+        "height": 12,
+        "start": 0.5,
+        "end": 7.0,
+        "font": "Montserrat",
+        "size": 48,
+        "color": "#8B93A1",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "fade-in",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "wave-float",
+          "duration": 0.4
+        }
+      },
+      {
+        "id": "eb9f4e4423ab",
+        "type": "text",
+        "content": "HUMANS",
+        "x": 10,
+        "y": 48,
+        "width": 35,
+        "height": 22,
+        "start": 3.962,
+        "end": 6.962,
+        "font": "Bebas Neue",
+        "size": 96,
+        "color": "#4CAF50",
+        "weight": "normal",
+        "align": "center",
+        "glow": {
+          "color": "#4CAF50",
+          "radius": 20
+        },
+        "entrance": {
+          "type": "kinetic-in",
+          "duration": 0.7
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-dissolve",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "5e3158b78e6d",
+        "type": "text",
+        "content": "AI ASSISTANTS",
+        "x": 55,
+        "y": 48,
+        "width": 35,
+        "height": 22,
+        "start": 5.737,
+        "end": 8.737,
+        "font": "Bebas Neue",
+        "size": 96,
+        "color": "#E040FB",
+        "weight": "normal",
+        "align": "center",
+        "glow": {
+          "color": "#E040FB",
+          "radius": 20
+        },
+        "entrance": {
+          "type": "counter-spin",
+          "duration": 0.8
+        },
+        "emphasis": {
+          "type": "pulse",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-dissolve",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "cabb0c91e146",
+        "type": "shape",
+        "shape": "line",
+        "x": 48,
+        "y": 45,
+        "width": 0.3,
+        "height": 30,
+        "start": 1.0,
+        "end": 7.0,
+        "fill": "#FFD700",
+        "entrance": {
+          "type": "slide-down",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        }
+      },
+      {
+        "id": "df443f822fef",
+        "type": "shape",
+        "shape": "circle",
+        "x": 8,
+        "y": 44,
+        "width": 3,
+        "height": 3,
+        "start": 2.0,
+        "end": 7.0,
+        "fill": "#4CAF50",
+        "entrance": {
+          "type": "morph-scale",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "pulse",
+          "duration": 0.4
+        }
+      },
+      {
+        "id": "30341624b1a7",
+        "type": "shape",
+        "shape": "circle",
+        "x": 89,
+        "y": 44,
+        "width": 3,
+        "height": 3,
+        "start": 2.5,
+        "end": 7.0,
+        "fill": "#E040FB",
+        "entrance": {
+          "type": "morph-scale",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "pulse",
+          "duration": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "90eb0ac0f3bb",
+    "name": "Agent-Ready — Not a Buzzword",
+    "duration": 8.0,
+    "bg_color": "#1a0a2e",
+    "bg_pattern": "bg-vignette",
+    "elements": [
+      {
+        "id": "e0c2707bd67b",
+        "type": "text",
+        "content": "AGENT-READY",
+        "x": 10,
+        "y": 12,
+        "width": 80,
+        "height": 24,
+        "start": 0.5,
+        "end": 7.0,
+        "font": "Orbitron",
+        "size": 108,
+        "color": "#00E5FF",
+        "weight": "normal",
+        "align": "center",
+        "glow": {
+          "color": "#00E5FF",
+          "radius": 30
+        },
+        "text_shadow": "0 0 40px rgba(0,229,255,0.4)",
+        "entrance": {
+          "type": "morph-scale",
+          "duration": 1.0
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-dissolve",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "f45f3b10b6da",
+        "type": "text",
+        "content": "SOUNDS LIKE A",
+        "x": 20,
+        "y": 45,
+        "width": 60,
+        "height": 12,
+        "start": 1.663,
+        "end": 3.663,
+        "font": "Montserrat",
+        "size": 40,
+        "color": "#8B93A1",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "slide-up",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "wave-float",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "fade-out",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "d0763716c093",
+        "type": "text",
+        "content": "BUZZWORD",
+        "x": 25,
+        "y": 58,
+        "width": 50,
+        "height": 16,
+        "start": 2.163,
+        "end": 4.163,
+        "font": "Anton",
+        "size": 72,
+        "color": "#FF5252",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "shake",
+          "duration": 0.5
+        },
+        "emphasis": {
+          "type": "shake",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-shrink",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "9247d5aa16a6",
+        "type": "text",
+        "content": "UNTIL I SAW",
+        "x": 10,
+        "y": 75,
+        "width": 35,
+        "height": 10,
+        "start": 16.525,
+        "end": 19.025,
+        "font": "Montserrat",
+        "size": 36,
+        "color": "#FFFFFF",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "typewriter",
+          "duration": 0.6
+        },
+        "exit": {
+          "type": "fade-out",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "e1cc0553f9aa",
+        "type": "text",
+        "content": "HOW IT CHANGES",
+        "x": 48,
+        "y": 75,
+        "width": 45,
+        "height": 10,
+        "start": 17.025,
+        "end": 19.525,
+        "font": "Montserrat",
+        "size": 36,
+        "color": "#FFD700",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "slide-right",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        }
+      },
+      {
+        "id": "cf6a6b0e5d2a",
+        "type": "shape",
+        "shape": "rect",
         "x": 5,
-        "y": 13,
-        "width": 90,
-        "height": 8,
+        "y": 40,
+        "width": 2,
+        "height": 35,
+        "start": 0.0,
+        "end": 7.0,
+        "fill": "#00E5FF",
+        "entrance": {
+          "type": "slide-down",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-dissolve",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "21ee2013f656",
+        "type": "shape",
+        "shape": "circle",
+        "x": 90,
+        "y": 10,
+        "width": 6,
+        "height": 6,
+        "start": 1.0,
+        "end": 7.0,
+        "fill": "#E040FB",
+        "entrance": {
+          "type": "morph-scale",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "pulse",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-shrink",
+          "duration": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "fdf04d76acd2",
+    "name": "The Deal — Four Things",
+    "duration": 10.0,
+    "bg_color": "#0a0e14",
+    "bg_pattern": "bg-grid",
+    "elements": [
+      {
+        "id": "96d332294e48",
+        "type": "text",
+        "content": "HERE'S THE DEAL",
+        "x": 10,
+        "y": 5,
+        "width": 80,
+        "height": 16,
+        "start": 0.0,
+        "end": 9.0,
+        "font": "Bebas Neue",
+        "size": 84,
+        "color": "#FFD700",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "kinetic-in",
+          "duration": 0.8
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-fly-right",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "7e7c854dbb7d",
+        "type": "text",
+        "content": "01  WHICH FILES EXIST",
+        "x": 12,
+        "y": 26,
+        "width": 75,
+        "height": 12,
+        "start": 1.5,
+        "end": 4.737,
         "font": "Inter",
         "size": 48,
         "color": "#FFFFFF",
         "weight": "normal",
         "align": "center",
-        "start": 0.5,
-        "end": 5.5,
-        "animation": {
-          "type": "fade-in",
+        "entrance": {
+          "type": "slide-left",
+          "duration": 0.5
+        },
+        "emphasis": {
+          "type": "pulse",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-fly-right",
           "duration": 0.5
         }
       },
       {
-        "id": "el_932301_0101",
-        "type": "shape",
-        "shape": "rect",
-        "x": 8,
-        "y": 72,
-        "width": 84,
-        "height": 14,
-        "fill": "#e9456008",
-        "start": 4.375,
-        "end": 12.375,
-        "animation": {
-          "type": "fade-in",
-          "duration": 0.3
-        }
-      },
-      {
-        "id": "el_932301_0102",
+        "id": "56c942c4b8e7",
         "type": "text",
-        "content": "4",
-        "x": 10,
-        "y": 73,
-        "width": 6,
-        "height": 10,
+        "content": "02  WHAT GOES INSIDE",
+        "x": 12,
+        "y": 42,
+        "width": 75,
+        "height": 12,
+        "start": 4.737,
+        "end": 6.487,
         "font": "Inter",
-        "size": 42,
-        "color": "#ff6b35",
-        "weight": "bold",
-        "align": "center",
-        "start": 4.375,
-        "end": 12.375,
-        "animation": {
-          "type": "zoom-in",
-          "duration": 0.4
-        }
-      },
-      {
-        "id": "el_932301_0103",
-        "type": "text",
-        "content": "ONE IDEA  CHANGES EVERYTHING",
-        "x": 18,
-        "y": 73,
-        "width": 72,
-        "height": 10,
-        "font": "Inter",
-        "size": 36,
+        "size": 48,
         "color": "#FFFFFF",
-        "weight": "600",
+        "weight": "normal",
         "align": "center",
-        "start": 4.375,
-        "end": 12.375,
-        "animation": {
+        "entrance": {
           "type": "slide-left",
+          "duration": 0.5
+        },
+        "emphasis": {
+          "type": "pulse",
           "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-fly-right",
+          "duration": 0.5
         }
       },
       {
-        "id": "el_932301_0104",
+        "id": "fa96fedc3bfb",
         "type": "text",
-        "content": "THE BLUEPRINT",
-        "x": 2,
-        "y": 2,
-        "width": 15,
-        "height": 3,
+        "content": "03  HOW TO LAY OUT",
+        "x": 12,
+        "y": 58,
+        "width": 75,
+        "height": 12,
+        "start": 6.487,
+        "end": 21.924,
         "font": "Inter",
-        "size": 14,
-        "color": "#e9456080",
-        "weight": "500",
-        "align": "left",
-        "start": 0,
-        "end": 4,
-        "animation": {
-          "type": "fade-in",
-          "duration": 0.3
+        "size": 48,
+        "color": "#FFFFFF",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "slide-left",
+          "duration": 0.5
+        },
+        "emphasis": {
+          "type": "pulse",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-fly-right",
+          "duration": 0.5
         }
       },
       {
-        "id": "el_932301_0105",
+        "id": "56feb55eb5e0",
+        "type": "text",
+        "content": "04  MARKDOWN FILES",
+        "x": 12,
+        "y": 74,
+        "width": 75,
+        "height": 12,
+        "start": 21.924,
+        "end": 24.424,
+        "font": "Inter",
+        "size": 48,
+        "color": "#4a9eff",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "slide-left",
+          "duration": 0.5
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-dissolve",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "b67c00af3889",
         "type": "shape",
         "shape": "rect",
-        "x": 0,
-        "y": 98.5,
-        "width": 100,
-        "height": 1.5,
-        "fill": "#e94560",
-        "start": 0,
-        "end": 11.75
+        "x": 5,
+        "y": 24,
+        "width": 3,
+        "height": 65,
+        "start": 0.5,
+        "end": 9.0,
+        "fill": "#FFD700",
+        "entrance": {
+          "type": "slide-down",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        }
       }
     ]
   },
   {
-    "id": "sc_932337_0122",
-    "name": "Let's Build The Blueprint",
-    "duration": 12.91,
-    "bg_color": "#0d0221",
-    "bg_pattern": "bg-vignette",
-    "audio_track": {
-      "source": "C:/Users/AITREC/AppData/Local/VideoComposerWork/cd7824dc202a/source.mp3",
-      "duration": 91.725
-    },
+    "id": "a580dc9ba9c7",
+    "name": "Four Things Grid",
+    "duration": 10.0,
+    "bg_color": "#0d1117",
+    "bg_pattern": "bg-dots",
     "elements": [
       {
-        "id": "el_932336_0107",
-        "type": "caption",
-        "content": "why codebases fall apart five files",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
+        "id": "3ee6fe0a2b09",
+        "type": "text",
+        "content": "WE'RE COVERING",
+        "x": 10,
+        "y": 3,
+        "width": 80,
+        "height": 10,
         "start": 0.0,
-        "end": 2.687,
-        "words": [
-          {
-            "text": "why",
-            "start": 0.0,
-            "end": 0.262
-          },
-          {
-            "text": "codebases",
-            "start": 0.274,
-            "end": 1.0
-          },
-          {
-            "text": "fall",
-            "start": 1.012,
-            "end": 1.237
-          },
-          {
-            "text": "apart",
-            "start": 1.25,
-            "end": 1.725
-          },
-          {
-            "text": "five",
-            "start": 1.925,
-            "end": 2.237
-          },
-          {
-            "text": "files",
-            "start": 2.25,
-            "end": 2.637
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#ff00ff",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932336_0108",
-        "type": "caption",
-        "content": "that fix it a quick look",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 2.649,
-        "end": 4.062,
-        "words": [
-          {
-            "text": "that",
-            "start": 2.649,
-            "end": 2.8
-          },
-          {
-            "text": "fix",
-            "start": 2.812,
-            "end": 3.087
-          },
-          {
-            "text": "it",
-            "start": 3.099,
-            "end": 3.25
-          },
-          {
-            "text": "a",
-            "start": 3.462,
-            "end": 3.524
-          },
-          {
-            "text": "quick",
-            "start": 3.537,
-            "end": 3.787
-          },
-          {
-            "text": "look",
-            "start": 3.8,
-            "end": 4.012
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#ff00ff",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932336_0109",
-        "type": "caption",
-        "content": "at the small rules that hold",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 4.024,
-        "end": 5.312,
-        "words": [
-          {
-            "text": "at",
-            "start": 4.024,
-            "end": 4.074
-          },
-          {
-            "text": "the",
-            "start": 4.087,
-            "end": 4.175
-          },
-          {
-            "text": "small",
-            "start": 4.187,
-            "end": 4.599
-          },
-          {
-            "text": "rules",
-            "start": 4.612,
-            "end": 4.937
-          },
-          {
-            "text": "that",
-            "start": 4.949,
-            "end": 5.062
-          },
-          {
-            "text": "hold",
-            "start": 5.074,
-            "end": 5.262
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#ff00ff",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932336_0110",
-        "type": "caption",
-        "content": "it together and one idea at",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 5.274,
-        "end": 6.975,
-        "words": [
-          {
-            "text": "it",
-            "start": 5.274,
-            "end": 5.362
-          },
-          {
-            "text": "together",
-            "start": 5.375,
-            "end": 5.824
-          },
-          {
-            "text": "and",
-            "start": 6.0,
-            "end": 6.149
-          },
-          {
-            "text": "one",
-            "start": 6.162,
-            "end": 6.375
-          },
-          {
-            "text": "idea",
-            "start": 6.387,
-            "end": 6.837
-          },
-          {
-            "text": "at",
-            "start": 6.849,
-            "end": 6.925
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#ff00ff",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932336_0111",
-        "type": "caption",
-        "content": "the end that changes how you'll",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 6.937,
-        "end": 8.337,
-        "words": [
-          {
-            "text": "the",
-            "start": 6.937,
-            "end": 7.087
-          },
-          {
-            "text": "end",
-            "start": 7.099,
-            "end": 7.3
-          },
-          {
-            "text": "that",
-            "start": 7.312,
-            "end": 7.462
-          },
-          {
-            "text": "changes",
-            "start": 7.475,
-            "end": 7.899
-          },
-          {
-            "text": "how",
-            "start": 7.912,
-            "end": 8.087
-          },
-          {
-            "text": "you'll",
-            "start": 8.099,
-            "end": 8.287
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#ff00ff",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932337_0112",
-        "type": "caption",
-        "content": "think about markdown files forever",
-        "x": 5,
-        "y": 84,
-        "width": 90,
-        "height": 12,
-        "start": 8.3,
-        "end": 10.412,
-        "words": [
-          {
-            "text": "think",
-            "start": 8.3,
-            "end": 8.537
-          },
-          {
-            "text": "about",
-            "start": 8.55,
-            "end": 8.837
-          },
-          {
-            "text": "markdown",
-            "start": 8.849,
-            "end": 9.375
-          },
-          {
-            "text": "files",
-            "start": 9.387,
-            "end": 9.849
-          },
-          {
-            "text": "forever",
-            "start": 9.862,
-            "end": 10.362
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#ff00ff",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932337_0113",
-        "type": "caption",
-        "content": "Let's build the blueprint",
-        "x": 5,
-        "y": 86,
-        "width": 90,
-        "height": 12,
-        "start": 11.225,
-        "end": 12.562,
-        "words": [
-          {
-            "text": "Let's",
-            "start": 11.225,
-            "end": 11.537
-          },
-          {
-            "text": "build",
-            "start": 11.55,
-            "end": 11.787
-          },
-          {
-            "text": "the",
-            "start": 11.8,
-            "end": 11.875
-          },
-          {
-            "text": "blueprint",
-            "start": 11.887,
-            "end": 12.512
-          }
-        ],
-        "style": {
-          "font": "Inter",
-          "size": 40,
-          "color": "#FFFFFF",
-          "highlight": "#ff00ff",
-          "bg_color": "rgba(0,0,0,0.80)",
-          "border_radius": 12,
-          "align": "center"
-        }
-      },
-      {
-        "id": "el_932337_0114",
-        "type": "text",
-        "content": "LET'S BUILD",
-        "x": 5,
-        "y": 15,
-        "width": 90,
-        "height": 14,
-        "font": "Inter",
-        "size": 88,
-        "color": "#00ffff",
-        "weight": "bold",
+        "end": 9.0,
+        "font": "Bebas Neue",
+        "size": 64,
+        "color": "#FFFFFF",
+        "weight": "normal",
         "align": "center",
-        "start": 0,
-        "end": 8,
-        "animation": {
-          "type": "zoom-in",
-          "duration": 0.8
-        }
-      },
-      {
-        "id": "el_932337_0115",
-        "type": "text",
-        "content": "THE BLUEPRINT",
-        "x": 5,
-        "y": 32,
-        "width": 90,
-        "height": 12,
-        "font": "Inter",
-        "size": 72,
-        "color": "#ff00ff",
-        "weight": "bold",
-        "align": "center",
-        "start": 0.5,
-        "end": 8.5,
-        "animation": {
-          "type": "zoom-in",
-          "duration": 0.8
-        }
-      },
-      {
-        "id": "el_932337_0116",
-        "type": "shape",
-        "shape": "line",
-        "x": 15,
-        "y": 46,
-        "width": 70,
-        "height": 0.6,
-        "fill": "#00ffff",
-        "start": 1,
-        "end": 12.91,
-        "animation": {
-          "type": "fade-in",
-          "duration": 0.5
-        }
-      },
-      {
-        "id": "el_932337_0117",
-        "type": "shape",
-        "shape": "line",
-        "x": 25,
-        "y": 48,
-        "width": 50,
-        "height": 0.4,
-        "fill": "#ff00ff",
-        "start": 1.5,
-        "end": 12.91,
-        "animation": {
-          "type": "fade-in",
+        "entrance": {
+          "type": "slide-down",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "wave-float",
           "duration": 0.4
         }
       },
       {
-        "id": "el_932337_0118",
-        "type": "shape",
-        "shape": "circle",
-        "x": 4,
-        "y": 4,
-        "width": 8,
-        "height": 8,
-        "fill": "#00ffff12",
-        "start": 0,
-        "end": 12.91,
-        "animation": {
-          "type": "fade-in",
-          "duration": 1.0
-        }
-      },
-      {
-        "id": "el_932337_0119",
-        "type": "shape",
-        "shape": "circle",
-        "x": 88,
-        "y": 80,
-        "width": 6,
-        "height": 6,
-        "fill": "#ff00ff15",
-        "start": 0.5,
-        "end": 12.91,
-        "animation": {
-          "type": "fade-in",
-          "duration": 0.8
-        }
-      },
-      {
-        "id": "el_932337_0120",
+        "id": "2be4fe744065",
         "type": "text",
-        "content": "FINALE",
-        "x": 2,
-        "y": 2,
-        "width": 12,
-        "height": 3,
-        "font": "Inter",
-        "size": 14,
-        "color": "#00ffff80",
-        "weight": "500",
-        "align": "left",
-        "start": 0,
-        "end": 4,
-        "animation": {
-          "type": "fade-in",
-          "duration": 0.3
+        "content": "FOUR THINGS",
+        "x": 20,
+        "y": 10,
+        "width": 60,
+        "height": 12,
+        "start": 0.5,
+        "end": 9.0,
+        "font": "Orbitron",
+        "size": 56,
+        "color": "#FFD700",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "morph-scale",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "pulse",
+          "duration": 0.4
         }
       },
       {
-        "id": "el_932337_0121",
+        "id": "14b2f35043cb",
         "type": "shape",
         "shape": "rect",
-        "x": 0,
-        "y": 98.5,
-        "width": 100,
-        "height": 1.5,
-        "fill": "#00ffff",
-        "start": 0,
-        "end": 12.91
+        "x": 5,
+        "y": 15,
+        "width": 42,
+        "height": 35,
+        "start": 8.063,
+        "end": 11.563,
+        "fill": "#1a1e24",
+        "border_radius": 12,
+        "entrance": {
+          "type": "morph-scale",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-shrink",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "5bec638b5f06",
+        "type": "text",
+        "content": "1",
+        "x": 20,
+        "y": 18,
+        "width": 12,
+        "height": 10,
+        "start": 8.063,
+        "end": 11.563,
+        "font": "Bebas Neue",
+        "size": 64,
+        "color": "#4a9eff",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "zoom-in",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "pulse",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "fade-out",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "91bc84c41477",
+        "type": "text",
+        "content": "ONE IDEA",
+        "x": 7,
+        "y": 37,
+        "width": 38,
+        "height": 10,
+        "start": 8.363,
+        "end": 11.563,
+        "font": "Montserrat",
+        "size": 36,
+        "color": "#FFFFFF",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "slide-up",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "wave-float",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-dissolve",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "d94de0a38e57",
+        "type": "shape",
+        "shape": "rect",
+        "x": 52,
+        "y": 15,
+        "width": 42,
+        "height": 35,
+        "start": 9.238,
+        "end": 12.738,
+        "fill": "#1a1e24",
+        "border_radius": 12,
+        "entrance": {
+          "type": "morph-scale",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-shrink",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "f9704035574e",
+        "type": "text",
+        "content": "2",
+        "x": 67,
+        "y": 18,
+        "width": 12,
+        "height": 10,
+        "start": 9.238,
+        "end": 12.738,
+        "font": "Bebas Neue",
+        "size": 64,
+        "color": "#FFD700",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "zoom-in",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "pulse",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "fade-out",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "519776b08d1c",
+        "type": "text",
+        "content": "THE STRUCTURE",
+        "x": 54,
+        "y": 37,
+        "width": 38,
+        "height": 10,
+        "start": 9.538,
+        "end": 12.738,
+        "font": "Montserrat",
+        "size": 36,
+        "color": "#FFFFFF",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "slide-up",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "wave-float",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-dissolve",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "19bd48a4f5ec",
+        "type": "shape",
+        "shape": "rect",
+        "x": 5,
+        "y": 55,
+        "width": 42,
+        "height": 35,
+        "start": 10.75,
+        "end": 14.25,
+        "fill": "#1a1e24",
+        "border_radius": 12,
+        "entrance": {
+          "type": "morph-scale",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-shrink",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "eb26e443aff4",
+        "type": "text",
+        "content": "3",
+        "x": 20,
+        "y": 58,
+        "width": 12,
+        "height": 10,
+        "start": 10.75,
+        "end": 14.25,
+        "font": "Bebas Neue",
+        "size": 64,
+        "color": "#FF9100",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "zoom-in",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "pulse",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "fade-out",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "71c6b2fbd600",
+        "type": "text",
+        "content": "THE DOCS",
+        "x": 7,
+        "y": 77,
+        "width": 38,
+        "height": 10,
+        "start": 11.05,
+        "end": 14.25,
+        "font": "Montserrat",
+        "size": 36,
+        "color": "#FFFFFF",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "slide-up",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "wave-float",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-dissolve",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "549a2e361755",
+        "type": "shape",
+        "shape": "rect",
+        "x": 52,
+        "y": 55,
+        "width": 42,
+        "height": 35,
+        "start": -77.312,
+        "end": -73.812,
+        "fill": "#1a1e24",
+        "border_radius": 12,
+        "entrance": {
+          "type": "morph-scale",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-shrink",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "b6766eeea80c",
+        "type": "text",
+        "content": "4",
+        "x": 67,
+        "y": 58,
+        "width": 12,
+        "height": 10,
+        "start": -77.312,
+        "end": -73.812,
+        "font": "Bebas Neue",
+        "size": 64,
+        "color": "#E040FB",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "zoom-in",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "pulse",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "fade-out",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "4231a3281db5",
+        "type": "text",
+        "content": "EVERYBODY ELSE",
+        "x": 54,
+        "y": 77,
+        "width": 38,
+        "height": 10,
+        "start": -77.012,
+        "end": -73.812,
+        "font": "Montserrat",
+        "size": 36,
+        "color": "#FFFFFF",
+        "weight": "normal",
+        "align": "center",
+        "entrance": {
+          "type": "slide-up",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "wave-float",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-dissolve",
+          "duration": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "1d3e04febc45",
+    "name": "Closing — Build The Blueprint",
+    "duration": 5.0,
+    "bg_color": "#0d0221",
+    "bg_pattern": "bg-gradient-radial",
+    "elements": [
+      {
+        "id": "482fb0ca12b2",
+        "type": "text",
+        "content": "LET'S BUILD",
+        "x": 10,
+        "y": 15,
+        "width": 80,
+        "height": 20,
+        "start": 0.5,
+        "end": 4.5,
+        "font": "Bebas Neue",
+        "size": 108,
+        "color": "#FFFFFF",
+        "weight": "normal",
+        "align": "center",
+        "glow": {
+          "color": "#4a9eff",
+          "radius": 25
+        },
+        "entrance": {
+          "type": "kinetic-in",
+          "duration": 0.9
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-dissolve",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "f52a02674b23",
+        "type": "text",
+        "content": "THE BLUEPRINT",
+        "x": 5,
+        "y": 40,
+        "width": 90,
+        "height": 28,
+        "start": 1.0,
+        "end": 4.5,
+        "font": "Orbitron",
+        "size": 120,
+        "color": "#FFD700",
+        "weight": "normal",
+        "align": "center",
+        "glow": {
+          "color": "#FFD700",
+          "radius": 35
+        },
+        "text_shadow": "0 0 60px rgba(255,215,0,0.4)",
+        "entrance": {
+          "type": "morph-scale",
+          "duration": 1.0
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-fly-right",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "7a055b8313f7",
+        "type": "shape",
+        "shape": "line",
+        "x": 15,
+        "y": 72,
+        "width": 70,
+        "height": 0.4,
+        "start": 0.0,
+        "end": 4.5,
+        "fill": "#FFD700",
+        "entrance": {
+          "type": "slide-left",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "glow-breathe",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-dissolve",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "a642ad9c2f78",
+        "type": "shape",
+        "shape": "line",
+        "x": 15,
+        "y": 80,
+        "width": 70,
+        "height": 0.4,
+        "start": 0.3,
+        "end": 4.5,
+        "fill": "#4a9eff",
+        "entrance": {
+          "type": "slide-right",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "pulse",
+          "duration": 0.4
+        },
+        "exit": {
+          "type": "exit-dissolve",
+          "duration": 0.5
+        }
+      },
+      {
+        "id": "18254a11bd38",
+        "type": "shape",
+        "shape": "circle",
+        "x": 2,
+        "y": 2,
+        "width": 4,
+        "height": 4,
+        "start": 0.0,
+        "end": 4.5,
+        "fill": "#4a9eff",
+        "entrance": {
+          "type": "morph-scale",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "pulse",
+          "duration": 0.4
+        }
+      },
+      {
+        "id": "7dd5264da31e",
+        "type": "shape",
+        "shape": "circle",
+        "x": 93,
+        "y": 2,
+        "width": 4,
+        "height": 4,
+        "start": 0.0,
+        "end": 4.5,
+        "fill": "#FFD700",
+        "entrance": {
+          "type": "morph-scale",
+          "duration": 0.6
+        },
+        "emphasis": {
+          "type": "pulse",
+          "duration": 0.4
+        }
       }
     ]
   }

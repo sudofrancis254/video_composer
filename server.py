@@ -154,6 +154,21 @@ class ComposerHandler(SimpleHTTPRequestHandler):
                 return self._json_response(scene)
             return self._json_response({"error": "not found"}, 404)
 
+        # Word-level timestamps for a project
+        m = re.match(r"^/api/projects/([^/]+)/words$", path)
+        if m:
+            return self._handle_words(m.group(1))
+
+        # Alignment verification
+        m = re.match(r"^/api/projects/([^/]+)/verify-alignment$", path)
+        if m:
+            return self._handle_verify_alignment(m.group(1))
+
+        # Audio tracks
+        m = re.match(r"^/api/projects/([^/]+)/audio-tracks$", path)
+        if m:
+            return self._handle_get_audio_tracks(m.group(1))
+
         # Render status
         m = re.match(r"^/api/render/([^/]+)/status$", path)
         if m:
@@ -687,6 +702,84 @@ class ComposerHandler(SimpleHTTPRequestHandler):
             "message": "HTML composition generated. Install HyperFrames for MP4 rendering.",
             "note": "Open composition.html in a browser to preview."
         })
+
+    # -----------------------------------------------------------------------
+    # Word-level timestamps + alignment verification
+    # -----------------------------------------------------------------------
+
+    def _handle_words(self, pid: str):
+        """Return word-level timestamps for a project."""
+        project_dir = ps.project_dir(pid)
+        words_path = os.path.join(project_dir, "words.json")
+        if not os.path.isfile(words_path):
+            # Try to copy from source project
+            meta = ps._read_json(os.path.join(project_dir, "meta.json")) or {}
+            src = meta.get("audio_source", "")
+            if src:
+                # Handle both Windows paths and project IDs
+                if os.sep in src or ':' in src:
+                    src_pid = src.split(os.sep)[-2] if os.sep in src else src
+                    src_dir = ps.project_dir(src_pid) if not os.path.isdir(src) else src
+                else:
+                    src_pid = src
+                    src_dir = ps.project_dir(src_pid)
+                src_words = os.path.join(src_dir, "words.json") if os.path.isdir(src_dir) else None
+                if src_words and os.path.isfile(src_words):
+                    import shutil
+                    shutil.copy2(src_words, words_path)
+        if os.path.isfile(words_path):
+            words = json.loads(open(words_path, encoding="utf-8").read())
+            return self._json_response(words)
+        return self._json_response([])
+
+    def _handle_verify_alignment(self, pid: str):
+        """Verify element timing against word timestamps."""
+        project_dir = ps.project_dir(pid)
+        words_path = os.path.join(project_dir, "words.json")
+        if not os.path.isfile(words_path):
+            return self._json_response({"error": "No words.json found"}, 400)
+        words = json.loads(open(words_path, encoding="utf-8").read())
+        scenes = ps.list_scenes(pid)
+        if not scenes:
+            return self._json_response({"error": "No scenes found"}, 400)
+
+        # Inline verification logic
+        issues = []
+        aligned = 0
+        total = 0
+        covered = set()
+        offset = 0
+        for scene in scenes:
+            for el in scene.get("elements", []):
+                total += 1
+                if el.get("wordRef") and el["wordRef"].get("startWord") is not None:
+                    sw, ew = el["wordRef"]["startWord"], el["wordRef"]["wordEnd"]
+                    if 0 <= sw < len(words) and 0 <= ew < len(words):
+                        expected_s = words[sw]["start"] - offset
+                        expected_e = words[ew]["end"] - offset
+                        if abs((el.get("start", 0)) - expected_s) < 0.1 and abs((el.get("end", 0)) - expected_e) < 0.1:
+                            aligned += 1
+                        else:
+                            issues.append({"el": el.get("id", "?")[:8], "content": (el.get("content", "") or "")[:30]})
+                        for i in range(sw, ew + 1):
+                            covered.add(i)
+            offset += scene.get("duration", 10)
+
+        return self._json_response({
+            "totalElements": total,
+            "aligned": aligned,
+            "misaligned": len(issues),
+            "issues": issues[:20],
+            "coveragePercent": round(len(covered) / len(words) * 100, 1) if words else 0,
+            "wordsTotal": len(words),
+            "wordsCovered": len(covered)
+        })
+
+    def _handle_get_audio_tracks(self, pid: str):
+        """Get audio tracks for a project."""
+        meta = ps._read_json(os.path.join(ps.project_dir(pid), "meta.json")) or {}
+        tracks = meta.get("audioTracks", [])
+        return self._json_response(tracks)
 
     # -----------------------------------------------------------------------
     # Event log handler

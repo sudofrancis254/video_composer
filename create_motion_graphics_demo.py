@@ -49,13 +49,17 @@ def caption_for_words(start_idx, end_idx):
 
 def text_el(content, x, y, w, h, start, end, font="Bebas Neue", size=72, color="#FFFFFF", weight="normal",
             entrance="none", entrance_dur=0.6, emphasis="none", exit_type="none", exit_dur=0.5,
-            bg_color=None, border_radius=0, glow_color=None, glow_radius=0, text_shadow=None):
+            bg_color=None, border_radius=0, glow_color=None, glow_radius=0, text_shadow=None,
+            word_start=None, word_end=None):
     el = {
         "id": uid(), "type": "text", "content": content,
         "x": x, "y": y, "width": w, "height": h,
         "start": round(start, 3), "end": round(end, 3),
         "font": font, "size": size, "color": color, "weight": weight, "align": "center"
     }
+    # Attach wordRef for surgical alignment
+    if word_start is not None and word_end is not None:
+        el["wordRef"] = {"startWord": word_start, "wordEnd": word_end}
     if bg_color:
         el["bg_color"] = bg_color
         el["border_radius"] = border_radius
@@ -73,13 +77,16 @@ def text_el(content, x, y, w, h, start, end, font="Bebas Neue", size=72, color="
     return el
 
 def shape_el(shape, x, y, w, h, start, end, fill="#4a9eff", stroke=None, border_radius=0,
-             entrance="none", emphasis="none", exit_type="none"):
+             entrance="none", emphasis="none", exit_type="none",
+             word_start=None, word_end=None):
     el = {
         "id": uid(), "type": "shape", "shape": shape,
         "x": x, "y": y, "width": w, "height": h,
         "start": round(start, 3), "end": round(end, 3),
         "fill": fill
     }
+    if word_start is not None and word_end is not None:
+        el["wordRef"] = {"startWord": word_start, "wordEnd": word_end}
     if stroke:
         el["stroke"] = stroke
         el["stroke_width"] = 2
@@ -106,6 +113,7 @@ def caption_el(start_idx, end_idx, font="Inter", size=48, color="#FFFFFF", highl
         "id": uid(), "type": "caption", "words": ws,
         "x": 5, "y": 82, "width": 90, "height": 16,
         "start": round(s0, 3), "end": round(s1 + 0.2, 3),
+        "wordRef": {"startWord": start_idx, "wordEnd": end_idx},
         "style": {
             "font": font, "size": size, "color": color, "highlight": highlight,
             "bg_color": bg_color, "box_style": box_style, "border_radius": 16,
@@ -132,6 +140,8 @@ scene1 = {
     "id": uid(), "name": "Hook — In My Last Video",
     "duration": round(scene1_dur, 2),
     "bg_color": "#0a0e14", "bg_pattern": "bg-grid",
+    "wordStart": 0,
+    "wordEnd": s0[1] if s0[1] is not None else 11,
     "elements": [
         # Big hero title — kinetic entrance, glow breathe emphasis, fly-right exit
         text_el("IN MY LAST VIDEO", 10, 10, 80, 20, 0.0, 4.5,

@@ -139,6 +139,8 @@
     <div class="timeline-resize-handle" id="timeline-resize-handle"></div>
     <!-- Audio info bar -->
     <div class="audio-info" id="audio-info"></div>
+    <!-- Multi-track audio -->
+    <div class="audio-tracks" id="audio-tracks"></div>
 
     <div class="scene-strip" id="scene-strip">
       <button class="scene-chip active" data-scene="default" onclick="App.selectScene('default')">Scene 1</button>
@@ -166,6 +168,8 @@
 <!-- Hidden file input for image import -->
 <input type="file" id="file-input" accept="image/*" style="display:none" onchange="App.handleImageUpload(event)">
 
-<script src="app.js?v=20"></script>
+<script src="word_alignment.js"></script>
+<script src="multi_audio.js"></script>
+<script src="app.js?v=21"></script>
 </body>
 </html>

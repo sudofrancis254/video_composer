@@ -604,6 +604,14 @@ const App = {
     this.currentScene = this.scenes[0] || null;
     this.duration = this._getProjectDuration();
 
+    // Load word-level timestamps for alignment
+    await WordAlignment.loadWords(pid);
+
+    // Load multi-audio tracks
+    MultiAudio.loadTracks(this.project);
+    const tracksContainer = document.getElementById('audio-tracks');
+    if (tracksContainer) MultiAudio.renderTrackList(tracksContainer);
+
     document.getElementById('project-name').textContent = this.project.name;
     document.getElementById('empty-state').style.display = 'none';
 
@@ -614,6 +622,16 @@ const App = {
     // Explicitly load audio on project open
     this._loadGlobalAudio();
     this.toast(`Loaded "${this.project.name}"`);
+
+    // Log word alignment status
+    if (WordAlignment.words.length > 0) {
+      console.log(`[WordAlignment] ${WordAlignment.words.length} words loaded for alignment`);
+      // Auto-assign wordRefs to elements that don't have them
+      const assigned = WordAlignment.autoAssignWordRefs(this.scenes);
+      if (assigned > 0) {
+        console.log(`[WordAlignment] Auto-assigned wordRef to ${assigned} elements`);
+      }
+    }
   },
 
   async createNew() {
@@ -946,9 +964,18 @@ const App = {
       const fadeInfo = this._sceneFade[s.id] || { fadeIn: 1, fadeOut: 1 };
       const sceneOpacity = Math.min(fadeInfo.fadeIn, fadeInfo.fadeOut);
       for (const el of elements) {
+        // Resolve wordRef timing if available (surgical precision from words.json)
+        if (el.wordRef && el.wordRef.startWord != null && WordAlignment.words.length > 0) {
+          const wt = WordAlignment.resolveTiming(el.wordRef, sceneOffset);
+          if (wt) {
+            el._resolvedStart = wt.start;
+            el._resolvedEnd = wt.end;
+          }
+        }
         // Convert scene-local times to absolute project times
-        const absStart = (el.start ?? 0) + sceneOffset;
-        const absEnd = (el.end ?? 5) + sceneOffset;
+        // Use resolved timing from wordRef if available, else fall back to raw start/end
+        const absStart = el._resolvedStart ?? ((el.start ?? 0) + sceneOffset);
+        const absEnd = el._resolvedEnd ?? ((el.end ?? 5) + sceneOffset);
         // Captions need precise timing — no buffer to prevent overlap
         // Other elements get a small buffer for smooth enter/exit animations
         const isCaption = el.type === 'caption';
@@ -966,6 +993,16 @@ const App = {
 
     // Highlight the active scene in the strip
     this._highlightActiveScene();
+
+    // Trigger SFX at word-aligned timestamps
+    if (this.playing && MultiAudio.tracks.length > 0) {
+      for (const s of this.scenes) {
+        const sOff = this._getSceneTimeOffset(s);
+        MultiAudio.triggerSfxAtTime(t, s.elements || []);
+      }
+      // Update volumes for ducking
+      MultiAudio.updateVolumes(t);
+    }
 
     this.duration = this._getProjectDuration();
     this.updateTimeDisplay();
@@ -1738,6 +1775,44 @@ const App = {
     html += this.propRow('Start (s)', 'number', el.start ?? 0, v => this.updateProp(el, 'start', parseFloat(v)));
     html += this.propRow('End (s)', 'number', el.end ?? 5, v => this.updateProp(el, 'end', parseFloat(v)));
     html += '</div>';
+
+    // Word Alignment (surgical precision)
+    const wr = el.wordRef || {};
+    const wordCount = WordAlignment.words.length;
+    if (wordCount > 0) {
+      html += '<div class="prop-section">';
+      html += '<div class="prop-title">Word Alignment</div>';
+      const maxIdx = Math.max(0, wordCount - 1);
+      html += this.propRow('Start Word', 'number', wr.startWord ?? '', v => {
+        const idx = parseInt(v);
+        if (!el.wordRef) el.wordRef = {};
+        el.wordRef.startWord = isNaN(idx) ? null : idx;
+        if (el.wordRef.startWord == null) delete el.wordRef.startWord;
+        this.updateProp(el, 'wordRef', el.wordRef);
+      });
+      html += this.propRow('End Word', 'number', wr.wordEnd ?? '', v => {
+        const idx = parseInt(v);
+        if (!el.wordRef) el.wordRef = {};
+        el.wordRef.wordEnd = isNaN(idx) ? null : idx;
+        if (el.wordRef.wordEnd == null) delete el.wordRef.wordEnd;
+        this.updateProp(el, 'wordRef', el.wordRef);
+      });
+      // Show resolved timing
+      if (wr.startWord != null && wr.wordEnd != null) {
+        const rt = WordAlignment.resolveTiming(wr);
+        if (rt) {
+          html += `<div class="prop-row" style="font-size:11px;color:var(--text-dim)">`;
+          html += `<span>→ ${rt.start.toFixed(2)}s – ${rt.end.toFixed(2)}s</span>`;
+          html += `</div>`;
+        }
+        // Show words text
+        const wordsText = WordAlignment.getWordsText(wr.startWord, wr.wordEnd);
+        html += `<div class="prop-row" style="font-size:11px;color:var(--accent);font-style:italic">`;
+          html += `<span>"${wordsText.substring(0, 50)}${wordsText.length > 50 ? '…' : ''}"</span>`;
+          html += `</div>`;
+      }
+      html += '</div>';
+    }
 
     // Text properties
     if (el.type === 'text') {
